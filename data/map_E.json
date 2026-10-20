@@ -1,0 +1,139 @@
+{
+"name": "Water, waste and construction",
+"range": "36–43",
+"biz": {
+"360003": [
+"wabag",
+"veolia"
+],
+"360004": [
+"erii"
+],
+"360005": [
+"awk",
+"sbs",
+"uu",
+"svt",
+"wtrg"
+],
+"370004": [
+"eiel",
+"emslimited",
+"pennon"
+],
+"381101": [
+"awhcl",
+"wm",
+"rsg",
+"wcn"
+],
+"381102": [
+"cwst"
+],
+"382199": [
+"gflenv"
+],
+"382299": [
+"clh"
+],
+"383001": [
+"sims"
+],
+"383005": [
+"grpltd"
+],
+"383007": [
+"ganecos"
+],
+"410001": [
+"dlf",
+"lodha",
+"godrejprop",
+"prestige",
+"oberoirlty"
+],
+"410002": [
+"lt",
+"ncc",
+"ahlucont",
+"pspproject",
+"capacite"
+],
+"421001": [
+"irb",
+"grinfra",
+"pncinfra",
+"knrcon",
+"hginfra"
+],
+"421002": [
+"afcons",
+"pateleng"
+],
+"421004": [
+"rvnl",
+"ircon"
+],
+"421099": [
+"dbl",
+"vinci"
+],
+"422003": [
+"kpil",
+"kec",
+"technoe",
+"pwr"
+],
+"422006": [
+"vprpl"
+],
+"422008": [
+"swsolar"
+],
+"429001": [
+"enginersin",
+"flr"
+],
+"429002": [
+"dredgecorp"
+],
+"429099": [
+"nbcc",
+"hccind"
+],
+"432107": [
+"run"
+],
+"432199": [
+"eme"
+],
+"432203": [
+"fix"
+]
+},
+"bnote": {
+"360003": "VA Tech Wabag builds and runs water-treatment plants in India and abroad. Veolia is the world's largest water and waste company.",
+"360005": "India's piped-water utilities are run by city bodies and are not listed. These are large listed water utilities abroad.",
+"370004": "Indian sewage-treatment builders and operators, plus Pennon (UK).",
+"381101": "Antony Waste is India's only listed municipal waste collector. The rest are the largest US waste companies.",
+"410001": "India's five largest listed property developers.",
+"410002": "L&T is India's largest contractor. The rest build buildings and factories on contract.",
+"421001": "Listed Indian road builders and toll operators.",
+"421004": "India's two listed railway construction PSUs.",
+"422003": "India's listed power-transmission EPC companies, plus Quanta Services (US).",
+"429001": "Engineers India designs refineries and process plants. Fluor is a large US engineering contractor.",
+"432107": "No listed Indian rooftop-solar installer with clean data. Sunrun is the largest in the US."
+},
+"flags": {
+"dlf": "Net profit is far above EBITDA, which points to large other income or one-off gains; net margin is not an operating figure.",
+"godrejprop": "Property developers book revenue when projects are handed over, so yearly margins swing a lot.",
+"run": "Sunrun's profit depends on accounting for tax-equity partners; operating cash flow is the better guide.",
+"flr": "Fluor reported a loss after write-downs on its stake in NuScale and on projects."
+},
+"notes": [
+[
+"Section E covers water, waste and construction",
+"Your file places construction (NIC 41–43) in this section, so it is mapped here. India has many listed builders and road companies; water utilities and waste firms are mostly abroad."
+]
+]
+}

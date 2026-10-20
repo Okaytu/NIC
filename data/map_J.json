@@ -1,0 +1,106 @@
+{
+ "name": "Publishing, film and broadcasting",
+ "range": "58-60",
+ "biz": {
+  "581101": [
+   "schand",
+   "navneet"
+  ],
+  "581102": [
+   "mapmy"
+  ],
+  "581200": [
+   "dbcorp",
+   "jagran",
+   "htmedia",
+   "sandesh"
+  ],
+  "581901": [
+   "justdial"
+  ],
+  "582100": [
+   "nazara"
+  ],
+  "582902": [
+   "ofss",
+   "intellect",
+   "newgen",
+   "nucleus"
+  ],
+  "582904": [
+   "quickheal"
+  ],
+  "582999": [
+   "ramco",
+   "rategain",
+   "tracxn"
+  ],
+  "591104": [
+   "tvtoday",
+   "ndtv",
+   "zeemedia"
+  ],
+  "591199": [
+   "balajitele"
+  ],
+  "591202": [
+   "pfocus"
+  ],
+  "591301": [
+   "shemaroo"
+  ],
+  "591400": [
+   "pvr"
+  ],
+  "592001": [
+   "tips"
+  ],
+  "592004": [
+   "saregama"
+  ],
+  "601001": [
+   "enil",
+   "radiocity"
+  ],
+  "602000": [
+   "suntv",
+   "zeel",
+   "network18"
+  ]
+ },
+ "bnote": {
+  "581101": "Both are education publishers.",
+  "581102": "MapmyIndia is a digital mapping company, the closest listed match.",
+  "581200": "Four listed newspaper groups. Print advertising is their main revenue.",
+  "581901": "Just Dial is a local-search directory.",
+  "582100": "Nazara is the only listed gaming company found.",
+  "582902": "Banking and fintech product software companies.",
+  "582904": "Quick Heal is the only listed cybersecurity software company found.",
+  "582999": "Product-software companies. Subex also fits here but could not be confirmed as a pure listed match.",
+  "591104": "News broadcasters. They are placed here because their main product is news content.",
+  "591199": "Balaji Telefilms makes TV and film content.",
+  "591202": "Prime Focus is a visual-effects and post-production group.",
+  "591301": "Shemaroo distributes film and TV content. UFO Moviez and Eros were not verified as listed and are left out.",
+  "591400": "PVR INOX is the only listed multiplex chain found.",
+  "592001": "Tips Music is a music label and publisher.",
+  "592004": "Saregama owns a large music catalogue and licenses it.",
+  "601001": "Both are private FM radio operators and both were loss-making or near break-even in FY26.",
+  "602000": "TV18 Broadcast is also listed but could not be confirmed as a pure match, so it is left out."
+ },
+ "flags": {
+  "navneet": "Net profit (₹3.5 bn) is above EBITDA (₹2.7 bn), so it includes non-operating gains. The source of those gains was not checked.",
+  "htmedia": "The vendor shows a positive ROE despite a FY26 net loss. Treat the return ratios with caution.",
+  "sandesh": "Revenue grew 50% in one year. The cause was not checked.",
+  "justdial": "Net profit (₹5.0 bn) is above EBITDA (₹3.2 bn), so it includes large non-operating income such as interest on cash. The source was not checked.",
+  "rategain": "Revenue grew 69% in one year, which may include acquisitions. The cause was not checked.",
+  "pfocus": "Market cap of ₹256 bn against ₹2.2 bn net profit gives a 117x P/E. Check against a live price before using.",
+  "zeel": "EBITDA fell from ₹10.5 bn to ₹2.4 bn in one year, and net profit is above EBITDA. The cause was not checked.",
+  "network18": "Revenue fell 69% in one year, which looks like a restructuring or deconsolidation. The cause was not checked."
+ },
+ "notes": [
+  [
+   "Section J: several large media groups are missing",
+   "TV18 Broadcast and Subex could not be confirmed as clean listed matches, and Eros and UFO Moviez were not verified as listed. They are left out, not judged as absent."
+  ]
+ ]
+}

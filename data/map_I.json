@@ -1,0 +1,76 @@
+{
+ "name": "Accommodation and food service",
+ "range": "55-56",
+ "biz": {
+  "551001": [
+   "ihcl",
+   "eih",
+   "chalet",
+   "lemon",
+   "juniper"
+  ],
+  "551099": [
+   "itch",
+   "leela",
+   "samhi",
+   "ventive",
+   "park"
+  ],
+  "554001": [
+   "emt",
+   "tcook",
+   "ixigo"
+  ],
+  "554002": [
+   "mhril"
+  ],
+  "561001": [
+   "jubl",
+   "devyani",
+   "westlife",
+   "sapphire",
+   "rba"
+  ],
+  "561099": [
+   "ufbl",
+   "spec"
+  ],
+  "562901": [
+   "tfs"
+  ],
+  "563002": [
+   "ccd"
+  ],
+  "564000": [
+   "eternal",
+   "swiggy"
+  ]
+ },
+ "bnote": {
+  "551001": "NIC splits hotels into two codes with the same activity. Because no company can repeat, ten listed hotel companies are divided between 551001 and 551099.",
+  "551099": "The same hotel economics as 551001. Kamat Hotels and Oriental Hotels are also listed but not used here to avoid a near-duplicate business mix.",
+  "554001": "Only three listed. OYO's parent (PRISM) has filed IPO papers but is not listed. MakeMyTrip trades on Nasdaq, not on an Indian exchange.",
+  "554002": "Mahindra Holidays is the only listed time-share operator found.",
+  "561001": "All five are quick-service franchisees or operators of global brands (Domino's, KFC, Pizza Hut, McDonald's, Burger King, Taco Bell).",
+  "561099": "Full-service dining. Only two listed names found.",
+  "562901": "Travel Food Services runs food and beverage concessions at travel hubs.",
+  "563002": "Coffee Day Enterprises owns the Café Coffee Day chain. It is the only listed coffee-house operator found.",
+  "564000": "Both are food-delivery platforms. Their large losses and one-off items make margin comparison difficult."
+ },
+ "flags": {
+  "chalet": "Revenue jumped 61% in FY26; net profit was ₹1.4 bn in FY25 and ₹6.5 bn in FY26.",
+  "leela": "Net margin rose from 3.6% to 26.4% in one year. The cause was not checked here.",
+  "samhi": "FY26 net profit includes an income-tax benefit of about ₹3.0 bn, so net margin, ROE and P/E are not operating results.",
+  "tcook": "Revenue is gross travel and forex billing, so low margins are structural for this model.",
+  "jubl": "Restaurant EBITDA depends on how lease costs are treated. Compare restaurant chains only with that in mind.",
+  "ufbl": "Renamed from Barbeque-Nation Hospitality in September 2025.",
+  "ccd": "FY26 net profit comes mainly from unusual items (₹2.6 bn) and a tax credit. Its 2.2x P/E means nothing.",
+  "eternal": "Revenue grew 169%, which points to a change in how quick-commerce sales are booked. The cause was not checked here."
+ },
+ "notes": [
+  [
+   "Section I",
+   "Kamat Hotels and Oriental Hotels are also India-listed hotel operators but are not placed in any business code here, to keep every company used at most once across the whole document."
+  ]
+ ]
+}

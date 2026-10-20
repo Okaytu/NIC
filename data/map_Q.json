@@ -1,0 +1,45 @@
+{
+"name": "Education",
+"range": "85",
+"biz": {
+"854001": [
+"lope",
+"stra"
+],
+"854003": [
+"atge"
+],
+"855901": [
+"veranda",
+"edu",
+"tal"
+],
+"855902": [
+"pwl"
+],
+"855904": [
+"duol"
+],
+"855905": [
+"niit",
+"aptecht",
+"cour"
+]
+},
+"bnote": {
+"854001": "No listed Indian university or college group. These are listed US higher-education companies.",
+"855901": "Veranda Learning runs coaching and tutoring in India. New Oriental and TAL are China's largest listed tutoring firms.",
+"855902": "Physics Wallah is India's listed test-prep company.",
+"855905": "NIIT and Aptech are India's listed IT-training companies."
+},
+"flags": {
+"pwl": "Profit is near zero, so the P/E is not meaningful.",
+"niit": "EBITDA is slightly negative; profit comes from other income."
+},
+"notes": [
+[
+"Section Q: education",
+"Schools and universities in India are run as trusts or societies and cannot list. Only coaching, test prep and training companies are listed."
+]
+]
+}

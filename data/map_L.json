@@ -1,0 +1,163 @@
+{
+"name": "Finance and insurance",
+"range": "64–66",
+"biz": {
+"641901": [
+"hdfcbank",
+"sbin",
+"icicibank",
+"axisbank",
+"kotakbank"
+],
+"641902": [
+"aubank",
+"ujjivansfb",
+"equitasbnk",
+"jsfb",
+"suryoday"
+],
+"641905": [
+"bajfinance",
+"shriramfin",
+"cholafin",
+"sundarmfin"
+],
+"641906": [
+"abcapital",
+"poonawalla",
+"fivestar"
+],
+"641907": [
+"creditacc"
+],
+"642100": [
+"tatainvest",
+"brkb"
+],
+"649100": [
+"irfc"
+],
+"649501": [
+"cof",
+"syf"
+],
+"649502": [
+"pfc",
+"ireda",
+"ifci"
+],
+"649503": [
+"lichsgfin",
+"pnbhousing",
+"aadharhfc",
+"homefirst",
+"aavas"
+],
+"649504": [
+"muthootfin",
+"manappuram"
+],
+"651100": [
+"lici",
+"mfsl",
+"aia",
+"met"
+],
+"651201": [
+"starhealth",
+"nivabupa",
+"unh"
+],
+"651203": [
+"pgr"
+],
+"651299": [
+"niacl",
+"godigit",
+"cb"
+],
+"652000": [
+"gicre",
+"munichre",
+"swissre"
+],
+"661101": [
+"mcx",
+"bseltd",
+"cme",
+"ice",
+"lseg"
+],
+"661103": [
+"coin"
+],
+"661201": [
+"groww",
+"angelone",
+"motilalofs",
+"nuvama",
+"schw"
+],
+"661299": [
+"hood"
+],
+"661901": [
+"cdsl",
+"nsdl",
+"cams",
+"kfintech",
+"visa"
+],
+"661907": [
+"paytm",
+"ma",
+"pypl",
+"adyen"
+],
+"662200": [
+"policybzr",
+"mmc",
+"aon"
+],
+"663001": [
+"namindia",
+"utiamc",
+"blk"
+],
+"663003": [
+"oneam",
+"anandrathi",
+"bx"
+],
+"661999": [
+"crisil",
+"icra",
+"carerating"
+]
+},
+"bnote": {
+"641901": "India's five largest private and public banks. Bank EBITDA is not a meaningful figure, so it is left blank.",
+"641902": "India's listed small finance banks.",
+"641905": "Large deposit-taking NBFCs.",
+"642100": "Holding companies. Bajaj Finserv, Bajaj Holdings and similar groups are left out because their operating companies are already counted.",
+"649503": "Listed Indian housing finance companies.",
+"651100": "LIC and Max Financial are listed. SBI Life, HDFC Life and ICICI Prudential are left out because their parent banks are already counted.",
+"651299": "ICICI Lombard is left out because ICICI Bank is already counted.",
+"661101": "India's two listed exchanges, plus the three largest abroad.",
+"661901": "India's depositories and fund registrars, plus Visa.",
+"663001": "HDFC AMC and ICICI Prudential AMC are left out because their parent banks are already counted.",
+"661999": "India's three listed credit-rating agencies."
+},
+"flags": {
+"mfsl": "Max Financial's accounting profit is small compared with the value of its life-insurance business, so the P/E is not meaningful.",
+"paytm": "Paytm has only recently turned profitable, so its P/E is very high.",
+"tatainvest": "An investment company: profit is mostly dividends and gains, so it exceeds revenue.",
+"irfc": "IRFC leases rolling stock to Indian Railways; nearly all revenue becomes profit, so margins look unusually high."
+},
+"notes": [
+[
+"Section L: finance",
+"EBITDA, EV/EBITDA and ROCE are not meaningful for banks and lenders, so they are left blank. Use ROE, net margin and P/E to compare them. Revenue for banks is total income as reported by the source."
+]
+]
+}

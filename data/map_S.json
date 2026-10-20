@@ -1,0 +1,38 @@
+{
+"name": "Arts and recreation",
+"range": "90–93",
+"biz": {
+"920002": [
+"deltacorp",
+"lvs"
+],
+"920099": [
+"flut"
+],
+"931103": [
+"plnt"
+],
+"931200": [
+"manu"
+],
+"932100": [
+"wonderla",
+"imagicaa",
+"fun"
+]
+},
+"bnote": {
+"920002": "Delta Corp runs casinos in Goa and Sikkim. Las Vegas Sands is a large listed casino operator.",
+"932100": "India's two listed amusement-park operators, plus Six Flags."
+},
+"flags": {
+"deltacorp": "Delta Corp is loss-making after a large GST demand on online gaming.",
+"fun": "Six Flags booked large write-downs, so net profit is negative."
+},
+"notes": [
+[
+"Section S: arts and recreation",
+"Most arts, museums and heritage activities are not run by listed companies. Gambling, parks, gyms and sports clubs are covered."
+]
+]
+}

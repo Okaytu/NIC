@@ -1,0 +1,56 @@
+{
+"name": "Real estate",
+"range": "68",
+"biz": {
+"681001": [
+"avb",
+"eqr"
+],
+"681002": [
+"embassy",
+"mindspace",
+"biret",
+"wework",
+"awfis"
+],
+"681004": [
+"nxst",
+"phoenixltd",
+"spg"
+],
+"681005": [
+"dlr"
+],
+"681008": [
+"sobha",
+"brigade",
+"sunteck",
+"purva"
+],
+"682100": [
+"cbre",
+"jll"
+],
+"682902": [
+"fsv"
+]
+},
+"bnote": {
+"681001": "India has no listed residential-rental company. These are two large US apartment REITs.",
+"681002": "India's three listed office REITs and two listed coworking operators.",
+"681004": "Nexus Select is India's listed mall REIT; Phoenix Mills runs malls.",
+"681008": "Mid-size Indian developers. The largest developers are listed under construction (Section E).",
+"682100": "No listed Indian property broker. CBRE and JLL are the largest worldwide."
+},
+"flags": {
+"embassy": "REIT profit is reduced by depreciation and fair-value items; investors usually look at distributions instead of P/E.",
+"wework": "Lease costs are booked below EBITDA under IND AS 116, which makes the EBITDA margin look very high.",
+"awfis": "Lease costs are booked below EBITDA under IND AS 116, which makes the EBITDA margin look high."
+},
+"notes": [
+[
+"Section M: real estate",
+"Offices and malls are covered by Indian REITs. Residential rental and brokerage use US companies."
+]
+]
+}

@@ -1,0 +1,118 @@
+{
+"name": "Transport and storage",
+"range": "49–53",
+"biz": {
+"491100": [
+"irctc",
+"jreast",
+"jrcentral",
+"mtr"
+],
+"491201": [
+"concor",
+"unp",
+"csx",
+"cni",
+"nsc"
+],
+"492203": [
+"comfortdelgro"
+],
+"492301": [
+"tci",
+"vrllog",
+"odfl",
+"jbht"
+],
+"493000": [
+"enb",
+"kmi",
+"wmb"
+],
+"501102": [
+"rcl",
+"carnival",
+"nclh"
+],
+"501200": [
+"sci",
+"geship",
+"maersk",
+"hapag"
+],
+"511001": [
+"interglobe",
+"spicejet",
+"dal",
+"ual",
+"ryaay"
+],
+"511003": [
+"vtol"
+],
+"521001": [
+"snowman",
+"line",
+"cold"
+],
+"521003": [
+"aegisvopak"
+],
+"522102": [
+"transurban"
+],
+"522201": [
+"adaniports",
+"jswinfra",
+"gppl"
+],
+"522301": [
+"gmrairport",
+"adp"
+],
+"523100": [
+"allcargo",
+"chrw",
+"expd",
+"dsv",
+"knin"
+],
+"523201": [
+"uber",
+"grab",
+"lyft"
+],
+"531000": [
+"dhl"
+],
+"532001": [
+"bluedart",
+"delhivery",
+"fdx",
+"ups"
+]
+},
+"bnote": {
+"491100": "Passenger rail in India is run by Indian Railways, which is not listed. IRCTC runs its ticketing and catering. Japan's JR companies and Hong Kong's MTR are listed rail operators.",
+"491201": "CONCOR runs container trains in India. The four largest North American freight railroads follow.",
+"492301": "TCI and VRL are India's listed trucking companies.",
+"501200": "India's two listed shipping companies, plus Maersk and Hapag-Lloyd.",
+"511001": "IndiGo and SpiceJet are India's listed airlines. Air India and Akasa are private.",
+"522201": "India's three listed port operators.",
+"523100": "Allcargo is India's listed freight forwarder. The rest are the largest forwarders abroad.",
+"523201": "Ola is not listed. Uber, Grab and Lyft are the main listed ride-hailing platforms.",
+"532001": "Blue Dart and Delhivery are India's listed express carriers."
+},
+"flags": {
+"lyft": "Net profit includes a large one-time tax benefit, so net margin and P/E are not operating results.",
+"geship": "Net profit is above EBITDA because of asset-sale gains and other income.",
+"gmrairport": "Airport companies carry heavy debt during expansion, so profit is thin relative to EBITDA.",
+"interglobe": "Net profit in the latest twelve months is negative because of large foreign-exchange losses on lease liabilities; EBITDA stays strong."
+},
+"notes": [
+[
+"Section H: transport and logistics",
+"India has listed companies for rail containers, ports, airlines, trucking, couriers and cold storage. Pipelines, cruises and ride-hailing use companies abroad."
+]
+]
+}

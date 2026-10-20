@@ -1,0 +1,60 @@
+{
+"name": "Health and social work",
+"range": "86–88",
+"biz": {
+"861001": [
+"apollohosp",
+"maxhealth",
+"fortis",
+"medanta",
+"nh"
+],
+"861002": [
+"hcg"
+],
+"861007": [
+"rainbow"
+],
+"861008": [
+"agarwaleye"
+],
+"861099": [
+"asterdm",
+"kims",
+"yatharth",
+"jlhl"
+],
+"869901": [
+"lalpathlab",
+"metropolis",
+"vijaya",
+"thyrocare",
+"krsnaa"
+],
+"871001": [
+"ensg"
+],
+"873001": [
+"bkd"
+],
+"889006": [
+"bfam"
+]
+},
+"bnote": {
+"861001": "India's five largest listed hospital chains.",
+"869901": "India's listed diagnostic-lab chains.",
+"871001": "No listed Indian nursing-home operator. Ensign runs nursing facilities in the US.",
+"889006": "No listed Indian childcare chain. Bright Horizons is the largest in the US."
+},
+"flags": {
+"hcg": "Profit is small after high depreciation and interest, so the P/E is not meaningful.",
+"kims": "Profit fell because of new-hospital costs and interest, so the P/E is high."
+},
+"notes": [
+[
+"Section R: health",
+"India has many listed hospital and diagnostic companies. Elder care and childcare use US companies."
+]
+]
+}

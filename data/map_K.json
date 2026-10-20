@@ -1,0 +1,113 @@
+{
+"name": "Telecom, IT and information services",
+"range": "61–63",
+"biz": {
+"611001": [
+"bhartiartl",
+"idea",
+"tatacomm",
+"railtel",
+"mtnl"
+],
+"611002": [
+"cmcsa",
+"chtr"
+],
+"611099": [
+"tmus",
+"vz",
+"att"
+],
+"619003": [
+"tanla",
+"route",
+"twlo",
+"sinch"
+],
+"621100": [
+"ttwo",
+"rblx"
+],
+"621901": [
+"persistent",
+"coforge",
+"mphasis",
+"kpittech",
+"zensartech"
+],
+"621902": [
+"latentview",
+"happstmnds",
+"pltr"
+],
+"621903": [
+"crwd",
+"panw"
+],
+"622001": [
+"tcs",
+"infy",
+"hcltech",
+"wipro",
+"acn"
+],
+"622002": [
+"sonatsoftw",
+"bsoft",
+"ctsh",
+"ibm"
+],
+"622003": [
+"kd",
+"dxc"
+],
+"631001": [
+"e2e",
+"msft",
+"orcl"
+],
+"631004": [
+"gddy"
+],
+"631006": [
+"anantraj",
+"eqix"
+],
+"639001": [
+"googl",
+"bidu"
+],
+"639002": [
+"naukri",
+"indiamart",
+"meta"
+]
+},
+"bnote": {
+"611001": "India's listed telecom operators. Reliance Jio sits inside Reliance Industries and is not listed separately.",
+"611002": "India's listed cable companies belong to the Reliance group, which is already counted, so large US cable companies are used.",
+"611099": "The three largest US mobile carriers.",
+"619003": "Tanla and Route Mobile send business SMS and alerts in India. Twilio and Sinch are the global leaders.",
+"621100": "Nazara is listed under Section J. Take-Two and Roblox are large listed game developers.",
+"621901": "India's listed mid-size IT services companies. LTIMindtree, Tech Mahindra and Cyient are left out because their parents are already counted.",
+"622001": "India's four largest IT services companies, plus Accenture.",
+"631001": "E2E Networks runs a GPU cloud in India. Microsoft and Oracle are large cloud providers.",
+"631006": "Anant Raj is building data centres in India. Equinix is the largest colocation provider.",
+"639002": "Info Edge (Naukri) and IndiaMART run Indian internet portals. Meta runs Facebook and Instagram."
+},
+"flags": {
+"idea": "Net profit is boosted by a one-time gain from government relief on dues, so net margin and P/E are not operating results.",
+"googl": "Net profit is above EBITDA because of large gains on investments.",
+"naukri": "Net profit includes gains on its investments (such as Zomato), so it is above EBITDA.",
+"crwd": "Profit is near zero after stock-based pay, so P/E and EV/EBITDA are not meaningful.",
+"panw": "Profit is small after stock-based pay, so P/E is not meaningful.",
+"e2e": "Revenue is small and growing fast, so the valuation multiples are very high.",
+"mtnl": "MTNL is loss-making and carries heavy debt."
+},
+"notes": [
+[
+"Section K: telecom and IT",
+"India is strong in IT services and telecom. Cloud, search and social media use US companies. Software products were covered under Section J."
+]
+]
+}

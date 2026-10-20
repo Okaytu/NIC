@@ -1,0 +1,38 @@
+{
+"name": "Other services",
+"range": "94–96",
+"biz": {
+"953100": [
+"vvv",
+"mnro"
+],
+"961001": [
+"ctas"
+],
+"963000": [
+"scius"
+],
+"964000": [
+"urbanco"
+],
+"969002": [
+"matrimony",
+"mtch",
+"bmbl"
+]
+},
+"bnote": {
+"964000": "Urban Company is India's listed home-services marketplace.",
+"969002": "Matrimony.com is India's listed matchmaking company. Match Group and Bumble run dating apps.",
+"953100": "No listed Indian car-repair chain. Valvoline and Monro run service centres in the US."
+},
+"flags": {
+"urbanco": "Listed in September 2025 and still loss-making."
+},
+"notes": [
+[
+"Section T: other services",
+"Membership organisations, unions and religious bodies are not companies. Repair, laundry, funeral and matchmaking services are covered where listed companies exist."
+]
+]
+}

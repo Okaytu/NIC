@@ -1,0 +1,377 @@
+<title>NIC Peer Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: frosted green glass panel floating over a foliage field; nav, serif headline, pill button, then glass data panels. */
+:root{
+  --leaf-deep:#0d2415; --ink:#ffffff; --muted:rgba(255,255,255,.8); --faint:rgba(255,255,255,.62);
+  --glass:rgba(58,92,64,.56); --glass-hi:rgba(255,255,255,.1); --line:rgba(255,255,255,.2); --deep:rgba(10,30,18,.5);
+  --pill:#f6f5fa; --pill-ink:#1c2a21; --lime:#d3f5b0;
+  --good:#a8f0c0; --bad:#ffb8ac; --warn:#ffd88e;
+  --f-head:'Fraunces','Iowan Old Style','Georgia',serif; --f-body:'Montserrat',system-ui,-apple-system,'Segoe UI',sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--leaf-deep)}
+body{background:var(--leaf-deep);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.55;margin:0;position:relative;
+  padding-block:clamp(10px,5vw,90px) 56px;padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:max(10px,env(safe-area-inset-right,0px));font-variant-numeric:tabular-nums}
+#field{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
+.panel{position:relative;z-index:1;max-width:1180px;margin:0 auto;border-radius:30px;background:var(--glass);
+  -webkit-backdrop-filter:blur(26px) saturate(1.1);backdrop-filter:blur(26px) saturate(1.1);border:1px solid var(--line);
+  padding:clamp(18px,4vw,52px);display:flex;flex-direction:column;gap:clamp(36px,6vw,64px);min-width:0;box-shadow:0 30px 80px rgba(3,14,7,.35)}
+a{color:inherit}
+h1,h2{font-family:var(--f-head);font-weight:700;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:clamp(22px,3vw,30px)}
+nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{font-family:var(--f-head);font-weight:700;font-size:clamp(22px,3vw,30px);text-decoration:none;letter-spacing:-.01em}
+nav ul{display:flex;gap:clamp(14px,3vw,38px);list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav a{text-decoration:none;font-weight:500;color:var(--muted);padding:4px 0}
+nav a.on,nav a:hover{color:var(--ink);font-weight:700}
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:24px;align-items:end;min-height:0}
+.hero h1{font-size:clamp(34px,6.4vw,70px);line-height:1.08}
+.hero p{max-width:52ch;color:var(--muted);margin:22px 0 28px;font-size:15px}
+.pill{display:inline-block;background:var(--pill);color:var(--pill-ink);font-family:var(--f-body);font-weight:500;font-size:15px;border:0;border-radius:99px;padding:15px 44px;cursor:pointer;text-decoration:none}
+.pill:hover{background:#fff}
+.sprig{width:100%;max-width:480px;justify-self:end;aspect-ratio:3/2;display:block}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.kpi{background:var(--glass-hi);border:1px solid var(--line);border-radius:18px;padding:14px 16px}
+.kpi b{display:block;font-family:var(--f-head);font-size:34px;line-height:1.1;font-weight:700}
+.kpi span{color:var(--muted);font-size:12px}
+.sec{display:flex;flex-direction:column;gap:18px;min-width:0;scroll-margin-top:16px}
+.sec>p{color:var(--muted);margin:0;max-width:70ch}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:10px}
+.tile{font:inherit;color:inherit;text-align:left;background:var(--glass-hi);border:1px solid var(--line);border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;cursor:default;min-width:0}
+.tile .l{font-family:var(--f-head);font-weight:700;font-size:22px;line-height:1}
+.tile .t{font-weight:600;font-size:12.5px;line-height:1.3;margin-top:6px}
+.tile .s{font-size:11.5px;color:var(--faint)}
+.tile.live{cursor:pointer;background:rgba(211,245,176,.22);border-color:rgba(211,245,176,.55)}
+.tile.live:hover{background:rgba(211,245,176,.34)}
+.tile.sel{background:var(--pill);color:var(--pill-ink);border-color:var(--pill)}
+.tile.sel .s{color:#41564a}
+.tile.queued{opacity:.72}
+.tile:focus-visible,.pill:focus-visible,.seg button:focus-visible,input:focus-visible,summary:focus-visible,th button:focus-visible,nav a:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+.covbar{display:grid;gap:3px}
+.covbar a{height:24px;border-radius:5px;background:rgba(255,255,255,.1);border:1px solid var(--line);display:block}
+.covbar a.c1{background:rgba(211,245,176,.3);border-color:rgba(211,245,176,.6)}
+.covbar a.c3{background:rgba(211,245,176,.6);border-color:rgba(211,245,176,.85)}
+.covbar a.c5{background:var(--lime);border-color:var(--lime)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--faint);font-size:12px;margin-top:6px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-2px;border:1px solid var(--line);background:rgba(255,255,255,.1)}
+.legend i.c1{background:rgba(211,245,176,.3)}.legend i.c3{background:rgba(211,245,176,.6)}.legend i.c5{background:var(--lime)}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.seg{display:inline-flex;gap:4px;flex-wrap:wrap}
+.seg button{font:inherit;font-weight:500;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:99px;padding:8px 16px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--pill);color:var(--pill-ink);border-color:var(--pill);font-weight:600}
+input[type=search]{font:inherit;padding:9px 16px;border:1px solid var(--line);border-radius:99px;background:rgba(255,255,255,.1);color:var(--ink);min-width:0;flex:1 1 200px;max-width:340px}
+input::placeholder{color:var(--faint)}
+.grp{display:flex;flex-direction:column;gap:10px}
+.grp>h3{display:flex;gap:10px;align-items:baseline;margin:6px 0 2px;font-family:var(--f-head);font-size:19px;font-weight:700;border-bottom:1px solid var(--line);padding-bottom:8px}
+.grp>h3 small{color:var(--faint);font-family:var(--f-body);font-weight:400;font-size:12px}
+details.biz{background:var(--glass-hi);border:1px solid var(--line);border-radius:16px;min-width:0}
+details.biz>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:12px;align-items:center;padding:12px 16px}
+details.biz>summary::-webkit-details-marker{display:none}
+details.biz[open]>summary{border-bottom:1px solid var(--line)}
+.code{font-weight:700;color:var(--lime);font-size:13px}
+.tag{font-size:11px;padding:3px 9px;border-radius:99px;background:rgba(255,255,255,.14);color:var(--muted);white-space:nowrap}
+.tag.flag{background:rgba(255,216,142,.2);color:var(--warn)}
+.n{font-size:12px;font-weight:600;padding:3px 10px;border-radius:99px;background:rgba(255,255,255,.12);color:var(--faint);white-space:nowrap}
+.n.has{background:var(--lime);color:#1b3322}
+.body{padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.note{color:var(--muted);font-size:13px;margin:0;max-width:75ch}
+.note.empty{color:var(--faint)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--deep);max-width:100%}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:9px 12px;text-align:right;white-space:nowrap;border-bottom:1px solid rgba(255,255,255,.12)}
+th:first-child,td:first-child{text-align:left}
+tr:last-child td{border-bottom:0}
+thead th{font-size:10.5px;font-weight:600;color:var(--faint);letter-spacing:.07em;text-transform:uppercase}
+th button{font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;background:none;border:0;padding:0;cursor:pointer}
+th button[data-dir]{color:var(--lime)}
+th button[data-dir]::after{content:" ↓"}th button[data-dir="1"]::after{content:" ↑"}
+.cur{font-size:10px;color:var(--faint);letter-spacing:.04em}
+td.co b{font-weight:600}td.co small{display:block;color:var(--faint);font-size:11px}
+a.sl{color:inherit;text-decoration:underline;text-decoration-color:rgba(211,245,176,.55);text-underline-offset:3px}
+a.sl:hover{color:var(--lime);text-decoration-color:var(--lime)}
+td.co small a.sl{color:var(--faint)}td.co small a.sl:hover{color:var(--lime)}
+a.sl:focus-visible{outline:2px solid var(--lime);outline-offset:2px;border-radius:2px}
+.neg{color:var(--bad)}.pos{color:var(--good)}.nm2{color:var(--faint)}
+sup{color:var(--warn);font-weight:700;cursor:help}
+.flags{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;padding:0;margin:0;list-style:none}
+.flags li{background:var(--glass-hi);border:1px solid var(--line);border-radius:16px;padding:14px 16px;color:var(--muted);font-size:13px}
+.flags li b{display:block;font-size:13.5px;color:var(--ink);margin-bottom:4px}
+.src{color:var(--faint);font-size:12px;line-height:1.75;max-width:90ch}
+.src a{color:var(--lime)}
+.gsearch{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.gsearch input[type=search]{flex:1 1 260px;max-width:none;font-size:15px;padding:14px 22px}
+.gsearch .pill{padding:13px 34px}
+.gcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:6px}
+.gcols h3{font-family:var(--f-head);font-size:17px;margin:0 0 8px}
+.glist{list-style:none;padding:0;margin:0;display:grid;gap:6px;max-height:420px;overflow-y:auto}
+.glist button{font:inherit;color:inherit;text-align:left;width:100%;background:var(--glass-hi);border:1px solid var(--line);border-radius:12px;padding:9px 12px;cursor:pointer;display:flex;flex-direction:column;gap:2px}
+.glist button:hover,.glist button:focus-visible{background:rgba(211,245,176,.22);outline:none;border-color:var(--lime)}
+.glist b{font-weight:600}.glist small{color:var(--faint);font-size:11.5px}
+.glist mark{background:rgba(211,245,176,.35);color:inherit;border-radius:3px;padding:0 1px}
+details.biz.flash{box-shadow:0 0 0 2px var(--lime)}
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr}.sprig{display:none}
+  details.biz>summary{grid-template-columns:minmax(0,1fr) auto}details.biz>summary .tag{display:none}
+  .panel{border-radius:22px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<canvas id="field" aria-hidden="true"></canvas>
+<main class="panel">
+  <nav aria-label="Primary">
+    <a class="logo" href="#top" id="top">NIC Peer Map</a>
+    <ul>
+      <li><a href="#find">Search</a></li>
+      <li><a href="#sections" class="on">Sections</a></li>
+      <li><a href="#companies">Companies</a></li>
+      <li><a href="#notes">Notes</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1>Find the listed peers behind every business</h1>
+      <p>Each business in your NIC 2025 master file, matched to up to five listed Indian companies with no company used twice. FY2026 margins, returns and valuation, one section at a time.</p>
+      <a class="pill" href="#sections">Browse sections</a>
+    </div>
+    <canvas id="sprig" class="sprig" aria-hidden="true"></canvas>
+  </header>
+
+  <section class="sec" id="find" aria-label="Search all sections">
+    <form id="gform" class="gsearch" role="search">
+      <input type="search" id="gq" autocomplete="off" placeholder="Search any business, company or ticker across all sections" aria-label="Search all sections">
+      <button class="pill" type="submit">Search</button>
+    </form>
+    <div id="gres" aria-live="polite"></div>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="Progress"></section>
+
+  <section class="sec" id="sections">
+    <h2>Sections</h2>
+    <p>The file has 21 sections. Sections with a green fill are mapped; the rest are queued. Select a mapped section to see its businesses.</p>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section class="sec" id="view" aria-live="polite"></section>
+
+  <section class="sec" id="companies">
+    <h2>All mapped companies</h2>
+    <div class="tw"><table id="master"><thead></thead><tbody></tbody></table></div>
+    <p class="note">₹ billion unless stated. Click a heading to sort. ROCE, ROE, net debt/EBITDA and the multiples are the data vendor's FY2026 year-end values, not today's prices. "–" means not available or not meaningful.</p>
+  </section>
+
+  <section class="sec" id="notes">
+    <h2>Read before relying on the numbers</h2>
+    <ul class="flags" id="flags"></ul>
+    <p class="src" id="src"></p>
+  </section>
+</main>
+
+<script>
+const COMPANIES={}, SECTIONS={};
+/*__DATA__*/
+
+// ---------- NIC 2025 section catalogue, from the master file ----------
+const CAT=[["A","Agriculture, forestry and fishing","01–03",115],["B","Mining and quarrying","05–09",56],["C","Manufacturing","10–33",744],
+["D","Electricity and gas supply","35",24],["E","Water, waste and construction","36–43",100],["G","Wholesale and retail trade","46–47",234],
+["H","Transport and storage","49–53",73],["I","Accommodation and food service","55–56",31],["J","Publishing, film and broadcasting","58–60",41],
+["K","Telecom, IT and information services","61–63",37],["L","Finance and insurance","64–66",82],["M","Real estate","68",13],
+["N","Professional and technical services","69–75",69],["O","Rental and business support","77–82",51],["P","Public administration","84",17],
+["Q","Education","85",40],["R","Health and social work","86–88",62],["S","Arts and recreation","90–93",39],["T","Other services","94–96",54],
+["U","Households","97–98",3],["V","Extraterritorial bodies","99",1]];
+
+const $=s=>document.querySelector(s);
+const num=(v,d=1)=>v==null?'<span class="nm2">–</span>':`<span class="${v<0?'neg':''}">${v.toFixed(d)}</span>`;
+const mult=v=>v==null?'<span class="nm2">–</span>':v.toFixed(1)+"x";
+const gcell=v=>`<span class="${v<0?'neg':v>=15?'pos':''}">${v>0?'+':''}${v.toFixed(1)}%</span>`;
+const cols=[["n","Company"],["rev","Revenue (bn)"],["g","Growth"],["eb","EBITDA %"],["np","Net %"],["roce","ROCE %"],["roe","ROE %"],["nd","Net debt / EBITDA"],["pe","P/E"],["ev","EV / EBITDA"],["mc","Mkt cap (bn)"]];
+const head=(btn)=>`<tr>${cols.map(([k,l])=>`<th scope="col">${btn?`<button data-k="${k}">${l}</button>`:l}</th>`).join("")}</tr>`;
+const esc=s=>String(s).replace(/"/g,"&quot;");
+const SA="https://stockanalysis.com/quote/";
+function src(c){return c.u||SA+(c.b||"nse/"+c.tk)+"/financials/income-statement/"}
+const bn=v=>v==null?'<span class="nm2">–</span>':(Math.abs(v)<1?v.toFixed(2):v.toFixed(1));
+function row(id,tag){
+  const c=COMPANIES[id];
+  const flag=c.f?`<sup title="${esc(c.f)}">†</sup>`:"";
+  const cur=c.cur&&c.cur!=="INR"?` <span class="cur">${c.cur}</span>`:"";
+  const meta=[c.tk,c.ctry||"India",c.p||"FY26"].join(" · ");
+  return `<tr><td class="co"><b><a class="sl" href="${src(c)}" target="_blank" rel="noopener" title="Open source page">${c.n}</a></b>${flag}<small>${meta}${tag?" · "+tag:""}</small></td>
+  <td>${bn(c.rev)}${cur}</td><td>${c.g==null?'<span class="nm2">–</span>':gcell(c.g)}</td><td>${num(c.eb)}</td><td>${num(c.np)}</td><td>${num(c.roce)}</td><td>${num(c.roe)}</td>
+  <td>${c.nd==null?'<span class="nm2">–</span>':c.nd.toFixed(2)}</td><td>${mult(c.pe)}</td><td>${mult(c.ev)}</td><td>${bn(c.mc)}${cur}</td></tr>`;
+}
+const where={};
+Object.entries(SECTIONS).forEach(([s,S])=>S.businesses.forEach(b=>b[5].forEach(id=>where[id]=s+" · "+b[1])));
+const loaded=Object.keys(SECTIONS);
+let cur=loaded.includes(location.hash.slice(1).replace("sec-",""))?location.hash.slice(1).replace("sec-",""):loaded[0];
+
+// ---------- KPIs ----------
+(function(){
+  let biz=0,cov=0,full=0,loadedRows=0;
+  loaded.forEach(s=>{SECTIONS[s].businesses.forEach(b=>{biz++;if(b[5].length)cov++;if(b[5].length>=5)full++})});
+  const totalAll=CAT.reduce((a,c)=>a+c[3],0);
+  $("#kpis").innerHTML=[[loaded.length+" of 21","sections mapped"],[biz,"of "+totalAll.toLocaleString("en-IN")+" businesses reviewed"],[cov,"have a listed company"],[Object.keys(COMPANIES).length,"unique companies placed"],[Object.values(COMPANIES).filter(c=>c.ctry&&c.ctry!=="India").length,"of them listed outside India"]]
+    .map(([a,b])=>`<div class="kpi"><b>${a}</b><span>${b}</span></div>`).join("");
+})();
+
+// ---------- section tiles ----------
+function renderTiles(){
+  $("#tiles").innerHTML=CAT.map(([l,n,r,c])=>{
+    const L=SECTIONS[l];
+    const s=L?`${L.businesses.filter(b=>b[5].length).length} of ${L.businesses.length} covered`:`${c} businesses · queued`;
+    return `<button class="tile ${L?'live':'queued'} ${l===cur&&L?'sel':''}" data-s="${l}" ${L?'':'disabled'} aria-pressed="${l===cur&&!!L}">
+      <span class="l">${l}</span><span class="t">${n}</span><span class="s">NIC ${r} · ${s}</span></button>`}).join("");
+}
+$("#tiles").addEventListener("click",e=>{const t=e.target.closest(".tile.live");if(!t)return;cur=t.dataset.s;renderTiles();renderView(true)});
+
+// ---------- selected section ----------
+let mode="f-all",q="";
+function renderView(scroll){
+  const S=SECTIONS[cur], cat=CAT.find(c=>c[0]===cur);
+  const total=S.businesses.length, cov=S.businesses.filter(b=>b[5].length).length, full=S.businesses.filter(b=>b[5].length>=5).length;
+  const bar=S.businesses.map(b=>{const n=b[5].length;const c=n>=5?"c5":n>=3?"c3":n>=1?"c1":"";return `<a href="#b${b[0]}" class="${c}" title="${esc(b[1])}: ${n}/5" aria-label="${esc(b[1])}: ${n} of 5"></a>`}).join("");
+  $("#view").innerHTML=`<h2>Section ${cur} · ${S.name}</h2>
+   <p>${total} businesses: ${cov} have at least one listed company, ${full} reach the full five, ${total-cov} have none.</p>
+   <div><div class="covbar" id="covbar" style="grid-template-columns:repeat(${total>40?Math.ceil(total/2):total},1fr)">${bar}</div>
+   <div class="legend"><span><i></i>none</span><span><i class="c1"></i>1–2</span><span><i class="c3"></i>3–4</span><span><i class="c5"></i>5</span><span>One square per business, in NIC code order. Select one to jump to it.</span></div></div>
+   <div class="controls"><div class="seg" role="group" aria-label="Filter businesses">
+     <button data-m="f-all" aria-pressed="${mode==='f-all'}">All ${total}</button><button data-m="f-has" aria-pressed="${mode==='f-has'}">With companies</button><button data-m="f-none" aria-pressed="${mode==='f-none'}">None listed</button></div>
+     <input type="search" id="q" value="${esc(q)}" placeholder="Search business or company" aria-label="Search this section"></div>
+   <div id="list" style="display:flex;flex-direction:column;gap:26px"></div>`;
+  $("#view .seg").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;mode=b.dataset.m;renderView(false)});
+  $("#q").addEventListener("input",e=>{q=e.target.value;renderList()});
+  $("#covbar").addEventListener("click",e=>{const a=e.target.closest("a");if(!a)return;e.preventDefault();mode="f-all";q="";renderView(false);
+    const el=document.querySelector(a.getAttribute("href"));if(el){el.open=true;el.scrollIntoView({block:"center"})}});
+  renderList();
+  if(scroll)$("#view").scrollIntoView({block:"start"});
+}
+function renderList(){
+  const S=SECTIONS[cur], ql=q.trim().toLowerCase();
+  let html="";
+  Object.keys(S.groups).forEach(g=>{
+    const items=S.businesses.filter(b=>b[2]===g).filter(b=>{
+      const n=b[5].length;
+      if(mode==="f-has"&&!n)return false; if(mode==="f-none"&&n)return false;
+      if(!ql)return true;
+      return (b[0]+" "+b[1]+" "+b[5].map(i=>COMPANIES[i].n+" "+COMPANIES[i].tk).join(" ")).toLowerCase().includes(ql);
+    });
+    if(!items.length)return;
+    html+=`<div class="grp"><h3>${S.groups[g]} <small>${items.length} shown</small></h3>`+items.map(b=>{
+      const n=b[5].length;
+      const flag=b[4]?`<span class="tag flag">${b[4]}</span>`:`<span class="tag">${b[3]}</span>`;
+      const tbl=n?`<div class="tw"><table><thead>${head(false)}</thead><tbody>${b[5].map(i=>row(i)).join("")}</tbody></table></div>`:"";
+      return `<details class="biz" id="b${b[0]}" ${n&&mode!=="f-none"?"open":""}><summary><span title="${esc(b[7]||b[1])}">${b[1]}</span>${flag}<span class="n ${n?'has':''}">${n}/5</span></summary>
+      <div class="body">${tbl}<p class="note ${n?'':'empty'}">${b[6]}</p></div></details>`}).join("")+`</div>`;
+  });
+  if(mode!=="f-none"&&S.bench&&S.bench.length&&!ql){
+    html+=`<div class="grp"><h3>Listed names not placed <small>no slot left under the no-repeat rule</small></h3><div class="tw"><table><thead><tr><th>Company</th><th>Revenue</th><th>Growth</th><th>EBITDA %</th><th>Net %</th></tr></thead><tbody>${S.bench.map(r=>`<tr><td class="co"><b><a class="sl" href="${src({tk:r[1]})}" target="_blank" rel="noopener">${r[0]}</a></b><small>${r[1]}</small></td><td>${r[2].toFixed(1)}</td><td>${gcell(r[3])}</td><td>${num(r[4])}</td><td>${num(r[5])}</td></tr>`).join("")}</tbody></table></div>${S.benchNote?`<p class="note">${S.benchNote}</p>`:""}</div>`;
+  }
+  $("#list").innerHTML=html||'<p class="note">Nothing matches.</p>';
+}
+
+// ---------- master table ----------
+let sortK="mc",dir=-1;
+function renderMaster(){
+  const ids=Object.keys(COMPANIES).sort((a,b)=>{const x=COMPANIES[a][sortK],y=COMPANIES[b][sortK];
+    if(sortK==="n")return dir*x.localeCompare(y);
+    if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return dir*(x-y)});
+  $("#master thead").innerHTML=head(true);
+  $("#master thead").querySelectorAll("button").forEach(b=>{if(b.dataset.k===sortK)b.dataset.dir=dir===1?"1":"-1";
+    b.addEventListener("click",()=>{if(sortK===b.dataset.k)dir=-dir;else{sortK=b.dataset.k;dir=sortK==="n"?1:-1}renderMaster()})});
+  $("#master tbody").innerHTML=ids.map(i=>row(i,where[i])).join("");
+}
+
+// ---------- notes ----------
+const NOTES=[
+ ["India first, then the rest of the world","Each business is filled with Indian listed companies first. Remaining slots go to listed companies abroad, shown with their country and reporting currency. A business stays empty only where no listed company anywhere runs that activity as a real line of business."],
+ ["Periods and currencies differ","Companies marked FY26 show the year to 31 March 2026. Companies marked TTM show the trailing twelve months on the source page as of October 2026, and their growth is not shown. Revenue and market cap are in billions of the company's own currency, so sort those two columns only within one currency."],
+ ["Close businesses share the same few companies","Where the file splits one activity into several codes, the no-repeat rule spreads the same companies across them. Which company sits in which code is then a judgment call."],
+ ["Check the B2B / B2C tags in your file","Several businesses are tagged B2C or Both but sell mainly to other businesses. Those are marked in orange on each business."],
+ ["Source and timing","Figures come from one data vendor, last updated 30 Jun to 15 Oct 2026, and were not checked against company filings. Multiples are as at 31 March 2026, not current prices. EBITDA is the vendor's calculation."],
+ ["Every company name is a source link","Select a company name to open the StockAnalysis.com page the figures came from, in a new tab."],
+ ["Daggers (†) mark one-offs","Hover or tap a † next to a company name to read the specific distortion, such as tax credits or unusual items."],
+ ["Section letters follow your file","The file uses NIC 2025 lettering: construction sits inside E, publishing and broadcasting is J, and telecom and IT is K."]
+];
+$("#flags").innerHTML=NOTES.concat(Object.values(SECTIONS).flatMap(s=>s.notes||[])).map(f=>`<li><b>${f[0]}</b>${f[1]}</li>`).join("");
+$("#src").innerHTML=`<b>Sources.</b> Income statements and ratios from S&amp;P Global Market Intelligence data as shown on StockAnalysis.com (<a href="https://stockanalysis.com/quote/nse/EIHOTEL/financials/income-statement/" target="_blank" rel="noopener">example page</a>). Name change: <a href="https://www.tipranks.com/news/company-announcements/barbeque-nation-hospitality-rebrands-to-united-foodbrands" target="_blank" rel="noopener">Barbeque-Nation to United Foodbrands</a>. OYO parent PRISM: <a href="https://groww.in/blog/oyo-parent-prism-files-updated-drhp-for-6650-crore-ipo-with-sebi" target="_blank" rel="noopener">IPO papers filed, not yet listed</a>.`;
+
+// ---------- search across all sections ----------
+const hesc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+function hl(text,q){const t=hesc(text),i=t.toLowerCase().indexOf(hesc(q).toLowerCase());return i<0?t:t.slice(0,i)+"<mark>"+t.slice(i,i+q.length)+"</mark>"+t.slice(i+q.length)}
+function goTo(s,code){
+  cur=s;mode="f-all";q="";renderTiles();renderView(false);
+  const el=document.getElementById("b"+code);
+  if(el){el.open=true;el.scrollIntoView({block:"center"});el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1800)}
+}
+function gsearch(){
+  const qq=$("#gq").value.trim(), ql=qq.toLowerCase();
+  if(!qq){$("#gres").innerHTML="";return}
+  if(qq.length<2){$("#gres").innerHTML='<p class="note">Type at least two letters.</p>';return}
+  const biz=[],cos=[];
+  Object.entries(SECTIONS).forEach(([s,S])=>S.businesses.forEach(b=>{
+    if((b[1]+" "+(b[7]||"")).toLowerCase().includes(ql))biz.push([s,b]);
+    b[5].forEach(id=>{const c=COMPANIES[id];if((c.n+" "+c.tk+" "+(c.ctry||"India")).toLowerCase().includes(ql))cos.push([s,b,c])});
+  }));
+  const bl=biz.slice(0,60).map(([s,b])=>`<li><button type="button" data-s="${s}" data-b="${b[0]}"><b>${hl(b[1],qq)}</b><small>Section ${s} · ${b[5].length}/5 companies</small></button></li>`).join("");
+  const cl=cos.slice(0,60).map(([s,b,c])=>`<li><button type="button" data-s="${s}" data-b="${b[0]}"><b>${hl(c.n,qq)}</b><small>${hesc(c.tk)} · ${hesc(c.ctry||"India")} · Section ${s} · ${hesc(b[1])}</small></button></li>`).join("");
+  const queued=CAT.filter(c=>!SECTIONS[c[0]]).map(c=>c[0]).join(", ");
+  $("#gres").innerHTML=(biz.length||cos.length)?`<div class="gcols">
+    <div><h3>Businesses (${biz.length})</h3>${biz.length?`<ul class="glist">${bl}</ul>`:'<p class="note">No business names match.</p>'}</div>
+    <div><h3>Companies (${cos.length})</h3>${cos.length?`<ul class="glist">${cl}</ul>`:'<p class="note">No company names or tickers match.</p>'}</div></div>
+    <p class="note" style="margin-top:10px">Select a result to open it in its section.${queued?` Sections ${queued} are not mapped yet, so they are not searched.`:""}</p>`
+    :`<p class="note">Nothing matches "${hesc(qq)}" in the mapped sections.${queued?` Sections ${queued} are not mapped yet.`:""}</p>`;
+}
+let gt;$("#gq").addEventListener("input",()=>{clearTimeout(gt);gt=setTimeout(gsearch,180)});
+$("#gform").addEventListener("submit",e=>{e.preventDefault();gsearch()});
+$("#gres").addEventListener("click",e=>{const b=e.target.closest("button[data-s]");if(b)goTo(b.dataset.s,b.dataset.b)});
+
+renderTiles();renderView(false);renderMaster();
+
+// ---------- foliage field and sprig (drawn, not photographic) ----------
+function rng(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function leaf(ctx,x,y,len,wid,rot,hue,light){
+  ctx.save();ctx.translate(x,y);ctx.rotate(rot);
+  const g=ctx.createLinearGradient(-wid,0,wid,0);
+  g.addColorStop(0,`hsl(${hue},55%,${light-9}%)`);g.addColorStop(.5,`hsl(${hue+6},60%,${light}%)`);g.addColorStop(1,`hsl(${hue+12},58%,${light+7}%)`);
+  ctx.fillStyle=g;ctx.shadowColor="rgba(0,20,6,.45)";ctx.shadowBlur=len*.12;ctx.shadowOffsetY=len*.03;
+  ctx.beginPath();ctx.moveTo(0,-len/2);
+  ctx.bezierCurveTo(wid,-len*.28,wid*.9,len*.2,0,len/2);
+  ctx.bezierCurveTo(-wid*.9,len*.2,-wid,-len*.28,0,-len/2);ctx.fill();
+  ctx.shadowColor="transparent";
+  ctx.strokeStyle=`hsla(${hue+14},60%,${light+16}%,.55)`;ctx.lineWidth=Math.max(1,len*.012);
+  ctx.beginPath();ctx.moveTo(0,-len/2+len*.04);ctx.lineTo(0,len/2-len*.02);ctx.stroke();
+  ctx.lineWidth=Math.max(.6,len*.005);ctx.strokeStyle=`hsla(${hue+14},60%,${light+14}%,.3)`;
+  for(let i=1;i<6;i++){const yy=-len/2+len*i/6.5,w=wid*.7*Math.sin(Math.PI*i/6.5);
+    ctx.beginPath();ctx.moveTo(0,yy);ctx.lineTo(w,yy+len*.07);ctx.moveTo(0,yy);ctx.lineTo(-w,yy+len*.07);ctx.stroke()}
+  ctx.restore();
+}
+function drawField(){
+  const c=$("#field"),w=c.width=innerWidth,h=c.height=innerHeight,ctx=c.getContext("2d"),r=rng(7);
+  ctx.fillStyle="#0b2113";ctx.fillRect(0,0,w,h);
+  const area=w*h,count=Math.min(150,Math.max(40,Math.round(area/9000)));
+  for(let i=0;i<count;i++){
+    const len=110+r()*300,wid=len*(.3+r()*.16),light=26+r()*28,hue=96+r()*30;
+    leaf(ctx,r()*w,r()*h,len,wid,r()*Math.PI*2,hue,light);
+  }
+  const v=ctx.createRadialGradient(w/2,h/2,Math.min(w,h)*.2,w/2,h/2,Math.max(w,h)*.8);
+  v.addColorStop(0,"rgba(5,20,10,0)");v.addColorStop(1,"rgba(4,16,8,.5)");ctx.fillStyle=v;ctx.fillRect(0,0,w,h);
+}
+function drawSprig(){
+  const c=$("#sprig");if(!c||!c.offsetWidth)return;
+  const w=c.width=c.offsetWidth*2,h=c.height=c.offsetHeight*2,ctx=c.getContext("2d"),r=rng(21);
+  ctx.strokeStyle="#2b3a22";ctx.lineWidth=w*.012;ctx.lineCap="round";
+  ctx.beginPath();ctx.moveTo(w*.02,h*.92);ctx.bezierCurveTo(w*.3,h*.82,w*.6,h*.66,w*.9,h*.6);ctx.stroke();
+  for(let i=0;i<9;i++){
+    const t=.1+i*.09, x=w*(.02+t*.86), y=h*(.92-(t*.32))+Math.sin(t*3)*h*.02, side=i%2?1:-1;
+    const len=w*(.15+r()*.06), rot=side*(.75+r()*.35)+0.05;
+    leaf(ctx,x+Math.sin(rot)*len*.4,y-Math.cos(rot)*len*.4,len,len*.4,rot,118+r()*12,24+r()*18);
+  }
+  leaf(ctx,w*.9,h*.57,w*.13,w*.05,1.3,122,36);
+}
+let t;function paint(){drawField();drawSprig()}
+paint();addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(paint,150)});
+</script>

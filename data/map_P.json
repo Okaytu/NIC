@@ -1,0 +1,31 @@
+{
+"name": "Public administration",
+"range": "84",
+"biz": {},
+"bnote": {
+"841101": "Government activity. No listed company does this.",
+"841102": "Government activity. No listed company does this.",
+"841103": "Government activity. No listed company does this.",
+"841104": "Government activity. No listed company does this.",
+"841105": "Government activity. No listed company does this.",
+"841199": "Government activity. No listed company does this.",
+"841200": "Government activity. No listed company does this.",
+"841300": "Government activity. No listed company does this.",
+"841400": "Government activity. No listed company does this.",
+"842100": "Government activity. No listed company does this.",
+"842200": "Government activity. No listed company does this.",
+"842301": "Government activity. No listed company does this.",
+"842302": "Government activity. No listed company does this.",
+"842303": "Government activity. No listed company does this.",
+"842304": "Government activity. No listed company does this.",
+"842399": "Government activity. No listed company does this.",
+"843000": "Government activity. No listed company does this."
+},
+"flags": {},
+"notes": [
+[
+"Section P: public administration",
+"These are government functions (administration, defence, police, courts, social security). No company is listed for them in India or abroad, so this section is intentionally empty."
+]
+]
+}

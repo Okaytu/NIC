@@ -1,0 +1,193 @@
+{
+"name": "Wholesale and retail trade",
+"range": "46–47",
+"biz": {
+"462001": [
+"ande"
+],
+"463099": [
+"syy",
+"usfd",
+"pfgc"
+],
+"464907": [
+"entero",
+"mck",
+"cor",
+"cah"
+],
+"465101": [
+"redington",
+"rptech",
+"snx",
+"ingm"
+],
+"465203": [
+"arw",
+"avnet"
+],
+"465204": [
+"optiemus"
+],
+"465903": [
+"wcc"
+],
+"465999": [
+"gww",
+"fast",
+"msm"
+],
+"466299": [
+"gpc",
+"lkq"
+],
+"467102": [
+"wkc"
+],
+"467206": [
+"rs",
+"ryi"
+],
+"467302": [
+"bldr"
+],
+"467303": [
+"shankara",
+"ferg",
+"cnm"
+],
+"467901": [
+"vinylindia",
+"brenntag"
+],
+"469000": [
+"mitsubishi",
+"itochu",
+"mitsui"
+],
+"471100": [
+"dmart",
+"wmt",
+"cost",
+"kr",
+"tesco"
+],
+"471900": [
+"trent",
+"shoperstop",
+"vmart",
+"v2retail",
+"tgt"
+],
+"472101": [
+"vmm"
+],
+"473001": [
+"musa",
+"casy"
+],
+"474005": [
+"emil",
+"bby"
+],
+"475201": [
+"hd",
+"low"
+],
+"475901": [
+"wsm",
+"rh"
+],
+"476299": [
+"dks"
+],
+"477101": [
+"abfrl",
+"stylebaaza",
+"gocolors",
+"tjx",
+"rost"
+],
+"477102": [
+"metrobrand"
+],
+"477201": [
+"medplus",
+"cvs"
+],
+"477202": [
+"nykaa",
+"ulta",
+"sbh"
+],
+"477302": [
+"ethosltd"
+],
+"477303": [
+"thangamayl",
+"sig"
+],
+"477308": [
+"lenskart",
+"wrby"
+],
+"477310": [
+"chwy",
+"woof"
+],
+"477403": [
+"tdup"
+],
+"478101": [
+"landmark",
+"an",
+"lad",
+"pag"
+],
+"478104": [
+"cartrade",
+"cvna",
+"kmx"
+],
+"478201": [
+"azo",
+"orly"
+],
+"479001": [
+"meesho",
+"firstcry",
+"amzn",
+"baba",
+"pdd"
+],
+"479003": [
+"ebay",
+"cprt",
+"meli"
+]
+},
+"bnote": {
+"464907": "Entero is India's main listed pharma distributor. The three US wholesalers handle most US drug distribution.",
+"465101": "India's two listed IT-hardware distributors, then the two largest abroad.",
+"469000": "No Indian general trading house with clean data (MMTC now has almost no revenue). Japan's trading houses are the closest match.",
+"471100": "DMart is India's largest listed supermarket chain.",
+"471900": "Listed Indian department-store and value-fashion chains, plus Target.",
+"477101": "Listed Indian apparel retailers, plus TJX and Ross.",
+"477202": "Nykaa sells beauty online and in stores.",
+"479001": "Meesho and FirstCry are listed Indian online marketplaces. Amazon, Alibaba and PDD are the largest abroad.",
+"478104": "CarTrade runs online used-car marketplaces and auctions in India."
+},
+"flags": {
+"meesho": "Listed in December 2025 and still loss-making.",
+"nykaa": "Very high P/E because profits are still small relative to the market value.",
+"gpc": "Net profit fell almost to zero because of one-off charges, so the P/E is not meaningful.",
+"lenskart": "Listed in November 2025; P/E is very high.",
+"abfrl": "After the Madura demerger, ABFRL keeps the Pantaloons and Style Up stores and is loss-making."
+},
+"notes": [
+[
+"Section G: trade",
+"Retail is well covered in India. Most wholesale niches have no listed Indian company, so large distributors abroad are used. Margins in trade are thin by nature; compare them within the same business only."
+]
+]
+}

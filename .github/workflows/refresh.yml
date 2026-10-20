@@ -1,0 +1,61 @@
+name: Refresh company financials and rebuild site
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # every Monday ~03:17 UTC
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Refresh at most N companies (blank = all due for refresh)"
+        required: false
+        default: ""
+      force:
+        description: "Ignore the freshness cache and refresh everything"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Scrape stockanalysis.com for every company
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"; fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          python3 scripts/scrape.py $ARGS
+
+      - name: Regenerate section data files
+        run: python3 scripts/gen_all.py
+
+      - name: Rebuild site/index.html
+        run: python3 scripts/build_site.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/financials.json site/data_*.js site/index.html
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "Automated refresh: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

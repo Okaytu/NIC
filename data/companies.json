@@ -1,0 +1,9098 @@
+{
+ "aabl": {
+  "ctry": "India",
+  "n": "Associated Alcohols & Breweries",
+  "path": "quote/nse/ASALCBR",
+  "tk": "ASALCBR"
+ },
+ "aac": {
+  "ctry": "Australia",
+  "n": "Australian Agricultural Company",
+  "path": "quote/asx/AAC",
+  "tk": "AAC"
+ },
+ "aadharhfc": {
+  "ctry": "India",
+  "n": "Aadhar Housing Finance",
+  "path": "quote/nse/AADHARHFC",
+  "tk": "AADHARHFC"
+ },
+ "aapl": {
+  "ctry": "USA",
+  "n": "Apple",
+  "path": "stocks/aapl",
+  "tk": "AAPL"
+ },
+ "aar": {
+  "ctry": "USA",
+  "n": "AAR Corp.",
+  "path": "stocks/air",
+  "tk": "AIR (NYSE)"
+ },
+ "aarti": {
+  "ctry": "India",
+  "n": "Aarti Industries",
+  "path": "quote/nse/AARTIIND",
+  "tk": "AARTIIND"
+ },
+ "aavas": {
+  "ctry": "India",
+  "n": "Aavas Financiers",
+  "path": "quote/nse/AAVAS",
+  "tk": "AAVAS"
+ },
+ "aban": {
+  "ctry": "India",
+  "n": "Aban Offshore",
+  "path": "quote/nse/ABAN",
+  "tk": "ABAN"
+ },
+ "abbindia": {
+  "ctry": "India",
+  "n": "ABB India",
+  "path": "quote/nse/ABB",
+  "tk": "ABB"
+ },
+ "abcapital": {
+  "ctry": "India",
+  "n": "Aditya Birla Capital",
+  "path": "quote/nse/ABCAPITAL",
+  "tk": "ABCAPITAL"
+ },
+ "abdl": {
+  "ctry": "India",
+  "n": "Allied Blenders and Distillers",
+  "path": "quote/nse/ABDL",
+  "tk": "ABDL"
+ },
+ "abfrl": {
+  "ctry": "India",
+  "n": "Aditya Birla Fashion and Retail",
+  "path": "quote/nse/ABFRL",
+  "tk": "ABFRL"
+ },
+ "abm": {
+  "ctry": "USA",
+  "n": "ABM Industries",
+  "path": "stocks/abm",
+  "tk": "ABM"
+ },
+ "acc": {
+  "ctry": "India",
+  "n": "ACC",
+  "path": "quote/nse/ACC",
+  "tk": "ACC"
+ },
+ "ace": {
+  "ctry": "India",
+  "n": "Action Construction Equipment",
+  "path": "quote/nse/ACE",
+  "tk": "ACE"
+ },
+ "acm": {
+  "ctry": "USA",
+  "n": "AECOM",
+  "path": "stocks/acm",
+  "tk": "ACM"
+ },
+ "acme": {
+  "ctry": "India",
+  "n": "ACME Solar Holdings",
+  "path": "quote/nse/ACMESOLAR",
+  "tk": "ACMESOLAR"
+ },
+ "acn": {
+  "ctry": "Ireland",
+  "n": "Accenture",
+  "path": "stocks/acn",
+  "tk": "ACN"
+ },
+ "adaniensol": {
+  "ctry": "India",
+  "n": "Adani Energy Solutions",
+  "path": "quote/nse/ADANIENSOL",
+  "tk": "ADANIENSOL"
+ },
+ "adanigreen": {
+  "ctry": "India",
+  "n": "Adani Green Energy",
+  "path": "quote/nse/ADANIGREEN",
+  "tk": "ADANIGREEN"
+ },
+ "adaniports": {
+  "ctry": "India",
+  "n": "Adani Ports and Special Economic Zone",
+  "path": "quote/nse/ADANIPORTS",
+  "tk": "ADANIPORTS"
+ },
+ "adanipower": {
+  "ctry": "India",
+  "n": "Adani Power",
+  "path": "quote/nse/ADANIPOWER",
+  "tk": "ADANIPOWER"
+ },
+ "adecco": {
+  "ctry": "Switzerland",
+  "n": "Adecco Group",
+  "path": "quote/swx/ADEN",
+  "tk": "ADEN"
+ },
+ "adecoagro": {
+  "ctry": "Argentina",
+  "n": "Adecoagro",
+  "path": "stocks/agro",
+  "tk": "AGRO"
+ },
+ "adf": {
+  "ctry": "India",
+  "n": "ADF Foods",
+  "path": "quote/nse/ADFFOODS",
+  "tk": "ADFFOODS"
+ },
+ "adi": {
+  "ctry": "USA",
+  "n": "Analog Devices",
+  "path": "stocks/adi",
+  "tk": "ADI"
+ },
+ "adidas": {
+  "ctry": "Germany",
+  "n": "adidas",
+  "path": "quote/etr/ADS",
+  "tk": "ADS"
+ },
+ "adm": {
+  "ctry": "USA",
+  "n": "Archer-Daniels-Midland",
+  "path": "stocks/adm",
+  "tk": "ADM"
+ },
+ "adnt": {
+  "ctry": "Ireland",
+  "n": "Adient",
+  "path": "stocks/adnt",
+  "tk": "ADNT"
+ },
+ "adp": {
+  "ctry": "France",
+  "n": "Aéroports de Paris (Groupe ADP)",
+  "path": "quote/epa/ADP",
+  "tk": "ADP"
+ },
+ "adt": {
+  "ctry": "USA",
+  "n": "ADT",
+  "path": "stocks/adt",
+  "tk": "ADT"
+ },
+ "adyen": {
+  "ctry": "Netherlands",
+  "n": "Adyen",
+  "path": "quote/ams/ADYEN",
+  "tk": "ADYEN"
+ },
+ "aegisvopak": {
+  "ctry": "India",
+  "n": "Aegis Vopak Terminals",
+  "path": "quote/nse/AEGISVOPAK",
+  "tk": "AEGISVOPAK"
+ },
+ "aem": {
+  "ctry": "Canada",
+  "n": "Agnico Eagle Mines",
+  "path": "stocks/aem",
+  "tk": "AEM"
+ },
+ "aer": {
+  "ctry": "Ireland",
+  "n": "AerCap Holdings",
+  "path": "stocks/aer",
+  "tk": "AER"
+ },
+ "afcons": {
+  "ctry": "India",
+  "n": "Afcons Infrastructure",
+  "path": "quote/nse/AFCONS",
+  "tk": "AFCONS"
+ },
+ "affle": {
+  "ctry": "India",
+  "n": "Affle 3i",
+  "path": "quote/nse/AFFLE",
+  "tk": "AFFLE"
+ },
+ "agarwaleye": {
+  "ctry": "India",
+  "n": "Dr. Agarwal's Health Care",
+  "path": "quote/nse/AGARWALEYE",
+  "tk": "AGARWALEYE"
+ },
+ "agc": {
+  "ctry": "Japan",
+  "n": "AGC",
+  "path": "quote/tyo/5201",
+  "tk": "5201"
+ },
+ "agco": {
+  "ctry": "USA",
+  "n": "AGCO",
+  "path": "stocks/agco",
+  "tk": "AGCO"
+ },
+ "agi": {
+  "ctry": "India",
+  "n": "AGI Greenpac",
+  "path": "quote/nse/AGI",
+  "tk": "AGI"
+ },
+ "agilent": {
+  "ctry": "USA",
+  "n": "Agilent Technologies",
+  "path": "stocks/a",
+  "tk": "A"
+ },
+ "ahlucont": {
+  "ctry": "India",
+  "n": "Ahluwalia Contracts (India)",
+  "path": "quote/nse/AHLUCONT",
+  "tk": "AHLUCONT"
+ },
+ "aia": {
+  "ctry": "Hong Kong",
+  "n": "AIA Group",
+  "path": "quote/hkg/1299",
+  "tk": "1299"
+ },
+ "aiaeng": {
+  "ctry": "India",
+  "n": "AIA Engineering",
+  "path": "quote/nse/AIAENG",
+  "tk": "AIAENG"
+ },
+ "airbus": {
+  "ctry": "France",
+  "n": "Airbus",
+  "path": "quote/epa/AIR",
+  "tk": "AIR"
+ },
+ "airliquide": {
+  "ctry": "France",
+  "n": "Air Liquide",
+  "path": "quote/epa/AI",
+  "tk": "AI"
+ },
+ "akerbp": {
+  "ctry": "Norway",
+  "n": "Aker BP",
+  "path": "quote/osl/AKRBP",
+  "tk": "AKRBP"
+ },
+ "akshoptfbr": {
+  "ctry": "India",
+  "n": "Aksh Optifibre",
+  "path": "quote/nse/AKSHOPTFBR",
+  "tk": "AKSHOPTFBR"
+ },
+ "alc": {
+  "ctry": "Switzerland",
+  "n": "Alcon",
+  "path": "stocks/alc",
+  "tk": "ALC"
+ },
+ "alco": {
+  "ctry": "USA",
+  "n": "Alico",
+  "path": "stocks/alco",
+  "tk": "ALCO"
+ },
+ "alcoa": {
+  "ctry": "USA",
+  "n": "Alcoa",
+  "path": "stocks/aa",
+  "tk": "AA"
+ },
+ "alkem": {
+  "ctry": "India",
+  "n": "Alkem Laboratories",
+  "path": "quote/nse/ALKEM",
+  "tk": "ALKEM"
+ },
+ "alkyl": {
+  "ctry": "India",
+  "n": "Alkyl Amines Chemicals",
+  "path": "quote/nse/ALKYLAMINE",
+  "tk": "ALKYLAMINE"
+ },
+ "allcargo": {
+  "ctry": "India",
+  "n": "Allcargo Logistics",
+  "path": "quote/nse/ALLCARGO",
+  "tk": "ALLCARGO"
+ },
+ "allegion": {
+  "ctry": "Ireland",
+  "n": "Allegion",
+  "path": "stocks/alle",
+  "tk": "ALLE"
+ },
+ "alstom": {
+  "ctry": "France",
+  "n": "Alstom",
+  "path": "quote/epa/ALO",
+  "tk": "ALO"
+ },
+ "alv": {
+  "ctry": "Sweden",
+  "n": "Autoliv",
+  "path": "stocks/alv",
+  "tk": "ALV"
+ },
+ "amat": {
+  "ctry": "USA",
+  "n": "Applied Materials",
+  "path": "stocks/amat",
+  "tk": "AMAT"
+ },
+ "amber": {
+  "ctry": "India",
+  "n": "Amber Enterprises India",
+  "path": "quote/nse/AMBER",
+  "tk": "AMBER"
+ },
+ "ambika": {
+  "ctry": "India",
+  "n": "Ambika Cotton Mills",
+  "path": "quote/nse/AMBIKCO",
+  "tk": "AMBIKCO"
+ },
+ "ambuja": {
+  "ctry": "India",
+  "n": "Ambuja Cements",
+  "path": "quote/nse/AMBUJACEM",
+  "tk": "AMBUJACEM"
+ },
+ "amcor": {
+  "ctry": "Switzerland/Australia",
+  "n": "Amcor",
+  "path": "stocks/amcr",
+  "tk": "AMCR"
+ },
+ "amd": {
+  "ctry": "USA",
+  "n": "Advanced Micro Devices",
+  "path": "stocks/amd",
+  "tk": "AMD"
+ },
+ "amersports": {
+  "ctry": "Finland",
+  "n": "Amer Sports",
+  "path": "stocks/as",
+  "tk": "AS"
+ },
+ "amgen": {
+  "ctry": "USA",
+  "n": "Amgen",
+  "path": "stocks/amgn",
+  "tk": "AMGN"
+ },
+ "amr": {
+  "ctry": "USA",
+  "n": "Alpha Metallurgical Resources",
+  "path": "stocks/amr",
+  "tk": "AMR"
+ },
+ "amzn": {
+  "ctry": "USA",
+  "n": "Amazon.com",
+  "path": "stocks/amzn",
+  "tk": "AMZN"
+ },
+ "an": {
+  "ctry": "USA",
+  "n": "AutoNation",
+  "path": "stocks/an",
+  "tk": "AN"
+ },
+ "anandrathi": {
+  "ctry": "India",
+  "n": "Anand Rathi Wealth",
+  "path": "quote/nse/ANANDRATHI",
+  "tk": "ANANDRATHI"
+ },
+ "anantraj": {
+  "ctry": "India",
+  "n": "Anant Raj",
+  "path": "quote/nse/ANANTRAJ",
+  "tk": "ANANTRAJ"
+ },
+ "ande": {
+  "ctry": "USA",
+  "n": "The Andersons",
+  "path": "stocks/ande",
+  "tk": "ANDE"
+ },
+ "andhrapaper": {
+  "ctry": "India",
+  "n": "Andhra Paper",
+  "path": "quote/nse/ANDHRAPAP",
+  "tk": "ANDHRAPAP"
+ },
+ "anet": {
+  "ctry": "USA",
+  "n": "Arista Networks",
+  "path": "stocks/anet",
+  "tk": "ANET"
+ },
+ "angelone": {
+  "ctry": "India",
+  "n": "Angel One",
+  "path": "quote/nse/ANGELONE",
+  "tk": "ANGELONE"
+ },
+ "anglo": {
+  "ctry": "UK",
+  "n": "Anglo American",
+  "path": "quote/lon/AAL",
+  "tk": "AAL"
+ },
+ "ansell": {
+  "ctry": "Australia",
+  "n": "Ansell",
+  "path": "quote/asx/ANN",
+  "tk": "ANN"
+ },
+ "antero": {
+  "ctry": "USA",
+  "n": "Antero Resources",
+  "path": "stocks/ar",
+  "tk": "AR"
+ },
+ "anto": {
+  "ctry": "UK/Chile",
+  "n": "Antofagasta",
+  "path": "quote/lon/ANTO",
+  "tk": "ANTO"
+ },
+ "aon": {
+  "ctry": "Ireland",
+  "n": "Aon",
+  "path": "stocks/aon",
+  "tk": "AON"
+ },
+ "aos": {
+  "ctry": "USA",
+  "n": "A. O. Smith",
+  "path": "stocks/aos",
+  "tk": "AOS"
+ },
+ "apcotex": {
+  "ctry": "India",
+  "n": "Apcotex Industries",
+  "path": "quote/nse/APCOTEXIND",
+  "tk": "APCOTEXIND"
+ },
+ "apd": {
+  "ctry": "USA",
+  "n": "Air Products and Chemicals",
+  "path": "stocks/apd",
+  "tk": "APD"
+ },
+ "apex": {
+  "ctry": "India",
+  "n": "Apex Frozen Foods",
+  "path": "quote/nse/APEX",
+  "tk": "APEX"
+ },
+ "aph": {
+  "ctry": "USA",
+  "n": "Amphenol",
+  "path": "stocks/aph",
+  "tk": "APH"
+ },
+ "aplapollo": {
+  "ctry": "India",
+  "n": "APL Apollo Tubes",
+  "path": "quote/nse/APLAPOLLO",
+  "tk": "APLAPOLLO"
+ },
+ "apollohosp": {
+  "ctry": "India",
+  "n": "Apollo Hospitals Enterprise",
+  "path": "quote/nse/APOLLOHOSP",
+  "tk": "APOLLOHOSP"
+ },
+ "apollomicro": {
+  "ctry": "India",
+  "n": "Apollo Micro Systems",
+  "path": "quote/nse/APOLLO",
+  "tk": "APOLLO"
+ },
+ "apollopipe": {
+  "ctry": "India",
+  "n": "Apollo Pipes",
+  "path": "quote/nse/APOLLOPIPE",
+  "tk": "APOLLOPIPE"
+ },
+ "apollotyre": {
+  "ctry": "India",
+  "n": "Apollo Tyres",
+  "path": "quote/nse/APOLLOTYRE",
+  "tk": "APOLLOTYRE"
+ },
+ "app": {
+  "ctry": "USA",
+  "n": "AppLovin",
+  "path": "stocks/app",
+  "tk": "APP"
+ },
+ "aptecht": {
+  "ctry": "India",
+  "n": "Aptech",
+  "path": "quote/nse/APTECHT",
+  "tk": "APTECHT"
+ },
+ "aptv": {
+  "ctry": "Ireland",
+  "n": "Aptiv",
+  "path": "stocks/aptv",
+  "tk": "APTV"
+ },
+ "arcelor": {
+  "ctry": "Luxembourg",
+  "n": "ArcelorMittal",
+  "path": "stocks/mt",
+  "tk": "MT"
+ },
+ "archidply": {
+  "ctry": "India",
+  "n": "Archidply Industries",
+  "path": "quote/nse/ARCHIDPLY",
+  "tk": "ARCHIDPLY"
+ },
+ "arem": {
+  "ctry": "India",
+  "n": "Amara Raja Energy & Mobility",
+  "path": "quote/bom/500008",
+  "tk": "ARE&M"
+ },
+ "arlp": {
+  "ctry": "USA",
+  "n": "Alliance Resource Partners",
+  "path": "stocks/arlp",
+  "tk": "ARLP"
+ },
+ "arvind": {
+  "ctry": "India",
+  "n": "Arvind",
+  "path": "quote/nse/ARVIND",
+  "tk": "ARVIND"
+ },
+ "arw": {
+  "ctry": "USA",
+  "n": "Arrow Electronics",
+  "path": "stocks/arw",
+  "tk": "ARW"
+ },
+ "asahiglass": {
+  "ctry": "India",
+  "n": "Asahi India Glass",
+  "path": "quote/nse/ASAHIINDIA",
+  "tk": "ASAHIINDIA"
+ },
+ "ashapura": {
+  "ctry": "India",
+  "n": "Ashapura Minechem",
+  "path": "quote/nse/ASHAPURMIN",
+  "tk": "ASHAPURMIN"
+ },
+ "ashokley": {
+  "ctry": "India",
+  "n": "Ashok Leyland",
+  "path": "quote/nse/ASHOKLEY",
+  "tk": "ASHOKLEY"
+ },
+ "ashtead": {
+  "ctry": "UK",
+  "n": "Ashtead Group",
+  "path": "quote/lon/AHT",
+  "tk": "AHT"
+ },
+ "asianene": {
+  "ctry": "India",
+  "n": "Asian Energy Services",
+  "path": "quote/nse/ASIANENE",
+  "tk": "ASIANENE"
+ },
+ "asiangranito": {
+  "ctry": "India",
+  "n": "Asian Granito India",
+  "path": "quote/nse/ASIANTILES",
+  "tk": "ASIANTILES"
+ },
+ "asianpaint": {
+  "ctry": "India",
+  "n": "Asian Paints",
+  "path": "quote/nse/ASIANPAINT",
+  "tk": "ASIANPAINT"
+ },
+ "asml": {
+  "ctry": "Netherlands",
+  "n": "ASML Holding",
+  "path": "stocks/asml",
+  "tk": "ASML"
+ },
+ "assaabloy": {
+  "ctry": "Sweden",
+  "n": "ASSA ABLOY",
+  "path": "quote/sto/ASSA.B",
+  "tk": "ASSA.B"
+ },
+ "astarta": {
+  "ctry": "Ukraine",
+  "n": "Astarta Holding",
+  "path": "quote/wse/AST",
+  "tk": "AST"
+ },
+ "asterdm": {
+  "ctry": "India",
+  "n": "Aster DM Quality Care",
+  "path": "quote/nse/ASTERDM",
+  "tk": "ASTERDM"
+ },
+ "astral": {
+  "ctry": "India",
+  "n": "Astral",
+  "path": "quote/nse/ASTRAL",
+  "tk": "ASTRAL"
+ },
+ "astramicro": {
+  "ctry": "India",
+  "n": "Astra Microwave Products",
+  "path": "quote/nse/ASTRAMICRO",
+  "tk": "ASTRAMICRO"
+ },
+ "atge": {
+  "ctry": "USA",
+  "n": "Covista (formerly Adtalem Global Education)",
+  "path": "stocks/atge",
+  "tk": "ATGE"
+ },
+ "atlascopco": {
+  "ctry": "Sweden",
+  "n": "Atlas Copco",
+  "path": "quote/sto/ATCO.A",
+  "tk": "ATCO.A"
+ },
+ "att": {
+  "ctry": "USA",
+  "n": "AT&T",
+  "path": "stocks/t",
+  "tk": "T"
+ },
+ "atul": {
+  "ctry": "India",
+  "n": "Atul",
+  "path": "quote/nse/ATUL",
+  "tk": "ATUL"
+ },
+ "atulauto": {
+  "ctry": "India",
+  "n": "Atul Auto",
+  "path": "quote/nse/ATULAUTO",
+  "tk": "ATULAUTO"
+ },
+ "aubank": {
+  "ctry": "India",
+  "n": "AU Small Finance Bank",
+  "path": "quote/nse/AUBANK",
+  "tk": "AUBANK"
+ },
+ "aurobindo": {
+  "ctry": "India",
+  "n": "Aurobindo Pharma",
+  "path": "quote/nse/AUROPHARMA",
+  "tk": "AUROPHARMA"
+ },
+ "aurora": {
+  "ctry": "Canada",
+  "n": "Aurora Cannabis",
+  "path": "stocks/acb",
+  "tk": "ACB"
+ },
+ "aurubis": {
+  "ctry": "Germany",
+  "n": "Aurubis",
+  "path": "quote/etr/NDA",
+  "tk": "NDA"
+ },
+ "austevoll": {
+  "ctry": "Norway",
+  "n": "Austevoll Seafood",
+  "path": "quote/osl/AUSS",
+  "tk": "AUSS"
+ },
+ "avalon": {
+  "ctry": "India",
+  "n": "Avalon Technologies",
+  "path": "quote/nse/AVALON",
+  "tk": "AVALON"
+ },
+ "avanti": {
+  "ctry": "India",
+  "n": "Avanti Feeds",
+  "path": "quote/nse/AVANTIFEED",
+  "tk": "AVANTIFEED"
+ },
+ "avav": {
+  "ctry": "USA",
+  "n": "AeroVironment",
+  "path": "stocks/avav",
+  "tk": "AVAV"
+ },
+ "avb": {
+  "ctry": "USA",
+  "n": "AvalonBay Communities",
+  "path": "stocks/avb",
+  "tk": "AVB"
+ },
+ "avnet": {
+  "ctry": "USA",
+  "n": "Avnet",
+  "path": "stocks/avt",
+  "tk": "AVT"
+ },
+ "avo": {
+  "ctry": "USA",
+  "n": "Mission Produce",
+  "path": "stocks/avo",
+  "tk": "AVO"
+ },
+ "avt": {
+  "ctry": "India",
+  "n": "AVT Natural Products",
+  "path": "quote/nse/AVTNPL",
+  "tk": "AVTNPL"
+ },
+ "awfis": {
+  "ctry": "India",
+  "n": "Awfis Space Solutions",
+  "path": "quote/nse/AWFIS",
+  "tk": "AWFIS"
+ },
+ "awhcl": {
+  "ctry": "India",
+  "n": "Antony Waste Handling Cell",
+  "path": "quote/nse/AWHCL",
+  "tk": "AWHCL"
+ },
+ "awk": {
+  "ctry": "USA",
+  "n": "American Water Works",
+  "path": "stocks/awk",
+  "tk": "AWK"
+ },
+ "awl": {
+  "ctry": "India",
+  "n": "AWL Agri Business (Adani Wilmar)",
+  "path": "quote/nse/AWL",
+  "tk": "AWL"
+ },
+ "axisbank": {
+  "ctry": "India",
+  "n": "Axis Bank",
+  "path": "quote/nse/AXISBANK",
+  "tk": "AXISBANK"
+ },
+ "ayi": {
+  "ctry": "USA",
+  "n": "Acuity",
+  "path": "stocks/ayi",
+  "tk": "AYI"
+ },
+ "azad": {
+  "ctry": "India",
+  "n": "Azad Engineering",
+  "path": "quote/nse/AZAD",
+  "tk": "AZAD"
+ },
+ "azo": {
+  "ctry": "USA",
+  "n": "AutoZone",
+  "path": "stocks/azo",
+  "tk": "AZO"
+ },
+ "ba": {
+  "ctry": "USA",
+  "n": "Boeing",
+  "path": "stocks/ba",
+  "tk": "BA"
+ },
+ "baba": {
+  "ctry": "China",
+  "n": "Alibaba Group",
+  "path": "stocks/baba",
+  "tk": "BABA"
+ },
+ "babcock": {
+  "ctry": "USA",
+  "n": "Babcock & Wilcox",
+  "path": "stocks/bw",
+  "tk": "BW"
+ },
+ "bah": {
+  "ctry": "USA",
+  "n": "Booz Allen Hamilton",
+  "path": "stocks/bah",
+  "tk": "BAH"
+ },
+ "bajajauto": {
+  "ctry": "India",
+  "n": "Bajaj Auto",
+  "path": "quote/bom/532977",
+  "tk": "BAJAJ-AUTO"
+ },
+ "bajajcon": {
+  "ctry": "India",
+  "n": "Bajaj Consumer Care",
+  "path": "quote/nse/BAJAJCON",
+  "tk": "BAJAJCON"
+ },
+ "bajajelec": {
+  "ctry": "India",
+  "n": "Bajaj Electricals",
+  "path": "quote/nse/BAJAJELEC",
+  "tk": "BAJAJELEC"
+ },
+ "bajfinance": {
+  "ctry": "India",
+  "n": "Bajaj Finance",
+  "path": "quote/nse/BAJFINANCE",
+  "tk": "BAJFINANCE"
+ },
+ "bakkafrost": {
+  "ctry": "Faroe Islands",
+  "n": "Bakkafrost",
+  "path": "quote/osl/BAKKA",
+  "tk": "BAKKA"
+ },
+ "balaji": {
+  "ctry": "India",
+  "n": "Balaji Amines",
+  "path": "quote/nse/BALAMINES",
+  "tk": "BALAMINES"
+ },
+ "balajitele": {
+  "ctry": "India",
+  "n": "Balaji Telefilms",
+  "path": "quote/nse/BALAJITELE",
+  "tk": "BALAJITELE"
+ },
+ "ball": {
+  "ctry": "USA",
+  "n": "Ball Corporation",
+  "path": "stocks/ball",
+  "tk": "BALL"
+ },
+ "balrampur": {
+  "ctry": "India",
+  "n": "Balrampur Chini Mills",
+  "path": "quote/nse/BALRAMCHIN",
+  "tk": "BALRAMCHIN"
+ },
+ "bansalwire": {
+  "ctry": "India",
+  "n": "Bansal Wire Industries",
+  "path": "quote/nse/BANSALWIRE",
+  "tk": "BANSALWIRE"
+ },
+ "banswara": {
+  "ctry": "India",
+  "n": "Banswara Syntex",
+  "path": "quote/nse/BANSWRAS",
+  "tk": "BANSWRAS"
+ },
+ "barrick": {
+  "ctry": "Canada",
+  "n": "Barrick Mining",
+  "path": "stocks/b",
+  "tk": "B"
+ },
+ "barry": {
+  "ctry": "Switzerland",
+  "n": "Barry Callebaut",
+  "path": "quote/swx/BARN",
+  "tk": "BARN"
+ },
+ "basf": {
+  "ctry": "Germany",
+  "n": "BASF",
+  "path": "quote/etr/BAS",
+  "tk": "BAS"
+ },
+ "bat": {
+  "ctry": "UK",
+  "n": "British American Tobacco",
+  "path": "stocks/bti",
+  "tk": "BTI"
+ },
+ "bata": {
+  "ctry": "India",
+  "n": "Bata India",
+  "path": "quote/nse/BATAINDIA",
+  "tk": "BATAINDIA"
+ },
+ "bayercrop": {
+  "ctry": "India",
+  "n": "Bayer CropScience (India)",
+  "path": "quote/nse/BAYERCROP",
+  "tk": "BAYERCROP"
+ },
+ "bbtc": {
+  "ctry": "India",
+  "n": "Bombay Burmah Trading Corporation",
+  "path": "quote/nse/BBTC",
+  "tk": "BBTC"
+ },
+ "bby": {
+  "ctry": "USA",
+  "n": "Best Buy",
+  "path": "stocks/bby",
+  "tk": "BBY"
+ },
+ "bc": {
+  "ctry": "USA",
+  "n": "Brunswick Corporation",
+  "path": "stocks/bc",
+  "tk": "BC"
+ },
+ "bdl": {
+  "ctry": "India",
+  "n": "Bharat Dynamics",
+  "path": "quote/nse/BDL",
+  "tk": "BDL"
+ },
+ "bdx": {
+  "ctry": "USA",
+  "n": "Becton, Dickinson and Company",
+  "path": "stocks/bdx",
+  "tk": "BDX"
+ },
+ "bectors": {
+  "ctry": "India",
+  "n": "Mrs. Bectors Food Specialities",
+  "path": "quote/nse/BECTORFOOD",
+  "tk": "BECTORFOOD"
+ },
+ "bel": {
+  "ctry": "India",
+  "n": "Bharat Electronics",
+  "path": "quote/nse/BEL",
+  "tk": "BEL"
+ },
+ "beml": {
+  "ctry": "India",
+  "n": "BEML",
+  "path": "quote/nse/BEML",
+  "tk": "BEML"
+ },
+ "bep": {
+  "ctry": "Canada",
+  "n": "Brookfield Renewable Partners",
+  "path": "stocks/bep",
+  "tk": "BEP"
+ },
+ "berger": {
+  "ctry": "India",
+  "n": "Berger Paints India",
+  "path": "quote/nse/BERGEPAINT",
+  "tk": "BERGEPAINT"
+ },
+ "bfam": {
+  "ctry": "USA",
+  "n": "Bright Horizons Family Solutions",
+  "path": "stocks/bfam",
+  "tk": "BFAM"
+ },
+ "bfb": {
+  "ctry": "USA",
+  "n": "Brown-Forman",
+  "path": "stocks/bf.b",
+  "tk": "BF.B"
+ },
+ "bharatforge": {
+  "ctry": "India",
+  "n": "Bharat Forge",
+  "path": "quote/nse/BHARATFORG",
+  "tk": "BHARATFORG"
+ },
+ "bhartiartl": {
+  "ctry": "India",
+  "n": "Bharti Airtel",
+  "path": "quote/nse/BHARTIARTL",
+  "tk": "BHARTIARTL"
+ },
+ "bhel": {
+  "ctry": "India",
+  "n": "Bharat Heavy Electricals",
+  "path": "quote/nse/BHEL",
+  "tk": "BHEL"
+ },
+ "bhp": {
+  "ctry": "Australia",
+  "n": "BHP Group",
+  "path": "stocks/bhp",
+  "tk": "BHP"
+ },
+ "bic": {
+  "ctry": "France",
+  "n": "Société BIC",
+  "path": "quote/epa/BB",
+  "tk": "BB"
+ },
+ "bidu": {
+  "ctry": "China",
+  "n": "Baidu",
+  "path": "stocks/bidu",
+  "tk": "BIDU"
+ },
+ "bikaji": {
+  "ctry": "India",
+  "n": "Bikaji Foods International",
+  "path": "quote/nse/BIKAJI",
+  "tk": "BIKAJI"
+ },
+ "biocon": {
+  "ctry": "India",
+  "n": "Biocon",
+  "path": "quote/nse/BIOCON",
+  "tk": "BIOCON"
+ },
+ "biret": {
+  "ctry": "India",
+  "n": "Brookfield India Real Estate Trust",
+  "path": "quote/nse/BIRET",
+  "tk": "BIRET"
+ },
+ "birlacable": {
+  "ctry": "India",
+  "n": "Birla Cable",
+  "path": "quote/nse/BIRLACABLE",
+  "tk": "BIRLACABLE"
+ },
+ "birlacorp": {
+  "ctry": "India",
+  "n": "Birla Corporation",
+  "path": "quote/nse/BIRLACORPN",
+  "tk": "BIRLACORPN"
+ },
+ "birlanu": {
+  "ctry": "India",
+  "n": "BirlaNu (formerly HIL)",
+  "path": "quote/nse/HIL",
+  "tk": "HIL"
+ },
+ "bkd": {
+  "ctry": "USA",
+  "n": "Brookdale Senior Living",
+  "path": "stocks/bkd",
+  "tk": "BKD"
+ },
+ "bkng": {
+  "ctry": "USA",
+  "n": "Booking Holdings",
+  "path": "stocks/bkng",
+  "tk": "BKNG"
+ },
+ "bkr": {
+  "ctry": "USA",
+  "n": "Baker Hughes",
+  "path": "stocks/bkr",
+  "tk": "BKR"
+ },
+ "bkt": {
+  "ctry": "India",
+  "n": "Balkrishna Industries",
+  "path": "quote/nse/BALKRISIND",
+  "tk": "BALKRISIND"
+ },
+ "bldr": {
+  "ctry": "USA",
+  "n": "Builders FirstSource",
+  "path": "stocks/bldr",
+  "tk": "BLDR"
+ },
+ "blk": {
+  "ctry": "USA",
+  "n": "BlackRock",
+  "path": "stocks/blk",
+  "tk": "BLK"
+ },
+ "bluedart": {
+  "ctry": "India",
+  "n": "Blue Dart Express",
+  "path": "quote/nse/BLUEDART",
+  "tk": "BLUEDART"
+ },
+ "bluestarco": {
+  "ctry": "India",
+  "n": "Blue Star",
+  "path": "quote/nse/BLUESTARCO",
+  "tk": "BLUESTARCO"
+ },
+ "bmbl": {
+  "ctry": "USA",
+  "n": "Bumble",
+  "path": "stocks/bmbl",
+  "tk": "BMBL"
+ },
+ "bmi": {
+  "ctry": "USA",
+  "n": "Badger Meter",
+  "path": "stocks/bmi",
+  "tk": "BMI"
+ },
+ "bodal": {
+  "ctry": "India",
+  "n": "Bodal Chemicals",
+  "path": "quote/nse/BODALCHEM",
+  "tk": "BODALCHEM"
+ },
+ "boe": {
+  "ctry": "China",
+  "n": "BOE Technology Group",
+  "path": "quote/she/000725",
+  "tk": "000725"
+ },
+ "boliden": {
+  "ctry": "Sweden",
+  "n": "Boliden",
+  "path": "quote/sto/BOL",
+  "tk": "BOL"
+ },
+ "bororenew": {
+  "ctry": "India",
+  "n": "Borosil Renewables",
+  "path": "quote/nse/BORORENEW",
+  "tk": "BORORENEW"
+ },
+ "borosci": {
+  "ctry": "India",
+  "n": "Borosil Scientific",
+  "path": "quote/nse/BOROSCI",
+  "tk": "BOROSCI"
+ },
+ "borosil": {
+  "ctry": "India",
+  "n": "Borosil",
+  "path": "quote/nse/BOROLTD",
+  "tk": "BOROLTD"
+ },
+ "boschltd": {
+  "ctry": "India",
+  "n": "Bosch Limited (India)",
+  "path": "quote/nse/BOSCHLTD",
+  "tk": "BOSCHLTD"
+ },
+ "bpcl": {
+  "ctry": "India",
+  "n": "Bharat Petroleum Corporation",
+  "path": "quote/nse/BPCL",
+  "tk": "BPCL"
+ },
+ "brasilagro": {
+  "ctry": "Brazil",
+  "n": "BrasilAgro",
+  "path": "stocks/lnd",
+  "tk": "LND"
+ },
+ "brenntag": {
+  "ctry": "Germany",
+  "n": "Brenntag",
+  "path": "quote/etr/BNR",
+  "tk": "BNR"
+ },
+ "bridgestone": {
+  "ctry": "Japan",
+  "n": "Bridgestone",
+  "path": "quote/tyo/5108",
+  "tk": "5108"
+ },
+ "brigade": {
+  "ctry": "India",
+  "n": "Brigade Enterprises",
+  "path": "quote/nse/BRIGADE",
+  "tk": "BRIGADE"
+ },
+ "britannia": {
+  "ctry": "India",
+  "n": "Britannia Industries",
+  "path": "quote/nse/BRITANNIA",
+  "tk": "BRITANNIA"
+ },
+ "brkb": {
+  "ctry": "USA",
+  "n": "Berkshire Hathaway",
+  "path": "stocks/brk.b",
+  "tk": "BRK.B"
+ },
+ "bseltd": {
+  "ctry": "India",
+  "n": "BSE Limited",
+  "path": "quote/nse/BSE",
+  "tk": "BSE"
+ },
+ "bsoft": {
+  "ctry": "India",
+  "n": "Birlasoft",
+  "path": "quote/nse/BSOFT",
+  "tk": "BSOFT"
+ },
+ "bsx": {
+  "ctry": "USA",
+  "n": "Boston Scientific",
+  "path": "stocks/bsx",
+  "tk": "BSX"
+ },
+ "btu": {
+  "ctry": "USA",
+  "n": "Peabody Energy",
+  "path": "stocks/btu",
+  "tk": "BTU"
+ },
+ "bud": {
+  "ctry": "Belgium",
+  "n": "Anheuser-Busch InBev",
+  "path": "stocks/bud",
+  "tk": "BUD"
+ },
+ "bunge": {
+  "ctry": "USA",
+  "n": "Bunge Global",
+  "path": "stocks/bg",
+  "tk": "BG"
+ },
+ "bvi": {
+  "ctry": "France",
+  "n": "Bureau Veritas",
+  "path": "quote/epa/BVI",
+  "tk": "BVI"
+ },
+ "bwxt": {
+  "ctry": "USA",
+  "n": "BWX Technologies",
+  "path": "stocks/bwxt",
+  "tk": "BWXT"
+ },
+ "bx": {
+  "ctry": "USA",
+  "n": "Blackstone",
+  "path": "stocks/bx",
+  "tk": "BX"
+ },
+ "cag": {
+  "ctry": "USA",
+  "n": "Conagra Brands",
+  "path": "stocks/cag",
+  "tk": "CAG"
+ },
+ "cah": {
+  "ctry": "USA",
+  "n": "Cardinal Health",
+  "path": "stocks/cah",
+  "tk": "CAH"
+ },
+ "calm": {
+  "ctry": "USA",
+  "n": "Cal-Maine Foods",
+  "path": "stocks/calm",
+  "tk": "CALM"
+ },
+ "camlin": {
+  "ctry": "India",
+  "n": "Kokuyo Camlin",
+  "path": "quote/nse/KOKUYOCMLN",
+  "tk": "KOKUYOCMLN"
+ },
+ "camlinfine": {
+  "ctry": "India",
+  "n": "Camlin Fine Sciences",
+  "path": "quote/nse/CAMLINFINE",
+  "tk": "CAMLINFINE"
+ },
+ "campari": {
+  "ctry": "Italy",
+  "n": "Davide Campari-Milano",
+  "path": "quote/bit/CPR",
+  "tk": "CPR"
+ },
+ "campus": {
+  "ctry": "India",
+  "n": "Campus Activewear",
+  "path": "quote/nse/CAMPUS",
+  "tk": "CAMPUS"
+ },
+ "cams": {
+  "ctry": "India",
+  "n": "Computer Age Management Services (CAMS)",
+  "path": "quote/nse/CAMS",
+  "tk": "CAMS"
+ },
+ "canfor": {
+  "ctry": "Canada",
+  "n": "Canfor",
+  "path": "quote/tsx/CFP",
+  "tk": "CFP"
+ },
+ "canon": {
+  "ctry": "Japan",
+  "n": "Canon",
+  "path": "quote/tyo/7751",
+  "tk": "7751"
+ },
+ "canopy": {
+  "ctry": "Canada",
+  "n": "Canopy Growth",
+  "path": "stocks/cgc",
+  "tk": "CGC"
+ },
+ "capacite": {
+  "ctry": "India",
+  "n": "Capacit'e Infraprojects",
+  "path": "quote/nse/CAPACITE",
+  "tk": "CAPACITE"
+ },
+ "capri": {
+  "ctry": "USA",
+  "n": "Capri Holdings",
+  "path": "stocks/cpri",
+  "tk": "CPRI"
+ },
+ "car": {
+  "ctry": "USA",
+  "n": "Avis Budget Group",
+  "path": "stocks/car",
+  "tk": "CAR"
+ },
+ "carerating": {
+  "ctry": "India",
+  "n": "CARE Ratings",
+  "path": "quote/nse/CARERATING",
+  "tk": "CARERATING"
+ },
+ "carlsberg": {
+  "ctry": "Denmark",
+  "n": "Carlsberg",
+  "path": "quote/cph/CARL.B",
+  "tk": "CARL.B"
+ },
+ "carnival": {
+  "ctry": "USA",
+  "n": "Carnival",
+  "path": "stocks/ccl",
+  "tk": "CCL (NYSE)"
+ },
+ "carr": {
+  "ctry": "USA",
+  "n": "Carrier Global",
+  "path": "stocks/carr",
+  "tk": "CARR"
+ },
+ "cartrade": {
+  "ctry": "India",
+  "n": "CarTrade Tech",
+  "path": "quote/nse/CARTRADE",
+  "tk": "CARTRADE"
+ },
+ "castrol": {
+  "ctry": "India",
+  "n": "Castrol India",
+  "path": "quote/nse/CASTROLIND",
+  "tk": "CASTROLIND"
+ },
+ "casy": {
+  "ctry": "USA",
+  "n": "Casey's General Stores",
+  "path": "stocks/casy",
+  "tk": "CASY"
+ },
+ "cat": {
+  "ctry": "USA",
+  "n": "Caterpillar",
+  "path": "stocks/cat",
+  "tk": "CAT"
+ },
+ "catl": {
+  "ctry": "China",
+  "n": "Contemporary Amperex Technology (CATL)",
+  "path": "quote/she/300750",
+  "tk": "300750"
+ },
+ "cb": {
+  "ctry": "Switzerland",
+  "n": "Chubb",
+  "path": "stocks/cb",
+  "tk": "CB"
+ },
+ "cbre": {
+  "ctry": "USA",
+  "n": "CBRE Group",
+  "path": "stocks/cbre",
+  "tk": "CBRE"
+ },
+ "ccd": {
+  "ctry": "India",
+  "n": "Coffee Day Enterprises",
+  "path": "quote/nse/COFFEEDAY",
+  "tk": "COFFEEDAY"
+ },
+ "ccj": {
+  "ctry": "Canada",
+  "n": "Cameco",
+  "path": "stocks/ccj",
+  "tk": "CCJ"
+ },
+ "ccl": {
+  "ctry": "India",
+  "n": "CCL Products (India)",
+  "path": "quote/nse/CCL",
+  "tk": "CCL"
+ },
+ "cdsl": {
+  "ctry": "India",
+  "n": "Central Depository Services (India)",
+  "path": "quote/nse/CDSL",
+  "tk": "CDSL"
+ },
+ "ceat": {
+  "ctry": "India",
+  "n": "CEAT",
+  "path": "quote/nse/CEATLTD",
+  "tk": "CEATLTD"
+ },
+ "ceg": {
+  "ctry": "USA",
+  "n": "Constellation Energy",
+  "path": "stocks/ceg",
+  "tk": "CEG"
+ },
+ "cello": {
+  "ctry": "India",
+  "n": "Cello World",
+  "path": "quote/nse/CELLO",
+  "tk": "CELLO"
+ },
+ "celsius": {
+  "ctry": "USA",
+  "n": "Celsius Holdings",
+  "path": "stocks/celh",
+  "tk": "CELH"
+ },
+ "centum": {
+  "ctry": "India",
+  "n": "Centum Electronics",
+  "path": "quote/nse/CENTUM",
+  "tk": "CENTUM"
+ },
+ "centuryalu": {
+  "ctry": "USA",
+  "n": "Century Aluminum",
+  "path": "stocks/cenx",
+  "tk": "CENX"
+ },
+ "centuryenka": {
+  "ctry": "India",
+  "n": "Century Enka",
+  "path": "quote/nse/CENTENKA",
+  "tk": "CENTENKA"
+ },
+ "centuryply": {
+  "ctry": "India",
+  "n": "Century Plyboards (India)",
+  "path": "quote/nse/CENTURYPLY",
+  "tk": "CENTURYPLY"
+ },
+ "cera": {
+  "ctry": "India",
+  "n": "Cera Sanitaryware",
+  "path": "quote/nse/CERA",
+  "tk": "CERA"
+ },
+ "cesc": {
+  "ctry": "India",
+  "n": "CESC",
+  "path": "quote/nse/CESC",
+  "tk": "CESC"
+ },
+ "cfind": {
+  "ctry": "USA",
+  "n": "CF Industries",
+  "path": "stocks/cf",
+  "tk": "CF"
+ },
+ "cgpower": {
+  "ctry": "India",
+  "n": "CG Power and Industrial Solutions",
+  "path": "quote/nse/CGPOWER",
+  "tk": "CGPOWER"
+ },
+ "chalet": {
+  "ctry": "India",
+  "n": "Chalet Hotels",
+  "path": "quote/nse/CHALET",
+  "tk": "CHALET"
+ },
+ "chambal": {
+  "ctry": "India",
+  "n": "Chambal Fertilisers and Chemicals",
+  "path": "quote/nse/CHAMBLFERT",
+  "tk": "CHAMBLFERT"
+ },
+ "champion": {
+  "ctry": "Canada",
+  "n": "Champion Iron",
+  "path": "quote/tsx/CIA",
+  "tk": "CIA"
+ },
+ "chemplast": {
+  "ctry": "India",
+  "n": "Chemplast Sanmar",
+  "path": "quote/nse/CHEMPLASTS",
+  "tk": "CHEMPLASTS"
+ },
+ "cheviot": {
+  "ctry": "India",
+  "n": "Cheviot Company",
+  "path": "quote/nse/CHEVIOT",
+  "tk": "CHEVIOT"
+ },
+ "cholafin": {
+  "ctry": "India",
+  "n": "Cholamandalam Investment and Finance",
+  "path": "quote/nse/CHOLAFIN",
+  "tk": "CHOLAFIN"
+ },
+ "chpt": {
+  "ctry": "USA",
+  "n": "ChargePoint",
+  "path": "stocks/chpt",
+  "tk": "CHPT"
+ },
+ "chrw": {
+  "ctry": "USA",
+  "n": "C.H. Robinson Worldwide",
+  "path": "stocks/chrw",
+  "tk": "CHRW"
+ },
+ "chtr": {
+  "ctry": "USA",
+  "n": "Charter Communications",
+  "path": "stocks/chtr",
+  "tk": "CHTR"
+ },
+ "chwy": {
+  "ctry": "USA",
+  "n": "Chewy",
+  "path": "stocks/chwy",
+  "tk": "CHWY"
+ },
+ "cien": {
+  "ctry": "USA",
+  "n": "Ciena",
+  "path": "stocks/cien",
+  "tk": "CIEN"
+ },
+ "cimpress": {
+  "ctry": "Ireland",
+  "n": "Cimpress",
+  "path": "stocks/cmpr",
+  "tk": "CMPR"
+ },
+ "cipla": {
+  "ctry": "India",
+  "n": "Cipla",
+  "path": "quote/nse/CIPLA",
+  "tk": "CIPLA"
+ },
+ "citizen": {
+  "ctry": "Japan",
+  "n": "Citizen Watch",
+  "path": "quote/tyo/7762",
+  "tk": "7762"
+ },
+ "cl": {
+  "ctry": "USA",
+  "n": "Colgate-Palmolive",
+  "path": "stocks/cl",
+  "tk": "CL"
+ },
+ "clean": {
+  "ctry": "India",
+  "n": "Clean Science and Technology",
+  "path": "quote/nse/CLEAN",
+  "tk": "CLEAN"
+ },
+ "clf": {
+  "ctry": "USA",
+  "n": "Cleveland-Cliffs",
+  "path": "stocks/clf",
+  "tk": "CLF"
+ },
+ "clh": {
+  "ctry": "USA",
+  "n": "Clean Harbors",
+  "path": "stocks/clh",
+  "tk": "CLH"
+ },
+ "clorox": {
+  "ctry": "USA",
+  "n": "Clorox",
+  "path": "stocks/clx",
+  "tk": "CLX"
+ },
+ "clsetia": {
+  "ctry": "India",
+  "n": "Chaman Lal Setia Exports",
+  "path": "quote/nse/CLSEL",
+  "tk": "CLSEL"
+ },
+ "cmcsa": {
+  "ctry": "USA",
+  "n": "Comcast",
+  "path": "stocks/cmcsa",
+  "tk": "CMCSA"
+ },
+ "cme": {
+  "ctry": "USA",
+  "n": "CME Group",
+  "path": "stocks/cme",
+  "tk": "CME"
+ },
+ "cmi": {
+  "ctry": "USA",
+  "n": "Cummins Inc.",
+  "path": "stocks/cmi",
+  "tk": "CMI"
+ },
+ "cmp": {
+  "ctry": "USA",
+  "n": "Compass Minerals",
+  "path": "stocks/cmp",
+  "tk": "CMP"
+ },
+ "cnh": {
+  "ctry": "UK",
+  "n": "CNH Industrial",
+  "path": "stocks/cnh",
+  "tk": "CNH"
+ },
+ "cni": {
+  "ctry": "Canada",
+  "n": "Canadian National Railway",
+  "path": "stocks/cni",
+  "tk": "CNI"
+ },
+ "cnm": {
+  "ctry": "USA",
+  "n": "Core & Main",
+  "path": "stocks/cnm",
+  "tk": "CNM"
+ },
+ "cnooc": {
+  "ctry": "China",
+  "n": "CNOOC",
+  "path": "quote/hkg/0883",
+  "tk": "0883"
+ },
+ "cnr": {
+  "ctry": "USA",
+  "n": "Core Natural Resources",
+  "path": "stocks/cnr",
+  "tk": "CNR"
+ },
+ "cnxc": {
+  "ctry": "USA",
+  "n": "Concentrix",
+  "path": "stocks/cnxc",
+  "tk": "CNXC"
+ },
+ "coalindia": {
+  "ctry": "India",
+  "n": "Coal India",
+  "path": "quote/nse/COALINDIA",
+  "tk": "COALINDIA"
+ },
+ "coastal": {
+  "ctry": "India",
+  "n": "Coastal Corporation",
+  "path": "quote/nse/COASTCORP",
+  "tk": "COASTCORP"
+ },
+ "cochinship": {
+  "ctry": "India",
+  "n": "Cochin Shipyard",
+  "path": "quote/nse/COCHINSHIP",
+  "tk": "COCHINSHIP"
+ },
+ "cof": {
+  "ctry": "USA",
+  "n": "Capital One Financial",
+  "path": "stocks/cof",
+  "tk": "COF"
+ },
+ "coforge": {
+  "ctry": "India",
+  "n": "Coforge",
+  "path": "quote/nse/COFORGE",
+  "tk": "COFORGE"
+ },
+ "coin": {
+  "ctry": "USA",
+  "n": "Coinbase Global",
+  "path": "stocks/coin",
+  "tk": "COIN"
+ },
+ "cold": {
+  "ctry": "USA",
+  "n": "Americold Realty Trust",
+  "path": "stocks/cold",
+  "tk": "COLD"
+ },
+ "colpal": {
+  "ctry": "India",
+  "n": "Colgate-Palmolive (India)",
+  "path": "quote/nse/COLPAL",
+  "tk": "COLPAL"
+ },
+ "comfortdelgro": {
+  "ctry": "Singapore",
+  "n": "ComfortDelGro",
+  "path": "quote/sgx/C52",
+  "tk": "C52"
+ },
+ "concor": {
+  "ctry": "India",
+  "n": "Container Corporation of India",
+  "path": "quote/nse/CONCOR",
+  "tk": "CONCOR"
+ },
+ "concord": {
+  "ctry": "India",
+  "n": "Concord Biotech",
+  "path": "quote/nse/CONCORDBIO",
+  "tk": "CONCORDBIO"
+ },
+ "confidence": {
+  "ctry": "India",
+  "n": "Confidence Petroleum India",
+  "path": "quote/nse/CONFIPET",
+  "tk": "CONFIPET"
+ },
+ "constellium": {
+  "ctry": "France",
+  "n": "Constellium",
+  "path": "stocks/cstm",
+  "tk": "CSTM"
+ },
+ "cop": {
+  "ctry": "USA",
+  "n": "ConocoPhillips",
+  "path": "stocks/cop",
+  "tk": "COP"
+ },
+ "cor": {
+  "ctry": "USA",
+  "n": "Cencora",
+  "path": "stocks/cor",
+  "tk": "COR"
+ },
+ "corning": {
+  "ctry": "USA",
+  "n": "Corning",
+  "path": "stocks/glw",
+  "tk": "GLW"
+ },
+ "coromandel": {
+  "ctry": "India",
+  "n": "Coromandel International",
+  "path": "quote/nse/COROMANDEL",
+  "tk": "COROMANDEL"
+ },
+ "cosmo": {
+  "ctry": "India",
+  "n": "Cosmo First",
+  "path": "quote/nse/COSMOFIRST",
+  "tk": "COSMOFIRST"
+ },
+ "cost": {
+  "ctry": "USA",
+  "n": "Costco Wholesale",
+  "path": "stocks/cost",
+  "tk": "COST"
+ },
+ "coty": {
+  "ctry": "USA",
+  "n": "Coty",
+  "path": "stocks/coty",
+  "tk": "COTY"
+ },
+ "cour": {
+  "ctry": "USA",
+  "n": "Coursera",
+  "path": "stocks/cour",
+  "tk": "COUR"
+ },
+ "cpcl": {
+  "ctry": "India",
+  "n": "Chennai Petroleum Corporation",
+  "path": "quote/nse/CHENNPETRO",
+  "tk": "CHENNPETRO"
+ },
+ "cpf": {
+  "ctry": "Thailand",
+  "n": "Charoen Pokphand Foods",
+  "path": "quote/bkk/CPF",
+  "tk": "CPF"
+ },
+ "cprt": {
+  "ctry": "USA",
+  "n": "Copart",
+  "path": "stocks/cprt",
+  "tk": "CPRT"
+ },
+ "craftsman": {
+  "ctry": "India",
+  "n": "Craftsman Automation",
+  "path": "quote/nse/CRAFTSMAN",
+  "tk": "CRAFTSMAN"
+ },
+ "creditacc": {
+  "ctry": "India",
+  "n": "CreditAccess Grameen",
+  "path": "quote/nse/CREDITACC",
+  "tk": "CREDITACC"
+ },
+ "cresud": {
+  "ctry": "Argentina",
+  "n": "Cresud",
+  "path": "stocks/cresy",
+  "tk": "CRESY"
+ },
+ "crh": {
+  "ctry": "Ireland",
+  "n": "CRH",
+  "path": "stocks/crh",
+  "tk": "CRH"
+ },
+ "crisil": {
+  "ctry": "India",
+  "n": "CRISIL",
+  "path": "quote/nse/CRISIL",
+  "tk": "CRISIL"
+ },
+ "crl": {
+  "ctry": "USA",
+  "n": "Charles River Laboratories",
+  "path": "stocks/crl",
+  "tk": "CRL"
+ },
+ "crocs": {
+  "ctry": "USA",
+  "n": "Crocs",
+  "path": "stocks/crox",
+  "tk": "CROX"
+ },
+ "crompton": {
+  "ctry": "India",
+  "n": "Crompton Greaves Consumer Electricals",
+  "path": "quote/nse/CROMPTON",
+  "tk": "CROMPTON"
+ },
+ "crown": {
+  "ctry": "USA",
+  "n": "Crown Holdings",
+  "path": "stocks/cck",
+  "tk": "CCK"
+ },
+ "crwd": {
+  "ctry": "USA",
+  "n": "CrowdStrike Holdings",
+  "path": "stocks/crwd",
+  "tk": "CRWD"
+ },
+ "crystal": {
+  "ctry": "Hong Kong",
+  "n": "Crystal International",
+  "path": "quote/hkg/2232",
+  "tk": "2232"
+ },
+ "csco": {
+  "ctry": "USA",
+  "n": "Cisco Systems",
+  "path": "stocks/csco",
+  "tk": "CSCO"
+ },
+ "csiq": {
+  "ctry": "Canada",
+  "n": "Canadian Solar",
+  "path": "stocks/csiq",
+  "tk": "CSIQ"
+ },
+ "csx": {
+  "ctry": "USA",
+  "n": "CSX",
+  "path": "stocks/csx",
+  "tk": "CSX"
+ },
+ "ctas": {
+  "ctry": "USA",
+  "n": "Cintas",
+  "path": "stocks/ctas",
+  "tk": "CTAS"
+ },
+ "ctra": {
+  "ctry": "USA",
+  "n": "Coterra Energy",
+  "path": "stocks/ctra",
+  "tk": "CTRA"
+ },
+ "ctsh": {
+  "ctry": "USA",
+  "n": "Cognizant Technology Solutions",
+  "path": "stocks/ctsh",
+  "tk": "CTSH"
+ },
+ "ctva": {
+  "ctry": "USA",
+  "n": "Corteva",
+  "path": "stocks/ctva",
+  "tk": "CTVA"
+ },
+ "cumi": {
+  "ctry": "India",
+  "n": "Carborundum Universal",
+  "path": "quote/nse/CARBORUNIV",
+  "tk": "CARBORUNIV"
+ },
+ "cumminsind": {
+  "ctry": "India",
+  "n": "Cummins India",
+  "path": "quote/nse/CUMMINSIND",
+  "tk": "CUMMINSIND"
+ },
+ "cvna": {
+  "ctry": "USA",
+  "n": "Carvana",
+  "path": "stocks/cvna",
+  "tk": "CVNA"
+ },
+ "cvs": {
+  "ctry": "USA",
+  "n": "CVS Health",
+  "path": "stocks/cvs",
+  "tk": "CVS"
+ },
+ "cwst": {
+  "ctry": "USA",
+  "n": "Casella Waste Systems",
+  "path": "stocks/cwst",
+  "tk": "CWST"
+ },
+ "cyientdlm": {
+  "ctry": "India",
+  "n": "Cyient DLM",
+  "path": "quote/nse/CYIENTDLM",
+  "tk": "CYIENTDLM"
+ },
+ "dabur": {
+  "ctry": "India",
+  "n": "Dabur India",
+  "path": "quote/nse/DABUR",
+  "tk": "DABUR"
+ },
+ "daifuku": {
+  "ctry": "Japan",
+  "n": "Daifuku",
+  "path": "quote/tyo/6383",
+  "tk": "6383"
+ },
+ "daikin": {
+  "ctry": "Japan",
+  "n": "Daikin Industries",
+  "path": "quote/tyo/6367",
+  "tk": "6367"
+ },
+ "dal": {
+  "ctry": "USA",
+  "n": "Delta Air Lines",
+  "path": "stocks/dal",
+  "tk": "DAL"
+ },
+ "dalmia": {
+  "ctry": "India",
+  "n": "Dalmia Bharat",
+  "path": "quote/nse/DALBHARAT",
+  "tk": "DALBHARAT"
+ },
+ "danone": {
+  "ctry": "France",
+  "n": "Danone",
+  "path": "quote/epa/BN",
+  "tk": "BN"
+ },
+ "datapattns": {
+  "ctry": "India",
+  "n": "Data Patterns (India)",
+  "path": "quote/nse/DATAPATTNS",
+  "tk": "DATAPATTNS"
+ },
+ "dbcorp": {
+  "ctry": "India",
+  "n": "DB Corp",
+  "path": "quote/nse/DBCORP",
+  "tk": "DBCORP"
+ },
+ "dbd": {
+  "ctry": "USA",
+  "n": "Diebold Nixdorf",
+  "path": "stocks/dbd",
+  "tk": "DBD"
+ },
+ "dbl": {
+  "ctry": "India",
+  "n": "Dilip Buildcon",
+  "path": "quote/nse/DBL",
+  "tk": "DBL"
+ },
+ "dci": {
+  "ctry": "USA",
+  "n": "Donaldson Company",
+  "path": "stocks/dci",
+  "tk": "DCI"
+ },
+ "dcmshriram": {
+  "ctry": "India",
+  "n": "DCM Shriram",
+  "path": "quote/nse/DCMSHRIRAM",
+  "tk": "DCMSHRIRAM"
+ },
+ "dcw": {
+  "ctry": "India",
+  "n": "DCW",
+  "path": "quote/nse/DCW",
+  "tk": "DCW"
+ },
+ "ddd": {
+  "ctry": "USA",
+  "n": "3D Systems",
+  "path": "stocks/ddd",
+  "tk": "DDD"
+ },
+ "de": {
+  "ctry": "USA",
+  "n": "Deere & Company",
+  "path": "stocks/de",
+  "tk": "DE"
+ },
+ "deccangold": {
+  "ctry": "India",
+  "n": "Deccan Gold Mines",
+  "path": "quote/bom/512068",
+  "tk": "512068"
+ },
+ "deckers": {
+  "ctry": "USA",
+  "n": "Deckers Outdoor",
+  "path": "stocks/deck",
+  "tk": "DECK"
+ },
+ "deepakfert": {
+  "ctry": "India",
+  "n": "Deepak Fertilisers and Petrochemicals",
+  "path": "quote/nse/DEEPAKFERT",
+  "tk": "DEEPAKFERT"
+ },
+ "deepaknitrite": {
+  "ctry": "India",
+  "n": "Deepak Nitrite",
+  "path": "quote/nse/DEEPAKNTR",
+  "tk": "DEEPAKNTR"
+ },
+ "deepinds": {
+  "ctry": "India",
+  "n": "Deep Industries",
+  "path": "quote/nse/DEEPINDS",
+  "tk": "DEEPINDS"
+ },
+ "delhivery": {
+  "ctry": "India",
+  "n": "Delhivery",
+  "path": "quote/nse/DELHIVERY",
+  "tk": "DELHIVERY"
+ },
+ "dell": {
+  "ctry": "USA",
+  "n": "Dell Technologies",
+  "path": "stocks/dell",
+  "tk": "DELL"
+ },
+ "deltacorp": {
+  "ctry": "India",
+  "n": "Delta Corp",
+  "path": "quote/nse/DELTACORP",
+  "tk": "DELTACORP"
+ },
+ "devyani": {
+  "ctry": "India",
+  "n": "Devyani International",
+  "path": "quote/nse/DEVYANI",
+  "tk": "DEVYANI"
+ },
+ "dhampur": {
+  "ctry": "India",
+  "n": "Dhampur Sugar Mills",
+  "path": "quote/nse/DHAMPURSUG",
+  "tk": "DHAMPURSUG"
+ },
+ "dhanuka": {
+  "ctry": "India",
+  "n": "Dhanuka Agritech",
+  "path": "quote/nse/DHANUKA",
+  "tk": "DHANUKA"
+ },
+ "dhl": {
+  "ctry": "Germany",
+  "n": "DHL Group",
+  "path": "quote/etr/DHL",
+  "tk": "DHL"
+ },
+ "dhunseri": {
+  "ctry": "India",
+  "n": "Dhunseri Tea & Industries",
+  "path": "quote/nse/DTIL",
+  "tk": "DTIL"
+ },
+ "diageo": {
+  "ctry": "UK",
+  "n": "Diageo",
+  "path": "quote/lon/DGE",
+  "tk": "DGE"
+ },
+ "diod": {
+  "ctry": "USA",
+  "n": "Diodes Incorporated",
+  "path": "stocks/diod",
+  "tk": "DIOD"
+ },
+ "divis": {
+  "ctry": "India",
+  "n": "Divi's Laboratories",
+  "path": "quote/nse/DIVISLAB",
+  "tk": "DIVISLAB"
+ },
+ "dixon": {
+  "ctry": "India",
+  "n": "Dixon Technologies (India)",
+  "path": "quote/nse/DIXON",
+  "tk": "DIXON"
+ },
+ "dks": {
+  "ctry": "USA",
+  "n": "DICK'S Sporting Goods",
+  "path": "stocks/dks",
+  "tk": "DKS"
+ },
+ "dlf": {
+  "ctry": "India",
+  "n": "DLF",
+  "path": "quote/nse/DLF",
+  "tk": "DLF"
+ },
+ "dlr": {
+  "ctry": "USA",
+  "n": "Digital Realty Trust",
+  "path": "stocks/dlr",
+  "tk": "DLR"
+ },
+ "dmart": {
+  "ctry": "India",
+  "n": "Avenue Supermarts (DMart)",
+  "path": "quote/nse/DMART",
+  "tk": "DMART"
+ },
+ "dmgmori": {
+  "ctry": "Japan",
+  "n": "DMG Mori",
+  "path": "quote/tyo/6141",
+  "tk": "6141"
+ },
+ "dodla": {
+  "ctry": "India",
+  "n": "Dodla Dairy",
+  "path": "quote/nse/DODLA",
+  "tk": "DODLA"
+ },
+ "dole": {
+  "ctry": "Ireland",
+  "n": "Dole plc",
+  "path": "stocks/dole",
+  "tk": "DOLE"
+ },
+ "dollar": {
+  "ctry": "India",
+  "n": "Dollar Industries",
+  "path": "quote/nse/DOLLAR",
+  "tk": "DOLLAR"
+ },
+ "dolphin": {
+  "ctry": "India",
+  "n": "Dolphin Offshore Enterprises",
+  "path": "quote/nse/DOLPHIN",
+  "tk": "DOLPHIN"
+ },
+ "doms": {
+  "ctry": "India",
+  "n": "DOMS Industries",
+  "path": "quote/nse/DOMS",
+  "tk": "DOMS"
+ },
+ "dow": {
+  "ctry": "USA",
+  "n": "Dow",
+  "path": "stocks/dow",
+  "tk": "DOW"
+ },
+ "drax": {
+  "ctry": "UK",
+  "n": "Drax Group",
+  "path": "quote/lon/DRX",
+  "tk": "DRX"
+ },
+ "dredgecorp": {
+  "ctry": "India",
+  "n": "Dredging Corporation of India",
+  "path": "quote/nse/DREDGECORP",
+  "tk": "DREDGECORP"
+ },
+ "drreddy": {
+  "ctry": "India",
+  "n": "Dr. Reddy's Laboratories",
+  "path": "quote/nse/DRREDDY",
+  "tk": "DRREDDY"
+ },
+ "dsv": {
+  "ctry": "Denmark",
+  "n": "DSV",
+  "path": "quote/cph/DSV",
+  "tk": "DSV"
+ },
+ "dtg": {
+  "ctry": "Germany",
+  "n": "Daimler Truck Holding",
+  "path": "quote/etr/DTG",
+  "tk": "DTG"
+ },
+ "duke": {
+  "ctry": "USA",
+  "n": "Duke Energy",
+  "path": "stocks/duk",
+  "tk": "DUK"
+ },
+ "duol": {
+  "ctry": "USA",
+  "n": "Duolingo",
+  "path": "stocks/duol",
+  "tk": "DUOL"
+ },
+ "duxton": {
+  "ctry": "Australia",
+  "n": "Duxton Farms",
+  "path": "quote/asx/DBF",
+  "tk": "DBF"
+ },
+ "dxc": {
+  "ctry": "USA",
+  "n": "DXC Technology",
+  "path": "stocks/dxc",
+  "tk": "DXC"
+ },
+ "dynamatech": {
+  "ctry": "India",
+  "n": "Dynamatic Technologies",
+  "path": "quote/nse/DYNAMATECH",
+  "tk": "DYNAMATECH"
+ },
+ "e2e": {
+  "ctry": "India",
+  "n": "E2E Networks",
+  "path": "quote/nse/E2E",
+  "tk": "E2E"
+ },
+ "ebay": {
+  "ctry": "USA",
+  "n": "eBay",
+  "path": "stocks/ebay",
+  "tk": "EBAY"
+ },
+ "eclerx": {
+  "ctry": "India",
+  "n": "eClerx Services",
+  "path": "quote/nse/ECLERX",
+  "tk": "ECLERX"
+ },
+ "edbl": {
+  "ctry": "USA",
+  "n": "Edible Garden",
+  "path": "stocks/edbl",
+  "tk": "EDBL"
+ },
+ "edgewell": {
+  "ctry": "USA",
+  "n": "Edgewell Personal Care",
+  "path": "stocks/epc",
+  "tk": "EPC"
+ },
+ "edu": {
+  "ctry": "China",
+  "n": "New Oriental Education & Technology",
+  "path": "stocks/edu",
+  "tk": "EDU"
+ },
+ "efx": {
+  "ctry": "USA",
+  "n": "Equifax",
+  "path": "stocks/efx",
+  "tk": "EFX"
+ },
+ "eichermot": {
+  "ctry": "India",
+  "n": "Eicher Motors (Royal Enfield)",
+  "path": "quote/nse/EICHERMOT",
+  "tk": "EICHERMOT"
+ },
+ "eidparry": {
+  "ctry": "India",
+  "n": "EID Parry (India)",
+  "path": "quote/nse/EIDPARRY",
+  "tk": "EIDPARRY"
+ },
+ "eiel": {
+  "ctry": "India",
+  "n": "Enviro Infra Engineers",
+  "path": "quote/nse/EIEL",
+  "tk": "EIEL"
+ },
+ "eih": {
+  "ctry": "India",
+  "n": "EIH",
+  "path": "quote/nse/EIHOTEL",
+  "tk": "EIHOTEL"
+ },
+ "elanco": {
+  "ctry": "USA",
+  "n": "Elanco Animal Health",
+  "path": "stocks/elan",
+  "tk": "ELAN"
+ },
+ "elders": {
+  "ctry": "Australia",
+  "n": "Elders",
+  "path": "quote/asx/ELD",
+  "tk": "ELD"
+ },
+ "elecon": {
+  "ctry": "India",
+  "n": "Elecon Engineering",
+  "path": "quote/nse/ELECON",
+  "tk": "ELECON"
+ },
+ "electrolux": {
+  "ctry": "Sweden",
+  "n": "Electrolux",
+  "path": "quote/sto/ELUX.B",
+  "tk": "ELUX.B"
+ },
+ "electrosteel": {
+  "ctry": "India",
+  "n": "Electrosteel Castings",
+  "path": "quote/nse/ELECTCAST",
+  "tk": "ELECTCAST"
+ },
+ "elf": {
+  "ctry": "USA",
+  "n": "e.l.f. Beauty",
+  "path": "stocks/elf",
+  "tk": "ELF"
+ },
+ "elgiequip": {
+  "ctry": "India",
+  "n": "Elgi Equipments",
+  "path": "quote/nse/ELGIEQUIP",
+  "tk": "ELGIEQUIP"
+ },
+ "elin": {
+  "ctry": "India",
+  "n": "Elin Electronics",
+  "path": "quote/nse/ELIN",
+  "tk": "ELIN"
+ },
+ "ellenbarrie": {
+  "ctry": "India",
+  "n": "Ellenbarrie Industrial Gases",
+  "path": "quote/nse/ELLEN",
+  "tk": "ELLEN"
+ },
+ "emami": {
+  "ctry": "India",
+  "n": "Emami",
+  "path": "quote/nse/EMAMILTD",
+  "tk": "EMAMILTD"
+ },
+ "emamipaper": {
+  "ctry": "India",
+  "n": "Emami Paper Mills",
+  "path": "quote/nse/EMAMIPAP",
+  "tk": "EMAMIPAP"
+ },
+ "embassy": {
+  "ctry": "India",
+  "n": "Embassy Office Parks REIT",
+  "path": "quote/nse/EMBASSY",
+  "tk": "EMBASSY"
+ },
+ "eme": {
+  "ctry": "USA",
+  "n": "EMCOR Group",
+  "path": "stocks/eme",
+  "tk": "EME"
+ },
+ "emil": {
+  "ctry": "India",
+  "n": "Electronics Mart India (Bajaj Electronics)",
+  "path": "quote/nse/EMIL",
+  "tk": "EMIL"
+ },
+ "emr": {
+  "ctry": "USA",
+  "n": "Emerson Electric",
+  "path": "stocks/emr",
+  "tk": "EMR"
+ },
+ "emslimited": {
+  "ctry": "India",
+  "n": "EMS Limited",
+  "path": "quote/nse/EMSLIMITED",
+  "tk": "EMSLIMITED"
+ },
+ "emt": {
+  "ctry": "India",
+  "n": "Easy Trip Planners (EaseMyTrip)",
+  "path": "quote/nse/EASEMYTRIP",
+  "tk": "EASEMYTRIP"
+ },
+ "enb": {
+  "ctry": "Canada",
+  "n": "Enbridge",
+  "path": "stocks/enb",
+  "tk": "ENB"
+ },
+ "endurance": {
+  "ctry": "India",
+  "n": "Endurance Technologies",
+  "path": "quote/nse/ENDURANCE",
+  "tk": "ENDURANCE"
+ },
+ "enginersin": {
+  "ctry": "India",
+  "n": "Engineers India",
+  "path": "quote/nse/ENGINERSIN",
+  "tk": "ENGINERSIN"
+ },
+ "enil": {
+  "ctry": "India",
+  "n": "Entertainment Network (India)",
+  "path": "quote/nse/ENIL",
+  "tk": "ENIL"
+ },
+ "enph": {
+  "ctry": "USA",
+  "n": "Enphase Energy",
+  "path": "stocks/enph",
+  "tk": "ENPH"
+ },
+ "enr": {
+  "ctry": "USA",
+  "n": "Energizer Holdings",
+  "path": "stocks/enr",
+  "tk": "ENR"
+ },
+ "ens": {
+  "ctry": "USA",
+  "n": "EnerSys",
+  "path": "stocks/ens",
+  "tk": "ENS"
+ },
+ "ensg": {
+  "ctry": "USA",
+  "n": "The Ensign Group",
+  "path": "stocks/ensg",
+  "tk": "ENSG"
+ },
+ "entero": {
+  "ctry": "India",
+  "n": "Entero Healthcare Solutions",
+  "path": "quote/nse/ENTERO",
+  "tk": "ENTERO"
+ },
+ "eog": {
+  "ctry": "USA",
+  "n": "EOG Resources",
+  "path": "stocks/eog",
+  "tk": "EOG"
+ },
+ "epiroc": {
+  "ctry": "Sweden",
+  "n": "Epiroc",
+  "path": "quote/sto/EPI.A",
+  "tk": "EPI.A"
+ },
+ "epl": {
+  "ctry": "India",
+  "n": "EPL",
+  "path": "quote/nse/EPL",
+  "tk": "EPL"
+ },
+ "eqix": {
+  "ctry": "USA",
+  "n": "Equinix",
+  "path": "stocks/eqix",
+  "tk": "EQIX"
+ },
+ "eqnr": {
+  "ctry": "Norway",
+  "n": "Equinor",
+  "path": "stocks/eqnr",
+  "tk": "EQNR"
+ },
+ "eqr": {
+  "ctry": "USA",
+  "n": "Equity Residential",
+  "path": "stocks/eqr",
+  "tk": "EQR"
+ },
+ "eqt": {
+  "ctry": "USA",
+  "n": "EQT Corporation",
+  "path": "stocks/eqt",
+  "tk": "EQT"
+ },
+ "equitasbnk": {
+  "ctry": "India",
+  "n": "Equitas Small Finance Bank",
+  "path": "quote/nse/EQUITASBNK",
+  "tk": "EQUITASBNK"
+ },
+ "eramet": {
+  "ctry": "France",
+  "n": "Eramet",
+  "path": "quote/epa/ERA",
+  "tk": "ERA"
+ },
+ "ericsson": {
+  "ctry": "Sweden",
+  "n": "Ericsson",
+  "path": "quote/sto/ERIC.B",
+  "tk": "ERIC.B"
+ },
+ "erii": {
+  "ctry": "USA",
+  "n": "Energy Recovery",
+  "path": "stocks/erii",
+  "tk": "ERII"
+ },
+ "erj": {
+  "ctry": "Brazil",
+  "n": "Embraer",
+  "path": "stocks/erj",
+  "tk": "ERJ"
+ },
+ "escorts": {
+  "ctry": "India",
+  "n": "Escorts Kubota",
+  "path": "quote/nse/ESCORTS",
+  "tk": "ESCORTS"
+ },
+ "essilux": {
+  "ctry": "France",
+  "n": "EssilorLuxottica",
+  "path": "quote/epa/EL",
+  "tk": "EL (Paris)"
+ },
+ "essity": {
+  "ctry": "Sweden",
+  "n": "Essity",
+  "path": "quote/sto/ESSITY.B",
+  "tk": "ESSITY.B"
+ },
+ "esteelauder": {
+  "ctry": "USA",
+  "n": "Estée Lauder",
+  "path": "stocks/el",
+  "tk": "EL"
+ },
+ "etd": {
+  "ctry": "USA",
+  "n": "Ethan Allen Interiors",
+  "path": "stocks/etd",
+  "tk": "ETD"
+ },
+ "eternal": {
+  "ctry": "India",
+  "n": "Eternal (Zomato)",
+  "path": "quote/nse/ETERNAL",
+  "tk": "ETERNAL"
+ },
+ "ethosltd": {
+  "ctry": "India",
+  "n": "Ethos",
+  "path": "quote/nse/ETHOSLTD",
+  "tk": "ETHOSLTD"
+ },
+ "etn": {
+  "ctry": "Ireland",
+  "n": "Eaton",
+  "path": "stocks/etn",
+  "tk": "ETN"
+ },
+ "eurofins": {
+  "ctry": "France",
+  "n": "Eurofins Scientific",
+  "path": "quote/epa/ERF",
+  "tk": "ERF"
+ },
+ "eveready": {
+  "ctry": "India",
+  "n": "Eveready Industries India",
+  "path": "quote/nse/EVEREADY",
+  "tk": "EVEREADY"
+ },
+ "everest": {
+  "ctry": "India",
+  "n": "Everest Industries",
+  "path": "quote/nse/EVERESTIND",
+  "tk": "EVERESTIND"
+ },
+ "evgo": {
+  "ctry": "USA",
+  "n": "EVgo",
+  "path": "stocks/evgo",
+  "tk": "EVGO"
+ },
+ "exe": {
+  "ctry": "USA",
+  "n": "Expand Energy",
+  "path": "stocks/exe",
+  "tk": "EXE"
+ },
+ "exideind": {
+  "ctry": "India",
+  "n": "Exide Industries",
+  "path": "quote/nse/EXIDEIND",
+  "tk": "EXIDEIND"
+ },
+ "expd": {
+  "ctry": "USA",
+  "n": "Expeditors International",
+  "path": "stocks/expd",
+  "tk": "EXPD"
+ },
+ "expe": {
+  "ctry": "USA",
+  "n": "Expedia Group",
+  "path": "stocks/expe",
+  "tk": "EXPE"
+ },
+ "expn": {
+  "ctry": "UK",
+  "n": "Experian",
+  "path": "quote/lon/EXPN",
+  "tk": "EXPN"
+ },
+ "fact": {
+  "ctry": "India",
+  "n": "Fertilisers and Chemicals Travancore",
+  "path": "quote/nse/FACT",
+  "tk": "FACT"
+ },
+ "fanuc": {
+  "ctry": "Japan",
+  "n": "Fanuc",
+  "path": "quote/tyo/6954",
+  "tk": "6954"
+ },
+ "fast": {
+  "ctry": "USA",
+  "n": "Fastenal",
+  "path": "stocks/fast",
+  "tk": "FAST"
+ },
+ "fcn": {
+  "ctry": "USA",
+  "n": "FTI Consulting",
+  "path": "stocks/fcn",
+  "tk": "FCN"
+ },
+ "fcx": {
+  "ctry": "USA",
+  "n": "Freeport-McMoRan",
+  "path": "stocks/fcx",
+  "tk": "FCX"
+ },
+ "fdp": {
+  "ctry": "USA",
+  "n": "Fresh Del Monte (Del Monte Corporation)",
+  "path": "stocks/fdp",
+  "tk": "FDP"
+ },
+ "fdx": {
+  "ctry": "USA",
+  "n": "FedEx",
+  "path": "stocks/fdx",
+  "tk": "FDX"
+ },
+ "ferg": {
+  "ctry": "USA",
+  "n": "Ferguson Enterprises",
+  "path": "stocks/ferg",
+  "tk": "FERG"
+ },
+ "filatex": {
+  "ctry": "India",
+  "n": "Filatex India",
+  "path": "quote/nse/FILATEX",
+  "tk": "FILATEX"
+ },
+ "fincables": {
+  "ctry": "India",
+  "n": "Finolex Cables",
+  "path": "quote/nse/FINCABLES",
+  "tk": "FINCABLES"
+ },
+ "fineorg": {
+  "ctry": "India",
+  "n": "Fine Organic Industries",
+  "path": "quote/nse/FINEORG",
+  "tk": "FINEORG"
+ },
+ "finolexind": {
+  "ctry": "India",
+  "n": "Finolex Industries",
+  "path": "quote/nse/FINPIPE",
+  "tk": "FINPIPE"
+ },
+ "firstcry": {
+  "ctry": "India",
+  "n": "Brainbees Solutions (FirstCry)",
+  "path": "quote/nse/FIRSTCRY",
+  "tk": "FIRSTCRY"
+ },
+ "fivestar": {
+  "ctry": "India",
+  "n": "Five-Star Business Finance",
+  "path": "quote/nse/FIVESTAR",
+  "tk": "FIVESTAR"
+ },
+ "fix": {
+  "ctry": "USA",
+  "n": "Comfort Systems USA",
+  "path": "stocks/fix",
+  "tk": "FIX"
+ },
+ "flair": {
+  "ctry": "India",
+  "n": "Flair Writing Industries",
+  "path": "quote/nse/FLAIR",
+  "tk": "FLAIR"
+ },
+ "flo": {
+  "ctry": "USA",
+  "n": "Flowers Foods",
+  "path": "stocks/flo",
+  "tk": "FLO"
+ },
+ "flr": {
+  "ctry": "USA",
+  "n": "Fluor",
+  "path": "stocks/flr",
+  "tk": "FLR"
+ },
+ "fls": {
+  "ctry": "USA",
+  "n": "Flowserve",
+  "path": "stocks/fls",
+  "tk": "FLS"
+ },
+ "fluence": {
+  "ctry": "USA",
+  "n": "Fluence Energy",
+  "path": "stocks/flnc",
+  "tk": "FLNC"
+ },
+ "flut": {
+  "ctry": "Ireland",
+  "n": "Flutter Entertainment",
+  "path": "stocks/flut",
+  "tk": "FLUT"
+ },
+ "fmc": {
+  "ctry": "USA",
+  "n": "FMC",
+  "path": "stocks/fmc",
+  "tk": "FMC"
+ },
+ "fmg": {
+  "ctry": "Australia",
+  "n": "Fortescue",
+  "path": "quote/asx/FMG",
+  "tk": "FMG"
+ },
+ "fmgoetze": {
+  "ctry": "India",
+  "n": "Federal-Mogul Goetze (India)",
+  "path": "quote/nse/FMGOETZE",
+  "tk": "FMGOETZE"
+ },
+ "fortis": {
+  "ctry": "India",
+  "n": "Fortis Healthcare",
+  "path": "quote/nse/FORTIS",
+  "tk": "FORTIS"
+ },
+ "fqm": {
+  "ctry": "Canada",
+  "n": "First Quantum Minerals",
+  "path": "quote/tsx/FM",
+  "tk": "FM"
+ },
+ "fres": {
+  "ctry": "UK/Mexico",
+  "n": "Fresnillo",
+  "path": "quote/lon/FRES",
+  "tk": "FRES"
+ },
+ "freshpet": {
+  "ctry": "USA",
+  "n": "Freshpet",
+  "path": "stocks/frpt",
+  "tk": "FRPT"
+ },
+ "fsl": {
+  "ctry": "India",
+  "n": "Firstsource Solutions",
+  "path": "quote/nse/FSL",
+  "tk": "FSL"
+ },
+ "fslr": {
+  "ctry": "USA",
+  "n": "First Solar",
+  "path": "stocks/fslr",
+  "tk": "FSLR"
+ },
+ "fsv": {
+  "ctry": "Canada",
+  "n": "FirstService",
+  "path": "stocks/fsv",
+  "tk": "FSV"
+ },
+ "fti": {
+  "ctry": "UK/USA",
+  "n": "TechnipFMC",
+  "path": "stocks/fti",
+  "tk": "FTI"
+ },
+ "ftnt": {
+  "ctry": "USA",
+  "n": "Fortinet",
+  "path": "stocks/ftnt",
+  "tk": "FTNT"
+ },
+ "ftv": {
+  "ctry": "USA",
+  "n": "Fortive",
+  "path": "stocks/ftv",
+  "tk": "FTV"
+ },
+ "fugro": {
+  "ctry": "Netherlands",
+  "n": "Fugro",
+  "path": "quote/ams/FUR",
+  "tk": "FUR"
+ },
+ "fujifilm": {
+  "ctry": "Japan",
+  "n": "FUJIFILM Holdings",
+  "path": "quote/tyo/4901",
+  "tk": "4901"
+ },
+ "fuller": {
+  "ctry": "USA",
+  "n": "H.B. Fuller",
+  "path": "stocks/ful",
+  "tk": "FUL"
+ },
+ "fun": {
+  "ctry": "USA",
+  "n": "Six Flags Entertainment",
+  "path": "stocks/fun",
+  "tk": "FUN"
+ },
+ "gabriel": {
+  "ctry": "India",
+  "n": "Gabriel India",
+  "path": "quote/nse/GABRIEL",
+  "tk": "GABRIEL"
+ },
+ "gacl": {
+  "ctry": "India",
+  "n": "Gujarat Alkalies and Chemicals",
+  "path": "quote/nse/GUJALKALI",
+  "tk": "GUJALKALI"
+ },
+ "gael": {
+  "ctry": "India",
+  "n": "Gujarat Ambuja Exports",
+  "path": "quote/nse/GAEL",
+  "tk": "GAEL"
+ },
+ "gail": {
+  "ctry": "India",
+  "n": "GAIL (India)",
+  "path": "quote/nse/GAIL",
+  "tk": "GAIL"
+ },
+ "galaxy": {
+  "ctry": "India",
+  "n": "Galaxy Surfactants",
+  "path": "quote/nse/GALAXYSURF",
+  "tk": "GALAXYSURF"
+ },
+ "gandhar": {
+  "ctry": "India",
+  "n": "Gandhar Oil Refinery (India)",
+  "path": "quote/nse/GANDHAR",
+  "tk": "GANDHAR"
+ },
+ "ganecos": {
+  "ctry": "India",
+  "n": "Ganesha Ecosphere",
+  "path": "quote/nse/GANECOS",
+  "tk": "GANECOS"
+ },
+ "gar": {
+  "ctry": "Singapore",
+  "n": "Golden Agri-Resources",
+  "path": "quote/sgx/E5H",
+  "tk": "E5H"
+ },
+ "gartner": {
+  "ctry": "USA",
+  "n": "Gartner",
+  "path": "stocks/it",
+  "tk": "IT"
+ },
+ "garware": {
+  "ctry": "India",
+  "n": "Garware Technical Fibres",
+  "path": "quote/nse/GARFIBRES",
+  "tk": "GARFIBRES"
+ },
+ "gbx": {
+  "ctry": "USA",
+  "n": "Greenbrier Companies",
+  "path": "stocks/gbx",
+  "tk": "GBX"
+ },
+ "gcpl": {
+  "ctry": "India",
+  "n": "Godrej Consumer Products",
+  "path": "quote/nse/GODREJCP",
+  "tk": "GODREJCP"
+ },
+ "gd": {
+  "ctry": "USA",
+  "n": "General Dynamics",
+  "path": "stocks/gd",
+  "tk": "GD"
+ },
+ "gddy": {
+  "ctry": "USA",
+  "n": "GoDaddy",
+  "path": "stocks/gddy",
+  "tk": "GDDY"
+ },
+ "ge": {
+  "ctry": "USA",
+  "n": "GE Aerospace",
+  "path": "stocks/ge",
+  "tk": "GE"
+ },
+ "gea": {
+  "ctry": "Germany",
+  "n": "GEA Group",
+  "path": "quote/etr/G1A",
+  "tk": "G1A"
+ },
+ "gehc": {
+  "ctry": "USA",
+  "n": "GE HealthCare Technologies",
+  "path": "stocks/gehc",
+  "tk": "GEHC"
+ },
+ "genus": {
+  "ctry": "UK",
+  "n": "Genus plc",
+  "path": "quote/lon/GNS",
+  "tk": "GNS"
+ },
+ "genuspower": {
+  "ctry": "India",
+  "n": "Genus Power Infrastructures",
+  "path": "quote/nse/GENUSPOWER",
+  "tk": "GENUSPOWER"
+ },
+ "gerresheimer": {
+  "ctry": "Germany",
+  "n": "Gerresheimer",
+  "path": "quote/etr/GXI",
+  "tk": "GXI"
+ },
+ "geship": {
+  "ctry": "India",
+  "n": "Great Eastern Shipping",
+  "path": "quote/nse/GESHIP",
+  "tk": "GESHIP"
+ },
+ "gev": {
+  "ctry": "USA",
+  "n": "GE Vernova",
+  "path": "stocks/gev",
+  "tk": "GEV"
+ },
+ "gfl": {
+  "ctry": "India",
+  "n": "Gujarat Fluorochemicals",
+  "path": "quote/nse/FLUOROCHEM",
+  "tk": "FLUOROCHEM"
+ },
+ "gflenv": {
+  "ctry": "Canada",
+  "n": "GFL Environmental",
+  "path": "stocks/gfl",
+  "tk": "GFL"
+ },
+ "ghcl": {
+  "ctry": "India",
+  "n": "GHCL",
+  "path": "quote/nse/GHCL",
+  "tk": "GHCL"
+ },
+ "gicre": {
+  "ctry": "India",
+  "n": "General Insurance Corporation of India (GIC Re)",
+  "path": "quote/nse/GICRE",
+  "tk": "GICRE"
+ },
+ "gildan": {
+  "ctry": "Canada",
+  "n": "Gildan Activewear",
+  "path": "stocks/gil",
+  "tk": "GIL"
+ },
+ "gillette": {
+  "ctry": "India",
+  "n": "Gillette India",
+  "path": "quote/nse/GILLETTE",
+  "tk": "GILLETTE"
+ },
+ "gipcl": {
+  "ctry": "India",
+  "n": "Gujarat Industries Power Company",
+  "path": "quote/nse/GIPCL",
+  "tk": "GIPCL"
+ },
+ "gis": {
+  "ctry": "USA",
+  "n": "General Mills",
+  "path": "stocks/gis",
+  "tk": "GIS"
+ },
+ "givaudan": {
+  "ctry": "Switzerland",
+  "n": "Givaudan",
+  "path": "quote/swx/GIVN",
+  "tk": "GIVN"
+ },
+ "glencore": {
+  "ctry": "Switzerland",
+  "n": "Glencore",
+  "path": "quote/lon/GLEN",
+  "tk": "GLEN"
+ },
+ "glenmark": {
+  "ctry": "India",
+  "n": "Glenmark Pharmaceuticals",
+  "path": "quote/nse/GLENMARK",
+  "tk": "GLENMARK"
+ },
+ "globus": {
+  "ctry": "India",
+  "n": "Globus Spirits",
+  "path": "quote/nse/GLOBUSSPR",
+  "tk": "GLOBUSSPR"
+ },
+ "gloster": {
+  "ctry": "India",
+  "n": "Gloster",
+  "path": "quote/nse/GLOSTERLTD",
+  "tk": "GLOSTERLTD"
+ },
+ "gmdc": {
+  "ctry": "India",
+  "n": "Gujarat Mineral Development Corporation",
+  "path": "quote/nse/GMDCLTD",
+  "tk": "GMDCLTD"
+ },
+ "gmrairport": {
+  "ctry": "India",
+  "n": "GMR Airports",
+  "path": "quote/nse/GMRAIRPORT",
+  "tk": "GMRAIRPORT"
+ },
+ "gnfc": {
+  "ctry": "India",
+  "n": "Gujarat Narmada Valley Fertilizers & Chemicals",
+  "path": "quote/nse/GNFC",
+  "tk": "GNFC"
+ },
+ "gnrc": {
+  "ctry": "USA",
+  "n": "Generac Holdings",
+  "path": "stocks/gnrc",
+  "tk": "GNRC"
+ },
+ "gocolors": {
+  "ctry": "India",
+  "n": "Go Fashion (India)",
+  "path": "quote/nse/GOCOLORS",
+  "tk": "GOCOLORS"
+ },
+ "godawari": {
+  "ctry": "India",
+  "n": "Godawari Power & Ispat",
+  "path": "quote/nse/GPIL",
+  "tk": "GPIL"
+ },
+ "godfrey": {
+  "ctry": "India",
+  "n": "Godfrey Phillips India",
+  "path": "quote/nse/GODFRYPHLP",
+  "tk": "GODFRYPHLP"
+ },
+ "godigit": {
+  "ctry": "India",
+  "n": "Go Digit General Insurance",
+  "path": "quote/nse/GODIGIT",
+  "tk": "GODIGIT"
+ },
+ "godrejagro": {
+  "ctry": "India",
+  "n": "Godrej Agrovet",
+  "path": "quote/nse/GODREJAGRO",
+  "tk": "GODREJAGRO"
+ },
+ "godrejprop": {
+  "ctry": "India",
+  "n": "Godrej Properties",
+  "path": "quote/nse/GODREJPROP",
+  "tk": "GODREJPROP"
+ },
+ "gokaldas": {
+  "ctry": "India",
+  "n": "Gokaldas Exports",
+  "path": "quote/nse/GOKEX",
+  "tk": "GOKEX"
+ },
+ "gokul": {
+  "ctry": "India",
+  "n": "Gokul Agro Resources",
+  "path": "quote/nse/GOKULAGRO",
+  "tk": "GOKULAGRO"
+ },
+ "goldiam": {
+  "ctry": "India",
+  "n": "Goldiam International",
+  "path": "quote/nse/GOLDIAM",
+  "tk": "GOLDIAM"
+ },
+ "golf": {
+  "ctry": "USA",
+  "n": "Acushnet Holdings",
+  "path": "stocks/golf",
+  "tk": "GOLF"
+ },
+ "goodricke": {
+  "ctry": "India",
+  "n": "Goodricke Group",
+  "path": "quote/bom/500166",
+  "tk": "500166"
+ },
+ "goodyearin": {
+  "ctry": "India",
+  "n": "Goodyear India",
+  "path": "quote/nse/GOODYEAR",
+  "tk": "GOODYEAR"
+ },
+ "googl": {
+  "ctry": "USA",
+  "n": "Alphabet (Google)",
+  "path": "stocks/googl",
+  "tk": "GOOGL"
+ },
+ "gopal": {
+  "ctry": "India",
+  "n": "Gopal Snacks",
+  "path": "quote/nse/GOPAL",
+  "tk": "GOPAL"
+ },
+ "gpc": {
+  "ctry": "USA",
+  "n": "Genuine Parts Company",
+  "path": "stocks/gpc",
+  "tk": "GPC"
+ },
+ "gpk": {
+  "ctry": "USA",
+  "n": "Graphic Packaging",
+  "path": "stocks/gpk",
+  "tk": "GPK"
+ },
+ "gppl": {
+  "ctry": "India",
+  "n": "Gujarat Pipavav Port",
+  "path": "quote/nse/GPPL",
+  "tk": "GPPL"
+ },
+ "grab": {
+  "ctry": "Singapore",
+  "n": "Grab Holdings",
+  "path": "stocks/grab",
+  "tk": "GRAB"
+ },
+ "granules": {
+  "ctry": "India",
+  "n": "Granules India",
+  "path": "quote/nse/GRANULES",
+  "tk": "GRANULES"
+ },
+ "grasim": {
+  "ctry": "India",
+  "n": "Grasim Industries",
+  "path": "quote/nse/GRASIM",
+  "tk": "GRASIM"
+ },
+ "gravita": {
+  "ctry": "India",
+  "n": "Gravita India",
+  "path": "quote/nse/GRAVITA",
+  "tk": "GRAVITA"
+ },
+ "greavescot": {
+  "ctry": "India",
+  "n": "Greaves Cotton",
+  "path": "quote/nse/GREAVESCOT",
+  "tk": "GREAVESCOT"
+ },
+ "greenpanel": {
+  "ctry": "India",
+  "n": "Greenpanel Industries",
+  "path": "quote/nse/GREENPANEL",
+  "tk": "GREENPANEL"
+ },
+ "greenply": {
+  "ctry": "India",
+  "n": "Greenply Industries",
+  "path": "quote/nse/GREENPLY",
+  "tk": "GREENPLY"
+ },
+ "grieg": {
+  "ctry": "Norway",
+  "n": "Grieg Seafood",
+  "path": "quote/osl/GSF",
+  "tk": "GSF"
+ },
+ "grindwell": {
+  "ctry": "India",
+  "n": "Grindwell Norton",
+  "path": "quote/nse/GRINDWELL",
+  "tk": "GRINDWELL"
+ },
+ "grinfra": {
+  "ctry": "India",
+  "n": "G R Infraprojects",
+  "path": "quote/nse/GRINFRA",
+  "tk": "GRINFRA"
+ },
+ "grm": {
+  "ctry": "India",
+  "n": "GRM Overseas",
+  "path": "quote/nse/GRMOVER",
+  "tk": "GRMOVER"
+ },
+ "grmn": {
+  "ctry": "Switzerland",
+  "n": "Garmin",
+  "path": "stocks/grmn",
+  "tk": "GRMN"
+ },
+ "groww": {
+  "ctry": "India",
+  "n": "Billionbrains Garage Ventures (Groww)",
+  "path": "quote/nse/GROWW",
+  "tk": "GROWW"
+ },
+ "grpltd": {
+  "ctry": "India",
+  "n": "GRP Limited",
+  "path": "quote/nse/GRPLTD",
+  "tk": "GRPLTD"
+ },
+ "grse": {
+  "ctry": "India",
+  "n": "Garden Reach Shipbuilders & Engineers",
+  "path": "quote/nse/GRSE",
+  "tk": "GRSE"
+ },
+ "gsfc": {
+  "ctry": "India",
+  "n": "Gujarat State Fertilizers & Chemicals",
+  "path": "quote/nse/GSFC",
+  "tk": "GSFC"
+ },
+ "gspl": {
+  "ctry": "India",
+  "n": "Gujarat State Petronet",
+  "path": "quote/nse/GSPL",
+  "tk": "GSPL"
+ },
+ "gujgas": {
+  "ctry": "India",
+  "n": "Gujarat Energy (listed as GUJGASLTD)",
+  "path": "quote/nse/GUJGASLTD",
+  "tk": "GUJGASLTD"
+ },
+ "gulfoil": {
+  "ctry": "India",
+  "n": "Gulf Oil Lubricants India",
+  "path": "quote/nse/GULFOILLUB",
+  "tk": "GULFOILLUB"
+ },
+ "gvtd": {
+  "ctry": "India",
+  "n": "GE Vernova T&D India",
+  "path": "quote/bom/522275",
+  "tk": "GVT&D"
+ },
+ "gww": {
+  "ctry": "USA",
+  "n": "W.W. Grainger",
+  "path": "stocks/gww",
+  "tk": "GWW"
+ },
+ "hal": {
+  "ctry": "USA",
+  "n": "Halliburton",
+  "path": "stocks/hal",
+  "tk": "HAL"
+ },
+ "halaero": {
+  "ctry": "India",
+  "n": "Hindustan Aeronautics",
+  "path": "quote/nse/HAL",
+  "tk": "HAL (NSE)"
+ },
+ "haleon": {
+  "ctry": "UK",
+  "n": "Haleon",
+  "path": "quote/lon/HLN",
+  "tk": "HLN"
+ },
+ "hapag": {
+  "ctry": "Germany",
+  "n": "Hapag-Lloyd",
+  "path": "quote/etr/HLAG",
+  "tk": "HLAG"
+ },
+ "happstmnds": {
+  "ctry": "India",
+  "n": "Happiest Minds Technologies",
+  "path": "quote/nse/HAPPSTMNDS",
+  "tk": "HAPPSTMNDS"
+ },
+ "happyforge": {
+  "ctry": "India",
+  "n": "Happy Forgings",
+  "path": "quote/nse/HAPPYFORGE",
+  "tk": "HAPPYFORGE"
+ },
+ "harbour": {
+  "ctry": "UK",
+  "n": "Harbour Energy",
+  "path": "quote/lon/HBR",
+  "tk": "HBR"
+ },
+ "harrisons": {
+  "ctry": "India",
+  "n": "Harrisons Malayalam",
+  "path": "quote/nse/HARRMALAYA",
+  "tk": "HARRMALAYA"
+ },
+ "has": {
+  "ctry": "USA",
+  "n": "Hasbro",
+  "path": "stocks/has",
+  "tk": "HAS"
+ },
+ "hatsun": {
+  "ctry": "India",
+  "n": "Hatsun Agro Product",
+  "path": "quote/nse/HATSUN",
+  "tk": "HATSUN"
+ },
+ "havells": {
+  "ctry": "India",
+  "n": "Havells India",
+  "path": "quote/nse/HAVELLS",
+  "tk": "HAVELLS"
+ },
+ "hawkins": {
+  "ctry": "India",
+  "n": "Hawkins Cookers",
+  "path": "quote/nse/HAWKINCOOK",
+  "tk": "HAWKINCOOK"
+ },
+ "hbi": {
+  "ctry": "USA",
+  "n": "Hanesbrands",
+  "path": "stocks/hbi",
+  "tk": "HBI"
+ },
+ "hblengine": {
+  "ctry": "India",
+  "n": "HBL Engineering",
+  "path": "quote/nse/HBLENGINE",
+  "tk": "HBLENGINE"
+ },
+ "hcc": {
+  "ctry": "USA",
+  "n": "Warrior Met Coal",
+  "path": "stocks/hcc",
+  "tk": "HCC"
+ },
+ "hccind": {
+  "ctry": "India",
+  "n": "Hindustan Construction Company",
+  "path": "quote/nse/HCC",
+  "tk": "HCC (NSE)"
+ },
+ "hcg": {
+  "ctry": "India",
+  "n": "HealthCare Global Enterprises",
+  "path": "quote/nse/HCG",
+  "tk": "HCG"
+ },
+ "hcltech": {
+  "ctry": "India",
+  "n": "HCL Technologies",
+  "path": "quote/nse/HCLTECH",
+  "tk": "HCLTECH"
+ },
+ "hd": {
+  "ctry": "USA",
+  "n": "The Home Depot",
+  "path": "stocks/hd",
+  "tk": "HD"
+ },
+ "hdfcbank": {
+  "ctry": "India",
+  "n": "HDFC Bank",
+  "path": "quote/nse/HDFCBANK",
+  "tk": "HDFCBANK"
+ },
+ "healthineers": {
+  "ctry": "Germany",
+  "n": "Siemens Healthineers",
+  "path": "quote/etr/SHL",
+  "tk": "SHL"
+ },
+ "heidelberg": {
+  "ctry": "Germany",
+  "n": "Heidelberg Materials",
+  "path": "quote/etr/HEI",
+  "tk": "HEI"
+ },
+ "heineken": {
+  "ctry": "Netherlands",
+  "n": "Heineken",
+  "path": "quote/ams/HEIA",
+  "tk": "HEIA"
+ },
+ "helix": {
+  "ctry": "USA",
+  "n": "Helix Energy Solutions",
+  "path": "stocks/hlx",
+  "tk": "HLX"
+ },
+ "henkel": {
+  "ctry": "Germany",
+  "n": "Henkel",
+  "path": "quote/etr/HEN3",
+  "tk": "HEN3"
+ },
+ "heritage": {
+  "ctry": "India",
+  "n": "Heritage Foods",
+  "path": "quote/nse/HERITGFOOD",
+  "tk": "HERITGFOOD"
+ },
+ "hermes": {
+  "ctry": "France",
+  "n": "Hermès International",
+  "path": "quote/epa/RMS",
+  "tk": "RMS"
+ },
+ "heromotoco": {
+  "ctry": "India",
+  "n": "Hero MotoCorp",
+  "path": "quote/nse/HEROMOTOCO",
+  "tk": "HEROMOTOCO"
+ },
+ "hfcl": {
+  "ctry": "India",
+  "n": "HFCL",
+  "path": "quote/nse/HFCL",
+  "tk": "HFCL"
+ },
+ "hginfra": {
+  "ctry": "India",
+  "n": "H.G. Infra Engineering",
+  "path": "quote/nse/HGINFRA",
+  "tk": "HGINFRA"
+ },
+ "hii": {
+  "ctry": "USA",
+  "n": "Huntington Ingalls Industries",
+  "path": "stocks/hii",
+  "tk": "HII"
+ },
+ "himadri": {
+  "ctry": "India",
+  "n": "Himadri Speciality Chemical",
+  "path": "quote/nse/HSCL",
+  "tk": "HSCL"
+ },
+ "himatsingka": {
+  "ctry": "India",
+  "n": "Himatsingka Seide",
+  "path": "quote/nse/HIMATSEIDE",
+  "tk": "HIMATSEIDE"
+ },
+ "hindalco": {
+  "ctry": "India",
+  "n": "Hindalco Industries",
+  "path": "quote/nse/HINDALCO",
+  "tk": "HINDALCO"
+ },
+ "hindcopper": {
+  "ctry": "India",
+  "n": "Hindustan Copper",
+  "path": "quote/nse/HINDCOPPER",
+  "tk": "HINDCOPPER"
+ },
+ "hindzinc": {
+  "ctry": "India",
+  "n": "Hindustan Zinc",
+  "path": "quote/nse/HINDZINC",
+  "tk": "HINDZINC"
+ },
+ "hma": {
+  "ctry": "India",
+  "n": "HMA Agro Industries",
+  "path": "quote/nse/HMAAGRO",
+  "tk": "HMAAGRO"
+ },
+ "hni": {
+  "ctry": "USA",
+  "n": "HNI Corporation",
+  "path": "stocks/hni",
+  "tk": "HNI"
+ },
+ "hokuto": {
+  "ctry": "Japan",
+  "n": "Hokuto Corporation",
+  "path": "quote/tyo/1379",
+  "tk": "1379"
+ },
+ "holcim": {
+  "ctry": "Switzerland",
+  "n": "Holcim",
+  "path": "quote/swx/HOLN",
+  "tk": "HOLN"
+ },
+ "homefirst": {
+  "ctry": "India",
+  "n": "Home First Finance Company India",
+  "path": "quote/nse/HOMEFIRST",
+  "tk": "HOMEFIRST"
+ },
+ "honasa": {
+  "ctry": "India",
+  "n": "Honasa Consumer (Mamaearth)",
+  "path": "quote/nse/HONASA",
+  "tk": "HONASA"
+ },
+ "honaut": {
+  "ctry": "India",
+  "n": "Honeywell Automation India",
+  "path": "quote/nse/HONAUT",
+  "tk": "HONAUT"
+ },
+ "hood": {
+  "ctry": "USA",
+  "n": "Robinhood Markets",
+  "path": "stocks/hood",
+  "tk": "HOOD"
+ },
+ "horiba": {
+  "ctry": "Japan",
+  "n": "HORIBA",
+  "path": "quote/tyo/6856",
+  "tk": "6856"
+ },
+ "hoya": {
+  "ctry": "Japan",
+  "n": "HOYA",
+  "path": "quote/tyo/7741",
+  "tk": "7741"
+ },
+ "hp": {
+  "ctry": "USA",
+  "n": "Helmerich & Payne",
+  "path": "stocks/hp",
+  "tk": "HP"
+ },
+ "hpcl": {
+  "ctry": "India",
+  "n": "Hindustan Petroleum Corporation",
+  "path": "quote/nse/HINDPETRO",
+  "tk": "HINDPETRO"
+ },
+ "hpe": {
+  "ctry": "USA",
+  "n": "Hewlett Packard Enterprise",
+  "path": "stocks/hpe",
+  "tk": "HPE"
+ },
+ "hpl": {
+  "ctry": "India",
+  "n": "HPL Electric & Power",
+  "path": "quote/nse/HPL",
+  "tk": "HPL"
+ },
+ "hpq": {
+  "ctry": "USA",
+  "n": "HP Inc.",
+  "path": "stocks/hpq",
+  "tk": "HPQ"
+ },
+ "hrb": {
+  "ctry": "USA",
+  "n": "H&R Block",
+  "path": "stocks/hrb",
+  "tk": "HRB"
+ },
+ "hrl": {
+  "ctry": "USA",
+  "n": "Hormel Foods",
+  "path": "stocks/hrl",
+  "tk": "HRL"
+ },
+ "hsy": {
+  "ctry": "USA",
+  "n": "Hershey",
+  "path": "stocks/hsy",
+  "tk": "HSY"
+ },
+ "htmedia": {
+  "ctry": "India",
+  "n": "HT Media",
+  "path": "quote/nse/HTMEDIA",
+  "tk": "HTMEDIA"
+ },
+ "htz": {
+  "ctry": "USA",
+  "n": "Hertz Global Holdings",
+  "path": "stocks/htz",
+  "tk": "HTZ"
+ },
+ "hubb": {
+  "ctry": "USA",
+  "n": "Hubbell",
+  "path": "stocks/hubb",
+  "tk": "HUBB"
+ },
+ "huhtamaki": {
+  "ctry": "Finland",
+  "n": "Huhtamäki",
+  "path": "quote/hel/HUH1V",
+  "tk": "HUH1V"
+ },
+ "huhtamakiin": {
+  "ctry": "India",
+  "n": "Huhtamaki India",
+  "path": "quote/nse/HUHTAMAKI",
+  "tk": "HUHTAMAKI"
+ },
+ "hul": {
+  "ctry": "India",
+  "n": "Hindustan Unilever",
+  "path": "quote/nse/HINDUNILVR",
+  "tk": "HINDUNILVR"
+ },
+ "hurn": {
+  "ctry": "USA",
+  "n": "Huron Consulting Group",
+  "path": "stocks/hurn",
+  "tk": "HURN"
+ },
+ "hyundai": {
+  "ctry": "India",
+  "n": "Hyundai Motor India",
+  "path": "quote/nse/HYUNDAI",
+  "tk": "HYUNDAI"
+ },
+ "ibm": {
+  "ctry": "USA",
+  "n": "IBM",
+  "path": "stocks/ibm",
+  "tk": "IBM"
+ },
+ "ice": {
+  "ctry": "USA",
+  "n": "Intercontinental Exchange",
+  "path": "stocks/ice",
+  "tk": "ICE"
+ },
+ "icicibank": {
+  "ctry": "India",
+  "n": "ICICI Bank",
+  "path": "quote/nse/ICICIBANK",
+  "tk": "ICICIBANK"
+ },
+ "icl": {
+  "ctry": "Israel",
+  "n": "ICL Group",
+  "path": "stocks/icl",
+  "tk": "ICL"
+ },
+ "iclr": {
+  "ctry": "Ireland",
+  "n": "ICON plc",
+  "path": "stocks/iclr",
+  "tk": "ICLR"
+ },
+ "icra": {
+  "ctry": "India",
+  "n": "ICRA",
+  "path": "quote/nse/ICRA",
+  "tk": "ICRA"
+ },
+ "idea": {
+  "ctry": "India",
+  "n": "Vodafone Idea",
+  "path": "quote/nse/IDEA",
+  "tk": "IDEA"
+ },
+ "ideaforge": {
+  "ctry": "India",
+  "n": "ideaForge Technology",
+  "path": "quote/nse/IDEAFORGE",
+  "tk": "IDEAFORGE"
+ },
+ "idxx": {
+  "ctry": "USA",
+  "n": "IDEXX Laboratories",
+  "path": "stocks/idxx",
+  "tk": "IDXX"
+ },
+ "iex": {
+  "ctry": "India",
+  "n": "Indian Energy Exchange",
+  "path": "quote/nse/IEX",
+  "tk": "IEX"
+ },
+ "ifbind": {
+  "ctry": "India",
+  "n": "IFB Industries",
+  "path": "quote/nse/IFBIND",
+  "tk": "IFBIND"
+ },
+ "ifci": {
+  "ctry": "India",
+  "n": "IFCI",
+  "path": "quote/nse/IFCI",
+  "tk": "IFCI"
+ },
+ "ifgl": {
+  "ctry": "India",
+  "n": "IFGL Refractories",
+  "path": "quote/nse/IFGLEXPOR",
+  "tk": "IFGLEXPOR"
+ },
+ "ifx": {
+  "ctry": "Germany",
+  "n": "Infineon Technologies",
+  "path": "quote/etr/IFX",
+  "tk": "IFX"
+ },
+ "igl": {
+  "ctry": "India",
+  "n": "Indraprastha Gas",
+  "path": "quote/nse/IGL",
+  "tk": "IGL"
+ },
+ "ihcl": {
+  "ctry": "India",
+  "n": "Indian Hotels (IHCL)",
+  "path": "bom/500850",
+  "tk": "INDHOTEL"
+ },
+ "imagicaa": {
+  "ctry": "India",
+  "n": "Imagicaaworld Entertainment",
+  "path": "quote/nse/IMAGICAA",
+  "tk": "IMAGICAA"
+ },
+ "imerys": {
+  "ctry": "France",
+  "n": "Imerys",
+  "path": "quote/epa/NK",
+  "tk": "NK"
+ },
+ "imfa": {
+  "ctry": "India",
+  "n": "Indian Metals and Ferro Alloys",
+  "path": "quote/nse/IMFA",
+  "tk": "IMFA"
+ },
+ "indiamart": {
+  "ctry": "India",
+  "n": "IndiaMART InterMESH",
+  "path": "quote/nse/INDIAMART",
+  "tk": "INDIAMART"
+ },
+ "indigo": {
+  "ctry": "India",
+  "n": "Indigo Paints",
+  "path": "quote/nse/INDIGOPNTS",
+  "tk": "INDIGOPNTS"
+ },
+ "indocount": {
+  "ctry": "India",
+  "n": "Indo Count Industries",
+  "path": "quote/nse/ICIL",
+  "tk": "ICIL"
+ },
+ "indorama": {
+  "ctry": "India",
+  "n": "Indo Rama Synthetics (India)",
+  "path": "quote/nse/INDORAMA",
+  "tk": "INDORAMA"
+ },
+ "informa": {
+  "ctry": "UK",
+  "n": "Informa",
+  "path": "quote/lon/INF",
+  "tk": "INF"
+ },
+ "infy": {
+  "ctry": "India",
+  "n": "Infosys",
+  "path": "quote/nse/INFY",
+  "tk": "INFY"
+ },
+ "ingerrand": {
+  "ctry": "India",
+  "n": "Ingersoll-Rand (India)",
+  "path": "quote/nse/INGERRAND",
+  "tk": "INGERRAND"
+ },
+ "ingm": {
+  "ctry": "USA",
+  "n": "Ingram Micro Holding",
+  "path": "stocks/ingm",
+  "tk": "INGM"
+ },
+ "ingr": {
+  "ctry": "USA",
+  "n": "Ingredion",
+  "path": "stocks/ingr",
+  "tk": "INGR"
+ },
+ "ingrevia": {
+  "ctry": "India",
+  "n": "Jubilant Ingrevia",
+  "path": "quote/nse/JUBLINGREA",
+  "tk": "JUBLINGREA"
+ },
+ "inoxgreen": {
+  "ctry": "India",
+  "n": "Inox Green Energy Services",
+  "path": "quote/nse/INOXGREEN",
+  "tk": "INOXGREEN"
+ },
+ "inoxwind": {
+  "ctry": "India",
+  "n": "Inox Wind",
+  "path": "quote/nse/INOXWIND",
+  "tk": "INOXWIND"
+ },
+ "insecticides": {
+  "ctry": "India",
+  "n": "Insecticides (India)",
+  "path": "quote/nse/INSECTICID",
+  "tk": "INSECTICID"
+ },
+ "intc": {
+  "ctry": "USA",
+  "n": "Intel",
+  "path": "stocks/intc",
+  "tk": "INTC"
+ },
+ "intellect": {
+  "ctry": "India",
+  "n": "Intellect Design Arena",
+  "path": "quote/nse/INTELLECT",
+  "tk": "INTELLECT"
+ },
+ "interarch": {
+  "ctry": "India",
+  "n": "Interarch Building Solutions",
+  "path": "quote/nse/INTERARCH",
+  "tk": "INTERARCH"
+ },
+ "interface": {
+  "ctry": "USA",
+  "n": "Interface",
+  "path": "stocks/tile",
+  "tk": "TILE"
+ },
+ "interfor": {
+  "ctry": "Canada",
+  "n": "Interfor",
+  "path": "quote/tsx/IFP",
+  "tk": "IFP"
+ },
+ "interglobe": {
+  "ctry": "India",
+  "n": "InterGlobe Aviation (IndiGo)",
+  "path": "quote/nse/INDIGO",
+  "tk": "INDIGO"
+ },
+ "ioc": {
+  "ctry": "India",
+  "n": "Indian Oil Corporation",
+  "path": "quote/nse/IOC",
+  "tk": "IOC"
+ },
+ "ionexchang": {
+  "ctry": "India",
+  "n": "Ion Exchange (India)",
+  "path": "quote/nse/IONEXCHANG",
+  "tk": "IONEXCHANG"
+ },
+ "ip": {
+  "ctry": "USA",
+  "n": "International Paper",
+  "path": "stocks/ip",
+  "tk": "IP"
+ },
+ "ipar": {
+  "ctry": "USA",
+  "n": "Interparfums",
+  "path": "stocks/ipar",
+  "tk": "IPAR"
+ },
+ "ipsos": {
+  "ctry": "France",
+  "n": "Ipsos",
+  "path": "quote/epa/IPS",
+  "tk": "IPS"
+ },
+ "iqv": {
+  "ctry": "USA",
+  "n": "IQVIA Holdings",
+  "path": "stocks/iqv",
+  "tk": "IQV"
+ },
+ "irb": {
+  "ctry": "India",
+  "n": "IRB Infrastructure Developers",
+  "path": "quote/nse/IRB",
+  "tk": "IRB"
+ },
+ "ircon": {
+  "ctry": "India",
+  "n": "Ircon International",
+  "path": "quote/nse/IRCON",
+  "tk": "IRCON"
+ },
+ "irctc": {
+  "ctry": "India",
+  "n": "Indian Railway Catering & Tourism (IRCTC)",
+  "path": "quote/nse/IRCTC",
+  "tk": "IRCTC"
+ },
+ "ireda": {
+  "ctry": "India",
+  "n": "Indian Renewable Energy Development Agency",
+  "path": "quote/nse/IREDA",
+  "tk": "IREDA"
+ },
+ "irfc": {
+  "ctry": "India",
+  "n": "Indian Railway Finance Corporation",
+  "path": "quote/nse/IRFC",
+  "tk": "IRFC"
+ },
+ "isgec": {
+  "ctry": "India",
+  "n": "Isgec Heavy Engineering",
+  "path": "quote/nse/ISGEC",
+  "tk": "ISGEC"
+ },
+ "isrg": {
+  "ctry": "USA",
+  "n": "Intuitive Surgical",
+  "path": "stocks/isrg",
+  "tk": "ISRG"
+ },
+ "iss": {
+  "ctry": "Denmark",
+  "n": "ISS A/S",
+  "path": "quote/cph/ISS",
+  "tk": "ISS"
+ },
+ "itc": {
+  "ctry": "India",
+  "n": "ITC",
+  "path": "quote/nse/ITC",
+  "tk": "ITC"
+ },
+ "itch": {
+  "ctry": "India",
+  "n": "ITC Hotels",
+  "path": "quote/nse/ITCHOTELS",
+  "tk": "ITCHOTELS"
+ },
+ "itochu": {
+  "ctry": "Japan",
+  "n": "ITOCHU",
+  "path": "quote/tyo/8001",
+  "tk": "8001"
+ },
+ "itri": {
+  "ctry": "USA",
+  "n": "Itron",
+  "path": "stocks/itri",
+  "tk": "ITRI"
+ },
+ "itrk": {
+  "ctry": "UK",
+  "n": "Intertek Group",
+  "path": "quote/lon/ITRK",
+  "tk": "ITRK"
+ },
+ "ivl": {
+  "ctry": "Thailand",
+  "n": "Indorama Ventures",
+  "path": "quote/bkk/IVL",
+  "tk": "IVL"
+ },
+ "ixigo": {
+  "ctry": "India",
+  "n": "Le Travenues (ixigo)",
+  "path": "quote/nse/IXIGO",
+  "tk": "IXIGO"
+ },
+ "jacobs": {
+  "ctry": "USA",
+  "n": "Jacobs Solutions",
+  "path": "stocks/j",
+  "tk": "J"
+ },
+ "jagran": {
+  "ctry": "India",
+  "n": "Jagran Prakashan",
+  "path": "quote/nse/JAGRAN",
+  "tk": "JAGRAN"
+ },
+ "jain": {
+  "ctry": "India",
+  "n": "Jain Irrigation Systems",
+  "path": "quote/nse/JISLJALEQS",
+  "tk": "JISLJALEQS"
+ },
+ "jalles": {
+  "ctry": "Brazil",
+  "n": "Jalles Machado",
+  "path": "quote/bvmf/JALL3",
+  "tk": "JALL3"
+ },
+ "jamnaauto": {
+  "ctry": "India",
+  "n": "Jamna Auto Industries",
+  "path": "quote/nse/JAMNAAUTO",
+  "tk": "JAMNAAUTO"
+ },
+ "jayshree": {
+  "ctry": "India",
+  "n": "Jay Shree Tea & Industries",
+  "path": "quote/nse/JAYSREETEA",
+  "tk": "JAYSREETEA"
+ },
+ "jbht": {
+  "ctry": "USA",
+  "n": "J.B. Hunt Transport Services",
+  "path": "stocks/jbht",
+  "tk": "JBHT"
+ },
+ "jbma": {
+  "ctry": "India",
+  "n": "JBM Auto",
+  "path": "quote/nse/JBMA",
+  "tk": "JBMA"
+ },
+ "jbs": {
+  "ctry": "Brazil",
+  "n": "JBS",
+  "path": "stocks/jbs",
+  "tk": "JBS"
+ },
+ "jbss": {
+  "ctry": "USA",
+  "n": "John B. Sanfilippo & Son",
+  "path": "stocks/jbss",
+  "tk": "JBSS"
+ },
+ "jbtm": {
+  "ctry": "USA",
+  "n": "JBT Marel",
+  "path": "stocks/jbtm",
+  "tk": "JBTM"
+ },
+ "jdep": {
+  "ctry": "Netherlands",
+  "n": "JDE Peet's",
+  "path": "quote/ams/JDEP",
+  "tk": "JDEP"
+ },
+ "jeld": {
+  "ctry": "USA",
+  "n": "JELD-WEN Holding",
+  "path": "stocks/jeld",
+  "tk": "JELD"
+ },
+ "jindalpoly": {
+  "ctry": "India",
+  "n": "Jindal Poly Films",
+  "path": "quote/nse/JINDALPOLY",
+  "tk": "JINDALPOLY"
+ },
+ "jindalsaw": {
+  "ctry": "India",
+  "n": "Jindal Saw",
+  "path": "quote/nse/JINDALSAW",
+  "tk": "JINDALSAW"
+ },
+ "jindalsteel": {
+  "ctry": "India",
+  "n": "Jindal Steel",
+  "path": "quote/nse/JINDALSTEL",
+  "tk": "JINDALSTEL"
+ },
+ "jindalww": {
+  "ctry": "India",
+  "n": "Jindal Worldwide",
+  "path": "quote/nse/JINDWORLD",
+  "tk": "JINDWORLD"
+ },
+ "jindrill": {
+  "ctry": "India",
+  "n": "Jindal Drilling & Industries",
+  "path": "quote/nse/JINDRILL",
+  "tk": "JINDRILL"
+ },
+ "jkcement": {
+  "ctry": "India",
+  "n": "J.K. Cement",
+  "path": "quote/nse/JKCEMENT",
+  "tk": "JKCEMENT"
+ },
+ "jklakshmi": {
+  "ctry": "India",
+  "n": "JK Lakshmi Cement",
+  "path": "quote/nse/JKLAKSHMI",
+  "tk": "JKLAKSHMI"
+ },
+ "jkpaper": {
+  "ctry": "India",
+  "n": "JK Paper",
+  "path": "quote/nse/JKPAPER",
+  "tk": "JKPAPER"
+ },
+ "jks": {
+  "ctry": "China",
+  "n": "JinkoSolar",
+  "path": "stocks/jks",
+  "tk": "JKS"
+ },
+ "jktyre": {
+  "ctry": "India",
+  "n": "JK Tyre & Industries",
+  "path": "quote/nse/JKTYRE",
+  "tk": "JKTYRE"
+ },
+ "jlhl": {
+  "ctry": "India",
+  "n": "Jupiter Life Line Hospitals",
+  "path": "quote/nse/JLHL",
+  "tk": "JLHL"
+ },
+ "jll": {
+  "ctry": "USA",
+  "n": "Jones Lang LaSalle",
+  "path": "stocks/jll",
+  "tk": "JLL"
+ },
+ "jppower": {
+  "ctry": "India",
+  "n": "Jaiprakash Power Ventures",
+  "path": "quote/nse/JPPOWER",
+  "tk": "JPPOWER"
+ },
+ "jrcentral": {
+  "ctry": "Japan",
+  "n": "Central Japan Railway",
+  "path": "quote/tyo/9022",
+  "tk": "9022"
+ },
+ "jreast": {
+  "ctry": "Japan",
+  "n": "East Japan Railway",
+  "path": "quote/tyo/9020",
+  "tk": "9020"
+ },
+ "jsfb": {
+  "ctry": "India",
+  "n": "Jana Small Finance Bank",
+  "path": "quote/nse/JSFB",
+  "tk": "JSFB"
+ },
+ "jsl": {
+  "ctry": "India",
+  "n": "Jindal Stainless",
+  "path": "quote/nse/JSL",
+  "tk": "JSL"
+ },
+ "jswdulux": {
+  "ctry": "India",
+  "n": "JSW Dulux (formerly Akzo Nobel India)",
+  "path": "quote/nse/AKZOINDIA",
+  "tk": "AKZOINDIA"
+ },
+ "jswenergy": {
+  "ctry": "India",
+  "n": "JSW Energy",
+  "path": "quote/nse/JSWENERGY",
+  "tk": "JSWENERGY"
+ },
+ "jswinfra": {
+  "ctry": "India",
+  "n": "JSW Infrastructure",
+  "path": "quote/nse/JSWINFRA",
+  "tk": "JSWINFRA"
+ },
+ "jswsteel": {
+  "ctry": "India",
+  "n": "JSW Steel",
+  "path": "quote/nse/JSWSTEEL",
+  "tk": "JSWSTEEL"
+ },
+ "jt": {
+  "ctry": "Japan",
+  "n": "Japan Tobacco",
+  "path": "quote/tyo/2914",
+  "tk": "2914"
+ },
+ "jubl": {
+  "ctry": "India",
+  "n": "Jubilant FoodWorks",
+  "path": "quote/nse/JUBLFOOD",
+  "tk": "JUBLFOOD"
+ },
+ "juniper": {
+  "ctry": "India",
+  "n": "Juniper Hotels",
+  "path": "quote/nse/JUNIPER",
+  "tk": "JUNIPER"
+ },
+ "justdial": {
+  "ctry": "India",
+  "n": "Just Dial",
+  "path": "quote/nse/JUSTDIAL",
+  "tk": "JUSTDIAL"
+ },
+ "jwl": {
+  "ctry": "India",
+  "n": "Jupiter Wagons",
+  "path": "quote/nse/JWL",
+  "tk": "JWL"
+ },
+ "jyothy": {
+  "ctry": "India",
+  "n": "Jyothy Labs",
+  "path": "quote/nse/JYOTHYLAB",
+  "tk": "JYOTHYLAB"
+ },
+ "kajaria": {
+  "ctry": "India",
+  "n": "Kajaria Ceramics",
+  "path": "quote/nse/KAJARIACER",
+  "tk": "KAJARIACER"
+ },
+ "kalyankjil": {
+  "ctry": "India",
+  "n": "Kalyan Jewellers India",
+  "path": "quote/nse/KALYANKJIL",
+  "tk": "KALYANKJIL"
+ },
+ "kansai": {
+  "ctry": "India",
+  "n": "Kansai Nerolac Paints",
+  "path": "quote/nse/KANSAINER",
+  "tk": "KANSAINER"
+ },
+ "kap": {
+  "ctry": "Kazakhstan",
+  "n": "Kazatomprom",
+  "path": "quote/lon/KAP",
+  "tk": "KAP"
+ },
+ "kaveri": {
+  "ctry": "India",
+  "n": "Kaveri Seed Company",
+  "path": "quote/nse/KSCL",
+  "tk": "KSCL"
+ },
+ "kaynes": {
+  "ctry": "India",
+  "n": "Kaynes Technology India",
+  "path": "quote/nse/KAYNES",
+  "tk": "KAYNES"
+ },
+ "kd": {
+  "ctry": "USA",
+  "n": "Kyndryl Holdings",
+  "path": "stocks/kd",
+  "tk": "KD"
+ },
+ "kdp": {
+  "ctry": "USA",
+  "n": "Keurig Dr Pepper",
+  "path": "stocks/kdp",
+  "tk": "KDP"
+ },
+ "kec": {
+  "ctry": "India",
+  "n": "KEC International",
+  "path": "quote/nse/KEC",
+  "tk": "KEC"
+ },
+ "kei": {
+  "ctry": "India",
+  "n": "KEI Industries",
+  "path": "quote/nse/KEI",
+  "tk": "KEI"
+ },
+ "kernex": {
+  "ctry": "India",
+  "n": "Kernex Microsystems (India)",
+  "path": "quote/nse/KERNEX",
+  "tk": "KERNEX"
+ },
+ "keys": {
+  "ctry": "USA",
+  "n": "Keysight Technologies",
+  "path": "stocks/keys",
+  "tk": "KEYS"
+ },
+ "kfintech": {
+  "ctry": "India",
+  "n": "KFin Technologies",
+  "path": "quote/nse/KFINTECH",
+  "tk": "KFINTECH"
+ },
+ "khadim": {
+  "ctry": "India",
+  "n": "Khadim India",
+  "path": "quote/nse/KHADIM",
+  "tk": "KHADIM"
+ },
+ "khc": {
+  "ctry": "USA",
+  "n": "Kraft Heinz",
+  "path": "stocks/khc",
+  "tk": "KHC"
+ },
+ "kims": {
+  "ctry": "India",
+  "n": "Krishna Institute of Medical Sciences",
+  "path": "quote/nse/KIMS",
+  "tk": "KIMS"
+ },
+ "kiocl": {
+  "ctry": "India",
+  "n": "KIOCL",
+  "path": "quote/nse/KIOCL",
+  "tk": "KIOCL"
+ },
+ "kiri": {
+  "ctry": "India",
+  "n": "Kiri Industries",
+  "path": "quote/nse/KIRIINDUS",
+  "tk": "KIRIINDUS"
+ },
+ "kirlferrous": {
+  "ctry": "India",
+  "n": "Kirloskar Ferrous Industries",
+  "path": "quote/nse/KIRLFER",
+  "tk": "KIRLFER"
+ },
+ "kirlosbros": {
+  "ctry": "India",
+  "n": "Kirloskar Brothers",
+  "path": "quote/nse/KIRLOSBROS",
+  "tk": "KIRLOSBROS"
+ },
+ "kirloseng": {
+  "ctry": "India",
+  "n": "Kirloskar Oil Engines",
+  "path": "quote/nse/KIRLOSENG",
+  "tk": "KIRLOSENG"
+ },
+ "kitex": {
+  "ctry": "India",
+  "n": "Kitex Garments",
+  "path": "quote/nse/KITEX",
+  "tk": "KITEX"
+ },
+ "klac": {
+  "ctry": "USA",
+  "n": "KLA Corporation",
+  "path": "stocks/klac",
+  "tk": "KLAC"
+ },
+ "kmb": {
+  "ctry": "USA",
+  "n": "Kimberly-Clark",
+  "path": "stocks/kmb",
+  "tk": "KMB"
+ },
+ "kmi": {
+  "ctry": "USA",
+  "n": "Kinder Morgan",
+  "path": "stocks/kmi",
+  "tk": "KMI"
+ },
+ "kmx": {
+  "ctry": "USA",
+  "n": "CarMax",
+  "path": "stocks/kmx",
+  "tk": "KMX"
+ },
+ "knf": {
+  "ctry": "USA",
+  "n": "Knife River",
+  "path": "stocks/knf",
+  "tk": "KNF"
+ },
+ "knin": {
+  "ctry": "Switzerland",
+  "n": "Kuehne + Nagel International",
+  "path": "quote/swx/KNIN",
+  "tk": "KNIN"
+ },
+ "knrcon": {
+  "ctry": "India",
+  "n": "KNR Constructions",
+  "path": "quote/nse/KNRCON",
+  "tk": "KNRCON"
+ },
+ "ko": {
+  "ctry": "USA",
+  "n": "Coca-Cola",
+  "path": "stocks/ko",
+  "tk": "KO"
+ },
+ "komatsu": {
+  "ctry": "Japan",
+  "n": "Komatsu",
+  "path": "quote/tyo/6301",
+  "tk": "6301"
+ },
+ "kone": {
+  "ctry": "Finland",
+  "n": "KONE",
+  "path": "quote/hel/KNEBV",
+  "tk": "KNEBV"
+ },
+ "konecranes": {
+  "ctry": "Finland",
+  "n": "Konecranes",
+  "path": "quote/hel/KCR",
+  "tk": "KCR"
+ },
+ "kotakbank": {
+  "ctry": "India",
+  "n": "Kotak Mahindra Bank",
+  "path": "quote/nse/KOTAKBANK",
+  "tk": "KOTAKBANK"
+ },
+ "kpigreen": {
+  "ctry": "India",
+  "n": "KPI Green Energy",
+  "path": "quote/nse/KPIGREEN",
+  "tk": "KPIGREEN"
+ },
+ "kpil": {
+  "ctry": "India",
+  "n": "Kalpataru Projects International",
+  "path": "quote/nse/KPIL",
+  "tk": "KPIL"
+ },
+ "kpittech": {
+  "ctry": "India",
+  "n": "KPIT Technologies",
+  "path": "quote/nse/KPITTECH",
+  "tk": "KPITTECH"
+ },
+ "kpr": {
+  "ctry": "India",
+  "n": "K.P.R. Mill",
+  "path": "quote/nse/KPRMILL",
+  "tk": "KPRMILL"
+ },
+ "kr": {
+  "ctry": "USA",
+  "n": "Kroger",
+  "path": "stocks/kr",
+  "tk": "KR"
+ },
+ "krbl": {
+  "ctry": "India",
+  "n": "KRBL",
+  "path": "quote/nse/KRBL",
+  "tk": "KRBL"
+ },
+ "krones": {
+  "ctry": "Germany",
+  "n": "Krones",
+  "path": "quote/etr/KRN",
+  "tk": "KRN"
+ },
+ "krsnaa": {
+  "ctry": "India",
+  "n": "Krsnaa Diagnostics",
+  "path": "quote/nse/KRSNAA",
+  "tk": "KRSNAA"
+ },
+ "ks": {
+  "ctry": "Germany",
+  "n": "K+S",
+  "path": "quote/etr/SDF",
+  "tk": "SDF"
+ },
+ "ksb": {
+  "ctry": "India",
+  "n": "KSB Limited (India)",
+  "path": "quote/nse/KSB",
+  "tk": "KSB"
+ },
+ "ktos": {
+  "ctry": "USA",
+  "n": "Kratos Defense & Security Solutions",
+  "path": "stocks/ktos",
+  "tk": "KTOS"
+ },
+ "kuantum": {
+  "ctry": "India",
+  "n": "Kuantum Papers",
+  "path": "quote/nse/KUANTUM",
+  "tk": "KUANTUM"
+ },
+ "kws": {
+  "ctry": "Germany",
+  "n": "KWS Saat",
+  "path": "quote/etr/KWS",
+  "tk": "KWS"
+ },
+ "lad": {
+  "ctry": "USA",
+  "n": "Lithia Motors",
+  "path": "stocks/lad",
+  "tk": "LAD"
+ },
+ "lalpathlab": {
+  "ctry": "India",
+  "n": "Dr. Lal PathLabs",
+  "path": "quote/nse/LALPATHLAB",
+  "tk": "LALPATHLAB"
+ },
+ "landis": {
+  "ctry": "Switzerland",
+  "n": "Landis+Gyr Group",
+  "path": "quote/swx/LAND",
+  "tk": "LAND"
+ },
+ "landmark": {
+  "ctry": "India",
+  "n": "Landmark Cars",
+  "path": "quote/nse/LANDMARK",
+  "tk": "LANDMARK"
+ },
+ "laopala": {
+  "ctry": "India",
+  "n": "La Opala RG",
+  "path": "quote/nse/LAOPALA",
+  "tk": "LAOPALA"
+ },
+ "latentview": {
+  "ctry": "India",
+  "n": "Latent View Analytics",
+  "path": "quote/nse/LATENTVIEW",
+  "tk": "LATENTVIEW"
+ },
+ "laurus": {
+  "ctry": "India",
+  "n": "Laurus Labs",
+  "path": "quote/nse/LAURUSLABS",
+  "tk": "LAURUSLABS"
+ },
+ "laxmi": {
+  "ctry": "India",
+  "n": "Laxmi Organic Industries",
+  "path": "quote/nse/LXCHEM",
+  "tk": "LXCHEM"
+ },
+ "laxmidentl": {
+  "ctry": "India",
+  "n": "Laxmi Dental",
+  "path": "quote/nse/LAXMIDENTL",
+  "tk": "LAXMIDENTL"
+ },
+ "laxmimach": {
+  "ctry": "India",
+  "n": "LMW (Lakshmi Machine Works)",
+  "path": "quote/nse/LAXMIMACH",
+  "tk": "LAXMIMACH"
+ },
+ "lea": {
+  "ctry": "USA",
+  "n": "Lear Corporation",
+  "path": "stocks/lea",
+  "tk": "LEA"
+ },
+ "leela": {
+  "ctry": "India",
+  "n": "Leela Palaces Hotels & Resorts",
+  "path": "bom/544408",
+  "tk": "THELEELA"
+ },
+ "legrand": {
+  "ctry": "France",
+  "n": "Legrand",
+  "path": "quote/epa/LR",
+  "tk": "LR"
+ },
+ "lemon": {
+  "ctry": "India",
+  "n": "Lemon Tree Hotels",
+  "path": "quote/nse/LEMONTREE",
+  "tk": "LEMONTREE"
+ },
+ "lenovo": {
+  "ctry": "China",
+  "n": "Lenovo Group",
+  "path": "quote/hkg/0992",
+  "tk": "0992"
+ },
+ "lenskart": {
+  "ctry": "India",
+  "n": "Lenskart Solutions",
+  "path": "quote/nse/LENSKART",
+  "tk": "LENSKART"
+ },
+ "lenzing": {
+  "ctry": "Austria",
+  "n": "Lenzing",
+  "path": "quote/vie/LNZ",
+  "tk": "LNZ"
+ },
+ "leroy": {
+  "ctry": "Norway",
+  "n": "Lerøy Seafood Group",
+  "path": "quote/osl/LSG",
+  "tk": "LSG"
+ },
+ "levi": {
+  "ctry": "USA",
+  "n": "Levi Strauss",
+  "path": "stocks/levi",
+  "tk": "LEVI"
+ },
+ "lfus": {
+  "ctry": "USA",
+  "n": "Littelfuse",
+  "path": "stocks/lfus",
+  "tk": "LFUS"
+ },
+ "liberty": {
+  "ctry": "USA",
+  "n": "Liberty Energy",
+  "path": "stocks/lbrt",
+  "tk": "LBRT"
+ },
+ "libertyshoes": {
+  "ctry": "India",
+  "n": "Liberty Shoes",
+  "path": "quote/nse/LIBERTSHOE",
+  "tk": "LIBERTSHOE"
+ },
+ "lichsgfin": {
+  "ctry": "India",
+  "n": "LIC Housing Finance",
+  "path": "quote/nse/LICHSGFIN",
+  "tk": "LICHSGFIN"
+ },
+ "lici": {
+  "ctry": "India",
+  "n": "Life Insurance Corporation of India",
+  "path": "quote/nse/LICI",
+  "tk": "LICI"
+ },
+ "linc": {
+  "ctry": "India",
+  "n": "Linc",
+  "path": "quote/nse/LINC",
+  "tk": "LINC"
+ },
+ "linde": {
+  "ctry": "UK/USA",
+  "n": "Linde plc",
+  "path": "stocks/lin",
+  "tk": "LIN"
+ },
+ "lindeindia": {
+  "ctry": "India",
+  "n": "Linde India",
+  "path": "quote/nse/LINDEINDIA",
+  "tk": "LINDEINDIA"
+ },
+ "lindt": {
+  "ctry": "Switzerland",
+  "n": "Lindt & Sprüngli",
+  "path": "quote/swx/LISN",
+  "tk": "LISN"
+ },
+ "line": {
+  "ctry": "USA",
+  "n": "Lineage",
+  "path": "stocks/line",
+  "tk": "LINE"
+ },
+ "lkq": {
+  "ctry": "USA",
+  "n": "LKQ Corporation",
+  "path": "stocks/lkq",
+  "tk": "LKQ"
+ },
+ "lmnr": {
+  "ctry": "USA",
+  "n": "Limoneira",
+  "path": "stocks/lmnr",
+  "tk": "LMNR"
+ },
+ "locl": {
+  "ctry": "USA",
+  "n": "Local Bounti",
+  "path": "stocks/locl",
+  "tk": "LOCL"
+ },
+ "lodha": {
+  "ctry": "India",
+  "n": "Lodha Developers",
+  "path": "quote/nse/LODHA",
+  "tk": "LODHA"
+ },
+ "logi": {
+  "ctry": "Switzerland",
+  "n": "Logitech International",
+  "path": "stocks/logi",
+  "tk": "LOGI"
+ },
+ "lope": {
+  "ctry": "USA",
+  "n": "Grand Canyon Education",
+  "path": "stocks/lope",
+  "tk": "LOPE"
+ },
+ "loreal": {
+  "ctry": "France",
+  "n": "L'Oréal",
+  "path": "quote/epa/OR",
+  "tk": "OR"
+ },
+ "low": {
+  "ctry": "USA",
+  "n": "Lowe's Companies",
+  "path": "stocks/low",
+  "tk": "LOW"
+ },
+ "lrcx": {
+  "ctry": "USA",
+  "n": "Lam Research",
+  "path": "stocks/lrcx",
+  "tk": "LRCX"
+ },
+ "lseg": {
+  "ctry": "UK",
+  "n": "London Stock Exchange Group",
+  "path": "quote/lon/LSEG",
+  "tk": "LSEG"
+ },
+ "lt": {
+  "ctry": "India",
+  "n": "Larsen & Toubro",
+  "path": "quote/nse/LT",
+  "tk": "LT"
+ },
+ "ltfoods": {
+  "ctry": "India",
+  "n": "LT Foods",
+  "path": "quote/nse/LTFOODS",
+  "tk": "LTFOODS"
+ },
+ "lucara": {
+  "ctry": "Canada",
+  "n": "Lucara Diamond",
+  "path": "quote/tsx/LUC",
+  "tk": "LUC"
+ },
+ "lumaxind": {
+  "ctry": "India",
+  "n": "Lumax Industries",
+  "path": "quote/nse/LUMAXIND",
+  "tk": "LUMAXIND"
+ },
+ "lupin": {
+  "ctry": "India",
+  "n": "Lupin",
+  "path": "quote/nse/LUPIN",
+  "tk": "LUPIN"
+ },
+ "lux": {
+  "ctry": "India",
+  "n": "Lux Industries",
+  "path": "quote/nse/LUXIND",
+  "tk": "LUXIND"
+ },
+ "lvs": {
+  "ctry": "USA",
+  "n": "Las Vegas Sands",
+  "path": "stocks/lvs",
+  "tk": "LVS"
+ },
+ "lw": {
+  "ctry": "USA",
+  "n": "Lamb Weston",
+  "path": "stocks/lw",
+  "tk": "LW"
+ },
+ "lyb": {
+  "ctry": "Netherlands",
+  "n": "LyondellBasell",
+  "path": "stocks/lyb",
+  "tk": "LYB"
+ },
+ "lyft": {
+  "ctry": "USA",
+  "n": "Lyft",
+  "path": "stocks/lyft",
+  "tk": "LYFT"
+ },
+ "lynas": {
+  "ctry": "Australia",
+  "n": "Lynas Rare Earths",
+  "path": "quote/asx/LYC",
+  "tk": "LYC"
+ },
+ "lyv": {
+  "ctry": "USA",
+  "n": "Live Nation Entertainment (Ticketmaster)",
+  "path": "stocks/lyv",
+  "tk": "LYV"
+ },
+ "lzb": {
+  "ctry": "USA",
+  "n": "La-Z-Boy",
+  "path": "stocks/lzb",
+  "tk": "LZB"
+ },
+ "ma": {
+  "ctry": "USA",
+  "n": "Mastercard",
+  "path": "stocks/ma",
+  "tk": "MA"
+ },
+ "macmahon": {
+  "ctry": "Australia",
+  "n": "Macmahon Holdings",
+  "path": "quote/asx/MAH",
+  "tk": "MAH"
+ },
+ "maersk": {
+  "ctry": "Denmark",
+  "n": "A.P. Møller - Mærsk",
+  "path": "quote/cph/MAERSK.B",
+  "tk": "MAERSK.B"
+ },
+ "magnera": {
+  "ctry": "USA",
+  "n": "Magnera",
+  "path": "stocks/magn",
+  "tk": "MAGN"
+ },
+ "magnum": {
+  "ctry": "Netherlands",
+  "n": "The Magnum Ice Cream Company",
+  "path": "quote/ams/MICC",
+  "tk": "MICC"
+ },
+ "mahseamless": {
+  "ctry": "India",
+  "n": "Maharashtra Seamless",
+  "path": "quote/nse/MAHSEAMLES",
+  "tk": "MAHSEAMLES"
+ },
+ "maithan": {
+  "ctry": "India",
+  "n": "Maithan Alloys",
+  "path": "quote/nse/MAITHANALL",
+  "tk": "MAITHANALL"
+ },
+ "makita": {
+  "ctry": "Japan",
+  "n": "Makita",
+  "path": "quote/tyo/6586",
+  "tk": "6586"
+ },
+ "manappuram": {
+  "ctry": "India",
+  "n": "Manappuram Finance",
+  "path": "quote/nse/MANAPPURAM",
+  "tk": "MANAPPURAM"
+ },
+ "mankind": {
+  "ctry": "India",
+  "n": "Mankind Pharma",
+  "path": "quote/nse/MANKIND",
+  "tk": "MANKIND"
+ },
+ "manu": {
+  "ctry": "UK",
+  "n": "Manchester United",
+  "path": "stocks/manu",
+  "tk": "MANU"
+ },
+ "mapmy": {
+  "ctry": "India",
+  "n": "MapmyIndia (C.E. Info Systems)",
+  "path": "quote/nse/MAPMYINDIA",
+  "tk": "MAPMYINDIA"
+ },
+ "marico": {
+  "ctry": "India",
+  "n": "Marico",
+  "path": "quote/nse/MARICO",
+  "tk": "MARICO"
+ },
+ "maruti": {
+  "ctry": "India",
+  "n": "Maruti Suzuki India",
+  "path": "quote/nse/MARUTI",
+  "tk": "MARUTI"
+ },
+ "mat": {
+  "ctry": "USA",
+  "n": "Mattel",
+  "path": "stocks/mat",
+  "tk": "MAT"
+ },
+ "matrimony": {
+  "ctry": "India",
+  "n": "Matrimony.com",
+  "path": "quote/nse/MATRIMONY",
+  "tk": "MATRIMONY"
+ },
+ "maxhealth": {
+  "ctry": "India",
+  "n": "Max Healthcare Institute",
+  "path": "quote/nse/MAXHEALTH",
+  "tk": "MAXHEALTH"
+ },
+ "mazdock": {
+  "ctry": "India",
+  "n": "Mazagon Dock Shipbuilders",
+  "path": "quote/nse/MAZDOCK",
+  "tk": "MAZDOCK"
+ },
+ "mbrf": {
+  "ctry": "Brazil",
+  "n": "MBRF Global Foods (Marfrig and BRF)",
+  "path": "quote/bvmf/MBRF3",
+  "tk": "MBRF3"
+ },
+ "mcfl": {
+  "ctry": "India",
+  "n": "Mangalore Chemicals & Fertilizers",
+  "path": "quote/nse/MANGCHEFER",
+  "tk": "MANGCHEFER"
+ },
+ "mcft": {
+  "ctry": "USA",
+  "n": "MasterCraft Boat Holdings",
+  "path": "stocks/mcft",
+  "tk": "MCFT"
+ },
+ "mchp": {
+  "ctry": "USA",
+  "n": "Microchip Technology",
+  "path": "stocks/mchp",
+  "tk": "MCHP"
+ },
+ "mck": {
+  "ctry": "USA",
+  "n": "McKesson",
+  "path": "stocks/mck",
+  "tk": "MCK"
+ },
+ "mcleod": {
+  "ctry": "India",
+  "n": "McLeod Russel India",
+  "path": "quote/nse/MCLEODRUSS",
+  "tk": "MCLEODRUSS"
+ },
+ "mcx": {
+  "ctry": "India",
+  "n": "Multi Commodity Exchange of India",
+  "path": "quote/nse/MCX",
+  "tk": "MCX"
+ },
+ "mdlz": {
+  "ctry": "USA",
+  "n": "Mondelez International",
+  "path": "stocks/mdlz",
+  "tk": "MDLZ"
+ },
+ "mdt": {
+  "ctry": "Ireland",
+  "n": "Medtronic",
+  "path": "stocks/mdt",
+  "tk": "MDT"
+ },
+ "medanta": {
+  "ctry": "India",
+  "n": "Global Health (Medanta)",
+  "path": "quote/nse/MEDANTA",
+  "tk": "MEDANTA"
+ },
+ "medplus": {
+  "ctry": "India",
+  "n": "MedPlus Health Services",
+  "path": "quote/nse/MEDPLUS",
+  "tk": "MEDPLUS"
+ },
+ "meesho": {
+  "ctry": "India",
+  "n": "Meesho",
+  "path": "quote/nse/MEESHO",
+  "tk": "MEESHO"
+ },
+ "meghmani": {
+  "ctry": "India",
+  "n": "Meghmani Organics",
+  "path": "quote/nse/MOL",
+  "tk": "MOL"
+ },
+ "meli": {
+  "ctry": "Argentina",
+  "n": "MercadoLibre",
+  "path": "stocks/meli",
+  "tk": "MELI"
+ },
+ "met": {
+  "ctry": "USA",
+  "n": "MetLife",
+  "path": "stocks/met",
+  "tk": "MET"
+ },
+ "meta": {
+  "ctry": "USA",
+  "n": "Meta Platforms",
+  "path": "stocks/meta",
+  "tk": "META"
+ },
+ "metc": {
+  "ctry": "USA",
+  "n": "Ramaco Resources",
+  "path": "stocks/metc",
+  "tk": "METC"
+ },
+ "metrobrand": {
+  "ctry": "India",
+  "n": "Metro Brands",
+  "path": "quote/nse/METROBRAND",
+  "tk": "METROBRAND"
+ },
+ "metropolis": {
+  "ctry": "India",
+  "n": "Metropolis Healthcare",
+  "path": "quote/nse/METROPOLIS",
+  "tk": "METROPOLIS"
+ },
+ "mfsl": {
+  "ctry": "India",
+  "n": "Max Financial Services (Axis Max Life)",
+  "path": "quote/nse/MFSL",
+  "tk": "MFSL"
+ },
+ "mgl": {
+  "ctry": "India",
+  "n": "Mahanagar Gas",
+  "path": "quote/nse/MGL",
+  "tk": "MGL"
+ },
+ "mhi": {
+  "ctry": "Japan",
+  "n": "Mitsubishi Heavy Industries",
+  "path": "quote/tyo/7011",
+  "tk": "7011"
+ },
+ "mhril": {
+  "ctry": "India",
+  "n": "Mahindra Holidays & Resorts",
+  "path": "quote/nse/MHRIL",
+  "tk": "MHRIL"
+ },
+ "micron20": {
+  "ctry": "India",
+  "n": "20 Microns",
+  "path": "quote/nse/20MICRONS",
+  "tk": "20MICRONS"
+ },
+ "mindacorp": {
+  "ctry": "India",
+  "n": "Minda Corporation",
+  "path": "quote/nse/MINDACORP",
+  "tk": "MINDACORP"
+ },
+ "mindspace": {
+  "ctry": "India",
+  "n": "Mindspace Business Parks REIT",
+  "path": "quote/nse/MINDSPACE",
+  "tk": "MINDSPACE"
+ },
+ "minerva": {
+  "ctry": "Brazil",
+  "n": "Minerva",
+  "path": "quote/bvmf/BEEF3",
+  "tk": "BEEF3"
+ },
+ "mirza": {
+  "ctry": "India",
+  "n": "Mirza International",
+  "path": "quote/nse/MIRZAINT",
+  "tk": "MIRZAINT"
+ },
+ "mitsubishi": {
+  "ctry": "Japan",
+  "n": "Mitsubishi Corporation",
+  "path": "quote/tyo/8058",
+  "tk": "8058"
+ },
+ "mitsui": {
+  "ctry": "Japan",
+  "n": "Mitsui & Co.",
+  "path": "quote/tyo/8031",
+  "tk": "8031"
+ },
+ "mkc": {
+  "ctry": "USA",
+  "n": "McCormick & Company",
+  "path": "stocks/mkc",
+  "tk": "MKC"
+ },
+ "mlkn": {
+  "ctry": "USA",
+  "n": "MillerKnoll",
+  "path": "stocks/mlkn",
+  "tk": "MLKN"
+ },
+ "mlm": {
+  "ctry": "USA",
+  "n": "Martin Marietta Materials",
+  "path": "stocks/mlm",
+  "tk": "MLM"
+ },
+ "mm": {
+  "ctry": "India",
+  "n": "Mahindra & Mahindra",
+  "path": "quote/bom/500520",
+  "tk": "M&M"
+ },
+ "mmc": {
+  "ctry": "USA",
+  "n": "Marsh McLennan",
+  "path": "stocks/mmc",
+  "tk": "MRSH"
+ },
+ "mmforge": {
+  "ctry": "India",
+  "n": "M M Forgings",
+  "path": "quote/nse/MMFL",
+  "tk": "MMFL"
+ },
+ "mmm": {
+  "ctry": "USA",
+  "n": "3M Company",
+  "path": "stocks/mmm",
+  "tk": "MMM"
+ },
+ "mmyt": {
+  "ctry": "India",
+  "n": "MakeMyTrip (Nasdaq-listed)",
+  "path": "stocks/mmyt",
+  "tk": "MMYT"
+ },
+ "mnro": {
+  "ctry": "USA",
+  "n": "Monro",
+  "path": "stocks/mnro",
+  "tk": "MNRO"
+ },
+ "mo": {
+  "ctry": "USA",
+  "n": "Altria Group",
+  "path": "stocks/mo",
+  "tk": "MO"
+ },
+ "moderna": {
+  "ctry": "USA",
+  "n": "Moderna",
+  "path": "stocks/mrna",
+  "tk": "MRNA"
+ },
+ "mohawk": {
+  "ctry": "USA",
+  "n": "Mohawk Industries",
+  "path": "stocks/mhk",
+  "tk": "MHK"
+ },
+ "moil": {
+  "ctry": "India",
+  "n": "MOIL",
+  "path": "quote/nse/MOIL",
+  "tk": "MOIL"
+ },
+ "moldtek": {
+  "ctry": "India",
+  "n": "Mold-Tek Packaging",
+  "path": "quote/nse/MOLDTKPAC",
+  "tk": "MOLDTKPAC"
+ },
+ "mondi": {
+  "ctry": "UK",
+  "n": "Mondi",
+  "path": "quote/lon/MNDI",
+  "tk": "MNDI"
+ },
+ "monster": {
+  "ctry": "USA",
+  "n": "Monster Beverage",
+  "path": "stocks/mnst",
+  "tk": "MNST"
+ },
+ "mos": {
+  "ctry": "USA",
+  "n": "Mosaic",
+  "path": "stocks/mos",
+  "tk": "MOS"
+ },
+ "motherson": {
+  "ctry": "India",
+  "n": "Samvardhana Motherson International",
+  "path": "quote/nse/MOTHERSON",
+  "tk": "MOTHERSON"
+ },
+ "motilalofs": {
+  "ctry": "India",
+  "n": "Motilal Oswal Financial Services",
+  "path": "quote/nse/MOTILALOFS",
+  "tk": "MOTILALOFS"
+ },
+ "mowi": {
+  "ctry": "Norway",
+  "n": "Mowi",
+  "path": "quote/osl/MOWI",
+  "tk": "MOWI"
+ },
+ "mp": {
+  "ctry": "USA",
+  "n": "MP Materials",
+  "path": "stocks/mp",
+  "tk": "MP"
+ },
+ "mphasis": {
+  "ctry": "India",
+  "n": "Mphasis",
+  "path": "quote/nse/MPHASIS",
+  "tk": "MPHASIS"
+ },
+ "mrf": {
+  "ctry": "India",
+  "n": "MRF",
+  "path": "quote/nse/MRF",
+  "tk": "MRF"
+ },
+ "mrpl": {
+  "ctry": "India",
+  "n": "Mangalore Refinery and Petrochemicals",
+  "path": "quote/nse/MRPL",
+  "tk": "MRPL"
+ },
+ "msft": {
+  "ctry": "USA",
+  "n": "Microsoft",
+  "path": "stocks/msft",
+  "tk": "MSFT"
+ },
+ "msi": {
+  "ctry": "USA",
+  "n": "Motorola Solutions",
+  "path": "stocks/msi",
+  "tk": "MSI"
+ },
+ "msm": {
+  "ctry": "USA",
+  "n": "MSC Industrial Direct",
+  "path": "stocks/msm",
+  "tk": "MSM"
+ },
+ "mtartech": {
+  "ctry": "India",
+  "n": "MTAR Technologies",
+  "path": "quote/nse/MTARTECH",
+  "tk": "MTARTECH"
+ },
+ "mtch": {
+  "ctry": "USA",
+  "n": "Match Group",
+  "path": "stocks/mtch",
+  "tk": "MTCH"
+ },
+ "mtd": {
+  "ctry": "USA",
+  "n": "Mettler-Toledo International",
+  "path": "stocks/mtd",
+  "tk": "MTD"
+ },
+ "mtnl": {
+  "ctry": "India",
+  "n": "Mahanagar Telephone Nigam (MTNL)",
+  "path": "quote/nse/MTNL",
+  "tk": "MTNL"
+ },
+ "mtr": {
+  "ctry": "Hong Kong",
+  "n": "MTR Corporation",
+  "path": "quote/hkg/0066",
+  "tk": "0066"
+ },
+ "mtx": {
+  "ctry": "USA",
+  "n": "Minerals Technologies",
+  "path": "stocks/mtx",
+  "tk": "MTX"
+ },
+ "mu": {
+  "ctry": "USA",
+  "n": "Micron Technology",
+  "path": "stocks/mu",
+  "tk": "MU"
+ },
+ "mukand": {
+  "ctry": "India",
+  "n": "Mukand",
+  "path": "quote/nse/MUKANDLTD",
+  "tk": "MUKANDLTD"
+ },
+ "munichre": {
+  "ctry": "Germany",
+  "n": "Munich Re",
+  "path": "quote/etr/MUV2",
+  "tk": "MUV2"
+ },
+ "murata": {
+  "ctry": "Japan",
+  "n": "Murata Manufacturing",
+  "path": "quote/tyo/6981",
+  "tk": "6981"
+ },
+ "musa": {
+  "ctry": "USA",
+  "n": "Murphy USA",
+  "path": "stocks/musa",
+  "tk": "MUSA"
+ },
+ "muthootfin": {
+  "ctry": "India",
+  "n": "Muthoot Finance",
+  "path": "quote/nse/MUTHOOTFIN",
+  "tk": "MUTHOOTFIN"
+ },
+ "muyuan": {
+  "ctry": "China",
+  "n": "Muyuan Foods",
+  "path": "quote/she/002714",
+  "tk": "002714"
+ },
+ "nabors": {
+  "ctry": "Bermuda",
+  "n": "Nabors Industries",
+  "path": "stocks/nbr",
+  "tk": "NBR"
+ },
+ "nahar": {
+  "ctry": "India",
+  "n": "Nahar Spinning Mills",
+  "path": "quote/nse/NAHARSPING",
+  "tk": "NAHARSPING"
+ },
+ "nalco": {
+  "ctry": "India",
+  "n": "National Aluminium Company (NALCO)",
+  "path": "quote/nse/NATIONALUM",
+  "tk": "NATIONALUM"
+ },
+ "namindia": {
+  "ctry": "India",
+  "n": "Nippon Life India Asset Management",
+  "path": "quote/bom/540767",
+  "tk": "NAM-INDIA"
+ },
+ "nationalgrid": {
+  "ctry": "UK",
+  "n": "National Grid",
+  "path": "quote/lon/NG",
+  "tk": "NG"
+ },
+ "natl": {
+  "ctry": "USA",
+  "n": "NCR Atleos",
+  "path": "stocks/natl",
+  "tk": "NATL"
+ },
+ "naukri": {
+  "ctry": "India",
+  "n": "Info Edge (India)",
+  "path": "quote/nse/NAUKRI",
+  "tk": "NAUKRI"
+ },
+ "nava": {
+  "ctry": "India",
+  "n": "Nava",
+  "path": "quote/nse/NAVA",
+  "tk": "NAVA"
+ },
+ "navin": {
+  "ctry": "India",
+  "n": "Navin Fluorine International",
+  "path": "quote/nse/NAVINFLUOR",
+  "tk": "NAVINFLUOR"
+ },
+ "navneet": {
+  "ctry": "India",
+  "n": "Navneet Education",
+  "path": "quote/nse/NAVNETEDUL",
+  "tk": "NAVNETEDUL"
+ },
+ "nazara": {
+  "ctry": "India",
+  "n": "Nazara Technologies",
+  "path": "quote/nse/NAZARA",
+  "tk": "NAZARA"
+ },
+ "nbcc": {
+  "ctry": "India",
+  "n": "NBCC (India)",
+  "path": "quote/nse/NBCC",
+  "tk": "NBCC"
+ },
+ "ncc": {
+  "ctry": "India",
+  "n": "NCC Limited",
+  "path": "quote/nse/NCC",
+  "tk": "NCC"
+ },
+ "nclh": {
+  "ctry": "USA",
+  "n": "Norwegian Cruise Line Holdings",
+  "path": "stocks/nclh",
+  "tk": "NCLH"
+ },
+ "ndtv": {
+  "ctry": "India",
+  "n": "New Delhi Television (NDTV)",
+  "path": "quote/nse/NDTV",
+  "tk": "NDTV"
+ },
+ "nee": {
+  "ctry": "USA",
+  "n": "NextEra Energy",
+  "path": "stocks/nee",
+  "tk": "NEE"
+ },
+ "nel": {
+  "ctry": "Norway",
+  "n": "Nel",
+  "path": "quote/osl/NEL",
+  "tk": "NEL"
+ },
+ "nelcast": {
+  "ctry": "India",
+  "n": "Nelcast",
+  "path": "quote/nse/NELCAST",
+  "tk": "NELCAST"
+ },
+ "nem": {
+  "ctry": "USA",
+  "n": "Newmont",
+  "path": "stocks/nem",
+  "tk": "NEM"
+ },
+ "nestle": {
+  "ctry": "Switzerland",
+  "n": "Nestlé S.A.",
+  "path": "quote/swx/NESN",
+  "tk": "NESN"
+ },
+ "nestleind": {
+  "ctry": "India",
+  "n": "Nestlé India",
+  "path": "quote/nse/NESTLEIND",
+  "tk": "NESTLEIND"
+ },
+ "netweb": {
+  "ctry": "India",
+  "n": "Netweb Technologies India",
+  "path": "quote/nse/NETWEB",
+  "tk": "NETWEB"
+ },
+ "network18": {
+  "ctry": "India",
+  "n": "Network18 Media & Investments",
+  "path": "quote/nse/NETWORK18",
+  "tk": "NETWORK18"
+ },
+ "neuland": {
+  "ctry": "India",
+  "n": "Neuland Laboratories",
+  "path": "quote/nse/NEULANDLAB",
+  "tk": "NEULANDLAB"
+ },
+ "newgen": {
+  "ctry": "India",
+  "n": "Newgen Software Technologies",
+  "path": "quote/nse/NEWGEN",
+  "tk": "NEWGEN"
+ },
+ "nexans": {
+  "ctry": "France",
+  "n": "Nexans",
+  "path": "quote/epa/NEX",
+  "tk": "NEX"
+ },
+ "nfl": {
+  "ctry": "India",
+  "n": "National Fertilizers",
+  "path": "quote/nse/NFL",
+  "tk": "NFL"
+ },
+ "nh": {
+  "ctry": "India",
+  "n": "Narayana Hrudayalaya",
+  "path": "quote/nse/NH",
+  "tk": "NH"
+ },
+ "nhpc": {
+  "ctry": "India",
+  "n": "NHPC",
+  "path": "quote/nse/NHPC",
+  "tk": "NHPC"
+ },
+ "niacl": {
+  "ctry": "India",
+  "n": "New India Assurance",
+  "path": "quote/nse/NIACL",
+  "tk": "NIACL"
+ },
+ "nidec": {
+  "ctry": "Japan",
+  "n": "Nidec",
+  "path": "quote/tyo/6594",
+  "tk": "6594"
+ },
+ "niit": {
+  "ctry": "India",
+  "n": "NIIT",
+  "path": "quote/nse/NIITLTD",
+  "tk": "NIITLTD"
+ },
+ "nike": {
+  "ctry": "USA",
+  "n": "Nike",
+  "path": "stocks/nke",
+  "tk": "NKE"
+ },
+ "nikon": {
+  "ctry": "Japan",
+  "n": "Nikon",
+  "path": "quote/tyo/7731",
+  "tk": "7731"
+ },
+ "nilkamal": {
+  "ctry": "India",
+  "n": "Nilkamal",
+  "path": "quote/nse/NILKAMAL",
+  "tk": "NILKAMAL"
+ },
+ "nintendo": {
+  "ctry": "Japan",
+  "n": "Nintendo",
+  "path": "quote/tyo/7974",
+  "tk": "7974"
+ },
+ "nippobatry": {
+  "ctry": "India",
+  "n": "Indo National (Nippo)",
+  "path": "quote/nse/NIPPOBATRY",
+  "tk": "NIPPOBATRY"
+ },
+ "nissui": {
+  "ctry": "Japan",
+  "n": "Nissui",
+  "path": "quote/tyo/1332",
+  "tk": "1332"
+ },
+ "nitin": {
+  "ctry": "India",
+  "n": "Nitin Spinners",
+  "path": "quote/nse/NITINSPIN",
+  "tk": "NITINSPIN"
+ },
+ "nivabupa": {
+  "ctry": "India",
+  "n": "Niva Bupa Health Insurance",
+  "path": "quote/nse/NIVABUPA",
+  "tk": "NIVABUPA"
+ },
+ "nlc": {
+  "ctry": "India",
+  "n": "NLC India",
+  "path": "quote/nse/NLCINDIA",
+  "tk": "NLCINDIA"
+ },
+ "nmdc": {
+  "ctry": "India",
+  "n": "NMDC",
+  "path": "quote/nse/NMDC",
+  "tk": "NMDC"
+ },
+ "noble": {
+  "ctry": "UK",
+  "n": "Noble Corporation",
+  "path": "stocks/ne",
+  "tk": "NE"
+ },
+ "nokia": {
+  "ctry": "Finland",
+  "n": "Nokia",
+  "path": "quote/hel/NOKIA",
+  "tk": "NOKIA"
+ },
+ "nomad": {
+  "ctry": "UK",
+  "n": "Nomad Foods",
+  "path": "stocks/nomd",
+  "tk": "NOMD"
+ },
+ "nordex": {
+  "ctry": "Germany",
+  "n": "Nordex",
+  "path": "quote/etr/NDX1",
+  "tk": "NDX1"
+ },
+ "norske": {
+  "ctry": "Norway",
+  "n": "Norske Skog",
+  "path": "quote/osl/NSKOG",
+  "tk": "NSKOG"
+ },
+ "norskhydro": {
+  "ctry": "Norway",
+  "n": "Norsk Hydro",
+  "path": "quote/osl/NHY",
+  "tk": "NHY"
+ },
+ "novavax": {
+  "ctry": "USA",
+  "n": "Novavax",
+  "path": "stocks/nvax",
+  "tk": "NVAX"
+ },
+ "nrbbearing": {
+  "ctry": "India",
+  "n": "NRB Bearings",
+  "path": "quote/nse/NRBBEARING",
+  "tk": "NRBBEARING"
+ },
+ "nrg": {
+  "ctry": "USA",
+  "n": "NRG Energy",
+  "path": "stocks/nrg",
+  "tk": "NRG"
+ },
+ "nrw": {
+  "ctry": "Australia",
+  "n": "NRW Holdings",
+  "path": "quote/asx/NWH",
+  "tk": "NWH"
+ },
+ "nsc": {
+  "ctry": "USA",
+  "n": "Norfolk Southern",
+  "path": "stocks/nsc",
+  "tk": "NSC"
+ },
+ "nsdl": {
+  "ctry": "India",
+  "n": "National Securities Depository (NSDL)",
+  "path": "quote/bom/544467",
+  "tk": "NSDL"
+ },
+ "ntap": {
+  "ctry": "USA",
+  "n": "NetApp",
+  "path": "stocks/ntap",
+  "tk": "NTAP"
+ },
+ "ntpc": {
+  "ctry": "India",
+  "n": "NTPC",
+  "path": "quote/nse/NTPC",
+  "tk": "NTPC"
+ },
+ "ntpcgreen": {
+  "ctry": "India",
+  "n": "NTPC Green Energy",
+  "path": "quote/nse/NTPCGREEN",
+  "tk": "NTPCGREEN"
+ },
+ "ntr": {
+  "ctry": "Canada",
+  "n": "Nutrien",
+  "path": "stocks/ntr",
+  "tk": "NTR"
+ },
+ "nucera": {
+  "ctry": "Germany",
+  "n": "thyssenkrupp nucera",
+  "path": "quote/etr/NCH2",
+  "tk": "NCH2"
+ },
+ "nucleus": {
+  "ctry": "India",
+  "n": "Nucleus Software Exports",
+  "path": "quote/nse/NUCLEUS",
+  "tk": "NUCLEUS"
+ },
+ "nucor": {
+  "ctry": "USA",
+  "n": "Nucor",
+  "path": "stocks/nue",
+  "tk": "NUE"
+ },
+ "nuvama": {
+  "ctry": "India",
+  "n": "Nuvama Wealth Management",
+  "path": "quote/nse/NUVAMA",
+  "tk": "NUVAMA"
+ },
+ "nuvoco": {
+  "ctry": "India",
+  "n": "Nuvoco Vistas",
+  "path": "quote/nse/NUVOCO",
+  "tk": "NUVOCO"
+ },
+ "nvda": {
+  "ctry": "USA",
+  "n": "NVIDIA",
+  "path": "stocks/nvda",
+  "tk": "NVDA"
+ },
+ "nwl": {
+  "ctry": "USA",
+  "n": "Newell Brands",
+  "path": "stocks/nwl",
+  "tk": "NWL"
+ },
+ "nxe": {
+  "ctry": "Canada",
+  "n": "NexGen Energy",
+  "path": "stocks/nxe",
+  "tk": "NXE"
+ },
+ "nxpi": {
+  "ctry": "Netherlands",
+  "n": "NXP Semiconductors",
+  "path": "stocks/nxpi",
+  "tk": "NXPI"
+ },
+ "nxst": {
+  "ctry": "India",
+  "n": "Nexus Select Trust",
+  "path": "quote/nse/NXST",
+  "tk": "NXST"
+ },
+ "nykaa": {
+  "ctry": "India",
+  "n": "FSN E-Commerce Ventures (Nykaa)",
+  "path": "quote/nse/NYKAA",
+  "tk": "NYKAA"
+ },
+ "oatly": {
+  "ctry": "Sweden",
+  "n": "Oatly Group",
+  "path": "stocks/otly",
+  "tk": "OTLY"
+ },
+ "oberoirlty": {
+  "ctry": "India",
+  "n": "Oberoi Realty",
+  "path": "quote/nse/OBEROIRLTY",
+  "tk": "OBEROIRLTY"
+ },
+ "odfl": {
+  "ctry": "USA",
+  "n": "Old Dominion Freight Line",
+  "path": "stocks/odfl",
+  "tk": "ODFL"
+ },
+ "ofss": {
+  "ctry": "India",
+  "n": "Oracle Financial Services Software",
+  "path": "quote/nse/OFSS",
+  "tk": "OFSS"
+ },
+ "oi": {
+  "ctry": "USA",
+  "n": "O-I Glass",
+  "path": "stocks/oi",
+  "tk": "OI"
+ },
+ "oii": {
+  "ctry": "USA",
+  "n": "Oceaneering International",
+  "path": "stocks/oii",
+  "tk": "OII"
+ },
+ "oilindia": {
+  "ctry": "India",
+  "n": "Oil India",
+  "path": "quote/nse/OIL",
+  "tk": "OIL"
+ },
+ "olaelec": {
+  "ctry": "India",
+  "n": "Ola Electric Mobility",
+  "path": "quote/nse/OLAELEC",
+  "tk": "OLAELEC"
+ },
+ "olectra": {
+  "ctry": "India",
+  "n": "Olectra Greentech",
+  "path": "quote/nse/OLECTRA",
+  "tk": "OLECTRA"
+ },
+ "oled": {
+  "ctry": "USA",
+  "n": "Universal Display",
+  "path": "stocks/oled",
+  "tk": "OLED"
+ },
+ "omc": {
+  "ctry": "USA",
+  "n": "Omnicom Group",
+  "path": "stocks/omc",
+  "tk": "OMC"
+ },
+ "omron": {
+  "ctry": "Japan",
+  "n": "OMRON",
+  "path": "quote/tyo/6645",
+  "tk": "6645"
+ },
+ "oneam": {
+  "ctry": "India",
+  "n": "360 ONE WAM",
+  "path": "quote/nse/360ONE",
+  "tk": "360ONE"
+ },
+ "ongc": {
+  "ctry": "India",
+  "n": "Oil and Natural Gas Corporation",
+  "path": "quote/nse/ONGC",
+  "tk": "ONGC"
+ },
+ "onon": {
+  "ctry": "Switzerland",
+  "n": "On Holding",
+  "path": "stocks/onon",
+  "tk": "ONON"
+ },
+ "onsemi": {
+  "ctry": "USA",
+  "n": "ON Semiconductor (onsemi)",
+  "path": "stocks/on",
+  "tk": "ON"
+ },
+ "optiemus": {
+  "ctry": "India",
+  "n": "Optiemus Infracom",
+  "path": "quote/nse/OPTIEMUS",
+  "tk": "OPTIEMUS"
+ },
+ "orcl": {
+  "ctry": "USA",
+  "n": "Oracle",
+  "path": "stocks/orcl",
+  "tk": "ORCL"
+ },
+ "orica": {
+  "ctry": "Australia",
+  "n": "Orica",
+  "path": "quote/asx/ORI",
+  "tk": "ORI"
+ },
+ "oriental": {
+  "ctry": "India",
+  "n": "Oriental Aromatics",
+  "path": "quote/nse/OAL",
+  "tk": "OAL"
+ },
+ "orientbell": {
+  "ctry": "India",
+  "n": "Orient Bell",
+  "path": "quote/nse/ORIENTBELL",
+  "tk": "ORIENTBELL"
+ },
+ "orientpaper": {
+  "ctry": "India",
+  "n": "Orient Paper & Industries",
+  "path": "quote/nse/ORIENTPPR",
+  "tk": "ORIENTPPR"
+ },
+ "orly": {
+  "ctry": "USA",
+  "n": "O'Reilly Automotive",
+  "path": "stocks/orly",
+  "tk": "ORLY"
+ },
+ "orsted": {
+  "ctry": "Denmark",
+  "n": "Ørsted",
+  "path": "quote/cph/ORSTED",
+  "tk": "ORSTED"
+ },
+ "otis": {
+  "ctry": "USA",
+  "n": "Otis Worldwide",
+  "path": "stocks/otis",
+  "tk": "OTIS"
+ },
+ "owenscorning": {
+  "ctry": "USA",
+  "n": "Owens Corning",
+  "path": "stocks/oc",
+  "tk": "OC"
+ },
+ "oxy": {
+  "ctry": "USA",
+  "n": "Occidental Petroleum",
+  "path": "stocks/oxy",
+  "tk": "OXY"
+ },
+ "pag": {
+  "ctry": "USA",
+  "n": "Penske Automotive Group",
+  "path": "stocks/pag",
+  "tk": "PAG"
+ },
+ "page": {
+  "ctry": "India",
+  "n": "Page Industries",
+  "path": "quote/nse/PAGEIND",
+  "tk": "PAGEIND"
+ },
+ "paladin": {
+  "ctry": "Australia",
+  "n": "Paladin Energy",
+  "path": "quote/asx/PDN",
+  "tk": "PDN"
+ },
+ "panacea": {
+  "ctry": "India",
+  "n": "Panacea Biotec",
+  "path": "quote/nse/PANACEABIO",
+  "tk": "PANACEABIO"
+ },
+ "panama": {
+  "ctry": "India",
+  "n": "Panama Petrochem",
+  "path": "quote/nse/PANAMAPET",
+  "tk": "PANAMAPET"
+ },
+ "pandora": {
+  "ctry": "Denmark",
+  "n": "Pandora",
+  "path": "quote/cph/PNDORA",
+  "tk": "PNDORA"
+ },
+ "panw": {
+  "ctry": "USA",
+  "n": "Palo Alto Networks",
+  "path": "stocks/panw",
+  "tk": "PANW"
+ },
+ "paracables": {
+  "ctry": "India",
+  "n": "Paramount Communications",
+  "path": "quote/nse/PARACABLES",
+  "tk": "PARACABLES"
+ },
+ "paradeep": {
+  "ctry": "India",
+  "n": "Paradeep Phosphates",
+  "path": "quote/nse/PARADEEP",
+  "tk": "PARADEEP"
+ },
+ "parag": {
+  "ctry": "India",
+  "n": "Parag Milk Foods",
+  "path": "quote/nse/PARAGMILK",
+  "tk": "PARAGMILK"
+ },
+ "paras": {
+  "ctry": "India",
+  "n": "Paras Defence and Space Technologies",
+  "path": "quote/nse/PARAS",
+  "tk": "PARAS"
+ },
+ "park": {
+  "ctry": "India",
+  "n": "Apeejay Surrendra Park Hotels",
+  "path": "quote/nse/PARKHOTELS",
+  "tk": "PARKHOTELS"
+ },
+ "patanjali": {
+  "ctry": "India",
+  "n": "Patanjali Foods",
+  "path": "quote/nse/PATANJALI",
+  "tk": "PATANJALI"
+ },
+ "pateleng": {
+  "ctry": "India",
+  "n": "Patel Engineering",
+  "path": "quote/nse/PATELENG",
+  "tk": "PATELENG"
+ },
+ "paytm": {
+  "ctry": "India",
+  "n": "One97 Communications (Paytm)",
+  "path": "quote/nse/PAYTM",
+  "tk": "PAYTM"
+ },
+ "pbr": {
+  "ctry": "Brazil",
+  "n": "Petrobras",
+  "path": "stocks/pbr",
+  "tk": "PBR"
+ },
+ "pcar": {
+  "ctry": "USA",
+  "n": "PACCAR",
+  "path": "stocks/pcar",
+  "tk": "PCAR"
+ },
+ "pcbl": {
+  "ctry": "India",
+  "n": "PCBL Chemical",
+  "path": "quote/nse/PCBL",
+  "tk": "PCBL"
+ },
+ "pch": {
+  "ctry": "USA",
+  "n": "PotlatchDeltic",
+  "path": "stocks/pch",
+  "tk": "PCH"
+ },
+ "pcjeweller": {
+  "ctry": "India",
+  "n": "PC Jeweller",
+  "path": "quote/nse/PCJEWELLER",
+  "tk": "PCJEWELLER"
+ },
+ "pdd": {
+  "ctry": "China",
+  "n": "PDD Holdings (Temu, Pinduoduo)",
+  "path": "stocks/pdd",
+  "tk": "PDD"
+ },
+ "pearl": {
+  "ctry": "India",
+  "n": "Pearl Global Industries",
+  "path": "quote/nse/PGIL",
+  "tk": "PGIL"
+ },
+ "pennar": {
+  "ctry": "India",
+  "n": "Pennar Industries",
+  "path": "quote/nse/PENIND",
+  "tk": "PENIND"
+ },
+ "pennon": {
+  "ctry": "UK",
+  "n": "Pennon Group",
+  "path": "quote/lon/PNN",
+  "tk": "PNN"
+ },
+ "pep": {
+  "ctry": "USA",
+  "n": "PepsiCo",
+  "path": "stocks/pep",
+  "tk": "PEP"
+ },
+ "perenti": {
+  "ctry": "Australia",
+  "n": "Perenti",
+  "path": "quote/asx/PRN",
+  "tk": "PRN"
+ },
+ "pernod": {
+  "ctry": "France",
+  "n": "Pernod Ricard",
+  "path": "quote/epa/RI",
+  "tk": "RI"
+ },
+ "persistent": {
+  "ctry": "India",
+  "n": "Persistent Systems",
+  "path": "quote/nse/PERSISTENT",
+  "tk": "PERSISTENT"
+ },
+ "petra": {
+  "ctry": "UK",
+  "n": "Petra Diamonds",
+  "path": "quote/lon/PDL",
+  "tk": "PDL"
+ },
+ "petronet": {
+  "ctry": "India",
+  "n": "Petronet LNG",
+  "path": "quote/nse/PETRONET",
+  "tk": "PETRONET"
+ },
+ "pfc": {
+  "ctry": "India",
+  "n": "Power Finance Corporation",
+  "path": "quote/nse/PFC",
+  "tk": "PFC"
+ },
+ "pfgc": {
+  "ctry": "USA",
+  "n": "Performance Food Group",
+  "path": "stocks/pfgc",
+  "tk": "PFGC"
+ },
+ "pfocus": {
+  "ctry": "India",
+  "n": "Prime Focus",
+  "path": "quote/nse/PFOCUS",
+  "tk": "PFOCUS"
+ },
+ "pg": {
+  "ctry": "USA",
+  "n": "Procter & Gamble",
+  "path": "stocks/pg",
+  "tk": "PG"
+ },
+ "pghh": {
+  "ctry": "India",
+  "n": "Procter & Gamble Hygiene and Health Care",
+  "path": "quote/nse/PGHH",
+  "tk": "PGHH"
+ },
+ "pgr": {
+  "ctry": "USA",
+  "n": "Progressive",
+  "path": "stocks/pgr",
+  "tk": "PGR"
+ },
+ "ph": {
+  "ctry": "USA",
+  "n": "Parker-Hannifin",
+  "path": "stocks/ph",
+  "tk": "PH"
+ },
+ "philips": {
+  "ctry": "Netherlands",
+  "n": "Koninklijke Philips",
+  "path": "quote/ams/PHIA",
+  "tk": "PHIA"
+ },
+ "phoenixltd": {
+  "ctry": "India",
+  "n": "The Phoenix Mills",
+  "path": "quote/nse/PHOENIXLTD",
+  "tk": "PHOENIXLTD"
+ },
+ "pidilite": {
+  "ctry": "India",
+  "n": "Pidilite Industries",
+  "path": "quote/nse/PIDILITIND",
+  "tk": "PIDILITIND"
+ },
+ "piind": {
+  "ctry": "India",
+  "n": "PI Industries",
+  "path": "quote/nse/PIIND",
+  "tk": "PIIND"
+ },
+ "pix": {
+  "ctry": "India",
+  "n": "PIX Transmissions",
+  "path": "quote/nse/PIXTRANS",
+  "tk": "PIXTRANS"
+ },
+ "pkg": {
+  "ctry": "USA",
+  "n": "Packaging Corporation of America",
+  "path": "stocks/pkg",
+  "tk": "PKG"
+ },
+ "plnt": {
+  "ctry": "USA",
+  "n": "Planet Fitness",
+  "path": "stocks/plnt",
+  "tk": "PLNT"
+ },
+ "pltr": {
+  "ctry": "USA",
+  "n": "Palantir Technologies",
+  "path": "stocks/pltr",
+  "tk": "PLTR"
+ },
+ "plug": {
+  "ctry": "USA",
+  "n": "Plug Power",
+  "path": "stocks/plug",
+  "tk": "PLUG"
+ },
+ "pm": {
+  "ctry": "USA",
+  "n": "Philip Morris International",
+  "path": "stocks/pm",
+  "tk": "PM"
+ },
+ "pnbhousing": {
+  "ctry": "India",
+  "n": "PNB Housing Finance",
+  "path": "quote/nse/PNBHOUSING",
+  "tk": "PNBHOUSING"
+ },
+ "pncinfra": {
+  "ctry": "India",
+  "n": "PNC Infratech",
+  "path": "quote/nse/PNCINFRA",
+  "tk": "PNCINFRA"
+ },
+ "pokarna": {
+  "ctry": "India",
+  "n": "Pokarna",
+  "path": "quote/nse/POKARNA",
+  "tk": "POKARNA"
+ },
+ "policybzr": {
+  "ctry": "India",
+  "n": "PB Fintech (Policybazaar)",
+  "path": "quote/nse/POLICYBZR",
+  "tk": "POLICYBZR"
+ },
+ "polycab": {
+  "ctry": "India",
+  "n": "Polycab India",
+  "path": "quote/nse/POLYCAB",
+  "tk": "POLYCAB"
+ },
+ "polymed": {
+  "ctry": "India",
+  "n": "Poly Medicure",
+  "path": "quote/nse/POLYMED",
+  "tk": "POLYMED"
+ },
+ "polyplex": {
+  "ctry": "India",
+  "n": "Polyplex Corporation",
+  "path": "quote/nse/POLYPLEX",
+  "tk": "POLYPLEX"
+ },
+ "pondy": {
+  "ctry": "India",
+  "n": "Pondy Oxides and Chemicals",
+  "path": "quote/nse/POCL",
+  "tk": "POCL"
+ },
+ "poonawalla": {
+  "ctry": "India",
+  "n": "Poonawalla Fincorp",
+  "path": "quote/nse/POONAWALLA",
+  "tk": "POONAWALLA"
+ },
+ "powergrid": {
+  "ctry": "India",
+  "n": "Power Grid Corporation of India",
+  "path": "quote/nse/POWERGRID",
+  "tk": "POWERGRID"
+ },
+ "powerindia": {
+  "ctry": "India",
+  "n": "Hitachi Energy India",
+  "path": "quote/nse/POWERINDIA",
+  "tk": "POWERINDIA"
+ },
+ "ppc": {
+  "ctry": "USA",
+  "n": "Pilgrim's Pride",
+  "path": "stocks/ppc",
+  "tk": "PPC"
+ },
+ "prataap": {
+  "ctry": "India",
+  "n": "Prataap Snacks",
+  "path": "quote/nse/DIAMONDYD",
+  "tk": "DIAMONDYD"
+ },
+ "precwire": {
+  "ctry": "India",
+  "n": "Precision Wires India",
+  "path": "quote/nse/PRECWIRE",
+  "tk": "PRECWIRE"
+ },
+ "premier": {
+  "ctry": "India",
+  "n": "Premier Explosives",
+  "path": "quote/nse/PREMEXPLN",
+  "tk": "PREMEXPLN"
+ },
+ "premierene": {
+  "ctry": "India",
+  "n": "Premier Energies",
+  "path": "quote/nse/PREMIERENE",
+  "tk": "PREMIERENE"
+ },
+ "prestige": {
+  "ctry": "India",
+  "n": "Prestige Estates Projects",
+  "path": "quote/nse/PRESTIGE",
+  "tk": "PRESTIGE"
+ },
+ "pricol": {
+  "ctry": "India",
+  "n": "Pricol",
+  "path": "quote/bom/540293",
+  "tk": "PRICOL"
+ },
+ "primo": {
+  "ctry": "USA",
+  "n": "Primo Brands",
+  "path": "stocks/prmb",
+  "tk": "PRMB"
+ },
+ "prince": {
+  "ctry": "India",
+  "n": "Prince Pipes and Fittings",
+  "path": "quote/nse/PRINCEPIPE",
+  "tk": "PRINCEPIPE"
+ },
+ "privi": {
+  "ctry": "India",
+  "n": "Privi Speciality Chemicals",
+  "path": "quote/nse/PRIVISCL",
+  "tk": "PRIVISCL"
+ },
+ "prysmian": {
+  "ctry": "Italy",
+  "n": "Prysmian",
+  "path": "quote/bit/PRY",
+  "tk": "PRY"
+ },
+ "pspproject": {
+  "ctry": "India",
+  "n": "PSP Projects",
+  "path": "quote/nse/PSPPROJECT",
+  "tk": "PSPPROJECT"
+ },
+ "pstg": {
+  "ctry": "USA",
+  "n": "Everpure (formerly Pure Storage)",
+  "path": "stocks/pstg",
+  "tk": "PSTG"
+ },
+ "ptc": {
+  "ctry": "India",
+  "n": "PTC India",
+  "path": "quote/nse/PTC",
+  "tk": "PTC"
+ },
+ "pten": {
+  "ctry": "USA",
+  "n": "Patterson-UTI Energy",
+  "path": "stocks/pten",
+  "tk": "PTEN"
+ },
+ "publicis": {
+  "ctry": "France",
+  "n": "Publicis Groupe",
+  "path": "quote/epa/PUB",
+  "tk": "PUB"
+ },
+ "pudumjee": {
+  "ctry": "India",
+  "n": "Pudumjee Paper Products",
+  "path": "quote/nse/PDMJEPAPER",
+  "tk": "PDMJEPAPER"
+ },
+ "puma": {
+  "ctry": "Germany",
+  "n": "Puma",
+  "path": "quote/etr/PUM",
+  "tk": "PUM"
+ },
+ "purva": {
+  "ctry": "India",
+  "n": "Puravankara",
+  "path": "quote/nse/PURVA",
+  "tk": "PURVA"
+ },
+ "pvh": {
+  "ctry": "USA",
+  "n": "PVH",
+  "path": "stocks/pvh",
+  "tk": "PVH"
+ },
+ "pvr": {
+  "ctry": "India",
+  "n": "PVR INOX",
+  "path": "quote/nse/PVRINOX",
+  "tk": "PVRINOX"
+ },
+ "pwl": {
+  "ctry": "India",
+  "n": "Physicswallah",
+  "path": "quote/nse/PWL",
+  "tk": "PWL"
+ },
+ "pwr": {
+  "ctry": "USA",
+  "n": "Quanta Services",
+  "path": "stocks/pwr",
+  "tk": "PWR"
+ },
+ "pypl": {
+  "ctry": "USA",
+  "n": "PayPal Holdings",
+  "path": "stocks/pypl",
+  "tk": "PYPL"
+ },
+ "quad": {
+  "ctry": "USA",
+  "n": "Quad/Graphics",
+  "path": "stocks/quad",
+  "tk": "QUAD"
+ },
+ "quess": {
+  "ctry": "India",
+  "n": "Quess Corp",
+  "path": "quote/nse/QUESS",
+  "tk": "QUESS"
+ },
+ "quickheal": {
+  "ctry": "India",
+  "n": "Quick Heal Technologies",
+  "path": "quote/nse/QUICKHEAL",
+  "tk": "QUICKHEAL"
+ },
+ "radico": {
+  "ctry": "India",
+  "n": "Radico Khaitan",
+  "path": "quote/nse/RADICO",
+  "tk": "RADICO"
+ },
+ "radiocity": {
+  "ctry": "India",
+  "n": "Music Broadcast (Radio City)",
+  "path": "quote/nse/RADIOCITY",
+  "tk": "RADIOCITY"
+ },
+ "railtel": {
+  "ctry": "India",
+  "n": "RailTel Corporation of India",
+  "path": "quote/nse/RAILTEL",
+  "tk": "RAILTEL"
+ },
+ "rainbow": {
+  "ctry": "India",
+  "n": "Rainbow Children's Medicare",
+  "path": "quote/nse/RAINBOW",
+  "tk": "RAINBOW"
+ },
+ "raizen": {
+  "ctry": "Brazil",
+  "n": "Raízen",
+  "path": "quote/bvmf/RAIZ4",
+  "tk": "RAIZ4"
+ },
+ "rallis": {
+  "ctry": "India",
+  "n": "Rallis India",
+  "path": "quote/nse/RALLIS",
+  "tk": "RALLIS"
+ },
+ "ramco": {
+  "ctry": "India",
+  "n": "Ramco Systems",
+  "path": "quote/nse/RAMCOSYS",
+  "tk": "RAMCOSYS"
+ },
+ "ramcocem": {
+  "ctry": "India",
+  "n": "The Ramco Cements",
+  "path": "quote/nse/RAMCOCEM",
+  "tk": "RAMCOCEM"
+ },
+ "ramcoind": {
+  "ctry": "India",
+  "n": "Ramco Industries",
+  "path": "quote/nse/RAMCOIND",
+  "tk": "RAMCOIND"
+ },
+ "randstad": {
+  "ctry": "Netherlands",
+  "n": "Randstad",
+  "path": "quote/ams/RAND",
+  "tk": "RAND"
+ },
+ "ranebrake": {
+  "ctry": "India",
+  "n": "Rane Brake Lining",
+  "path": "quote/nse/RBL",
+  "tk": "RBL"
+ },
+ "range": {
+  "ctry": "USA",
+  "n": "Range Resources",
+  "path": "stocks/rrc",
+  "tk": "RRC"
+ },
+ "rategain": {
+  "ctry": "India",
+  "n": "RateGain Travel Technologies",
+  "path": "quote/nse/RATEGAIN",
+  "tk": "RATEGAIN"
+ },
+ "ratnamani": {
+  "ctry": "India",
+  "n": "Ratnamani Metals & Tubes",
+  "path": "quote/nse/RATNAMANI",
+  "tk": "RATNAMANI"
+ },
+ "raymondlsl": {
+  "ctry": "India",
+  "n": "Raymond Lifestyle",
+  "path": "quote/nse/RAYMONDLSL",
+  "tk": "RAYMONDLSL"
+ },
+ "rba": {
+  "ctry": "India",
+  "n": "Restaurant Brands Asia",
+  "path": "quote/nse/RBA",
+  "tk": "RBA"
+ },
+ "rblx": {
+  "ctry": "USA",
+  "n": "Roblox",
+  "path": "stocks/rblx",
+  "tk": "RBLX"
+ },
+ "rcf": {
+  "ctry": "India",
+  "n": "Rashtriya Chemicals and Fertilizers",
+  "path": "quote/nse/RCF",
+  "tk": "RCF"
+ },
+ "rcl": {
+  "ctry": "USA",
+  "n": "Royal Caribbean Cruises",
+  "path": "stocks/rcl",
+  "tk": "RCL"
+ },
+ "reckitt": {
+  "ctry": "UK",
+  "n": "Reckitt Benckiser",
+  "path": "quote/lon/RKT",
+  "tk": "RKT"
+ },
+ "redington": {
+  "ctry": "India",
+  "n": "Redington",
+  "path": "quote/nse/REDINGTON",
+  "tk": "REDINGTON"
+ },
+ "redtape": {
+  "ctry": "India",
+  "n": "Redtape",
+  "path": "quote/nse/REDTAPE",
+  "tk": "REDTAPE"
+ },
+ "regeneron": {
+  "ctry": "USA",
+  "n": "Regeneron Pharmaceuticals",
+  "path": "stocks/regn",
+  "tk": "REGN"
+ },
+ "relaxo": {
+  "ctry": "India",
+  "n": "Relaxo Footwears",
+  "path": "quote/nse/RELAXO",
+  "tk": "RELAXO"
+ },
+ "reliance": {
+  "ctry": "India",
+  "n": "Reliance Industries",
+  "path": "quote/nse/RELIANCE",
+  "tk": "RELIANCE"
+ },
+ "renuka": {
+  "ctry": "India",
+  "n": "Shree Renuka Sugars",
+  "path": "quote/nse/RENUKA",
+  "tk": "RENUKA"
+ },
+ "repro": {
+  "ctry": "India",
+  "n": "Repro India",
+  "path": "quote/nse/REPRO",
+  "tk": "REPRO"
+ },
+ "rgl": {
+  "ctry": "India",
+  "n": "Renaissance Global",
+  "path": "quote/nse/RGL",
+  "tk": "RGL"
+ },
+ "rh": {
+  "ctry": "USA",
+  "n": "RH (Restoration Hardware)",
+  "path": "stocks/rh",
+  "tk": "RH"
+ },
+ "rheinmetall": {
+  "ctry": "Germany",
+  "n": "Rheinmetall",
+  "path": "quote/etr/RHM",
+  "tk": "RHM"
+ },
+ "rhim": {
+  "ctry": "India",
+  "n": "RHI Magnesita India",
+  "path": "quote/nse/RHIM",
+  "tk": "RHIM"
+ },
+ "rhimlon": {
+  "ctry": "UK/Austria",
+  "n": "RHI Magnesita",
+  "path": "quote/lon/RHIM",
+  "tk": "RHIM"
+ },
+ "ricoh": {
+  "ctry": "Japan",
+  "n": "Ricoh",
+  "path": "quote/tyo/7752",
+  "tk": "7752"
+ },
+ "ridley": {
+  "ctry": "Australia",
+  "n": "Ridley Corporation",
+  "path": "quote/asx/RIC",
+  "tk": "RIC"
+ },
+ "rieter": {
+  "ctry": "Switzerland",
+  "n": "Rieter Holding",
+  "path": "quote/swx/RIEN",
+  "tk": "RIEN"
+ },
+ "rig": {
+  "ctry": "Switzerland",
+  "n": "Transocean",
+  "path": "stocks/rig",
+  "tk": "RIG"
+ },
+ "rio": {
+  "ctry": "UK/Australia",
+  "n": "Rio Tinto",
+  "path": "stocks/rio",
+  "tk": "RIO"
+ },
+ "rites": {
+  "ctry": "India",
+  "n": "RITES",
+  "path": "quote/nse/RITES",
+  "tk": "RITES"
+ },
+ "rkforge": {
+  "ctry": "India",
+  "n": "Ramkrishna Forgings",
+  "path": "quote/nse/RKFORGE",
+  "tk": "RKFORGE"
+ },
+ "rklb": {
+  "ctry": "USA",
+  "n": "Rocket Lab",
+  "path": "stocks/rklb",
+  "tk": "RKLB"
+ },
+ "rl": {
+  "ctry": "USA",
+  "n": "Ralph Lauren",
+  "path": "stocks/rl",
+  "tk": "RL"
+ },
+ "rockwool": {
+  "ctry": "Denmark",
+  "n": "Rockwool",
+  "path": "quote/cph/ROCK.B",
+  "tk": "ROCK.B"
+ },
+ "rok": {
+  "ctry": "USA",
+  "n": "Rockwell Automation",
+  "path": "stocks/rok",
+  "tk": "ROK"
+ },
+ "rollsroyce": {
+  "ctry": "UK",
+  "n": "Rolls-Royce Holdings",
+  "path": "quote/lon/RR",
+  "tk": "RR"
+ },
+ "rossari": {
+  "ctry": "India",
+  "n": "Rossari Biotech",
+  "path": "quote/nse/ROSSARI",
+  "tk": "ROSSARI"
+ },
+ "rossell": {
+  "ctry": "India",
+  "n": "Rossell India",
+  "path": "quote/nse/ROSSELLIND",
+  "tk": "ROSSELLIND"
+ },
+ "rost": {
+  "ctry": "USA",
+  "n": "Ross Stores",
+  "path": "stocks/rost",
+  "tk": "ROST"
+ },
+ "roto": {
+  "ctry": "India",
+  "n": "Roto Pumps",
+  "path": "quote/nse/ROTO",
+  "tk": "ROTO"
+ },
+ "rotork": {
+  "ctry": "UK",
+  "n": "Rotork",
+  "path": "quote/lon/ROR",
+  "tk": "ROR"
+ },
+ "route": {
+  "ctry": "India",
+  "n": "Route Mobile",
+  "path": "quote/nse/ROUTE",
+  "tk": "ROUTE"
+ },
+ "rpower": {
+  "ctry": "India",
+  "n": "Reliance Power",
+  "path": "quote/nse/RPOWER",
+  "tk": "RPOWER"
+ },
+ "rptech": {
+  "ctry": "India",
+  "n": "Rashi Peripherals",
+  "path": "quote/nse/RPTECH",
+  "tk": "RPTECH"
+ },
+ "rrkabel": {
+  "ctry": "India",
+  "n": "R R Kabel",
+  "path": "quote/nse/RRKABEL",
+  "tk": "RRKABEL"
+ },
+ "rs": {
+  "ctry": "USA",
+  "n": "Reliance, Inc. (US steel distributor)",
+  "path": "stocks/rs",
+  "tk": "RS"
+ },
+ "rsg": {
+  "ctry": "USA",
+  "n": "Republic Services",
+  "path": "stocks/rsg",
+  "tk": "RSG"
+ },
+ "run": {
+  "ctry": "USA",
+  "n": "Sunrun",
+  "path": "stocks/run",
+  "tk": "RUN"
+ },
+ "rupa": {
+  "ctry": "India",
+  "n": "Rupa & Company",
+  "path": "quote/nse/RUPA",
+  "tk": "RUPA"
+ },
+ "rushil": {
+  "ctry": "India",
+  "n": "Rushil Décor",
+  "path": "quote/nse/RUSHIL",
+  "tk": "RUSHIL"
+ },
+ "rvnl": {
+  "ctry": "India",
+  "n": "Rail Vikas Nigam",
+  "path": "quote/nse/RVNL",
+  "tk": "RVNL"
+ },
+ "ryaay": {
+  "ctry": "Ireland",
+  "n": "Ryanair Holdings",
+  "path": "stocks/ryaay",
+  "tk": "RYAAY"
+ },
+ "ryi": {
+  "ctry": "USA",
+  "n": "Ryerson Holding",
+  "path": "stocks/ryi",
+  "tk": "RYI"
+ },
+ "ryn": {
+  "ctry": "USA",
+  "n": "Rayonier",
+  "path": "stocks/ryn",
+  "tk": "RYN"
+ },
+ "s32": {
+  "ctry": "Australia",
+  "n": "South32",
+  "path": "quote/asx/S32",
+  "tk": "S32"
+ },
+ "saatvikgl": {
+  "ctry": "India",
+  "n": "Saatvik Green Energy",
+  "path": "quote/nse/SAATVIKGL",
+  "tk": "SAATVIKGL"
+ },
+ "safari": {
+  "ctry": "India",
+  "n": "Safari Industries (India)",
+  "path": "quote/nse/SAFARI",
+  "tk": "SAFARI"
+ },
+ "safran": {
+  "ctry": "France",
+  "n": "Safran",
+  "path": "quote/epa/SAF",
+  "tk": "SAF"
+ },
+ "sail": {
+  "ctry": "India",
+  "n": "Steel Authority of India",
+  "path": "quote/nse/SAIL",
+  "tk": "SAIL"
+ },
+ "sailife": {
+  "ctry": "India",
+  "n": "Sai Life Sciences",
+  "path": "quote/nse/SAILIFE",
+  "tk": "SAILIFE"
+ },
+ "saintgobain": {
+  "ctry": "France",
+  "n": "Saint-Gobain",
+  "path": "quote/epa/SGO",
+  "tk": "SGO"
+ },
+ "salmar": {
+  "ctry": "Norway",
+  "n": "SalMar",
+  "path": "quote/osl/SALM",
+  "tk": "SALM"
+ },
+ "samhi": {
+  "ctry": "India",
+  "n": "SAMHI Hotels",
+  "path": "quote/nse/SAMHI",
+  "tk": "SAMHI"
+ },
+ "samsonite": {
+  "ctry": "Hong Kong",
+  "n": "Samsonite Group",
+  "path": "quote/hkg/1910",
+  "tk": "1910"
+ },
+ "sandesh": {
+  "ctry": "India",
+  "n": "The Sandesh",
+  "path": "quote/nse/SANDESH",
+  "tk": "SANDESH"
+ },
+ "sandur": {
+  "ctry": "India",
+  "n": "Sandur Manganese & Iron Ores",
+  "path": "quote/nse/SANDUMA",
+  "tk": "SANDUMA"
+ },
+ "sandvik": {
+  "ctry": "Sweden",
+  "n": "Sandvik",
+  "path": "quote/sto/SAND",
+  "tk": "SAND"
+ },
+ "sanghvimov": {
+  "ctry": "India",
+  "n": "Sanghvi Movers",
+  "path": "quote/nse/SANGHVIMOV",
+  "tk": "SANGHVIMOV"
+ },
+ "sanstar": {
+  "ctry": "India",
+  "n": "Sanstar",
+  "path": "quote/nse/SANSTAR",
+  "tk": "SANSTAR"
+ },
+ "santos": {
+  "ctry": "Australia",
+  "n": "Santos",
+  "path": "quote/asx/STO",
+  "tk": "STO"
+ },
+ "saomartinho": {
+  "ctry": "Brazil",
+  "n": "São Martinho",
+  "path": "quote/bvmf/SMTO3",
+  "tk": "SMTO3"
+ },
+ "sapphire": {
+  "ctry": "India",
+  "n": "Sapphire Foods India",
+  "path": "quote/nse/SAPPHIRE",
+  "tk": "SAPPHIRE"
+ },
+ "saputo": {
+  "ctry": "Canada",
+  "n": "Saputo",
+  "path": "quote/tsx/SAP",
+  "tk": "SAP"
+ },
+ "sarda": {
+  "ctry": "India",
+  "n": "Sarda Energy & Minerals",
+  "path": "quote/nse/SARDAEN",
+  "tk": "SARDAEN"
+ },
+ "saregama": {
+  "ctry": "India",
+  "n": "Saregama India",
+  "path": "quote/nse/SAREGAMA",
+  "tk": "SAREGAMA"
+ },
+ "satia": {
+  "ctry": "India",
+  "n": "Satia Industries",
+  "path": "quote/nse/SATIA",
+  "tk": "SATIA"
+ },
+ "savita": {
+  "ctry": "India",
+  "n": "Savita Oil Technologies",
+  "path": "quote/nse/SOTL",
+  "tk": "SOTL"
+ },
+ "sbh": {
+  "ctry": "USA",
+  "n": "Sally Beauty Holdings",
+  "path": "stocks/sbh",
+  "tk": "SBH"
+ },
+ "sbin": {
+  "ctry": "India",
+  "n": "State Bank of India",
+  "path": "quote/nse/SBIN",
+  "tk": "SBIN"
+ },
+ "sbs": {
+  "ctry": "Brazil",
+  "n": "SABESP",
+  "path": "stocks/sbs",
+  "tk": "SBS"
+ },
+ "scco": {
+  "ctry": "USA/Peru",
+  "n": "Southern Copper",
+  "path": "stocks/scco",
+  "tk": "SCCO"
+ },
+ "schaeffler": {
+  "ctry": "India",
+  "n": "Schaeffler India",
+  "path": "quote/nse/SCHAEFFLER",
+  "tk": "SCHAEFFLER"
+ },
+ "schand": {
+  "ctry": "India",
+  "n": "S Chand and Company",
+  "path": "quote/nse/SCHAND",
+  "tk": "SCHAND"
+ },
+ "schindler": {
+  "ctry": "Switzerland",
+  "n": "Schindler Holding",
+  "path": "quote/swx/SCHP",
+  "tk": "SCHP"
+ },
+ "schneiderind": {
+  "ctry": "India",
+  "n": "Schneider Electric Infrastructure",
+  "path": "quote/nse/SCHNEIDER",
+  "tk": "SCHNEIDER"
+ },
+ "schw": {
+  "ctry": "USA",
+  "n": "Charles Schwab",
+  "path": "stocks/schw",
+  "tk": "SCHW"
+ },
+ "sci": {
+  "ctry": "India",
+  "n": "Shipping Corporation of India",
+  "path": "quote/nse/SCI",
+  "tk": "SCI"
+ },
+ "scius": {
+  "ctry": "USA",
+  "n": "Service Corporation International",
+  "path": "stocks/sci",
+  "tk": "SCI (NYSE)"
+ },
+ "seaboard": {
+  "ctry": "USA",
+  "n": "Seaboard",
+  "path": "stocks/seb",
+  "tk": "SEB"
+ },
+ "securitas": {
+  "ctry": "Sweden",
+  "n": "Securitas",
+  "path": "quote/sto/SECU.B",
+  "tk": "SECU.B"
+ },
+ "sedg": {
+  "ctry": "USA",
+  "n": "SolarEdge Technologies",
+  "path": "stocks/sedg",
+  "tk": "SEDG"
+ },
+ "seiko": {
+  "ctry": "Japan",
+  "n": "Seiko Group",
+  "path": "quote/tyo/8050",
+  "tk": "8050"
+ },
+ "selan": {
+  "ctry": "India",
+  "n": "Antelopus Selan Energy",
+  "path": "quote/nse/SELAN",
+  "tk": "SELAN"
+ },
+ "senco": {
+  "ctry": "India",
+  "n": "Senco Gold",
+  "path": "quote/nse/SENCO",
+  "tk": "SENCO"
+ },
+ "servotech": {
+  "ctry": "India",
+  "n": "Servotech Renewable Power System",
+  "path": "quote/nse/SERVOTECH",
+  "tk": "SERVOTECH"
+ },
+ "seshasayee": {
+  "ctry": "India",
+  "n": "Seshasayee Paper and Boards",
+  "path": "quote/nse/SESHAPAPER",
+  "tk": "SESHAPAPER"
+ },
+ "sfd": {
+  "ctry": "USA",
+  "n": "Smithfield Foods",
+  "path": "stocks/sfd",
+  "tk": "SFD"
+ },
+ "sfl": {
+  "ctry": "India",
+  "n": "Sheela Foam (Sleepwell)",
+  "path": "quote/nse/SFL",
+  "tk": "SFL"
+ },
+ "sgi": {
+  "ctry": "USA",
+  "n": "Somnigroup International (Tempur Sealy)",
+  "path": "stocks/sgi",
+  "tk": "SGI"
+ },
+ "sgs": {
+  "ctry": "Switzerland",
+  "n": "SGS",
+  "path": "quote/swx/SGSN",
+  "tk": "SGSN"
+ },
+ "shaktipump": {
+  "ctry": "India",
+  "n": "Shakti Pumps (India)",
+  "path": "quote/nse/SHAKTIPUMP",
+  "tk": "SHAKTIPUMP"
+ },
+ "shankara": {
+  "ctry": "India",
+  "n": "Shankara Building Products",
+  "path": "quote/nse/SHANKARA",
+  "tk": "SHANKARA"
+ },
+ "shantigear": {
+  "ctry": "India",
+  "n": "Shanthi Gears",
+  "path": "quote/nse/SHANTIGEAR",
+  "tk": "SHANTIGEAR"
+ },
+ "sharp": {
+  "ctry": "Japan",
+  "n": "Sharp Corporation",
+  "path": "quote/tyo/6753",
+  "tk": "6753"
+ },
+ "shemaroo": {
+  "ctry": "India",
+  "n": "Shemaroo Entertainment",
+  "path": "quote/nse/SHEMAROO",
+  "tk": "SHEMAROO"
+ },
+ "shenzhou": {
+  "ctry": "China",
+  "n": "Shenzhou International",
+  "path": "quote/hkg/2313",
+  "tk": "2313"
+ },
+ "shimano": {
+  "ctry": "Japan",
+  "n": "Shimano",
+  "path": "quote/tyo/7309",
+  "tk": "7309"
+ },
+ "shoperstop": {
+  "ctry": "India",
+  "n": "Shoppers Stop",
+  "path": "quote/nse/SHOPERSTOP",
+  "tk": "SHOPERSTOP"
+ },
+ "shreecem": {
+  "ctry": "India",
+  "n": "Shree Cement",
+  "path": "quote/nse/SHREECEM",
+  "tk": "SHREECEM"
+ },
+ "shripiston": {
+  "ctry": "India",
+  "n": "SPR Auto Technologies (formerly Shriram Pistons & Rings)",
+  "path": "quote/nse/SHRIPISTON",
+  "tk": "SHRIPISTON"
+ },
+ "shriramfin": {
+  "ctry": "India",
+  "n": "Shriram Finance",
+  "path": "quote/nse/SHRIRAMFIN",
+  "tk": "SHRIRAMFIN"
+ },
+ "shv": {
+  "ctry": "Australia",
+  "n": "Select Harvests",
+  "path": "quote/asx/SHV",
+  "tk": "SHV"
+ },
+ "shyam": {
+  "ctry": "India",
+  "n": "Shyam Metalics and Energy",
+  "path": "quote/nse/SHYAMMETL",
+  "tk": "SHYAMMETL"
+ },
+ "siemensenergy": {
+  "ctry": "Germany",
+  "n": "Siemens Energy",
+  "path": "quote/etr/ENR",
+  "tk": "ENR (Xetra)"
+ },
+ "siemensind": {
+  "ctry": "India",
+  "n": "Siemens Limited (India)",
+  "path": "quote/nse/SIEMENS",
+  "tk": "SIEMENS"
+ },
+ "sig": {
+  "ctry": "USA",
+  "n": "Signet Jewelers",
+  "path": "stocks/sig",
+  "tk": "SIG"
+ },
+ "signify": {
+  "ctry": "Netherlands",
+  "n": "Signify",
+  "path": "quote/ams/LIGHT",
+  "tk": "LIGHT"
+ },
+ "sims": {
+  "ctry": "Australia",
+  "n": "Sims Limited",
+  "path": "quote/asx/SGM",
+  "tk": "SGM"
+ },
+ "sinch": {
+  "ctry": "Sweden",
+  "n": "Sinch",
+  "path": "quote/sto/SINCH",
+  "tk": "SINCH"
+ },
+ "sis": {
+  "ctry": "India",
+  "n": "SIS Limited",
+  "path": "quote/nse/SIS",
+  "tk": "SIS"
+ },
+ "siyaram": {
+  "ctry": "India",
+  "n": "Siyaram Silk Mills",
+  "path": "quote/nse/SIYSIL",
+  "tk": "SIYSIL"
+ },
+ "sjm": {
+  "ctry": "USA",
+  "n": "J. M. Smucker",
+  "path": "stocks/sjm",
+  "tk": "SJM"
+ },
+ "sjvn": {
+  "ctry": "India",
+  "n": "SJVN",
+  "path": "quote/nse/SJVN",
+  "tk": "SJVN"
+ },
+ "skfindia": {
+  "ctry": "India",
+  "n": "SKF India",
+  "path": "quote/nse/SKFINDIA",
+  "tk": "SKFINDIA"
+ },
+ "skipper": {
+  "ctry": "India",
+  "n": "Skipper",
+  "path": "quote/nse/SKIPPER",
+  "tk": "SKIPPER"
+ },
+ "skmegg": {
+  "ctry": "India",
+  "n": "SKM Egg Products Export (India)",
+  "path": "quote/nse/SKMEGGPROD",
+  "tk": "SKMEGGPROD"
+ },
+ "skygold": {
+  "ctry": "India",
+  "n": "Sky Gold and Diamonds",
+  "path": "quote/nse/SKYGOLD",
+  "tk": "SKYGOLD"
+ },
+ "slb": {
+  "ctry": "USA",
+  "n": "SLB",
+  "path": "stocks/slb",
+  "tk": "SLB"
+ },
+ "slc": {
+  "ctry": "Brazil",
+  "n": "SLC Agrícola",
+  "path": "quote/bvmf/SLCE3",
+  "tk": "SLCE3"
+ },
+ "sma": {
+  "ctry": "Germany",
+  "n": "SMA Solar Technology",
+  "path": "quote/etr/S92",
+  "tk": "S92"
+ },
+ "smc": {
+  "ctry": "Japan",
+  "n": "SMC Corporation",
+  "path": "quote/tyo/6273",
+  "tk": "6273"
+ },
+ "smci": {
+  "ctry": "USA",
+  "n": "Super Micro Computer",
+  "path": "stocks/smci",
+  "tk": "SMCI"
+ },
+ "sndk": {
+  "ctry": "USA",
+  "n": "Sandisk",
+  "path": "stocks/sndk",
+  "tk": "SNDK"
+ },
+ "snowman": {
+  "ctry": "India",
+  "n": "Snowman Logistics",
+  "path": "quote/nse/SNOWMAN",
+  "tk": "SNOWMAN"
+ },
+ "snx": {
+  "ctry": "USA",
+  "n": "TD SYNNEX",
+  "path": "stocks/snx",
+  "tk": "SNX"
+ },
+ "sobha": {
+  "ctry": "India",
+  "n": "Sobha",
+  "path": "quote/nse/SOBHA",
+  "tk": "SOBHA"
+ },
+ "solara": {
+  "ctry": "India",
+  "n": "Solara Active Pharma Sciences",
+  "path": "quote/nse/SOLARA",
+  "tk": "SOLARA"
+ },
+ "solarinds": {
+  "ctry": "India",
+  "n": "Solar Industries India",
+  "path": "quote/nse/SOLARINDS",
+  "tk": "SOLARINDS"
+ },
+ "som": {
+  "ctry": "India",
+  "n": "Som Distilleries & Breweries",
+  "path": "quote/nse/SDBL",
+  "tk": "SDBL"
+ },
+ "somany": {
+  "ctry": "India",
+  "n": "Somany Ceramics",
+  "path": "quote/nse/SOMANYCERA",
+  "tk": "SOMANYCERA"
+ },
+ "sonacoms": {
+  "ctry": "India",
+  "n": "Sona BLW Precision Forgings",
+  "path": "quote/nse/SONACOMS",
+  "tk": "SONACOMS"
+ },
+ "sonatsoftw": {
+  "ctry": "India",
+  "n": "Sonata Software",
+  "path": "quote/nse/SONATSOFTW",
+  "tk": "SONATSOFTW"
+ },
+ "sono": {
+  "ctry": "USA",
+  "n": "Sonos",
+  "path": "stocks/sono",
+  "tk": "SONO"
+ },
+ "sony": {
+  "ctry": "Japan",
+  "n": "Sony Group",
+  "path": "quote/tyo/6758",
+  "tk": "6758"
+ },
+ "spapparels": {
+  "ctry": "India",
+  "n": "S.P. Apparels",
+  "path": "quote/nse/SPAL",
+  "tk": "SPAL"
+ },
+ "spec": {
+  "ctry": "India",
+  "n": "Speciality Restaurants",
+  "path": "quote/nse/SPECIALITY",
+  "tk": "SPECIALITY"
+ },
+ "spel": {
+  "ctry": "India",
+  "n": "SPEL Semiconductor",
+  "path": "quote/bom/517166",
+  "tk": "517166"
+ },
+ "spg": {
+  "ctry": "USA",
+  "n": "Simon Property Group",
+  "path": "stocks/spg",
+  "tk": "SPG"
+ },
+ "spicejet": {
+  "ctry": "India",
+  "n": "SpiceJet",
+  "path": "quote/bom/500285",
+  "tk": "SPICEJET"
+ },
+ "srf": {
+  "ctry": "India",
+  "n": "SRF",
+  "path": "quote/nse/SRF",
+  "tk": "SRF"
+ },
+ "ssys": {
+  "ctry": "Israel",
+  "n": "Stratasys",
+  "path": "stocks/ssys",
+  "tk": "SSYS"
+ },
+ "stanley": {
+  "ctry": "India",
+  "n": "Stanley Lifestyles",
+  "path": "quote/nse/STANLEY",
+  "tk": "STANLEY"
+ },
+ "starhealth": {
+  "ctry": "India",
+  "n": "Star Health and Allied Insurance",
+  "path": "quote/nse/STARHEALTH",
+  "tk": "STARHEALTH"
+ },
+ "stengg": {
+  "ctry": "Singapore",
+  "n": "ST Engineering",
+  "path": "quote/sgx/S63",
+  "tk": "S63"
+ },
+ "sterlingtools": {
+  "ctry": "India",
+  "n": "Sterling Tools",
+  "path": "quote/nse/STERTOOLS",
+  "tk": "STERTOOLS"
+ },
+ "stld": {
+  "ctry": "USA",
+  "n": "Steel Dynamics",
+  "path": "stocks/stld",
+  "tk": "STLD"
+ },
+ "stltech": {
+  "ctry": "India",
+  "n": "Sterlite Technologies",
+  "path": "quote/nse/STLTECH",
+  "tk": "STLTECH"
+ },
+ "storaenso": {
+  "ctry": "Finland",
+  "n": "Stora Enso",
+  "path": "quote/hel/STERV",
+  "tk": "STERV"
+ },
+ "stovekraft": {
+  "ctry": "India",
+  "n": "Stove Kraft",
+  "path": "quote/nse/STOVEKRAFT",
+  "tk": "STOVEKRAFT"
+ },
+ "stra": {
+  "ctry": "USA",
+  "n": "Strategic Education",
+  "path": "stocks/stra",
+  "tk": "STRA"
+ },
+ "straumann": {
+  "ctry": "Switzerland",
+  "n": "Straumann Holding",
+  "path": "quote/swx/STMN",
+  "tk": "STMN"
+ },
+ "stx": {
+  "ctry": "Ireland",
+  "n": "Seagate Technology",
+  "path": "stocks/stx",
+  "tk": "STX"
+ },
+ "stylebaaza": {
+  "ctry": "India",
+  "n": "Baazar Style Retail",
+  "path": "quote/nse/STYLEBAAZA",
+  "tk": "STYLEBAAZA"
+ },
+ "subros": {
+  "ctry": "India",
+  "n": "Subros",
+  "path": "quote/nse/SUBROS",
+  "tk": "SUBROS"
+ },
+ "subsea7": {
+  "ctry": "Luxembourg",
+  "n": "Subsea 7",
+  "path": "quote/osl/SUBC",
+  "tk": "SUBC"
+ },
+ "sudarshan": {
+  "ctry": "India",
+  "n": "Sudarshan Chemical Industries",
+  "path": "quote/nse/SUDARSCHEM",
+  "tk": "SUDARSCHEM"
+ },
+ "sukhjit": {
+  "ctry": "India",
+  "n": "Sukhjit Starch & Chemicals",
+  "path": "quote/nse/SUKHJITS",
+  "tk": "SUKHJITS"
+ },
+ "sula": {
+  "ctry": "India",
+  "n": "Sula Vineyards",
+  "path": "quote/nse/SULA",
+  "tk": "SULA"
+ },
+ "sumichem": {
+  "ctry": "India",
+  "n": "Sumitomo Chemical India",
+  "path": "quote/nse/SUMICHEM",
+  "tk": "SUMICHEM"
+ },
+ "suncoke": {
+  "ctry": "USA",
+  "n": "SunCoke Energy",
+  "path": "stocks/sxc",
+  "tk": "SXC"
+ },
+ "sundarmfin": {
+  "ctry": "India",
+  "n": "Sundaram Finance",
+  "path": "quote/nse/SUNDARMFIN",
+  "tk": "SUNDARMFIN"
+ },
+ "sundram": {
+  "ctry": "India",
+  "n": "Sundram Fasteners",
+  "path": "quote/nse/SUNDRMFAST",
+  "tk": "SUNDRMFAST"
+ },
+ "sunflag": {
+  "ctry": "India",
+  "n": "Sunflag Iron and Steel",
+  "path": "quote/nse/SUNFLAG",
+  "tk": "SUNFLAG"
+ },
+ "sungrow": {
+  "ctry": "China",
+  "n": "Sungrow Power Supply",
+  "path": "quote/she/300274",
+  "tk": "300274"
+ },
+ "sunpharma": {
+  "ctry": "India",
+  "n": "Sun Pharmaceutical Industries",
+  "path": "quote/nse/SUNPHARMA",
+  "tk": "SUNPHARMA"
+ },
+ "sunteck": {
+  "ctry": "India",
+  "n": "Sunteck Realty",
+  "path": "quote/nse/SUNTECK",
+  "tk": "SUNTECK"
+ },
+ "suntv": {
+  "ctry": "India",
+  "n": "Sun TV Network",
+  "path": "quote/nse/SUNTV",
+  "tk": "SUNTV"
+ },
+ "superhouse": {
+  "ctry": "India",
+  "n": "Superhouse",
+  "path": "quote/nse/SUPERHOUSE",
+  "tk": "SUPERHOUSE"
+ },
+ "suprajit": {
+  "ctry": "India",
+  "n": "Suprajit Engineering",
+  "path": "quote/nse/SUPRAJIT",
+  "tk": "SUPRAJIT"
+ },
+ "supreme": {
+  "ctry": "India",
+  "n": "Supreme Industries",
+  "path": "quote/nse/SUPREMEIND",
+  "tk": "SUPREMEIND"
+ },
+ "supremepet": {
+  "ctry": "India",
+  "n": "Supreme Petrochem",
+  "path": "quote/nse/SPLPETRO",
+  "tk": "SPLPETRO"
+ },
+ "suryarosni": {
+  "ctry": "India",
+  "n": "Surya Roshni",
+  "path": "quote/nse/SURYAROSNI",
+  "tk": "SURYAROSNI"
+ },
+ "suryoday": {
+  "ctry": "India",
+  "n": "Suryoday Small Finance Bank",
+  "path": "quote/nse/SURYODAY",
+  "tk": "SURYODAY"
+ },
+ "sutlej": {
+  "ctry": "India",
+  "n": "Sutlej Textiles and Industries",
+  "path": "quote/nse/SUTLEJTEX",
+  "tk": "SUTLEJTEX"
+ },
+ "suzano": {
+  "ctry": "Brazil",
+  "n": "Suzano",
+  "path": "stocks/suz",
+  "tk": "SUZ"
+ },
+ "suzlon": {
+  "ctry": "India",
+  "n": "Suzlon Energy",
+  "path": "quote/nse/SUZLON",
+  "tk": "SUZLON"
+ },
+ "svt": {
+  "ctry": "UK",
+  "n": "Severn Trent",
+  "path": "quote/lon/SVT",
+  "tk": "SVT"
+ },
+ "sw": {
+  "ctry": "Ireland",
+  "n": "Smurfit Westrock",
+  "path": "stocks/sw",
+  "tk": "SW"
+ },
+ "swatch": {
+  "ctry": "Switzerland",
+  "n": "The Swatch Group",
+  "path": "quote/swx/UHR",
+  "tk": "UHR"
+ },
+ "swiggy": {
+  "ctry": "India",
+  "n": "Swiggy",
+  "path": "quote/nse/SWIGGY",
+  "tk": "SWIGGY"
+ },
+ "swissre": {
+  "ctry": "Switzerland",
+  "n": "Swiss Re",
+  "path": "quote/swx/SREN",
+  "tk": "SREN"
+ },
+ "swk": {
+  "ctry": "USA",
+  "n": "Stanley Black & Decker",
+  "path": "stocks/swk",
+  "tk": "SWK"
+ },
+ "swsolar": {
+  "ctry": "India",
+  "n": "Sterling and Wilson Renewable Energy",
+  "path": "quote/nse/SWSOLAR",
+  "tk": "SWSOLAR"
+ },
+ "syf": {
+  "ctry": "USA",
+  "n": "Synchrony Financial",
+  "path": "stocks/syf",
+  "tk": "SYF"
+ },
+ "syk": {
+  "ctry": "USA",
+  "n": "Stryker",
+  "path": "stocks/syk",
+  "tk": "SYK"
+ },
+ "sym": {
+  "ctry": "USA",
+  "n": "Symbotic",
+  "path": "stocks/sym",
+  "tk": "SYM"
+ },
+ "symphony": {
+  "ctry": "India",
+  "n": "Symphony",
+  "path": "quote/nse/SYMPHONY",
+  "tk": "SYMPHONY"
+ },
+ "symrise": {
+  "ctry": "Germany",
+  "n": "Symrise",
+  "path": "quote/etr/SY1",
+  "tk": "SY1"
+ },
+ "syrah": {
+  "ctry": "Australia",
+  "n": "Syrah Resources",
+  "path": "quote/asx/SYR",
+  "tk": "SYR"
+ },
+ "syrma": {
+  "ctry": "India",
+  "n": "Syrma SGS Technology",
+  "path": "quote/nse/SYRMA",
+  "tk": "SYRMA"
+ },
+ "syy": {
+  "ctry": "USA",
+  "n": "Sysco",
+  "path": "stocks/syy",
+  "tk": "SYY"
+ },
+ "szu": {
+  "ctry": "Germany",
+  "n": "Südzucker",
+  "path": "quote/etr/SZU",
+  "tk": "SZU"
+ },
+ "tal": {
+  "ctry": "China",
+  "n": "TAL Education Group",
+  "path": "stocks/tal",
+  "tk": "TAL"
+ },
+ "tanla": {
+  "ctry": "India",
+  "n": "Tanla Platforms",
+  "path": "quote/nse/TANLA",
+  "tk": "TANLA"
+ },
+ "tapestry": {
+  "ctry": "USA",
+  "n": "Tapestry",
+  "path": "stocks/tpr",
+  "tk": "TPR"
+ },
+ "taril": {
+  "ctry": "India",
+  "n": "Transformers and Rectifiers (India)",
+  "path": "quote/nse/TARIL",
+  "tk": "TARIL"
+ },
+ "tatachem": {
+  "ctry": "India",
+  "n": "Tata Chemicals",
+  "path": "quote/nse/TATACHEM",
+  "tk": "TATACHEM"
+ },
+ "tatacomm": {
+  "ctry": "India",
+  "n": "Tata Communications",
+  "path": "quote/nse/TATACOMM",
+  "tk": "TATACOMM"
+ },
+ "tataelxsi": {
+  "ctry": "India",
+  "n": "Tata Elxsi",
+  "path": "quote/nse/TATAELXSI",
+  "tk": "TATAELXSI"
+ },
+ "tatainvest": {
+  "ctry": "India",
+  "n": "Tata Investment Corporation",
+  "path": "quote/nse/TATAINVEST",
+  "tk": "TATAINVEST"
+ },
+ "tatapower": {
+  "ctry": "India",
+  "n": "Tata Power",
+  "path": "quote/nse/TATAPOWER",
+  "tk": "TATAPOWER"
+ },
+ "tatasteel": {
+  "ctry": "India",
+  "n": "Tata Steel",
+  "path": "quote/nse/TATASTEEL",
+  "tk": "TATASTEEL"
+ },
+ "tate": {
+  "ctry": "UK",
+  "n": "Tate & Lyle",
+  "path": "quote/lon/TATE",
+  "tk": "TATE"
+ },
+ "tci": {
+  "ctry": "India",
+  "n": "Transport Corporation of India",
+  "path": "quote/nse/TCI",
+  "tk": "TCI"
+ },
+ "tclelec": {
+  "ctry": "China",
+  "n": "TCL Electronics Holdings",
+  "path": "quote/hkg/1070",
+  "tk": "1070"
+ },
+ "tcom": {
+  "ctry": "China",
+  "n": "Trip.com Group",
+  "path": "stocks/tcom",
+  "tk": "TCOM"
+ },
+ "tcook": {
+  "ctry": "India",
+  "n": "Thomas Cook (India)",
+  "path": "quote/nse/THOMASCOOK",
+  "tk": "THOMASCOOK"
+ },
+ "tcpl": {
+  "ctry": "India",
+  "n": "Tata Consumer Products",
+  "path": "quote/nse/TATACONSUM",
+  "tk": "TATACONSUM"
+ },
+ "tcplpack": {
+  "ctry": "India",
+  "n": "TCPL Packaging",
+  "path": "quote/nse/TCPLPACK",
+  "tk": "TCPLPACK"
+ },
+ "tcs": {
+  "ctry": "India",
+  "n": "Tata Consultancy Services",
+  "path": "quote/nse/TCS",
+  "tk": "TCS"
+ },
+ "tdk": {
+  "ctry": "Japan",
+  "n": "TDK Corporation",
+  "path": "quote/tyo/6762",
+  "tk": "6762"
+ },
+ "tdup": {
+  "ctry": "USA",
+  "n": "ThredUp",
+  "path": "stocks/tdup",
+  "tk": "TDUP"
+ },
+ "teamlease": {
+  "ctry": "India",
+  "n": "TeamLease Services",
+  "path": "quote/nse/TEAMLEASE",
+  "tk": "TEAMLEASE"
+ },
+ "technoe": {
+  "ctry": "India",
+  "n": "Techno Electric & Engineering",
+  "path": "quote/nse/TECHNOE",
+  "tk": "TECHNOE"
+ },
+ "teck": {
+  "ctry": "Canada",
+  "n": "Teck Resources",
+  "path": "stocks/teck",
+  "tk": "TECK"
+ },
+ "tejasnet": {
+  "ctry": "India",
+  "n": "Tejas Networks",
+  "path": "quote/nse/TEJASNET",
+  "tk": "TEJASNET"
+ },
+ "tel": {
+  "ctry": "Switzerland",
+  "n": "TE Connectivity",
+  "path": "stocks/tel",
+  "tk": "TEL"
+ },
+ "tel8035": {
+  "ctry": "Japan",
+  "n": "Tokyo Electron",
+  "path": "quote/tyo/8035",
+  "tk": "8035"
+ },
+ "tenaris": {
+  "ctry": "Luxembourg",
+  "n": "Tenaris",
+  "path": "stocks/ts",
+  "tk": "TS"
+ },
+ "tep": {
+  "ctry": "France",
+  "n": "Teleperformance",
+  "path": "quote/epa/TEP",
+  "tk": "TEP"
+ },
+ "tesco": {
+  "ctry": "UK",
+  "n": "Tesco",
+  "path": "quote/lon/TSCO",
+  "tk": "TSCO"
+ },
+ "texrail": {
+  "ctry": "India",
+  "n": "Texmaco Rail & Engineering",
+  "path": "quote/nse/TEXRAIL",
+  "tk": "TEXRAIL"
+ },
+ "tfs": {
+  "ctry": "India",
+  "n": "Travel Food Services",
+  "path": "quote/nse/TRAVELFOOD",
+  "tk": "TRAVELFOOD"
+ },
+ "tgt": {
+  "ctry": "USA",
+  "n": "Target",
+  "path": "stocks/tgt",
+  "tk": "TGT"
+ },
+ "thaiunion": {
+  "ctry": "Thailand",
+  "n": "Thai Union Group",
+  "path": "quote/bkk/TU",
+  "tk": "TU"
+ },
+ "thangamayl": {
+  "ctry": "India",
+  "n": "Thangamayil Jewellery",
+  "path": "quote/nse/THANGAMAYL",
+  "tk": "THANGAMAYL"
+ },
+ "thermax": {
+  "ctry": "India",
+  "n": "Thermax",
+  "path": "quote/nse/THERMAX",
+  "tk": "THERMAX"
+ },
+ "thyrocare": {
+  "ctry": "India",
+  "n": "Thyrocare Technologies",
+  "path": "quote/nse/THYROCARE",
+  "tk": "THYROCARE"
+ },
+ "tiindia": {
+  "ctry": "India",
+  "n": "Tube Investments of India",
+  "path": "quote/nse/TIINDIA",
+  "tk": "TIINDIA"
+ },
+ "tilaknagar": {
+  "ctry": "India",
+  "n": "Tilaknagar Industries",
+  "path": "quote/nse/TI",
+  "tk": "TI"
+ },
+ "tilray": {
+  "ctry": "USA",
+  "n": "Tilray Brands",
+  "path": "stocks/tlry",
+  "tk": "TLRY"
+ },
+ "timetech": {
+  "ctry": "India",
+  "n": "Time Technoplast",
+  "path": "quote/nse/TIMETECHNO",
+  "tk": "TIMETECHNO"
+ },
+ "timken": {
+  "ctry": "India",
+  "n": "Timken India",
+  "path": "quote/nse/TIMKEN",
+  "tk": "TIMKEN"
+ },
+ "tips": {
+  "ctry": "India",
+  "n": "Tips Music",
+  "path": "quote/nse/TIPSMUSIC",
+  "tk": "TIPSMUSIC"
+ },
+ "titagarh": {
+  "ctry": "India",
+  "n": "Titagarh Rail Systems",
+  "path": "quote/nse/TITAGARH",
+  "tk": "TITAGARH"
+ },
+ "titan": {
+  "ctry": "India",
+  "n": "Titan Company",
+  "path": "quote/nse/TITAN",
+  "tk": "TITAN"
+ },
+ "tjx": {
+  "ctry": "USA",
+  "n": "The TJX Companies",
+  "path": "stocks/tjx",
+  "tk": "TJX"
+ },
+ "tm": {
+  "ctry": "Japan",
+  "n": "Toyota Motor",
+  "path": "stocks/tm",
+  "tk": "TM"
+ },
+ "tmcv": {
+  "ctry": "India",
+  "n": "Tata Motors (commercial vehicles)",
+  "path": "quote/nse/TMCV",
+  "tk": "TMCV"
+ },
+ "tmo": {
+  "ctry": "USA",
+  "n": "Thermo Fisher Scientific",
+  "path": "stocks/tmo",
+  "tk": "TMO"
+ },
+ "tmpv": {
+  "ctry": "India",
+  "n": "Tata Motors Passenger Vehicles",
+  "path": "quote/nse/TMPV",
+  "tk": "TMPV"
+ },
+ "tmus": {
+  "ctry": "USA",
+  "n": "T-Mobile US",
+  "path": "stocks/tmus",
+  "tk": "TMUS"
+ },
+ "tnpl": {
+  "ctry": "India",
+  "n": "Tamil Nadu Newsprint and Papers",
+  "path": "quote/nse/TNPL",
+  "tk": "TNPL"
+ },
+ "torrent": {
+  "ctry": "India",
+  "n": "Torrent Pharmaceuticals",
+  "path": "quote/nse/TORNTPHARM",
+  "tk": "TORNTPHARM"
+ },
+ "torrentpower": {
+  "ctry": "India",
+  "n": "Torrent Power",
+  "path": "quote/nse/TORNTPOWER",
+  "tk": "TORNTPOWER"
+ },
+ "tracxn": {
+  "ctry": "India",
+  "n": "Tracxn Technologies",
+  "path": "quote/nse/TRACXN",
+  "tk": "TRACXN"
+ },
+ "transurban": {
+  "ctry": "Australia",
+  "n": "Transurban Group",
+  "path": "quote/asx/TCL",
+  "tk": "TCL"
+ },
+ "trent": {
+  "ctry": "India",
+  "n": "Trent (Westside, Zudio)",
+  "path": "quote/nse/TRENT",
+  "tk": "TRENT"
+ },
+ "trident": {
+  "ctry": "India",
+  "n": "Trident",
+  "path": "quote/nse/TRIDENT",
+  "tk": "TRIDENT"
+ },
+ "triturbine": {
+  "ctry": "India",
+  "n": "Triveni Turbine",
+  "path": "quote/nse/TRITURBINE",
+  "tk": "TRITURBINE"
+ },
+ "triveni": {
+  "ctry": "India",
+  "n": "Triveni Engineering & Industries",
+  "path": "quote/nse/TRIVENI",
+  "tk": "TRIVENI"
+ },
+ "trmb": {
+  "ctry": "USA",
+  "n": "Trimble",
+  "path": "stocks/trmb",
+  "tk": "TRMB"
+ },
+ "tru": {
+  "ctry": "USA",
+  "n": "TransUnion",
+  "path": "stocks/tru",
+  "tk": "TRU"
+ },
+ "tsla": {
+  "ctry": "USA",
+  "n": "Tesla",
+  "path": "stocks/tsla",
+  "tk": "TSLA"
+ },
+ "tsm": {
+  "ctry": "Taiwan",
+  "n": "TSMC",
+  "path": "stocks/tsm",
+  "tk": "TSM"
+ },
+ "tsn": {
+  "ctry": "USA",
+  "n": "Tyson Foods",
+  "path": "stocks/tsn",
+  "tk": "TSN"
+ },
+ "tt": {
+  "ctry": "Ireland",
+  "n": "Trane Technologies",
+  "path": "stocks/tt",
+  "tk": "TT"
+ },
+ "ttd": {
+  "ctry": "USA",
+  "n": "The Trade Desk",
+  "path": "stocks/ttd",
+  "tk": "TTD"
+ },
+ "tti": {
+  "ctry": "Hong Kong",
+  "n": "Techtronic Industries",
+  "path": "quote/hkg/0669",
+  "tk": "0669"
+ },
+ "ttkprestige": {
+  "ctry": "India",
+  "n": "TTK Prestige",
+  "path": "quote/nse/TTKPRESTIG",
+  "tk": "TTKPRESTIG"
+ },
+ "ttwo": {
+  "ctry": "USA",
+  "n": "Take-Two Interactive Software",
+  "path": "stocks/ttwo",
+  "tk": "TTWO"
+ },
+ "tvsmotor": {
+  "ctry": "India",
+  "n": "TVS Motor Company",
+  "path": "quote/nse/TVSMOTOR",
+  "tk": "TVSMOTOR"
+ },
+ "tvssrichak": {
+  "ctry": "India",
+  "n": "TVS Srichakra",
+  "path": "quote/nse/TVSSRICHAK",
+  "tk": "TVSSRICHAK"
+ },
+ "tvtoday": {
+  "ctry": "India",
+  "n": "TV Today Network",
+  "path": "quote/nse/TVTODAY",
+  "tk": "TVTODAY"
+ },
+ "twe": {
+  "ctry": "Australia",
+  "n": "Treasury Wine Estates",
+  "path": "quote/asx/TWE",
+  "tk": "TWE"
+ },
+ "twlo": {
+  "ctry": "USA",
+  "n": "Twilio",
+  "path": "stocks/twlo",
+  "tk": "TWLO"
+ },
+ "txn": {
+  "ctry": "USA",
+  "n": "Texas Instruments",
+  "path": "stocks/txn",
+  "tk": "TXN"
+ },
+ "ual": {
+  "ctry": "USA",
+  "n": "United Airlines Holdings",
+  "path": "stocks/ual",
+  "tk": "UAL"
+ },
+ "uber": {
+  "ctry": "USA",
+  "n": "Uber Technologies",
+  "path": "stocks/uber",
+  "tk": "UBER"
+ },
+ "ubl": {
+  "ctry": "India",
+  "n": "United Breweries",
+  "path": "quote/nse/UBL",
+  "tk": "UBL"
+ },
+ "uds": {
+  "ctry": "India",
+  "n": "Updater Services",
+  "path": "quote/nse/UDS",
+  "tk": "UDS"
+ },
+ "ufbl": {
+  "ctry": "India",
+  "n": "United Foodbrands (Barbeque-Nation)",
+  "path": "quote/nse/UFBL",
+  "tk": "UFBL"
+ },
+ "uflex": {
+  "ctry": "India",
+  "n": "Uflex",
+  "path": "quote/nse/UFLEX",
+  "tk": "UFLEX"
+ },
+ "ui": {
+  "ctry": "USA",
+  "n": "Ubiquiti",
+  "path": "stocks/ui",
+  "tk": "UI"
+ },
+ "ujjivansfb": {
+  "ctry": "India",
+  "n": "Ujjivan Small Finance Bank",
+  "path": "quote/nse/UJJIVANSFB",
+  "tk": "UJJIVANSFB"
+ },
+ "ulta": {
+  "ctry": "USA",
+  "n": "Ulta Beauty",
+  "path": "stocks/ulta",
+  "tk": "ULTA"
+ },
+ "ultratech": {
+  "ctry": "India",
+  "n": "UltraTech Cement",
+  "path": "quote/nse/ULTRACEMCO",
+  "tk": "ULTRACEMCO"
+ },
+ "umios": {
+  "ctry": "Japan",
+  "n": "Umios (formerly Maruha Nichiro)",
+  "path": "quote/tyo/1333",
+  "tk": "1333"
+ },
+ "unh": {
+  "ctry": "USA",
+  "n": "UnitedHealth Group",
+  "path": "stocks/unh",
+  "tk": "UNH"
+ },
+ "unilever": {
+  "ctry": "UK",
+  "n": "Unilever",
+  "path": "quote/lon/ULVR",
+  "tk": "ULVR"
+ },
+ "unimech": {
+  "ctry": "India",
+  "n": "Unimech Aerospace and Manufacturing",
+  "path": "quote/nse/UNIMECH",
+  "tk": "UNIMECH"
+ },
+ "univcables": {
+  "ctry": "India",
+  "n": "Universal Cables",
+  "path": "quote/nse/UNIVCABLES",
+  "tk": "UNIVCABLES"
+ },
+ "unominda": {
+  "ctry": "India",
+  "n": "Uno Minda",
+  "path": "quote/nse/UNOMINDA",
+  "tk": "UNOMINDA"
+ },
+ "unp": {
+  "ctry": "USA",
+  "n": "Union Pacific",
+  "path": "stocks/unp",
+  "tk": "UNP"
+ },
+ "upl": {
+  "ctry": "India",
+  "n": "UPL",
+  "path": "quote/nse/UPL",
+  "tk": "UPL"
+ },
+ "upm": {
+  "ctry": "Finland",
+  "n": "UPM-Kymmene",
+  "path": "quote/hel/UPM",
+  "tk": "UPM"
+ },
+ "ups": {
+  "ctry": "USA",
+  "n": "United Parcel Service",
+  "path": "stocks/ups",
+  "tk": "UPS"
+ },
+ "urbanco": {
+  "ctry": "India",
+  "n": "Urban Company",
+  "path": "quote/nse/URBANCO",
+  "tk": "URBANCO"
+ },
+ "uri": {
+  "ctry": "USA",
+  "n": "United Rentals",
+  "path": "stocks/uri",
+  "tk": "URI"
+ },
+ "usfd": {
+  "ctry": "USA",
+  "n": "US Foods Holding",
+  "path": "stocks/usfd",
+  "tk": "USFD"
+ },
+ "ushamartin": {
+  "ctry": "India",
+  "n": "Usha Martin",
+  "path": "quote/nse/USHAMART",
+  "tk": "USHAMART"
+ },
+ "usl": {
+  "ctry": "India",
+  "n": "United Spirits",
+  "path": "quote/nse/UNITDSPR",
+  "tk": "UNITDSPR"
+ },
+ "utiamc": {
+  "ctry": "India",
+  "n": "UTI Asset Management Company",
+  "path": "quote/nse/UTIAMC",
+  "tk": "UTIAMC"
+ },
+ "uu": {
+  "ctry": "UK",
+  "n": "United Utilities Group",
+  "path": "quote/lon/UU",
+  "tk": "UU"
+ },
+ "uuuu": {
+  "ctry": "USA",
+  "n": "Energy Fuels",
+  "path": "stocks/uuuu",
+  "tk": "UUUU"
+ },
+ "uvv": {
+  "ctry": "USA",
+  "n": "Universal Corporation",
+  "path": "stocks/uvv",
+  "tk": "UVV"
+ },
+ "v2retail": {
+  "ctry": "India",
+  "n": "V2 Retail",
+  "path": "quote/nse/V2RETAIL",
+  "tk": "V2RETAIL"
+ },
+ "vadilal": {
+  "ctry": "India",
+  "n": "Vadilal Industries",
+  "path": "quote/nse/VADILALIND",
+  "tk": "VADILALIND"
+ },
+ "vaisala": {
+  "ctry": "Finland",
+  "n": "Vaisala",
+  "path": "quote/hel/VAIAS",
+  "tk": "VAIAS"
+ },
+ "valaris": {
+  "ctry": "Bermuda",
+  "n": "Valaris",
+  "path": "stocks/val",
+  "tk": "VAL"
+ },
+ "vale": {
+  "ctry": "Brazil",
+  "n": "Vale",
+  "path": "stocks/vale",
+  "tk": "VALE"
+ },
+ "vardhman": {
+  "ctry": "India",
+  "n": "Vardhman Textiles",
+  "path": "quote/nse/VTL",
+  "tk": "VTL"
+ },
+ "varenergi": {
+  "ctry": "Norway",
+  "n": "Vår Energi",
+  "path": "quote/osl/VAR",
+  "tk": "VAR"
+ },
+ "varroc": {
+  "ctry": "India",
+  "n": "Varroc Engineering",
+  "path": "quote/nse/VARROC",
+  "tk": "VARROC"
+ },
+ "vbl": {
+  "ctry": "India",
+  "n": "Varun Beverages",
+  "path": "quote/nse/VBL",
+  "tk": "VBL"
+ },
+ "vedant": {
+  "ctry": "India",
+  "n": "Vedant Fashions (Manyavar)",
+  "path": "quote/nse/MANYAVAR",
+  "tk": "MANYAVAR"
+ },
+ "vedl": {
+  "ctry": "India",
+  "n": "Vedanta",
+  "path": "quote/nse/VEDL",
+  "tk": "VEDL"
+ },
+ "venkys": {
+  "ctry": "India",
+  "n": "Venky's (India)",
+  "path": "quote/nse/VENKEYS",
+  "tk": "VENKEYS"
+ },
+ "ventive": {
+  "ctry": "India",
+  "n": "Ventive Hospitality",
+  "path": "quote/nse/VENTIVE",
+  "tk": "VENTIVE"
+ },
+ "veolia": {
+  "ctry": "France",
+  "n": "Veolia Environnement",
+  "path": "quote/epa/VIE",
+  "tk": "VIE"
+ },
+ "verallia": {
+  "ctry": "France",
+  "n": "Verallia",
+  "path": "quote/epa/VRLA",
+  "tk": "VRLA"
+ },
+ "veranda": {
+  "ctry": "India",
+  "n": "Veranda Learning Solutions",
+  "path": "quote/nse/VERANDA",
+  "tk": "VERANDA"
+ },
+ "vestas": {
+  "ctry": "Denmark",
+  "n": "Vestas Wind Systems",
+  "path": "quote/cph/VWS",
+  "tk": "VWS"
+ },
+ "vesuvius": {
+  "ctry": "India",
+  "n": "Vesuvius India",
+  "path": "quote/nse/VESUVIUS",
+  "tk": "VESUVIUS"
+ },
+ "vfc": {
+  "ctry": "USA",
+  "n": "V.F. Corporation",
+  "path": "stocks/vfc",
+  "tk": "VFC"
+ },
+ "vff": {
+  "ctry": "Canada",
+  "n": "Village Farms International",
+  "path": "stocks/vff",
+  "tk": "VFF"
+ },
+ "vguard": {
+  "ctry": "India",
+  "n": "V-Guard Industries",
+  "path": "quote/nse/VGUARD",
+  "tk": "VGUARD"
+ },
+ "vijaya": {
+  "ctry": "India",
+  "n": "Vijaya Diagnostic Centre",
+  "path": "quote/nse/VIJAYA",
+  "tk": "VIJAYA"
+ },
+ "vikramsolr": {
+  "ctry": "India",
+  "n": "Vikram Solar",
+  "path": "quote/nse/VIKRAMSOLR",
+  "tk": "VIKRAMSOLR"
+ },
+ "vimtalabs": {
+  "ctry": "India",
+  "n": "Vimta Labs",
+  "path": "quote/nse/VIMTALABS",
+  "tk": "VIMTALABS"
+ },
+ "vinati": {
+  "ctry": "India",
+  "n": "Vinati Organics",
+  "path": "quote/nse/VINATIORGA",
+  "tk": "VINATIORGA"
+ },
+ "vinci": {
+  "ctry": "France",
+  "n": "Vinci",
+  "path": "quote/epa/DG",
+  "tk": "DG"
+ },
+ "vinylindia": {
+  "ctry": "India",
+  "n": "Vinyl Chemicals (India)",
+  "path": "quote/nse/VINYLINDIA",
+  "tk": "VINYLINDIA"
+ },
+ "vip": {
+  "ctry": "India",
+  "n": "V.I.P. Industries",
+  "path": "quote/nse/VIPIND",
+  "tk": "VIPIND"
+ },
+ "visa": {
+  "ctry": "USA",
+  "n": "Visa",
+  "path": "stocks/v",
+  "tk": "V"
+ },
+ "visaka": {
+  "ctry": "India",
+  "n": "Visaka Industries",
+  "path": "quote/nse/VISAKAIND",
+  "tk": "VISAKAIND"
+ },
+ "vistra": {
+  "ctry": "USA",
+  "n": "Vistra",
+  "path": "stocks/vst",
+  "tk": "VST"
+ },
+ "vitl": {
+  "ctry": "USA",
+  "n": "Vital Farms",
+  "path": "stocks/vitl",
+  "tk": "VITL"
+ },
+ "viyash": {
+  "ctry": "India",
+  "n": "Viyash Scientific (formerly SeQuent Scientific)",
+  "path": "quote/nse/SEQUENT",
+  "tk": "SEQUENT"
+ },
+ "vmart": {
+  "ctry": "India",
+  "n": "V-Mart Retail",
+  "path": "quote/nse/VMART",
+  "tk": "VMART"
+ },
+ "vmc": {
+  "ctry": "USA",
+  "n": "Vulcan Materials",
+  "path": "stocks/vmc",
+  "tk": "VMC"
+ },
+ "vmm": {
+  "ctry": "India",
+  "n": "Vishal Mega Mart",
+  "path": "quote/nse/VMM",
+  "tk": "VMM"
+ },
+ "voltamp": {
+  "ctry": "India",
+  "n": "Voltamp Transformers",
+  "path": "quote/nse/VOLTAMP",
+  "tk": "VOLTAMP"
+ },
+ "voltas": {
+  "ctry": "India",
+  "n": "Voltas",
+  "path": "quote/nse/VOLTAS",
+  "tk": "VOLTAS"
+ },
+ "volvo": {
+  "ctry": "Sweden",
+  "n": "AB Volvo",
+  "path": "quote/sto/VOLV.B",
+  "tk": "VOLV.B"
+ },
+ "vprpl": {
+  "ctry": "India",
+  "n": "Vishnu Prakash R Punglia",
+  "path": "quote/nse/VPRPL",
+  "tk": "VPRPL"
+ },
+ "vrllog": {
+  "ctry": "India",
+  "n": "VRL Logistics",
+  "path": "quote/nse/VRLLOG",
+  "tk": "VRLLOG"
+ },
+ "vrt": {
+  "ctry": "USA",
+  "n": "Vertiv Holdings",
+  "path": "stocks/vrt",
+  "tk": "VRT"
+ },
+ "vsh": {
+  "ctry": "USA",
+  "n": "Vishay Intertechnology",
+  "path": "stocks/vsh",
+  "tk": "VSH"
+ },
+ "vst": {
+  "ctry": "India",
+  "n": "VST Industries",
+  "path": "quote/nse/VSTIND",
+  "tk": "VSTIND"
+ },
+ "vsttillers": {
+  "ctry": "India",
+  "n": "V.S.T. Tillers Tractors",
+  "path": "quote/nse/VSTTILLERS",
+  "tk": "VSTTILLERS"
+ },
+ "vtol": {
+  "ctry": "USA",
+  "n": "Bristow Group",
+  "path": "stocks/vtol",
+  "tk": "VTOL"
+ },
+ "vvv": {
+  "ctry": "USA",
+  "n": "Valvoline",
+  "path": "stocks/vvv",
+  "tk": "VVV"
+ },
+ "vz": {
+  "ctry": "USA",
+  "n": "Verizon Communications",
+  "path": "stocks/vz",
+  "tk": "VZ"
+ },
+ "waareeener": {
+  "ctry": "India",
+  "n": "Waaree Energies",
+  "path": "quote/nse/WAAREEENER",
+  "tk": "WAAREEENER"
+ },
+ "waareertl": {
+  "ctry": "India",
+  "n": "Waaree Renewable Technologies",
+  "path": "quote/nse/WAAREERTL",
+  "tk": "WAAREERTL"
+ },
+ "wab": {
+  "ctry": "USA",
+  "n": "Wabtec",
+  "path": "stocks/wab",
+  "tk": "WAB"
+ },
+ "wabag": {
+  "ctry": "India",
+  "n": "VA Tech Wabag",
+  "path": "quote/nse/WABAG",
+  "tk": "WABAG"
+ },
+ "wartsila": {
+  "ctry": "Finland",
+  "n": "Wärtsilä",
+  "path": "quote/hel/WRT1V",
+  "tk": "WRT1V"
+ },
+ "wat": {
+  "ctry": "USA",
+  "n": "Waters Corporation",
+  "path": "stocks/wat",
+  "tk": "WAT"
+ },
+ "waterbase": {
+  "ctry": "India",
+  "n": "The Waterbase",
+  "path": "quote/nse/WATERBASE",
+  "tk": "WATERBASE"
+ },
+ "wcc": {
+  "ctry": "USA",
+  "n": "WESCO International",
+  "path": "stocks/wcc",
+  "tk": "WCC"
+ },
+ "wcn": {
+  "ctry": "Canada",
+  "n": "Waste Connections",
+  "path": "stocks/wcn",
+  "tk": "WCN"
+ },
+ "wdc": {
+  "ctry": "USA",
+  "n": "Western Digital",
+  "path": "stocks/wdc",
+  "tk": "WDC"
+ },
+ "wds": {
+  "ctry": "Australia",
+  "n": "Woodside Energy",
+  "path": "stocks/wds",
+  "tk": "WDS"
+ },
+ "webelsolar": {
+  "ctry": "India",
+  "n": "Websol Energy System",
+  "path": "quote/nse/WEBELSOLAR",
+  "tk": "WEBELSOLAR"
+ },
+ "weg": {
+  "ctry": "Brazil",
+  "n": "WEG",
+  "path": "quote/bvmf/WEGE3",
+  "tk": "WEGE3"
+ },
+ "welspun": {
+  "ctry": "India",
+  "n": "Welspun Living",
+  "path": "quote/nse/WELSPUNLIV",
+  "tk": "WELSPUNLIV"
+ },
+ "welspuncorp": {
+  "ctry": "India",
+  "n": "Welspun Corp",
+  "path": "quote/nse/WELCORP",
+  "tk": "WELCORP"
+ },
+ "westcoast": {
+  "ctry": "India",
+  "n": "West Coast Paper Mills",
+  "path": "quote/nse/WSTCSTPAPR",
+  "tk": "WSTCSTPAPR"
+ },
+ "westlife": {
+  "ctry": "India",
+  "n": "Westlife Foodworld",
+  "path": "quote/nse/WESTLIFE",
+  "tk": "WESTLIFE"
+ },
+ "wework": {
+  "ctry": "India",
+  "n": "WeWork India Management",
+  "path": "quote/nse/WEWORK",
+  "tk": "WEWORK"
+ },
+ "wfg": {
+  "ctry": "Canada",
+  "n": "West Fraser Timber",
+  "path": "stocks/wfg",
+  "tk": "WFG"
+ },
+ "whc": {
+  "ctry": "Australia",
+  "n": "Whitehaven Coal",
+  "path": "quote/asx/WHC",
+  "tk": "WHC"
+ },
+ "whgroup": {
+  "ctry": "Hong Kong",
+  "n": "WH Group",
+  "path": "quote/hkg/0288",
+  "tk": "0288"
+ },
+ "whirlpoolind": {
+  "ctry": "India",
+  "n": "Whirlpool of India",
+  "path": "quote/nse/WHIRLPOOL",
+  "tk": "WHIRLPOOL"
+ },
+ "wilmar": {
+  "ctry": "Singapore",
+  "n": "Wilmar International",
+  "path": "quote/sgx/F34",
+  "tk": "F34"
+ },
+ "wipro": {
+  "ctry": "India",
+  "n": "Wipro",
+  "path": "quote/nse/WIPRO",
+  "tk": "WIPRO"
+ },
+ "wkc": {
+  "ctry": "USA",
+  "n": "World Kinect",
+  "path": "stocks/wkc",
+  "tk": "WKC"
+ },
+ "wm": {
+  "ctry": "USA",
+  "n": "Waste Management",
+  "path": "stocks/wm",
+  "tk": "WM"
+ },
+ "wmb": {
+  "ctry": "USA",
+  "n": "The Williams Companies",
+  "path": "stocks/wmb",
+  "tk": "WMB"
+ },
+ "wmt": {
+  "ctry": "USA",
+  "n": "Walmart",
+  "path": "stocks/wmt",
+  "tk": "WMT"
+ },
+ "wnc": {
+  "ctry": "USA",
+  "n": "Wabash National",
+  "path": "stocks/wnc",
+  "tk": "WNC"
+ },
+ "wonderla": {
+  "ctry": "India",
+  "n": "Wonderla Holidays",
+  "path": "quote/nse/WONDERLA",
+  "tk": "WONDERLA"
+ },
+ "woof": {
+  "ctry": "USA",
+  "n": "Petco Health and Wellness",
+  "path": "stocks/woof",
+  "tk": "WOOF"
+ },
+ "wpil": {
+  "ctry": "India",
+  "n": "WPIL",
+  "path": "quote/nse/WPIL",
+  "tk": "WPIL"
+ },
+ "wpp": {
+  "ctry": "UK",
+  "n": "WPP",
+  "path": "quote/lon/WPP",
+  "tk": "WPP"
+ },
+ "wrby": {
+  "ctry": "USA",
+  "n": "Warby Parker",
+  "path": "stocks/wrby",
+  "tk": "WRBY"
+ },
+ "wsm": {
+  "ctry": "USA",
+  "n": "Williams-Sonoma",
+  "path": "stocks/wsm",
+  "tk": "WSM"
+ },
+ "wsp": {
+  "ctry": "Canada",
+  "n": "WSP Global",
+  "path": "quote/tsx/WSP",
+  "tk": "WSP"
+ },
+ "wtrg": {
+  "ctry": "USA",
+  "n": "Essential Utilities",
+  "path": "stocks/wtrg",
+  "tk": "WTRG"
+ },
+ "wy": {
+  "ctry": "USA",
+  "n": "Weyerhaeuser",
+  "path": "stocks/wy",
+  "tk": "WY"
+ },
+ "xiaomi": {
+  "ctry": "China",
+  "n": "Xiaomi",
+  "path": "quote/hkg/1810",
+  "tk": "1810"
+ },
+ "xray": {
+  "ctry": "USA",
+  "n": "Dentsply Sirona",
+  "path": "stocks/xray",
+  "tk": "XRAY"
+ },
+ "xrx": {
+  "ctry": "USA",
+  "n": "Xerox Holdings",
+  "path": "stocks/xrx",
+  "tk": "XRX"
+ },
+ "xyl": {
+  "ctry": "USA",
+  "n": "Xylem",
+  "path": "stocks/xyl",
+  "tk": "XYL"
+ },
+ "yal": {
+  "ctry": "Australia",
+  "n": "Yancoal Australia",
+  "path": "quote/asx/YAL",
+  "tk": "YAL"
+ },
+ "yamaha": {
+  "ctry": "Japan",
+  "n": "Yamaha Corporation",
+  "path": "quote/tyo/7951",
+  "tk": "7951"
+ },
+ "yara": {
+  "ctry": "Norway",
+  "n": "Yara International",
+  "path": "quote/osl/YAR",
+  "tk": "YAR"
+ },
+ "yaskawa": {
+  "ctry": "Japan",
+  "n": "Yaskawa Electric",
+  "path": "quote/tyo/6506",
+  "tk": "6506"
+ },
+ "yatharth": {
+  "ctry": "India",
+  "n": "Yatharth Hospital & Trauma Care Services",
+  "path": "quote/nse/YATHARTH",
+  "tk": "YATHARTH"
+ },
+ "yatra": {
+  "ctry": "India",
+  "n": "Yatra Online",
+  "path": "quote/nse/YATRA",
+  "tk": "YATRA"
+ },
+ "yuken": {
+  "ctry": "India",
+  "n": "Yuken India",
+  "path": "quote/nse/YUKEN",
+  "tk": "YUKEN"
+ },
+ "zbh": {
+  "ctry": "USA",
+  "n": "Zimmer Biomet Holdings",
+  "path": "stocks/zbh",
+  "tk": "ZBH"
+ },
+ "zbra": {
+  "ctry": "USA",
+  "n": "Zebra Technologies",
+  "path": "stocks/zbra",
+  "tk": "ZBRA"
+ },
+ "zeel": {
+  "ctry": "India",
+  "n": "Zee Entertainment Enterprises",
+  "path": "quote/nse/ZEEL",
+  "tk": "ZEEL"
+ },
+ "zeemedia": {
+  "ctry": "India",
+  "n": "Zee Media Corporation",
+  "path": "quote/nse/ZEEMEDIA",
+  "tk": "ZEEMEDIA"
+ },
+ "zensartech": {
+  "ctry": "India",
+  "n": "Zensar Technologies",
+  "path": "quote/nse/ZENSARTECH",
+  "tk": "ZENSARTECH"
+ },
+ "zfcvindia": {
+  "ctry": "India",
+  "n": "ZF Commercial Vehicle Control Systems India",
+  "path": "quote/nse/ZFCVINDIA",
+  "tk": "ZFCVINDIA"
+ },
+ "zoetis": {
+  "ctry": "USA",
+  "n": "Zoetis",
+  "path": "stocks/zts",
+  "tk": "ZTS"
+ },
+ "zydus": {
+  "ctry": "India",
+  "n": "Zydus Lifesciences",
+  "path": "quote/nse/ZYDUSLIFE",
+  "tk": "ZYDUSLIFE"
+ }
+}
