@@ -4,6 +4,13 @@ on:
   push:
     branches: [main]
     paths: ["site/**"]
+  workflow_run:
+    # refresh.yml commits with the default GITHUB_TOKEN, and GitHub doesn't
+    # let a token-authored push trigger other workflows (loop protection),
+    # so the "push" trigger above never fires for those commits. This one
+    # catches it instead, once the refresh run itself finishes.
+    workflows: ["Refresh company financials and rebuild site"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -17,12 +24,15 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
