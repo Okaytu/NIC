@@ -29,7 +29,17 @@ jobs:
           git add data/broken_links.json
           if git diff --cached --quiet; then
             echo "no changes"
-          else
-            git commit -m "Broken-link check: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            exit 0
           fi
+          git commit -m "Broken-link check: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), rebasing onto origin/main and retrying..."
+            git fetch origin main
+            git rebase origin/main || { echo "rebase conflict -- giving up, not overwriting remote"; git rebase --abort; exit 1; }
+            sleep 5
+          done
+          echo "push still failing after 5 attempts"
+          exit 1

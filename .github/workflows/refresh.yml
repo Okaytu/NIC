@@ -57,7 +57,20 @@ jobs:
           git add data/financials.json site/data_*.js site/index.html
           if git diff --cached --quiet; then
             echo "no changes"
-          else
-            git commit -m "Automated refresh: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            exit 0
           fi
+          git commit -m "Automated refresh: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # Retry with rebase on a non-fast-forward push instead of losing
+          # a whole run's results to a plain push race against another
+          # workflow or a manual commit landing on main at the same time.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), rebasing onto origin/main and retrying..."
+            git fetch origin main
+            git rebase origin/main || { echo "rebase conflict -- giving up, not overwriting remote"; git rebase --abort; exit 1; }
+            sleep 5
+          done
+          echo "push still failing after 5 attempts"
+          exit 1

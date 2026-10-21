@@ -50,7 +50,23 @@ jobs:
           git add data/companies.json data/financials.json data/discovery_queue.json data/map_*.json site/data_*.js site/index.html
           if git diff --cached --quiet; then
             echo "no changes"
-          else
-            git commit -m "Automated discovery run: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            exit 0
           fi
+          git commit -m "Automated discovery run: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # A long discovery run can easily overlap someone else pushing to
+          # main (this repo saw exactly that during development -- the job
+          # ran fine but lost its results because the final push was a
+          # plain non-fast-forward rejection with no retry). Rebase onto
+          # whatever's new on origin and retry a few times instead of
+          # failing outright and losing a whole run's discoveries.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), rebasing onto origin/main and retrying..."
+            git fetch origin main
+            git rebase origin/main || { echo "rebase conflict -- giving up, not overwriting remote"; git rebase --abort; exit 1; }
+            sleep 5
+          done
+          echo "push still failing after 5 attempts"
+          exit 1
