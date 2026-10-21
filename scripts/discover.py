@@ -272,7 +272,13 @@ def edgar_candidates(session, query, limit=4):
         names = h.get("_source", {}).get("display_names", [])
         if not names:
             continue
-        name = re.sub(r"\s*\(CIK.*\)$", "", names[0]).strip()
+        # EDGAR's display_names look like "Apple Inc.  (AAPL)  (CIK 0000320193)"
+        # -- two trailing parenthetical annotations, not one. The old regex
+        # only stripped "(CIK ...)", leaving "Apple Inc.  (AAPL)" behind,
+        # which never matches the plain "APPLE INC." key in SEC's own
+        # ticker list -- so every real EDGAR hit was silently dropped.
+        # Strip every trailing "(...)" group, however many there are.
+        name = re.sub(r"(\s*\([^)]*\))+$", "", names[0]).strip()
         tk = tickers.get(name.upper())
         if tk:
             out.append({"name": name, "tk": tk, "ctry": "USA", "path": f"stocks/{tk.lower()}", "source": "edgar"})
