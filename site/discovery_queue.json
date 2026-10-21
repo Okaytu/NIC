@@ -2552,5 +2552,1019 @@
   "activity": "Other Steam and air conditioning supply n.e.c.",
   "candidates": [],
   "section": "D"
+ },
+ "461001": {
+  "activity": "Activities of commission agents, brokers dealing in wholesale trade of agricultural raw material and live animals",
+  "candidates": [],
+  "section": "G"
+ },
+ "461002": {
+  "activity": "Activities of commission agents dealing in wholesale trade in food, beverages and tobacco",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "jpmorganchase",
+    "name": "JPMorgan Chase",
+    "path": "stocks/jpm",
+    "source": "wikipedia",
+    "tk": "JPM",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "461003": {
+  "activity": "Activities of commission agents dealing in wholesale trade in textile, clothing and footwear",
+  "candidates": [],
+  "section": "G"
+ },
+ "461004": {
+  "activity": "Activities of commission agents involved in wholesale of household, office and shop furniture, carpets and lighting equipment",
+  "candidates": [],
+  "section": "G"
+ },
+ "461005": {
+  "activity": "Activities of commission agents involved in wholesale of computers, computer peripheral equipment and software",
+  "candidates": [],
+  "section": "G"
+ },
+ "461006": {
+  "activity": "Activities of commission agents involved in wholesale of electronic and telecommunication equipment and parts",
+  "candidates": [],
+  "section": "G"
+ },
+ "461007": {
+  "activity": "Activities of commission agents involved in the wholesale of machinery, equipment and supplies",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "caterpillarinc",
+    "name": "Caterpillar Inc.",
+    "path": "stocks/cat",
+    "source": "wikipedia",
+    "tk": "CAT",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "461008": {
+  "activity": "Activities of commission agents involved in the wholesale of motor vehicles of all types including electric vehicles",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "inggroup",
+    "name": "ING Group",
+    "path": "stocks/ing",
+    "source": "wikipedia",
+    "tk": "ING",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "461009": {
+  "activity": "Activities of commission agents involved in the wholesale of motorcycle of all types including electric vehicles",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "caterpillarinc",
+    "name": "Caterpillar Inc.",
+    "path": "stocks/cat",
+    "source": "wikipedia",
+    "tk": "CAT",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "461010": {
+  "activity": "Activities of commission agents involved in the wholesale of solid, liquid and gaseous fuels and related products",
+  "candidates": [],
+  "section": "G"
+ },
+ "461011": {
+  "activity": "Activities of commission agents involved in the wholesale of metal and metal ores",
+  "candidates": [],
+  "section": "G"
+ },
+ "461012": {
+  "activity": "Activities of commission agents involved in the wholesale of construction materials, hardware, plumbing and heating equipment and supplies",
+  "candidates": [],
+  "section": "G"
+ },
+ "461099": {
+  "activity": "Activities of other commission agents n.e.c.",
+  "candidates": [],
+  "section": "G"
+ },
+ "462002": {
+  "activity": "Wholesale of unmanufactured tobacco, paan (betel leaf) and cinchona",
+  "candidates": [],
+  "section": "G"
+ },
+ "462003": {
+  "activity": "Wholesale of live animals (livestock) including poultry",
+  "candidates": [],
+  "section": "G"
+ },
+ "462004": {
+  "activity": "Wholesale of straw, fodder & other animal/poultry feed",
+  "candidates": [],
+  "section": "G"
+ },
+ "462005": {
+  "activity": "Wholesale of flowers and plants",
+  "candidates": [],
+  "section": "G"
+ },
+ "462006": {
+  "activity": "Wholesale of hides, skins and leather",
+  "candidates": [],
+  "section": "G"
+ },
+ "462007": {
+  "activity": "Wholesale of oleaginous fruits and oil seeds",
+  "candidates": [],
+  "section": "G"
+ },
+ "462008": {
+  "activity": "Wholesale of sugarcane",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "tsingtaobrewery",
+    "name": "Tsingtao Brewery",
+    "path": "quote/hkg/168",
+    "source": "wikipedia",
+    "tk": "168",
+    "verified": false
+   }
+  ],
+  "section": "G"
+ },
+ "462009": {
+  "activity": "Wholesale of unprocessed timber and similar forest products",
+  "candidates": [],
+  "section": "G"
+ },
+ "462099": {
+  "activity": "Wholesale of other agricultural raw materials n.e.c.",
+  "candidates": [],
+  "section": "G"
+ },
+ "463001": {
+  "activity": "Wholesale of fruits & vegetables",
+  "candidates": [],
+  "section": "G"
+ },
+ "463002": {
+  "activity": "Wholesale of raw milk & dairy products",
+  "candidates": [],
+  "section": "G"
+ },
+ "463003": {
+  "activity": "Wholesale of meat, fish & eggs",
+  "candidates": [],
+  "section": "G"
+ },
+ "463004": {
+  "activity": "Wholesale of confectionery, bakery products and beverages other than Alcoholic",
+  "candidates": [],
+  "section": "G"
+ },
+ "463005": {
+  "activity": "Wholesale of edible oils, fats, sugar, spices and condiments",
+  "candidates": [],
+  "section": "G"
+ },
+ "463006": {
+  "activity": "Wholesale of tea, coffee & cocoa",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "starbucks",
+    "name": "Starbucks",
+    "path": "stocks/sbux",
+    "source": "wikipedia",
+    "tk": "SBUX",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "463007": {
+  "activity": "Wholesale of manufactured tobacco & tobacco products",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "imperialbrands",
+    "name": "Imperial Brands",
+    "path": "quote/lon/IMB",
+    "source": "wikipedia",
+    "tk": "IMB",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "463008": {
+  "activity": "Wholesale of Alcoholic Beverages like wine and liquor",
+  "candidates": [],
+  "section": "G"
+ },
+ "464101": {
+  "activity": "Wholesale of yarn and fabrics",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/nse/ARVIND",
+    "source": "wikipedia",
+    "tk": "ARVIND",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/bom/500101",
+    "source": "wikipedia",
+    "tk": "500101",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464102": {
+  "activity": "Wholesale of clothing, parts of clothing and clothing accessories",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "levistraussco",
+    "name": "Levi Strauss & Co.",
+    "path": "stocks/levi",
+    "source": "wikipedia",
+    "tk": "LEVI",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464103": {
+  "activity": "Wholesale of footwear",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "weycogroup",
+    "name": "Weyco Group",
+    "path": "stocks/weys",
+    "source": "wikipedia",
+    "tk": "WEYS",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464104": {
+  "activity": "Wholesale of made-up textile articles including bed linens, towels, bathroom and kitchen linens, curtains and draperies",
+  "candidates": [],
+  "section": "G"
+ },
+ "464105": {
+  "activity": "Wholesale of protective apparels (Eg. Bullet proof jackets, PPE kits for medical purposes, latex gloves)",
+  "candidates": [],
+  "section": "G"
+ },
+ "464199": {
+  "activity": "Wholesale of other textiles, clothing and footwear related goods n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "tjx2",
+    "name": "TJX",
+    "path": "stocks/tjx",
+    "source": "wikipedia",
+    "tk": "TJX",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464201": {
+  "activity": "Wholesale of wooden furniture",
+  "candidates": [],
+  "section": "G"
+ },
+ "464202": {
+  "activity": "Wholesale of furniture, excluding wooden furniture",
+  "candidates": [],
+  "section": "G"
+ },
+ "464203": {
+  "activity": "Wholesale of furniture fittings (hinges, knobs, handles and other similar items)",
+  "candidates": [],
+  "section": "G"
+ },
+ "464204": {
+  "activity": "Wholesale of lights and lighting equipment",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hydrofarm",
+    "name": "Hydrofarm",
+    "path": "stocks/hyfm",
+    "source": "wikipedia",
+    "tk": "HYFM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464205": {
+  "activity": "Wholesale of carpets, rugs, mattress and box springs",
+  "candidates": [],
+  "section": "G"
+ },
+ "464299": {
+  "activity": "Wholesale of household, office and shop furniture, carpets and lighting equipment n.e.c",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "homedepot",
+    "name": "Home Depot",
+    "path": "stocks/hd",
+    "source": "wikipedia",
+    "tk": "HD",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464901": {
+  "activity": "Wholesale of perfumeries, cosmetics, soaps and other toiletries",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Hong Kong",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "maogepingcosmeticsco",
+    "name": "Mao Geping Cosmetics Co., Ltd.",
+    "path": "quote/hkg/1318",
+    "source": "yahoo",
+    "tk": "1318",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464902": {
+  "activity": "Wholesale of cutlery, utensils, kitchenware and tableware of metal and wood",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "dolphinkitchenutenci",
+    "name": "Dolphin Kitchen Utencils and Appliances Limited",
+    "path": "quote/bom/DKUAL",
+    "source": "yahoo",
+    "tk": "DKUAL",
+    "verified": false
+   }
+  ],
+  "section": "G"
+ },
+ "464903": {
+  "activity": "Wholesale of cutlery, utensils, kitchenware and tableware of china and glassware",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "dolphinkitchenutenci",
+    "name": "Dolphin Kitchen Utencils and Appliances Limited",
+    "path": "quote/bom/DKUAL",
+    "source": "yahoo",
+    "tk": "DKUAL",
+    "verified": false
+   }
+  ],
+  "section": "G"
+ },
+ "464904": {
+  "activity": "Wholesale of watches & clocks (Except smart watches)",
+  "candidates": [],
+  "section": "G"
+ },
+ "464905": {
+  "activity": "Wholesale of household appliances and consumer electronics (Eg. refrigerators, ovens, stoves, washing machine, electric kettles, juicers, ACs, heaters, vacuum cleaners etc.) excluding telecommunication equipment",
+  "candidates": [],
+  "section": "G"
+ },
+ "464906": {
+  "activity": "Wholesale of newspaper, books, magazines and stationery goods",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "loblawcompanies",
+    "name": "Loblaw Companies",
+    "path": "quote/tsx/L",
+    "source": "wikipedia",
+    "tk": "L",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464908": {
+  "activity": "Wholesale of jewellery, including imitation jewellery",
+  "candidates": [],
+  "section": "G"
+ },
+ "464909": {
+  "activity": "Wholesale of bicycles, e-bikes and similar articles, including related parts and accessories",
+  "candidates": [],
+  "section": "G"
+ },
+ "464910": {
+  "activity": "Wholesale of optical goods (Eg. Eyeglasses (Prescription and non-prescription), Sunglasses, contact lenses, optical instruments, magnifying glasses, ophthalmic frames, optical accessories)",
+  "candidates": [],
+  "section": "G"
+ },
+ "464911": {
+  "activity": "Wholesale of consumer electronics: Video equipment, audio equipment, video game consoles and similar products",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Australia",
+    "error": "HTTP 404",
+    "id": "dicksmithretailer",
+    "name": "Dick Smith (retailer)",
+    "path": "quote/asx/DSH",
+    "source": "wikipedia",
+    "tk": "DSH",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "panasonic",
+    "name": "Panasonic",
+    "path": "quote/tyo/6752",
+    "source": "wikipedia",
+    "tk": "6752",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "464912": {
+  "activity": "Wholesale of photographic goods (Eg. Cameras, Lenses and similar articles)",
+  "candidates": [],
+  "section": "G"
+ },
+ "464913": {
+  "activity": "Wholesale of musical instruments, games and toys, sports goods (Excluding sports clothes and footwear)",
+  "candidates": [],
+  "section": "G"
+ },
+ "464914": {
+  "activity": "Wholesale of baby carriages, pushchairs, baby walkers, baby carriers, baby car seats and similar equipment for babies",
+  "candidates": [],
+  "section": "G"
+ },
+ "464915": {
+  "activity": "Wholesale of suitcases, travel bags and other travel goods and accessories",
+  "candidates": [],
+  "section": "G"
+ },
+ "464999": {
+  "activity": "Wholesale of other household goods n.e.c..",
+  "candidates": [],
+  "section": "G"
+ },
+ "465102": {
+  "activity": "Wholesale of non-customised software, including video games, provided on physical media with right to perpetual use",
+  "candidates": [],
+  "section": "G"
+ },
+ "465103": {
+  "activity": "Wholesale of computer peripheral equipment such as printers, photocopiers, interactive whiteboards, videoconferencing equipment and similar articles",
+  "candidates": [],
+  "section": "G"
+ },
+ "465104": {
+  "activity": "Wholesale of hardware components such as motherboards, memory, GPUs, power supplies, cases, cooling systems and other similar components",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "hyperscaledatainc",
+    "name": "Hyperscale Data, Inc.",
+    "path": "stocks/GPUS",
+    "source": "yahoo",
+    "tk": "GPUS",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "465199": {
+  "activity": "Wholesale of other computer peripheral equipment n.e.c.",
+  "candidates": [],
+  "section": "G"
+ },
+ "465201": {
+  "activity": "Wholesale of electronic valves and tubes",
+  "candidates": [],
+  "section": "G"
+ },
+ "465202": {
+  "activity": "Wholesale of video equipment (LED/LCD Panels, Teleprompters, Projection Screens, Broadcasting and Streaming Equipment, Webcams), excluding television",
+  "candidates": [],
+  "section": "G"
+ },
+ "465299": {
+  "activity": "Wholesale of electronic and telecommunications equipment and parts n.e.c",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "btgroup",
+    "name": "BT Group",
+    "path": "quote/lon/BT.A",
+    "source": "wikipedia",
+    "tk": "BT.A",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Australia",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "telstra",
+    "name": "Telstra",
+    "path": "quote/asx/TLS",
+    "source": "wikipedia",
+    "tk": "TLS",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "465301": {
+  "activity": "Wholesale of tractors and tractor attachments for agriculture and forestry",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "caterpillarinc",
+    "name": "Caterpillar Inc.",
+    "path": "stocks/cat",
+    "source": "wikipedia",
+    "tk": "CAT",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "465302": {
+  "activity": "Wholesale of soil preparation, cultivation and harvesting machinery such as ploughs, harrows, seeders, harvesters, threshers and similar articles",
+  "candidates": [],
+  "section": "G"
+ },
+ "465303": {
+  "activity": "Wholesale of milking and dairy machinery such as milking machines, cream separators and similar machinery",
+  "candidates": [],
+  "section": "G"
+ },
+ "465304": {
+  "activity": "Wholesale of livestock and poultry-keeping machinery such as feeders, incubators, poultry-keeping machines and similar machines",
+  "candidates": [],
+  "section": "G"
+ },
+ "465305": {
+  "activity": "Wholesale of garden and landscaping equipment such as lawn mowers and similar products",
+  "candidates": [],
+  "section": "G"
+ },
+ "465399": {
+  "activity": "Wholesale of other agricultural equipment and supplies, n.e.c.",
+  "candidates": [],
+  "section": "G"
+ },
+ "465901": {
+  "activity": "Wholesale of office machinery and equipment (Excluding computers and computer peripheral equipment)",
+  "candidates": [],
+  "section": "G"
+ },
+ "465902": {
+  "activity": "Wholesale of machinery and equipment for automobile industry",
+  "candidates": [],
+  "section": "G"
+ },
+ "465904": {
+  "activity": "Wholesale of mining, construction and civil engineering machinery and equipment, e.g. excavating machines etc.",
+  "candidates": [],
+  "section": "G"
+ },
+ "465905": {
+  "activity": "Wholesale of machinery and equipment for textile apparel and leather products",
+  "candidates": [],
+  "section": "G"
+ },
+ "465906": {
+  "activity": "Wholesale of scientific, medical and surgical machinery and equipment",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "homedepot",
+    "name": "Home Depot",
+    "path": "stocks/hd",
+    "source": "wikipedia",
+    "tk": "HD",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "465907": {
+  "activity": "Wholesale of transport equipment except bicycles and motor vehicles",
+  "candidates": [],
+  "section": "G"
+ },
+ "465908": {
+  "activity": "Wholesale of wires and switches and other installation equipment",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "465909": {
+  "activity": "Wholesale of measuring/ weighing equipment",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "caterpillarinc",
+    "name": "Caterpillar Inc.",
+    "path": "stocks/cat",
+    "source": "wikipedia",
+    "tk": "CAT",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "466101": {
+  "activity": "Wholesale of new vehicles (passenger motor vehicles, ambulances, minibuses, jeeps, trucks, trailers and semi- trailers)",
+  "candidates": [],
+  "section": "G"
+ },
+ "466102": {
+  "activity": "Wholesale of used motor vehicles",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "fordmotorcompany",
+    "name": "Ford Motor Company",
+    "path": "stocks/f",
+    "source": "wikipedia",
+    "tk": "F",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "466201": {
+  "activity": "Wholesale of batteries and accumulators for motor vehicles excluding for motor cycles",
+  "candidates": [],
+  "section": "G"
+ },
+ "466202": {
+  "activity": "Wholesale of new tyres excluding for motor cycles",
+  "candidates": [],
+  "section": "G"
+ },
+ "466301": {
+  "activity": "Wholesale of new and used motorcycles",
+  "candidates": [],
+  "section": "G"
+ },
+ "466302": {
+  "activity": "Wholesale of batteries and accumulators for motor cycles",
+  "candidates": [],
+  "section": "G"
+ },
+ "466303": {
+  "activity": "Wholesale of new and used tyres for motor cycles",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "halfords",
+    "name": "Halfords",
+    "path": "quote/lon/HFD",
+    "source": "wikipedia",
+    "tk": "HFD",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "466399": {
+  "activity": "Wholesale of motor cycles parts and accessories n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "panasonic",
+    "name": "Panasonic",
+    "path": "quote/tyo/6752",
+    "source": "wikipedia",
+    "tk": "6752",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467101": {
+  "activity": "Wholesale of solid fuels: such as charcoal, coal, coke, fuel wood, and pellets made from wood or biomass",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "cocacolaconsolidated",
+    "name": "Coca-Cola Consolidated, Inc.",
+    "path": "stocks/COKE",
+    "source": "yahoo",
+    "tk": "COKE",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467103": {
+  "activity": "Wholesale of gaseous fuels: such as liquefied petroleum gases, liquefied natural gas, butane and propane gas, and their related bio and renewable forms (blended or pure)",
+  "candidates": [],
+  "section": "G"
+ },
+ "467104": {
+  "activity": "Wholesale of lubricating oils, greases, and other refined petroleum products",
+  "candidates": [],
+  "section": "G"
+ },
+ "467201": {
+  "activity": "Wholesale of ferrous metal ores",
+  "candidates": [],
+  "section": "G"
+ },
+ "467202": {
+  "activity": "Wholesale of non-ferrous metal ores",
+  "candidates": [],
+  "section": "G"
+ },
+ "467203": {
+  "activity": "Wholesale of ferrous metals in primary forms (e.g., iron, steel ingots, billets)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "discmedicineinc",
+    "name": "Disc Medicine, Inc.",
+    "path": "stocks/IRON",
+    "source": "yahoo",
+    "tk": "IRON",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467204": {
+  "activity": "Wholesale of non-ferrous metals in primary forms (e.g., aluminium, copper, zinc, lead)",
+  "candidates": [],
+  "section": "G"
+ },
+ "467205": {
+  "activity": "Wholesale of gold and other precious metals",
+  "candidates": [],
+  "section": "G"
+ },
+ "467207": {
+  "activity": "Wholesale of semi-finished non-ferrous products (e.g., aluminium plates, copper wires)",
+  "candidates": [],
+  "section": "G"
+ },
+ "467208": {
+  "activity": "Wholesale of finished metal products",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467299": {
+  "activity": "Wholesale of other metals and metal ores n.e.c.",
+  "candidates": [],
+  "section": "G"
+ },
+ "467301": {
+  "activity": "Wholesale of wood in the rough and products of primary processing of wood",
+  "candidates": [],
+  "section": "G"
+ },
+ "467304": {
+  "activity": "Wholesale of paints and varnishes",
+  "candidates": [],
+  "section": "G"
+ },
+ "467305": {
+  "activity": "Wholesale of flat glass (window glass, laminated glass, tempered glass, mirrors, decorative and frosted glass)",
+  "candidates": [],
+  "section": "G"
+ },
+ "467306": {
+  "activity": "Wholesale of sanitary equipment (E.g. baths, washbasins, toilets and other sanitary porcelain)",
+  "candidates": [],
+  "section": "G"
+ },
+ "467307": {
+  "activity": "Wholesale of hand tools, such as hammers, saws, screwdrivers including power hand tools",
+  "candidates": [],
+  "section": "G"
+ },
+ "467308": {
+  "activity": "Wholesale of tiles, marble and granite",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "madhavmarblesandgran",
+    "name": "Madhav Marbles and Granites Limited",
+    "path": "quote/nse/MADHAV",
+    "source": "yahoo",
+    "tk": "MADHAV",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467309": {
+  "activity": "Wholesale of wallpaper and floor coverings",
+  "candidates": [],
+  "section": "G"
+ },
+ "467399": {
+  "activity": "Wholesale of other construction materials, hardware, plumbing and heating equipment and supplies n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "homedepot",
+    "name": "Home Depot",
+    "path": "stocks/hd",
+    "source": "wikipedia",
+    "tk": "HD",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467902": {
+  "activity": "Wholesale of fertilizers and agrochemical products",
+  "candidates": [],
+  "section": "G"
+ },
+ "467903": {
+  "activity": "Wholesale of plastic materials in primary forms",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "loblawcompanies",
+    "name": "Loblaw Companies",
+    "path": "quote/tsx/L",
+    "source": "wikipedia",
+    "tk": "L",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467904": {
+  "activity": "Wholesale of rubber (Including synthetic rubber)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "goodyeartireandrubbe",
+    "name": "Goodyear Tire and Rubber Company",
+    "path": "stocks/gt",
+    "source": "wikipedia",
+    "tk": "GT",
+    "verified": true
+   }
+  ],
+  "section": "G"
+ },
+ "467905": {
+  "activity": "Wholesale of fibres from waste textile (natural, synthetic and man-made)",
+  "candidates": [],
+  "section": "G"
+ },
+ "467906": {
+  "activity": "Wholesale of waste paper pulp including bulk paper",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
+   }
+  ],
+  "section": "G"
  }
 }
