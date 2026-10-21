@@ -110,6 +110,28 @@
     "source": "edgar",
     "tk": "GPLB",
     "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "imperialbrands",
+    "name": "Imperial Brands",
+    "path": "quote/lon/IMB",
+    "source": "wikipedia",
+    "tk": "IMB",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "greenplanetbioengine",
+    "name": "Green Planet Bio Engineering Co. Ltd.",
+    "path": "stocks/gplb",
+    "source": "edgar",
+    "tk": "GPLB",
+    "verified": false
    }
   ],
   "section": "A"
@@ -131,6 +153,17 @@
     "auto_added": false,
     "ctry": "USA",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "1800flowerscominc",
+    "name": "1-800-Flowers.com, Inc.",
+    "path": "stocks/flws",
+    "source": "wikipedia",
+    "tk": "FLWS",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "1800flowerscominc",
     "name": "1-800-Flowers.com, Inc.",
     "path": "stocks/flws",
@@ -199,6 +232,17 @@
     "path": "stocks/amzn",
     "source": "wikipedia",
     "tk": "AMZN",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "appleinc",
+    "name": "Apple Inc.",
+    "path": "stocks/aapl",
+    "source": "wikipedia",
+    "tk": "AAPL",
     "verified": true
    },
    {
@@ -778,6 +822,28 @@
     "source": "wikipedia",
     "tk": "BP",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bp",
+    "name": "BP",
+    "path": "quote/lon/BP",
+    "source": "wikipedia",
+    "tk": "BP",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bp",
+    "name": "BP",
+    "path": "stocks/bp",
+    "source": "wikipedia",
+    "tk": "BP",
+    "verified": true
    }
   ],
   "section": "C"
@@ -824,6 +890,17 @@
     "auto_added": false,
     "ctry": "USA",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "thehersheycompany",
     "name": "The Hershey Company",
     "path": "stocks/hsy",
@@ -899,6 +976,17 @@
     "source": "wikipedia",
     "tk": "ADM",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "archerdanielsmidland",
+    "name": "Archer Daniels Midland",
+    "path": "stocks/adm",
+    "source": "wikipedia",
+    "tk": "ADM",
+    "verified": true
    }
   ],
   "section": "C"
@@ -910,6 +998,17 @@
     "auto_added": false,
     "ctry": "Canada",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "spinmaster",
+    "name": "Spin Master",
+    "path": "quote/tsx/TOY",
+    "source": "wikipedia",
+    "tk": "TOY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "spinmaster",
     "name": "Spin Master",
     "path": "quote/tsx/TOY",
@@ -968,6 +1067,28 @@
     "path": "quote/tyo/6701",
     "source": "wikipedia",
     "tk": "6701",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nec",
+    "name": "NEC",
+    "path": "quote/tyo/6701",
+    "source": "wikipedia",
+    "tk": "6701",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
     "verified": true
    },
    {
@@ -1071,6 +1192,17 @@
     "source": "wikipedia",
     "tk": "HSY",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
    }
   ],
   "section": "C"
@@ -1132,6 +1264,28 @@
     "path": "quote/nse/HESTERBIO",
     "source": "wikipedia",
     "tk": "HESTERBIO",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hesterbiosciences",
+    "name": "Hester Biosciences",
+    "path": "quote/nse/HESTERBIO",
+    "source": "wikipedia",
+    "tk": "HESTERBIO",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hesterbiosciences",
+    "name": "Hester Biosciences",
+    "path": "quote/bom/524669",
+    "source": "wikipedia",
+    "tk": "524669",
     "verified": true
    },
    {
@@ -1222,6 +1376,28 @@
     "auto_added": false,
     "ctry": "Japan",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "asahibreweries",
+    "name": "Asahi Breweries",
+    "path": "quote/tyo/2502",
+    "source": "wikipedia",
+    "tk": "2502",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "kirincompany",
+    "name": "Kirin Company",
+    "path": "quote/tyo/2503",
+    "source": "wikipedia",
+    "tk": "2503",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "asahibreweries",
     "name": "Asahi Breweries",
     "path": "quote/tyo/2502",
@@ -1343,6 +1519,28 @@
     "path": "quote/nse/ARVIND",
     "source": "wikipedia",
     "tk": "ARVIND",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/nse/ARVIND",
+    "source": "wikipedia",
+    "tk": "ARVIND",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/bom/500101",
+    "source": "wikipedia",
+    "tk": "500101",
     "verified": true
    },
    {
@@ -1649,6 +1847,17 @@
     "source": "wikipedia",
     "tk": "COST",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
    }
   ],
   "section": "C"
@@ -1928,6 +2137,28 @@
     "source": "wikipedia",
     "tk": "HOCL",
     "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hindustanorganicchem",
+    "name": "Hindustan Organic Chemicals Limited",
+    "path": "quote/bom/500449",
+    "source": "wikipedia",
+    "tk": "500449",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "hindustanorganicchem",
+    "name": "Hindustan Organic Chemicals Limited",
+    "path": "quote/nse/HOCL",
+    "source": "wikipedia",
+    "tk": "HOCL",
+    "verified": false
    }
   ],
   "section": "C"
@@ -1964,6 +2195,647 @@
  },
  "202102": {
   "activity": "Manufacture of agricultural disinfectants excluding biological and bio-based agrochemical products",
+  "candidates": [],
+  "section": "C"
+ },
+ "202103": {
+  "activity": "Manufacture of mixture of synthetic rubber and natural rubber or rubber-like gums",
+  "candidates": [],
+  "section": "C"
+ },
+ "202104": {
+  "activity": "Manufacture of biological or bio-based agrochemical products such as nematodes, microbial or plant-extract- based bio-pesticides and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "202203": {
+  "activity": "Manufacture of printing ink",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "diccorporation",
+    "name": "DIC Corporation",
+    "path": "quote/tyo/4631",
+    "source": "wikipedia",
+    "tk": "4631",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "202204": {
+  "activity": "Manufacture of pigments and other colouring matter of a kind used in the manufacture of paints or by artists or other painters",
+  "candidates": [],
+  "section": "C"
+ },
+ "202205": {
+  "activity": "Manufacture of paint or varnish removers and organic composite solvents and thinners",
+  "candidates": [],
+  "section": "C"
+ },
+ "202299": {
+  "activity": "Manufacture of other paints, varnishes and similar coatings and mastics n.e.c. including caulking compounds and similar non-refractory filling or surfacing preparations, mastics and other related products",
+  "candidates": [],
+  "section": "C"
+ },
+ "202399": {
+  "activity": "Manufacture of other man-made fibres n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "202901": {
+  "activity": "Manufacture of matches",
+  "candidates": [],
+  "section": "C"
+ },
+ "202904": {
+  "activity": "Manufacture of photographic plates, films, sensitized paper, and other sensitized unexposed materials, chemical preparations for photographic uses",
+  "candidates": [],
+  "section": "C"
+ },
+ "202905": {
+  "activity": "Manufacture of gelatine and its derivatives",
+  "candidates": [],
+  "section": "C"
+ },
+ "202907": {
+  "activity": "Manufacture of chemical products or preparations of a kind used in finishing of textiles, paper, leather, and similar industries",
+  "candidates": [],
+  "section": "C"
+ },
+ "202908": {
+  "activity": "Manufacture of composite diagnostic or laboratory reagents",
+  "candidates": [],
+  "section": "C"
+ },
+ "202909": {
+  "activity": "Manufacturing of lac products including processing of lac",
+  "candidates": [],
+  "section": "C"
+ },
+ "202910": {
+  "activity": "Manufacture of hydrocolloids including marine-derived hydrocolloids (agar, carrageenan, alginates)",
+  "candidates": [],
+  "section": "C"
+ },
+ "203001": {
+  "activity": "Manufacture of synthetic or artificial filament tow",
+  "candidates": [],
+  "section": "C"
+ },
+ "203004": {
+  "activity": "Manufacture of synthetic or artificial monofilament or strip",
+  "candidates": [],
+  "section": "C"
+ },
+ "203099": {
+  "activity": "Manufacture of other man-made fibres n.e.c. including recycled fibres",
+  "candidates": [],
+  "section": "C"
+ },
+ "210003": {
+  "activity": "Manufacture of Ayush pharmaceutical/ nutraceutical preparation",
+  "candidates": [],
+  "section": "C"
+ },
+ "210005": {
+  "activity": "Manufacture of medical impregnated wadding, gauze, bandages, dressings, surgical gut string and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "210006": {
+  "activity": "Manufacture of medical diagnostic preparations (e.g. pregnancy tests, COVID-19 Testing Kits, Rapid Diagnostic Tests (RDTs), In-Vitro Diagnostics (IVDs) etc.)",
+  "candidates": [],
+  "section": "C"
+ },
+ "221103": {
+  "activity": "Retreading of tyres; replacing or rebuilding of tread on used pneumatic tyres",
+  "candidates": [],
+  "section": "C"
+ },
+ "221901": {
+  "activity": "Manufacture of rubber plates, sheets, strips, rods, tubes, pipes, hoses and profile -shapes and similar articles including latex sheets (Raw rubber sheets)",
+  "candidates": [],
+  "section": "C"
+ },
+ "221904": {
+  "activity": "Manufacture of rubber Seals, Gaskets, Rings & Fittings",
+  "candidates": [],
+  "section": "C"
+ },
+ "221905": {
+  "activity": "Manufacture of rubber based inflatable articles like mattresses, waterbed, balloons",
+  "candidates": [],
+  "section": "C"
+ },
+ "221906": {
+  "activity": "Manufacture of rubber-based bathing caps, aprons, wetsuits, latex apparel made using sealing, glue techniques (excluding products made using stitching techniques)",
+  "candidates": [],
+  "section": "C"
+ },
+ "221907": {
+  "activity": "Manufacture of rubberized textiles & threads, where rubber is primary constituent",
+  "candidates": [],
+  "section": "C"
+ },
+ "221999": {
+  "activity": "Manufacture of other rubber products n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "yokohamarubbercompan",
+    "name": "Yokohama Rubber Company",
+    "path": "quote/tyo/5101",
+    "source": "wikipedia",
+    "tk": "5101",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sumitomorubberindust",
+    "name": "Sumitomo Rubber Industries",
+    "path": "quote/tyo/5110",
+    "source": "wikipedia",
+    "tk": "5110",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nec",
+    "name": "NEC",
+    "path": "quote/tyo/6701",
+    "source": "wikipedia",
+    "tk": "6701",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "222005": {
+  "activity": "Manufacture of plastic healthcare, personal care and medical articles like gloves and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "231006": {
+  "activity": "Manufacture of glass bangles",
+  "candidates": [],
+  "section": "C"
+ },
+ "231007": {
+  "activity": "Manufacture of decorative items of glass",
+  "candidates": [],
+  "section": "C"
+ },
+ "239101": {
+  "activity": "Manufacture of refractory mortars, concretes and similar materials",
+  "candidates": [],
+  "section": "C"
+ },
+ "239103": {
+  "activity": "Manufacture of refractory ceramic goods such as heat- insulating ceramic goods of siliceous fossil meals, retorts, crucibles, muffles, nozzles, tubes, pipes and similar items",
+  "candidates": [],
+  "section": "C"
+ },
+ "239199": {
+  "activity": "Manufacture of other refractory articles n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239201": {
+  "activity": "Manufacture of bricks",
+  "candidates": [],
+  "section": "C"
+ },
+ "239202": {
+  "activity": "Manufacture of ceramic pipes, conduits, guttering and pipe fittings",
+  "candidates": [],
+  "section": "C"
+ },
+ "239299": {
+  "activity": "Manufacture of other clay building materials n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239301": {
+  "activity": "Manufacture of articles of porcelain or china, earthenware, imitation porcelain or common pottery, including earthen statues",
+  "candidates": [],
+  "section": "C"
+ },
+ "239302": {
+  "activity": "Manufacture of ceramic tableware, kitchenware and other domestic articles excluding ceramic toilet sanitary wares",
+  "candidates": [],
+  "section": "C"
+ },
+ "239303": {
+  "activity": "Manufacture of statuettes and other ornamental ceramic articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "239304": {
+  "activity": "Manufacture of electrical insulators and insulating fittings of ceramics",
+  "candidates": [],
+  "section": "C"
+ },
+ "239305": {
+  "activity": "Manufacture of ceramic laboratory, chemical and industrial products",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "tokaicarbon",
+    "name": "Tokai Carbon",
+    "path": "quote/tyo/5301",
+    "source": "wikipedia",
+    "tk": "5301",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "239403": {
+  "activity": "Manufacture of quicklime, slaked lime and hydraulic lime (excluding chewing lime)",
+  "candidates": [],
+  "section": "C"
+ },
+ "239404": {
+  "activity": "Manufacture of plasters of calcined gypsum or calcined sulphate",
+  "candidates": [],
+  "section": "C"
+ },
+ "239502": {
+  "activity": "Manufacture of prefabricated structural components for buildings or civil engineering of cement, concrete or artificial stone excluding RCC bricks and blocks.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239503": {
+  "activity": "Manufacture of plaster articles for use in construction such as boards, sheets, panels and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "239504": {
+  "activity": "Manufacture of building materials of vegetable substances (wood wool, straw, reeds, rushes) agglomerated with cement, plaster or other mineral binder including insulation boards.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239506": {
+  "activity": "Manufacture of R.C.C. bricks and blocks",
+  "candidates": [],
+  "section": "C"
+ },
+ "239507": {
+  "activity": "Manufacture of Coir-Reinforced Concrete (CFRC), Light weight cement boards Coco coir Bricks/Blocks",
+  "candidates": [],
+  "section": "C"
+ },
+ "239508": {
+  "activity": "Manufacture of bricks, blocks, tiles and similar products of fly ash",
+  "candidates": [],
+  "section": "C"
+ },
+ "239599": {
+  "activity": "Manufacture of other cement and asbestos cement products n.e.c. including Ready-Mix Concrete (RMC)",
+  "candidates": [],
+  "section": "C"
+ },
+ "239601": {
+  "activity": "Crushing and breaking of stone for use as a flux or raw material in lime or cement manufacture or as building material, road metal or ballast and other materials not at quarry head",
+  "candidates": [],
+  "section": "C"
+ },
+ "239699": {
+  "activity": "Other Cutting, shaping and finishing of stone n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239903": {
+  "activity": "Manufacture of articles of diverse mineral substances such as worked mica and articles of mica, of peat, of graphite (other than electrical articles) and similar substances",
+  "candidates": [],
+  "section": "C"
+ },
+ "239905": {
+  "activity": "Manufacture of clay, synthetic clay",
+  "candidates": [],
+  "section": "C"
+ },
+ "239999": {
+  "activity": "Manufacture of other non-metallic mineral products n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "242003": {
+  "activity": "Manufacture of Alumina from Bauxite",
+  "candidates": [],
+  "section": "C"
+ },
+ "242007": {
+  "activity": "Manufacturing of chrome, manganese and nickel products and alloys",
+  "candidates": [],
+  "section": "C"
+ },
+ "242008": {
+  "activity": "Production and refining of precious metals (such as gold, silver platinum etc.) and alloys",
+  "candidates": [],
+  "section": "C"
+ },
+ "242099": {
+  "activity": "Other manufacture of basic precious and other non- ferrous metals n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "243101": {
+  "activity": "Manufacture of tubes, pipes, and hollow profiles and their fittings of cast-iron",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Switzerland",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "georgfischercompany",
+    "name": "Georg Fischer (company)",
+    "path": "quote/swx/GF",
+    "source": "wikipedia",
+    "tk": "GF",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "243102": {
+  "activity": "Manufacture of tubes, pipes, and hollow profiles and their fittings of cast-steel",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Switzerland",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "georgfischercompany",
+    "name": "Georg Fischer (company)",
+    "path": "quote/swx/GF",
+    "source": "wikipedia",
+    "tk": "GF",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "243103": {
+  "activity": "Casting of semi-finished and finished steel castings excluding hollow profiles",
+  "candidates": [],
+  "section": "C"
+ },
+ "243201": {
+  "activity": "Casting of copper",
+  "candidates": [],
+  "section": "C"
+ },
+ "243202": {
+  "activity": "Casting of Aluminium",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nationalaluminiumcom",
+    "name": "National Aluminium Company",
+    "path": "quote/nse/NATIONALUM",
+    "source": "wikipedia",
+    "tk": "NATIONALUM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nationalaluminiumcom",
+    "name": "National Aluminium Company",
+    "path": "quote/bom/532234",
+    "source": "wikipedia",
+    "tk": "532234",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "243299": {
+  "activity": "Casting of other non-ferrous metals n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "251101": {
+  "activity": "Manufacture of metal doors, windows and their frames, shutters and rolling shutters, gates and similar articles used in buildings",
+  "candidates": [],
+  "section": "C"
+ },
+ "251199": {
+  "activity": "Manufacture of tanks, reservoirs and containers of metal n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "251201": {
+  "activity": "Manufacture of metal containers for compressed or liquefied gas",
+  "candidates": [],
+  "section": "C"
+ },
+ "251202": {
+  "activity": "Manufacture of reservoirs, tanks, vats and similar containers of metal, whether or not lined or heat- insulated",
+  "candidates": [],
+  "section": "C"
+ },
+ "251203": {
+  "activity": "Manufacture of central heating boilers and radiators and parts and accessories thereof",
+  "candidates": [],
+  "section": "C"
+ },
+ "251299": {
+  "activity": "Other manufacture of tanks, reservoirs and containers of metal n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "251303": {
+  "activity": "Manufacture of auxiliary plant for use with steam generators (condensers, economizers, superheaters, steam collectors and accumulators)",
+  "candidates": [],
+  "section": "C"
+ },
+ "251399": {
+  "activity": "Manufacture of other steam generators/boilers (except central heating hot water boilers), n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "259102": {
+  "activity": "Powder metallurgy",
+  "candidates": [],
+  "section": "C"
+ },
+ "259201": {
+  "activity": "Plating, anodizing, galvanizing etc. of metals",
+  "candidates": [],
+  "section": "C"
+ },
+ "259202": {
+  "activity": "Treatment of metals like heating, deburring, sandblasting, tumbling, cleaning of metals, hardening, buffing of metals and similar activities",
+  "candidates": [],
+  "section": "C"
+ },
+ "259203": {
+  "activity": "Non-metallic coating of metals: plasticizing, enameling, lacquering, colouring and engraving of metals and similar activities",
+  "candidates": [],
+  "section": "C"
+ },
+ "259299": {
+  "activity": "Treatment and coating of metals; machining n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "259303": {
+  "activity": "Manufacture of hand tools such as pliers, screwdrivers, press tools, blacksmiths",
+  "candidates": [],
+  "section": "C"
+ },
+ "259399": {
+  "activity": "Manufacture of other general hardware n.e.c. (saws and sawblades, including circular sawblades and chainsaw blades, moulding boxes, vices, clamps and similar items)",
+  "candidates": [],
+  "section": "C"
+ },
+ "259904": {
+  "activity": "Manufacture of metal household articles (plates, saucers, pots, kettles, saucepans, frying pans, pressure cooker and other non-electrical utensils, small hand-operated kitchen appliances and accessories)",
+  "candidates": [],
+  "section": "C"
+ },
+ "259905": {
+  "activity": "Manufacture of metal sanitary ware such as baths, sinks, washbasins and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "259906": {
+  "activity": "Manufacture of reinforced safes, vaults, strong room doors, gates and metal goods for office use (other than office furniture) and other purposes",
+  "candidates": [],
+  "section": "C"
+ },
+ "259907": {
+  "activity": "Manufacture of metal sculptures, decorative items, and other artisanal products",
+  "candidates": [],
+  "section": "C"
+ },
+ "259999": {
+  "activity": "Manufacture of other fabricated metal products n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nipponlightmetal",
+    "name": "Nippon Light Metal",
+    "path": "quote/tyo/5703",
+    "source": "wikipedia",
+    "tk": "5703",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "263002": {
+  "activity": "Manufacture of telephones, including cordless telephones and facsimile equipment, telephone answering machines, PBX equipment, excluding smartphones",
+  "candidates": [],
+  "section": "C"
+ },
+ "263004": {
+  "activity": "Manufacture of cable television equipment, transmitting and receiving antenna including DTH dish",
+  "candidates": [],
+  "section": "C"
+ },
+ "263005": {
+  "activity": "Manufacture of radio and television studio and broadcasting equipment, including television cameras",
+  "candidates": [],
+  "section": "C"
+ },
+ "263099": {
+  "activity": "Manufacture of other communication equipment n.e.c. such as pagers, modems, carrier equipment, devices using infrared signals (like remote controllers and game controllers), User Terminals for Broadband Communication, Inflight and Maritime Communication equipment",
+  "candidates": [],
+  "section": "C"
+ },
+ "264003": {
+  "activity": "Manufacture of audio recording and duplicating systems (including for commercial recordings)",
+  "candidates": [],
+  "section": "C"
+ },
+ "264004": {
+  "activity": "Manufacture of radio receivers",
+  "candidates": [],
+  "section": "C"
+ },
+ "264099": {
+  "activity": "Manufacture of other electronic consumer goods n.e.c. such as CD players, DVD players, home theatre audio and video equipment",
+  "candidates": [],
+  "section": "C"
+ },
+ "265202": {
+  "activity": "Manufacture of components for clocks and watches (springs, jewels, dials, hands, plates, bridges and other parts); watch and clock cases, including cases of precious metals",
+  "candidates": [],
+  "section": "C"
+ },
+ "265203": {
+  "activity": "Manufacture of time-recording equipment such as time- clock, parking meters and similar equipment",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "265299": {
+  "activity": "Manufacture of other components for clocks and watches n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "casio",
+    "name": "Casio",
+    "path": "quote/tyo/6952",
+    "source": "wikipedia",
+    "tk": "6952",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "267003": {
+  "activity": "Manufacture of optical microscopes, binoculars and telescopes, Optics for Spacecraft payload",
+  "candidates": [],
+  "section": "C"
+ },
+ "267099": {
+  "activity": "Manufacture of optical instruments and photographic equipment n.e.c. such as optical mirrors, unrecorded magnetic audio and video tapes, optical disks.",
+  "candidates": [],
+  "section": "C"
+ },
+ "268000": {
+  "activity": "Manufacture of magnetic and optical media",
+  "candidates": [],
+  "section": "C"
+ },
+ "272003": {
+  "activity": "Manufacture of Battery Energy Storage Systems (BESS)/ Containerised BESS/ Battery pack",
+  "candidates": [],
+  "section": "C"
+ },
+ "272099": {
+  "activity": "Manufacture of other batteries and accumulators n.e.c.",
   "candidates": [],
   "section": "C"
  },
