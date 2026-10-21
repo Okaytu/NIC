@@ -6,7 +6,7 @@ is confirmed working end to end.
 """
 import json
 import requests
-from discover import wiki_search, wiki_fetch_wikitexts, wiki_infobox_ticker, wiki_candidates, edgar_candidates, HEADERS
+from discover import wiki_search, wiki_fetch_wikitexts, wiki_infobox_ticker, wiki_candidates, edgar_candidates, HEADERS, SEC_HEADERS
 
 session = requests.Session()
 out = {}
@@ -26,6 +26,14 @@ for label, query in [
         "wikitext_lens": {t: len(wt) for t, wt in wikitexts.items()},
         "infobox": {t: wiki_infobox_ticker(wt) for t, wt in wikitexts.items()},
     }
+
+r_edgar = session.get("https://efts.sec.gov/LATEST/search-index", headers=SEC_HEADERS, timeout=15,
+                       params={"q": '"Apple Inc"', "forms": "10-K"})
+out["edgar_raw_status"] = r_edgar.status_code
+try:
+    out["edgar_raw_body"] = r_edgar.json()
+except ValueError:
+    out["edgar_raw_body"] = r_edgar.text[:500]
 
 out["wiki_candidates_tcs"] = wiki_candidates(session, "Tata Consultancy Services")
 out["wiki_candidates_millets"] = wiki_candidates(session, "Growing of Bajra and Jowar and other millets")
