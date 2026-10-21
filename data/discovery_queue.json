@@ -48,5 +48,55 @@
   "activity": "Growing of onion, garlic and other bulb vegetables",
   "candidates": [],
   "section": "A"
+ },
+ "351102": {
+  "activity": "Electric power generation using petroleum products",
+  "candidates": [],
+  "section": "D"
+ },
+ "351199": {
+  "activity": "Electric power generation using other non-renewable sources n.e.c.",
+  "candidates": [],
+  "section": "D"
+ },
+ "351204": {
+  "activity": "Electric power generation using green hydrogen",
+  "candidates": [],
+  "section": "D"
+ },
+ "351299": {
+  "activity": "Electric power generation activities using other renewable sources n.e.c. Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "D"
+ },
+ "352001": {
+  "activity": "Production of natural and synthetic gases including coal gas except green hydrogen and compressed bio gas",
+  "candidates": [],
+  "section": "D"
+ },
+ "352002": {
+  "activity": "Production of Green Hydrogen",
+  "candidates": [],
+  "section": "D"
+ },
+ "352003": {
+  "activity": "Production of compressed Bio Gas",
+  "candidates": [],
+  "section": "D"
+ },
+ "353001": {
+  "activity": "Steam and air conditioning supply",
+  "candidates": [],
+  "section": "D"
+ },
+ "353002": {
+  "activity": "Production of non-edible ice for food preservation, cooling, or other non-food uses",
+  "candidates": [],
+  "section": "D"
+ },
+ "353099": {
+  "activity": "Other Steam and air conditioning supply n.e.c.",
+  "candidates": [],
+  "section": "D"
  }
 }
