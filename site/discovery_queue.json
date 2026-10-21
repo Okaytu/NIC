@@ -6767,5 +6767,175 @@
   "activity": "Compulsory social security activities",
   "candidates": [],
   "section": "P"
+ },
+ "851001": {
+  "activity": "Education in Play School (including in standalone schools)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "851002": {
+  "activity": "Education at Aganwadi and Balwadi/ Balvatika Centres",
+  "candidates": [],
+  "section": "Q"
+ },
+ "851003": {
+  "activity": "General School Education (Class Nursery to class 2)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "852001": {
+  "activity": "General School Education at primary/ Preparatory level (Upto Class 5 with at least one standard above Class 2)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "852002": {
+  "activity": "General School education at upper primary level (Upto Class 8 with at least one standard above Class 5)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "852099": {
+  "activity": "Other Non-Formal Education at Preparatory, Primary and Upper Primary level",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853101": {
+  "activity": "General school education at secondary level (Upto Class",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853102": {
+  "activity": "School education in Distance Mode at secondary level (Up to Class 12 with at least one standard above Class 8)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853201": {
+  "activity": "Vocational School Education in Regular Mode",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853202": {
+  "activity": "Vocational School Education with Distance mode",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853203": {
+  "activity": "Educational activities of driving schools for occupational drivers",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853204": {
+  "activity": "Educational activities of flying schools for professional pilots",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853299": {
+  "activity": "Other Secondary Vocational Education n.e.c. including driving schools for professional drivers and similar institutions",
+  "candidates": [],
+  "section": "Q"
+ },
+ "853300": {
+  "activity": "Post-Secondary Education at diploma level",
+  "candidates": [],
+  "section": "Q"
+ },
+ "854002": {
+  "activity": "Professional and Second level Under Graduate Programs like B. Ed, B. Arc. LLB, and similar professional courses",
+  "candidates": [],
+  "section": "Q"
+ },
+ "854004": {
+  "activity": "Tertiary Education at Post Graduate level (Master",
+  "candidates": [],
+  "section": "Q"
+ },
+ "854005": {
+  "activity": "Tertiary Education at Ph.D. level/ Post Doctorate Level other than Medical courses",
+  "candidates": [],
+  "section": "Q"
+ },
+ "854006": {
+  "activity": "Post-Graduate education diploma level other than Medical courses",
+  "candidates": [],
+  "section": "Q"
+ },
+ "854099": {
+  "activity": "Other tertiary education activities n.e.c. such as activities of CA, CS Institutes",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855101": {
+  "activity": "Activities of providing Sports instructions (Excluding Yoga) by sports academies and camps (Excluding training by sports clubs)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855102": {
+  "activity": "Activities of providing Yoga, Meditation and similar instructions",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855103": {
+  "activity": "Activities of professional sports instructors/ teachers/ coaches",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855199": {
+  "activity": "Other sports and recreation education activities n.e.c.",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855200": {
+  "activity": "Activities of providing cultural education not leading to formal education such as in Music, Art, dance, drama, and similar fields",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855301": {
+  "activity": "Activities of automobile driving schools (non- commercial)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855399": {
+  "activity": "Other driving school activities not issuing commercial certificates and permits, n.e.c. like flying, sailing",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855903": {
+  "activity": "Preparatory courses for employment examinations like UPSC, Bank PO, etc. including through digital platforms",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855906": {
+  "activity": "Activities of providing religious instruction",
+  "candidates": [],
+  "section": "Q"
+ },
+ "855999": {
+  "activity": "Other non-formal educational courses/activities n.e.c. including Skill development and promotional activities in Space domain",
+  "candidates": [],
+  "section": "Q"
+ },
+ "856100": {
+  "activity": "Educational Intermediation service activities",
+  "candidates": [],
+  "section": "Q"
+ },
+ "856901": {
+  "activity": "Vocational and career related counselling activities (Including activities of educational consultants)",
+  "candidates": [],
+  "section": "Q"
+ },
+ "856902": {
+  "activity": "Educational testing and evaluation activities",
+  "candidates": [],
+  "section": "Q"
+ },
+ "856903": {
+  "activity": "Activities involving Development of curricula",
+  "candidates": [],
+  "section": "Q"
+ },
+ "856999": {
+  "activity": "Other educational support activities n.e.c.",
+  "candidates": [],
+  "section": "Q"
  }
 }
