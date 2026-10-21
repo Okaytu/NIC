@@ -8031,5 +8031,10 @@
   "activity": "Subsistence Service-Producing Activities of Private Households, like cooking, teaching, caring for household members and other services produced by the household for its own subsistence.",
   "candidates": [],
   "section": "U"
+ },
+ "990000": {
+  "activity": "Activities of extraterritorial organizations and bodies",
+  "candidates": [],
+  "section": "V"
  }
 }
