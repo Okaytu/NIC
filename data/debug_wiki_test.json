@@ -4902,6 +4902,28 @@
     }
   ],
   "wiki_candidates_millets": [],
-  "edgar_candidates_apple": [],
+  "edgar_candidates_apple": [
+    {
+      "name": "Apple Inc.",
+      "tk": "AAPL",
+      "ctry": "USA",
+      "path": "stocks/aapl",
+      "source": "edgar"
+    },
+    {
+      "name": "Apple Inc.",
+      "tk": "AAPL",
+      "ctry": "USA",
+      "path": "stocks/aapl",
+      "source": "edgar"
+    },
+    {
+      "name": "Apple Inc.",
+      "tk": "AAPL",
+      "ctry": "USA",
+      "path": "stocks/aapl",
+      "source": "edgar"
+    }
+  ],
   "edgar_candidates_millets": []
 }
