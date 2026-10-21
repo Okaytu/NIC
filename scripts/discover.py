@@ -43,12 +43,43 @@ COMPANIES_PATH = os.path.join(H, "data", "companies.json")
 FINANCIALS_PATH = os.path.join(H, "data", "financials.json")
 QUEUE_PATH = os.path.join(H, "data", "discovery_queue.json")
 
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 "
-      "(NIC-company-map discovery bot; contact: github.com/Okaytu/NIC)")
+# Wikipedia's own User-Agent policy (meta.wikimedia.org/wiki/User-Agent_policy)
+# asks non-browser clients to identify themselves plainly as "tool/version
+# (contact)" rather than spoof a browser string -- a spoofed browser UA
+# combined with rapid, delay-free API calls from a shared GitHub Actions IP
+# range is exactly the pattern anonymous-abuse rate limiting targets. Live
+# testing confirmed this: every single Wikipedia API call in a run came back
+# HTTP 429, immediately, even the very first one -- not a volume problem on
+# our side, but the runner's shared IP already being rate-limited.
+UA = "NIC-business-company-map/1.0 (https://github.com/Okaytu/NIC)"
 HEADERS = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"}
 # SEC asks non-browser clients to identify themselves with a real contact.
 SEC_HEADERS = {"User-Agent": "NIC-company-map research tool contact@example.invalid"}
+
+
+def get_with_retry(session, url, headers, params, max_retries=4, sleep_fn=time.sleep):
+    """GET with backoff on 429/503. Honors Retry-After when the server sends
+    one; otherwise backs off 3s, 8s, 20s. Returns the Response, or None if
+    every attempt failed -- callers treat None exactly like an old
+    non-200 response (skip, don't crash)."""
+    delay_schedule = [3, 8, 20, 45]
+    for attempt in range(max_retries):
+        try:
+            r = session.get(url, headers=headers, params=params, timeout=15)
+        except requests.RequestException:
+            return None
+        if r.status_code not in (429, 503):
+            return r
+        wait = delay_schedule[min(attempt, len(delay_schedule) - 1)]
+        retry_after = r.headers.get("Retry-After")
+        if retry_after:
+            try:
+                wait = max(wait, min(float(retry_after), 60))
+            except ValueError:
+                pass
+        if attempt < max_retries - 1:
+            sleep_fn(wait)
+    return r  # return the last (still-failing) response rather than None
 
 WIKI_EXCHANGE_TO_PATH = {
     # NYSE/NASDAQ are handled as a special case in wiki_candidates() (path
@@ -115,15 +146,15 @@ def find_empty_codes(section_filter=None):
 # ---------------------------------------------------------------- Wikipedia
 
 def wiki_search(session, query, limit=4):
+    r = get_with_retry(session, "https://en.wikipedia.org/w/api.php", HEADERS, {
+        "action": "query", "list": "search", "srsearch": query + " company",
+        "format": "json", "srlimit": limit,
+    })
+    if r is None or r.status_code != 200:
+        return []
     try:
-        r = session.get("https://en.wikipedia.org/w/api.php", headers=HEADERS, timeout=15, params={
-            "action": "query", "list": "search", "srsearch": query + " company",
-            "format": "json", "srlimit": limit,
-        })
-        if r.status_code != 200:
-            return []
         return [hit["title"] for hit in r.json().get("query", {}).get("search", [])]
-    except requests.RequestException:
+    except ValueError:
         return []
 
 
@@ -137,38 +168,65 @@ _TEMPLATE_RE = re.compile(r"\{\{\s*(" + _EXCHANGE_ALT + r")\s*\|\s*([A-Za-z0-9.]
 _PLAINTEXT_RE = re.compile(r"\b(" + _EXCHANGE_ALT + r")\s*:\s*([A-Za-z0-9.]{1,10})\b", re.I)
 
 
-def wiki_infobox_ticker(session, title):
+def wiki_fetch_wikitexts(session, titles):
+    """Fetches section-0 wikitext for several titles in ONE API call
+    (action=query/prop=revisions, pipe-joined titles) instead of one
+    action=parse call per title. Cuts request count ~4x and, more
+    importantly, is the batching MediaWiki itself expects clients to use
+    rather than hammering it with individual per-page requests. Returns
+    {title: wikitext}; a title that's missing, a redirect with no content,
+    or fails to fetch simply maps to ""."""
+    if not titles:
+        return {}
+    r = get_with_retry(session, "https://en.wikipedia.org/w/api.php", HEADERS, {
+        "action": "query", "titles": "|".join(titles), "prop": "revisions",
+        "rvprop": "content", "rvslots": "main", "rvsection": 0,
+        "format": "json", "formatversion": 2,
+    })
+    out = {t: "" for t in titles}
+    if r is None or r.status_code != 200:
+        return out
+    try:
+        pages = r.json().get("query", {}).get("pages", [])
+    except ValueError:
+        return out
+    for p in pages:
+        if p.get("missing") or not p.get("revisions"):
+            continue
+        content = p["revisions"][0].get("slots", {}).get("main", {}).get("content", "")
+        out[p.get("title", "")] = content
+    return out
+
+
+def wiki_infobox_ticker(wikitext):
     """Returns a list of (exchange, ticker) pairs found in a 'traded_as'
     style infobox field, matching both {{NSE|TCS}} template style and
-    plain "NSE: TCS" text style."""
-    try:
-        r = session.get("https://en.wikipedia.org/w/api.php", headers=HEADERS, timeout=15, params={
-            "action": "parse", "page": title, "prop": "wikitext", "section": 0, "format": "json",
-        })
-        if r.status_code != 200:
-            return []
-        wikitext = r.json().get("parse", {}).get("wikitext", {}).get("*", "")
-        # Narrow to just the traded_as parameter's value when we can find
-        # it (avoids picking up an unrelated exchange mention elsewhere in
-        # the infobox); fall back to the whole section if that fails.
-        m = re.search(r"\|\s*traded_as\s*=\s*(.*?)\n\s*\|", wikitext, re.S | re.I)
-        scope = m.group(1) if m else wikitext
-        pairs = _TEMPLATE_RE.findall(scope) + _PLAINTEXT_RE.findall(scope)
-        seen, out = set(), []
-        for ex, tk in pairs:
-            key = (ex.upper(), tk.upper())
-            if key not in seen:
-                seen.add(key)
-                out.append(key)
-        return out
-    except requests.RequestException:
+    plain "NSE: TCS" text style. Pure text processing -- no network -- so
+    it can be reused directly against a batched wiki_fetch_wikitexts()
+    result."""
+    if not wikitext:
         return []
+    # Narrow to just the traded_as parameter's value when we can find it
+    # (avoids picking up an unrelated exchange mention elsewhere in the
+    # infobox); fall back to the whole section if that fails.
+    m = re.search(r"\|\s*traded_as\s*=\s*(.*?)\n\s*\|", wikitext, re.S | re.I)
+    scope = m.group(1) if m else wikitext
+    pairs = _TEMPLATE_RE.findall(scope) + _PLAINTEXT_RE.findall(scope)
+    seen, out = set(), []
+    for ex, tk in pairs:
+        key = (ex.upper(), tk.upper())
+        if key not in seen:
+            seen.add(key)
+            out.append(key)
+    return out
 
 
 def wiki_candidates(session, query):
+    titles = wiki_search(session, query)
+    wikitexts = wiki_fetch_wikitexts(session, titles)
     out = []
-    for title in wiki_search(session, query):
-        for exchange, ticker in wiki_infobox_ticker(session, title):
+    for title in titles:
+        for exchange, ticker in wiki_infobox_ticker(wikitexts.get(title, "")):
             if exchange == "NYSE" or exchange == "NASDAQ":
                 path = f"stocks/{ticker.lower()}"
                 country = "USA"
@@ -190,22 +248,23 @@ def edgar_ticker_lookup(session):
     global _EDGAR_TICKERS
     if _EDGAR_TICKERS is not None:
         return _EDGAR_TICKERS
+    r = get_with_retry(session, "https://www.sec.gov/files/company_tickers.json", SEC_HEADERS, {})
     try:
-        r = session.get("https://www.sec.gov/files/company_tickers.json", headers=SEC_HEADERS, timeout=20)
-        _EDGAR_TICKERS = {row["title"].upper(): row["ticker"] for row in r.json().values()} if r.status_code == 200 else {}
-    except requests.RequestException:
+        _EDGAR_TICKERS = {row["title"].upper(): row["ticker"] for row in r.json().values()} if r is not None and r.status_code == 200 else {}
+    except ValueError:
         _EDGAR_TICKERS = {}
     return _EDGAR_TICKERS
 
 
 def edgar_candidates(session, query, limit=4):
+    r = get_with_retry(session, "https://efts.sec.gov/LATEST/search-index", SEC_HEADERS, {
+        "q": f'"{query}"', "forms": "10-K",
+    })
+    if r is None or r.status_code != 200:
+        return []
     try:
-        r = session.get("https://efts.sec.gov/LATEST/search-index", headers=SEC_HEADERS, timeout=15,
-                         params={"q": f'"{query}"', "forms": "10-K"})
-        if r.status_code != 200:
-            return []
         hits = r.json().get("hits", {}).get("hits", [])[:limit]
-    except (requests.RequestException, ValueError):
+    except ValueError:
         return []
     tickers = edgar_ticker_lookup(session)
     out = []
@@ -248,7 +307,9 @@ def main():
     map_cache = {}  # section -> loaded map json, written back at the end
     added_total = queued_total = 0
 
-    for S, code, activity in empty:
+    for i, (S, code, activity) in enumerate(empty):
+        if i:
+            time.sleep(1.5)  # pace requests across codes, on top of get_with_retry's own backoff
         log(f"\n--- {S}/{code}: {activity}")
         candidates = wiki_candidates(session, activity) + edgar_candidates(session, activity)
         # de-dupe by (ctry, tk)
