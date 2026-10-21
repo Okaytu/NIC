@@ -1,1617 +1,1666 @@
 {
-"name": "Manufacturing",
-"range": "10–33",
-"done": [
-"10",
-"11",
-"12",
-"13",
-"14",
-"15",
-"16",
-"17",
-"18",
-"19",
-"20",
-"21",
-"22",
-"23",
-"24",
-"25",
-"26",
-"27",
-"28",
-"29",
-"30",
-"31",
-"32",
-"33"
-],
-"biz": {
-"101002": [
-"hma",
-"jbs",
-"minerva",
-"mbrf"
-],
-"101003": [
-"seaboard"
-],
-"101004": [
-"tsn"
-],
-"101005": [
-"hrl"
-],
-"102003": [
-"apex",
-"coastal",
-"thaiunion"
-],
-"103004": [
-"sjm"
-],
-"103007": [
-"prataap",
-"lw"
-],
-"103008": [
-"jbss"
-],
-"104001": [
-"gokul"
-],
-"104003": [
-"awl",
-"patanjali",
-"wilmar",
-"bunge",
-"adm"
-],
-"105001": [
-"heritage",
-"dodla",
-"hatsun"
-],
-"105004": [
-"parag",
-"saputo"
-],
-"105005": [
-"vadilal",
-"magnum"
-],
-"105006": [
-"danone"
-],
-"106101": [
-"krbl",
-"ltfoods",
-"clsetia",
-"grm"
-],
-"106201": [
-"gael",
-"sukhjit",
-"ingr",
-"tate"
-],
-"106203": [
-"sanstar"
-],
-"107101": [
-"flo"
-],
-"107103": [
-"britannia",
-"bectors",
-"mdlz"
-],
-"107201": [
-"balrampur",
-"eidparry",
-"triveni",
-"renuka",
-"dhampur"
-],
-"107299": [
-"szu"
-],
-"107301": [
-"barry"
-],
-"107302": [
-"hsy",
-"lindt"
-],
-"107400": [
-"nestleind"
-],
-"107501": [
-"adf",
-"cag",
-"nomad"
-],
-"107601": [
-"tcpl"
-],
-"107602": [
-"ccl",
-"jdep"
-],
-"107901": [
-"nestle"
-],
-"107906": [
-"avt",
-"mkc"
-],
-"107907": [
-"khc"
-],
-"107909": [
-"oatly"
-],
-"107999": [
-"bikaji",
-"gopal",
-"gis"
-],
-"108001": [
-"ridley"
-],
-"108003": [
-"freshpet"
-],
-"110101": [
-"usl",
-"abdl",
-"diageo",
-"pernod"
-],
-"110102": [
-"tilaknagar"
-],
-"110104": [
-"radico"
-],
-"110106": [
-"globus",
-"som",
-"aabl"
-],
-"110199": [
-"bfb",
-"campari"
-],
-"110201": [
-"sula",
-"twe"
-],
-"110301": [
-"ubl",
-"bud",
-"heineken",
-"carlsberg"
-],
-"110502": [
-"vbl",
-"ko",
-"pep",
-"kdp"
-],
-"110503": [
-"primo"
-],
-"110505": [
-"monster",
-"celsius"
-],
-"120004": [
-"itc",
-"godfrey",
-"vst",
-"pm",
-"bat"
-],
-"120099": [
-"mo",
-"jt"
-],
-"131101": [
-"vardhman",
-"kpr",
-"nitin",
-"ambika",
-"nahar"
-],
-"131104": [
-"cheviot",
-"gloster"
-],
-"131106": [
-"filatex",
-"indorama",
-"sutlej",
-"ivl"
-],
-"131201": [
-"arvind",
-"siyaram",
-"jindalww"
-],
-"131205": [
-"raymondlsl"
-],
-"131209": [
-"banswara"
-],
-"139201": [
-"welspun",
-"trident",
-"indocount",
-"himatsingka"
-],
-"139303": [
-"mohawk",
-"interface"
-],
-"139401": [
-"garware"
-],
-"139902": [
-"magnera"
-],
-"141001": [
-"vedant"
-],
-"141002": [
-"gokaldas",
-"pearl",
-"shenzhou",
-"crystal"
-],
-"141003": [
-"page",
-"lux",
-"dollar",
-"rupa",
-"hbi"
-],
-"141099": [
-"pvh",
-"rl",
-"levi",
-"vfc"
-],
-"143001": [
-"spapparels",
-"kitex",
-"gildan"
-],
-"151102": [
-"superhouse"
-],
-"151201": [
-"safari",
-"vip",
-"samsonite",
-"tapestry",
-"capri"
-],
-"151299": [
-"hermes"
-],
-"152001": [
-"bata",
-"redtape",
-"libertyshoes",
-"mirza",
-"khadim"
-],
-"152002": [
-"relaxo",
-"campus",
-"nike",
-"adidas",
-"puma"
-],
-"152099": [
-"crocs",
-"deckers",
-"onon"
-],
-"161001": [
-"wfg",
-"interfor",
-"canfor"
-],
-"162101": [
-"centuryply",
-"greenply",
-"archidply"
-],
-"162102": [
-"greenpanel",
-"rushil"
-],
-"162202": [
-"jeld"
-],
-"170101": [
-"jkpaper",
-"westcoast",
-"seshasayee",
-"andhrapaper",
-"satia"
-],
-"170102": [
-"norske"
-],
-"170103": [
-"tnpl",
-"emamipaper",
-"kuantum",
-"storaenso",
-"mondi"
-],
-"170104": [
-"orientpaper",
-"pudumjee"
-],
-"170199": [
-"suzano",
-"upm"
-],
-"170202": [
-"ip",
-"sw",
-"pkg"
-],
-"170203": [
-"tcplpack",
-"gpk"
-],
-"170901": [
-"camlin"
-],
-"170903": [
-"kmb",
-"essity"
-],
-"170905": [
-"huhtamaki"
-],
-"181102": [
-"repro",
-"quad"
-],
-"181199": [
-"cimpress"
-],
-"191001": [
-"suncoke"
-],
-"192001": [
-"reliance",
-"ioc",
-"bpcl",
-"hpcl",
-"mrpl"
-],
-"192002": [
-"gandhar",
-"panama"
-],
-"192003": [
-"confidence"
-],
-"192099": [
-"castrol",
-"gulfoil",
-"savita",
-"cpcl"
-],
-"201101": [
-"lindeindia",
-"ellenbarrie",
-"linde",
-"airliquide",
-"apd"
-],
-"201102": [
-"gacl",
-"dcmshriram",
-"dcw"
-],
-"201103": [
-"atul",
-"bodal",
-"kiri",
-"meghmani"
-],
-"201104": [
-"alkyl",
-"balaji",
-"ingrevia",
-"laxmi"
-],
-"201105": [
-"tatachem",
-"ghcl"
-],
-"201106": [
-"aarti",
-"deepaknitrite",
-"navin",
-"srf",
-"clean"
-],
-"201108": [
-"camlinfine",
-"oriental",
-"privi"
-],
-"201199": [
-"vinati",
-"gfl",
-"fineorg",
-"pcbl",
-"himadri"
-],
-"201201": [
-"chambal",
-"rcf",
-"nfl",
-"cfind"
-],
-"201203": [
-"coromandel",
-"paradeep",
-"gsfc",
-"fact",
-"mcfl"
-],
-"201204": [
-"deepakfert",
-"gnfc",
-"yara"
-],
-"201301": [
-"supremepet",
-"chemplast",
-"dow",
-"lyb",
-"basf"
-],
-"201302": [
-"apcotex"
-],
-"202101": [
-"upl",
-"piind",
-"bayercrop",
-"dhanuka",
-"sumichem"
-],
-"202199": [
-"rallis",
-"insecticides",
-"fmc"
-],
-"202201": [
-"asianpaint",
-"berger",
-"kansai",
-"indigo",
-"jswdulux"
-],
-"202202": [
-"sudarshan"
-],
-"202301": [
-"hul",
-"gcpl",
-"unilever"
-],
-"202302": [
-"jyothy",
-"pg"
-],
-"202303": [
-"reckitt",
-"clorox"
-],
-"202304": [
-"ipar",
-"coty"
-],
-"202305": [
-"colpal",
-"cl",
-"haleon"
-],
-"202306": [
-"marico",
-"dabur",
-"emami",
-"bajajcon"
-],
-"202307": [
-"honasa",
-"loreal",
-"esteelauder",
-"elf"
-],
-"202308": [
-"gillette",
-"pghh",
-"edgewell"
-],
-"202902": [
-"solarinds",
-"premier",
-"orica"
-],
-"202903": [
-"givaudan",
-"symrise"
-],
-"202906": [
-"pidilite",
-"henkel",
-"fuller"
-],
-"202999": [
-"galaxy",
-"rossari"
-],
-"203002": [
-"grasim",
-"lenzing"
-],
-"203003": [
-"centuryenka"
-],
-"210001": [
-"divis",
-"laurus",
-"granules",
-"neuland",
-"solara"
-],
-"210002": [
-"sunpharma",
-"drreddy",
-"cipla",
-"lupin",
-"zydus"
-],
-"210004": [
-"viyash",
-"zoetis",
-"elanco"
-],
-"210007": [
-"panacea",
-"moderna",
-"novavax"
-],
-"210008": [
-"biocon",
-"concord",
-"amgen",
-"regeneron"
-],
-"210099": [
-"mankind",
-"torrent",
-"alkem",
-"aurobindo",
-"glenmark"
-],
-"221101": [
-"mrf",
-"apollotyre",
-"ceat",
-"jktyre",
-"bridgestone"
-],
-"221102": [
-"tvssrichak"
-],
-"221199": [
-"bkt",
-"goodyearin"
-],
-"221902": [
-"pix"
-],
-"221903": [
-"ansell"
-],
-"222001": [
-"cosmo",
-"polyplex",
-"jindalpoly"
-],
-"222002": [
-"cello",
-"nwl"
-],
-"222003": [
-"uflex",
-"huhtamakiin",
-"moldtek",
-"epl",
-"amcor"
-],
-"222004": [
-"supreme",
-"astral",
-"finolexind",
-"prince",
-"apollopipe"
-],
-"222099": [
-"timetech",
-"nilkamal"
-],
-"231001": [
-"asahiglass",
-"saintgobain",
-"agc"
-],
-"231002": [
-"owenscorning"
-],
-"231003": [
-"agi",
-"oi",
-"verallia"
-],
-"231004": [
-"borosci",
-"gerresheimer"
-],
-"231005": [
-"borosil",
-"laopala"
-],
-"231099": [
-"bororenew",
-"corning"
-],
-"239102": [
-"rhim",
-"ifgl",
-"vesuvius"
-],
-"239306": [
-"cera"
-],
-"239399": [
-"kajaria",
-"somany",
-"orientbell",
-"asiangranito"
-],
-"239401": [
-"ultratech",
-"ambuja",
-"shreecem",
-"acc",
-"dalmia"
-],
-"239499": [
-"jkcement",
-"ramcocem",
-"birlacorp",
-"nuvoco",
-"jklakshmi"
-],
-"239402": [
-"birlanu",
-"visaka",
-"everest"
-],
-"239505": [
-"ramcoind"
-],
-"239501": [
-"holcim",
-"heidelberg",
-"crh"
-],
-"239902": [
-"rockwool"
-],
-"239901": [
-"cumi",
-"grindwell"
-],
-"239904": [
-"ranebrake"
-],
-"241001": [
-"kirlferrous"
-],
-"241002": [
-"godawari",
-"sarda",
-"shyam"
-],
-"241003": [
-"tatasteel",
-"jswsteel",
-"sail",
-"jindalsteel",
-"arcelor"
-],
-"241004": [
-"maithan",
-"nava",
-"eramet"
-],
-"241005": [
-"nucor",
-"stld"
-],
-"241006": [
-"clf"
-],
-"241007": [
-"aplapollo",
-"welspuncorp",
-"jindalsaw"
-],
-"241008": [
-"bansalwire"
-],
-"241099": [
-"jsl",
-"mukand",
-"sunflag"
-],
-"242001": [
-"aurubis"
-],
-"242002": [
-"precwire"
-],
-"242004": [
-"hindalco",
-"centuryalu",
-"norskhydro"
-],
-"242005": [
-"constellium"
-],
-"242006": [
-"gravita",
-"pondy"
-],
-"243104": [
-"mahseamless",
-"ratnamani",
-"tenaris"
-],
-"243105": [
-"electrosteel",
-"nelcast"
-],
-"243199": [
-"aiaeng"
-],
-"251102": [
-"skipper"
-],
-"251103": [
-"pennar",
-"interarch"
-],
-"251301": [
-"bhel",
-"thermax",
-"isgec",
-"babcock"
-],
-"251302": [
-"bwxt"
-],
-"252000": [
-"bdl",
-"rheinmetall"
-],
-"259101": [
-"bharatforge",
-"rkforge",
-"happyforge",
-"mmforge"
-],
-"259302": [
-"swk"
-],
-"259304": [
-"allegion",
-"assaabloy"
-],
-"259301": [
-"hawkins",
-"ttkprestige",
-"stovekraft"
-],
-"259901": [
-"sterlingtools",
-"sundram"
-],
-"259902": [
-"ball",
-"crown"
-],
-"259903": [
-"ushamartin"
-],
-"261101": [
-"waareeener",
-"premierene",
-"vikramsolr",
-"webelsolar",
-"fslr"
-],
-"261102": [
-"saatvikgl",
-"jks",
-"csiq"
-],
-"261103": [
-"sungrow",
-"enph",
-"sedg",
-"sma"
-],
-"261901": [
-"murata",
-"tdk",
-"vsh"
-],
-"261902": [
-"spel",
-"onsemi",
-"diod"
-],
-"261903": [
-"txn",
-"adi",
-"nxpi",
-"ifx",
-"mchp"
-],
-"261904": [
-"kaynes",
-"syrma",
-"avalon",
-"cyientdlm",
-"centum"
-],
-"261905": [
-"boe",
-"sharp",
-"oled"
-],
-"261906": [
-"tsm",
-"nvda",
-"mu",
-"intc",
-"amd"
-],
-"261907": [
-"datapattns",
-"apollomicro",
-"astramicro"
-],
-"261908": [
-"aph",
-"tel"
-],
-"261999": [
-"elin",
-"lfus"
-],
-"262001": [
-"lenovo",
-"dell",
-"hpq"
-],
-"262002": [
-"sndk",
-"wdc",
-"stx",
-"ntap",
-"pstg"
-],
-"262003": [
-"logi"
-],
-"262004": [
-"canon",
-"zbra"
-],
-"262005": [
-"natl",
-"dbd"
-],
-"262099": [
-"netweb",
-"smci",
-"hpe"
-],
-"263001": [
-"dixon",
-"aapl",
-"xiaomi"
-],
-"263003": [
-"csco",
-"anet",
-"ftnt"
-],
-"263006": [
-"msi"
-],
-"263007": [
-"hfcl",
-"tejasnet",
-"cien"
-],
-"263008": [
-"ericsson",
-"nokia"
-],
-"263009": [
-"ui"
-],
-"264001": [
-"sony",
-"tclelec"
-],
-"264002": [
-"nintendo"
-],
-"264005": [
-"sono"
-],
-"265101": [
-"keys"
-],
-"265102": [
-"horiba"
-],
-"265103": [
-"genuspower",
-"hpl",
-"itri",
-"landis",
-"bmi"
-],
-"265104": [
-"vaisala"
-],
-"265105": [
-"bel",
-"grmn",
-"trmb"
-],
-"265106": [
-"tmo",
-"agilent",
-"wat",
-"mtd"
-],
-"265107": [
-"honaut",
-"emr",
-"rok"
-],
-"265199": [
-"ftv"
-],
-"265201": [
-"citizen",
-"seiko",
-"swatch"
-],
-"266001": [
-"gehc",
-"healthineers",
-"philips"
-],
-"266002": [
-"mdt",
-"bsx"
-],
-"267001": [
-"hoya"
-],
-"267002": [
-"fujifilm",
-"nikon"
-],
-"271001": [
-"cumminsind",
-"gnrc"
-],
-"271002": [
-"taril",
-"voltamp",
-"powerindia",
-"gvtd"
-],
-"271003": [
-"cgpower",
-"abbindia",
-"weg",
-"nidec"
-],
-"271004": [
-"nucera",
-"nel",
-"plug"
-],
-"271099": [
-"siemensind",
-"schneiderind",
-"etn"
-],
-"272001": [
-"eveready",
-"nippobatry",
-"enr"
-],
-"272002": [
-"exideind",
-"arem",
-"hblengine",
-"catl",
-"ens"
-],
-"273100": [
-"stltech",
-"birlacable",
-"akshoptfbr"
-],
-"273201": [
-"polycab",
-"kei",
-"fincables",
-"rrkabel",
-"univcables"
-],
-"273299": [
-"paracables",
-"prysmian",
-"nexans"
-],
-"273301": [
-"havells",
-"legrand",
-"hubb"
-],
-"274001": [
-"suryarosni",
-"signify",
-"ayi"
-],
-"275001": [
-"whirlpoolind",
-"ifbind",
-"bajajelec",
-"electrolux"
-],
-"275002": [
-"crompton",
-"vguard",
-"aos"
-],
-"275003": [
-"voltas",
-"bluestarco",
-"amber",
-"symphony",
-"daikin"
-],
-"279001": [
-"servotech"
-],
-"279002": [
-"vrt"
-],
-"281101": [
-"wartsila"
-],
-"281103": [
-"shripiston",
-"fmgoetze"
-],
-"281104": [
-"triturbine",
-"gev",
-"siemensenergy",
-"mhi"
-],
-"281105": [
-"suzlon",
-"inoxwind",
-"vestas",
-"nordex"
-],
-"281107": [
-"kirloseng",
-"greavescot",
-"cmi"
-],
-"281201": [
-"yuken",
-"dynamatech",
-"ph"
-],
-"281202": [
-"smc"
-],
-"281204": [
-"rotork"
-],
-"281301": [
-"elgiequip",
-"ingerrand",
-"atlascopco"
-],
-"281302": [
-"kirlosbros",
-"shaktipump",
-"wpil",
-"roto",
-"xyl"
-],
-"281304": [
-"ksb",
-"fls"
-],
-"281401": [
-"schaeffler",
-"timken",
-"skfindia",
-"nrbbearing"
-],
-"281402": [
-"shantigear",
-"elecon"
-],
-"281601": [
-"otis",
-"kone",
-"schindler"
-],
-"281603": [
-"daifuku",
-"sym"
-],
-"281604": [
-"ace",
-"konecranes"
-],
-"281700": [
-"ricoh",
-"xrx"
-],
-"281800": [
-"tti",
-"makita"
-],
-"281901": [
-"carr"
-],
-"281902": [
-"tt"
-],
-"281905": [
-"ionexchang",
-"dci"
-],
-"282101": [
-"mm",
-"escorts",
-"vsttillers",
-"de",
-"cnh"
-],
-"282104": [
-"agco"
-],
-"282201": [
-"dmgmori"
-],
-"282402": [
-"epiroc",
-"sandvik"
-],
-"282403": [
-"beml",
-"cat",
-"komatsu"
-],
-"282599": [
-"gea",
-"krones",
-"jbtm"
-],
-"282601": [
-"laxmimach",
-"rieter"
-],
-"282904": [
-"ssys",
-"ddd"
-],
-"282906": [
-"fanuc",
-"yaskawa"
-],
-"282999": [
-"asml",
-"amat",
-"lrcx",
-"klac",
-"tel8035"
-],
-"291001": [
-"maruti",
-"tmpv",
-"hyundai",
-"tm",
-"tsla"
-],
-"291002": [
-"olectra",
-"jbma"
-],
-"291003": [
-"ashokley",
-"tmcv",
-"volvo",
-"dtg",
-"pcar"
-],
-"291005": [
-"sonacoms"
-],
-"292002": [
-"wnc"
-],
-"293001": [
-"motherson",
-"boschltd",
-"unominda",
-"endurance",
-"zfcvindia"
-],
-"293002": [
-"alv"
-],
-"293003": [
-"lea",
-"adnt"
-],
-"293005": [
-"lumaxind",
-"mindacorp",
-"varroc",
-"aptv"
-],
-"293099": [
-"gabriel",
-"suprajit",
-"jamnaauto",
-"subros",
-"craftsman"
-],
-"301101": [
-"cochinship"
-],
-"301102": [
-"mazdock",
-"grse",
-"hii"
-],
-"301200": [
-"bc",
-"mcft"
-],
-"302001": [
-"wab"
-],
-"302002": [
-"alstom"
-],
-"302003": [
-"titagarh",
-"jwl",
-"texrail",
-"gbx"
-],
-"302005": [
-"kernex"
-],
-"303001": [
-"halaero",
-"airbus",
-"ba",
-"erj"
-],
-"303004": [
-"rklb"
-],
-"303006": [
-"azad",
-"unimech",
-"safran",
-"ge",
-"rollsroyce"
-],
-"303007": [
-"mtartech",
-"paras"
-],
-"303009": [
-"ideaforge",
-"avav",
-"ktos"
-],
-"304001": [
-"gd"
-],
-"309101": [
-"bajajauto",
-"tvsmotor",
-"heromotoco",
-"eichermot",
-"olaelec"
-],
-"309102": [
-"atulauto"
-],
-"309104": [
-"pricol"
-],
-"309201": [
-"tiindia"
-],
-"309203": [
-"shimano"
-],
-"310101": [
-"stanley",
-"lzb",
-"etd"
-],
-"310201": [
-"hni",
-"mlkn"
-],
-"310203": [
-"sfl",
-"sgi"
-],
-"321101": [
-"titan",
-"kalyankjil",
-"skygold",
-"senco",
-"pcjeweller"
-],
-"321102": [
-"goldiam"
-],
-"321199": [
-"rgl",
-"pandora"
-],
-"322099": [
-"yamaha"
-],
-"323000": [
-"amersports",
-"golf"
-],
-"324001": [
-"mat",
-"has"
-],
-"325001": [
-"laxmidentl",
-"xray"
-],
-"325004": [
-"polymed",
-"bdx"
-],
-"325005": [
-"omron"
-],
-"325006": [
-"syk",
-"zbh"
-],
-"325007": [
-"essilux",
-"alc"
-],
-"325009": [
-"straumann"
-],
-"325099": [
-"isrg"
-],
-"329001": [
-"doms",
-"flair",
-"linc",
-"bic"
-],
-"329002": [
-"mmm"
-],
-"331500": [
-"stengg",
-"aar"
-]
-},
-"bnote": {
-"101002": "HMA Agro is India's largest listed buffalo-meat exporter. The others are the world's largest listed beef processors.",
-"104003": "India's two largest listed edible-oil companies, then global oilseed processors.",
-"106101": "Listed Indian basmati and rice millers.",
-"107201": "Five listed Indian cane-sugar makers. Most also make ethanol and power.",
-"107302": "No chocolate maker is listed in India; Cadbury India is a subsidiary of Mondelez.",
-"107901": "No listed Indian infant-formula pure-play; Nestlé is the global leader.",
-"110101": "Indian whisky leaders first, then global spirits majors.",
-"110106": "Indian distillers whose volume is largely country liquor and extra-neutral alcohol.",
-"120099": "Altria sells oral nicotine pouches and smokeless tobacco. Japan Tobacco is mainly cigarettes and is placed here because the cigarette slot is full.",
-"131101": "Five listed Indian cotton spinners.",
-"131104": "Listed Indian jute mills. Ludlow Jute could not be read from the data source.",
-"141001": "Vedant Fashions (Manyavar) designs and sells ethnic wear; most making is outsourced. Closest listed match.",
-"141099": "Global apparel brand owners. Most outsource manufacturing.",
-"151201": "Indian luggage leaders first, then global luggage and handbag makers.",
-"152001": "Listed Indian leather-footwear makers.",
-"152002": "Indian non-leather footwear leaders, then global sportswear brands.",
-"170101": "Five listed Indian writing and printing paper makers.",
-"170102": "No listed newsprint pure-play in India; Norske Skog is one of the last large listed newsprint makers.",
-"192001": "India's five largest listed refiners.",
-"201106": "Five listed Indian specialty and fluorine chemical makers.",
-"202101": "Five listed Indian crop-protection makers.",
-"202201": "Five listed Indian paint makers.",
-"210002": "India's five largest listed formulation makers by revenue.",
-"210099": "More large Indian formulation makers, placed here because the formulations slot is full.",
-"210003": "No sizeable listed Ayush pure-play found; the big Ayurveda brands sit inside Dabur, Emami and Patanjali.",
-"222004": "Five listed Indian PVC pipe makers.",
-"239401": "India's five largest listed cement makers.",
-"239499": "More Indian cement makers, placed here because the main cement slot is full.",
-"239501": "Global building-materials majors with large ready-mix and precast concrete businesses.",
-"241003": "India's four largest listed steelmakers, then ArcelorMittal.",
-"251301": "BHEL and Thermax build boilers and steam generators in India.",
-"252000": "Bharat Dynamics makes missiles and munitions; Rheinmetall is Europe's largest listed ammunition maker.",
-"261101": "India's listed solar cell and module makers, then First Solar, the largest US maker.",
-"261102": "Saatvik assembles modules in India. JinkoSolar and Canadian Solar are among the largest module makers globally.",
-"261103": "No listed Indian inverter maker found. Sungrow, Enphase, SolarEdge and SMA are the main listed players abroad.",
-"261901": "Murata and TDK are the world's largest passive-component makers. Vishay makes resistors, capacitors and discrete devices.",
-"261902": "SPEL is India's only listed semiconductor assembly and test unit, and it is tiny. onsemi and Diodes are discrete and power-chip makers.",
-"261903": "No listed Indian chip maker. These five are the largest analog and microcontroller makers.",
-"261904": "India's listed electronics manufacturing services (EMS) and PCB-assembly companies.",
-"261905": "No listed Indian display maker. BOE and Sharp make display panels; Universal Display licenses OLED materials.",
-"261906": "No listed Indian chip fab. TSMC, Intel and Micron run fabs; NVIDIA and AMD design processors and outsource manufacturing.",
-"261907": "Indian defence and space electronics makers.",
-"261908": "No Indian pure-play. Amphenol and TE Connectivity are the largest connector and cable-assembly makers.",
-"262001": "No listed Indian PC maker. Lenovo, Dell and HP are the three largest PC makers.",
-"262002": "No listed Indian storage maker.",
-"262099": "Netweb builds servers and supercomputers in India. Super Micro and HPE are large server makers.",
-"263001": "Dixon assembles phones for brands in India. Apple and Xiaomi are the main listed phone makers.",
-"263003": "No listed Indian router or switch maker. Cisco, Arista and Fortinet lead networking and firewalls.",
-"263007": "HFCL and Tejas make optical and transmission equipment in India.",
-"263008": "No listed Indian RAN maker. Ericsson and Nokia are the two main 4G/5G network vendors outside China.",
-"265103": "Genus and HPL make electricity meters in India, including smart meters.",
-"265105": "Bharat Electronics makes radars and defence electronics. Garmin and Trimble lead satellite navigation.",
-"265106": "No listed Indian lab-instrument maker. These are the four largest abroad.",
-"265107": "Honeywell Automation India is the main listed Indian process-control company.",
-"265201": "No listed Indian watchmaker with clean data (Titan's watches are inside a jewellery business, listed under jewellery).",
-"266001": "No listed Indian imaging-equipment maker.",
-"271002": "Listed Indian transformer and grid-equipment makers.",
-"271003": "CG Power and ABB India make motors in India. WEG and Nidec are large motor makers abroad.",
-"271004": "No listed Indian electrolyser maker. These are listed electrolyser makers in Europe and the US; all are loss-making.",
-"272002": "India's lead-acid and lithium battery makers, then CATL, the world's largest EV battery maker.",
-"273201": "India's five largest listed wire and cable makers.",
-"275003": "India's listed air-conditioner and cooler makers, plus Daikin.",
-"281105": "Suzlon and Inox Wind make wind turbines in India. Vestas and Nordex are the largest listed makers in Europe.",
-"281302": "Listed Indian pump makers, plus Xylem.",
-"281401": "India's listed bearing makers. Their foreign parents are left out to avoid counting a company twice.",
-"282101": "Mahindra & Mahindra is India's largest tractor maker (it also makes cars). Deere and CNH are the largest abroad.",
-"282999": "No listed Indian semiconductor-equipment maker. These five supply most of the world's chip-making machines.",
-"291001": "India's three largest listed car makers, then Toyota and Tesla.",
-"291003": "Ashok Leyland and Tata Motors (commercial vehicles) lead Indian trucks. Volvo, Daimler Truck and PACCAR lead abroad.",
-"293001": "India's largest listed auto-component makers.",
-"301102": "India's listed defence shipyards, plus Huntington Ingalls, the largest US naval shipbuilder.",
-"302003": "India's listed wagon and coach makers, plus Greenbrier from the US.",
-"303001": "HAL is India's only listed aircraft maker.",
-"303006": "Azad and Unimech make precision aerospace parts in India. Safran, GE Aerospace and Rolls-Royce lead jet engines.",
-"309101": "India's five listed two-wheeler makers.",
-"321101": "India's largest listed jewellery makers and retailers.",
-"329001": "India's listed pen and stationery makers, plus BIC.",
-"331500": "No listed Indian MRO pure-play. AAR and ST Engineering run large aircraft and ship repair businesses."
-},
-"flags": {
-"itc": "Diversified: cigarettes, FMCG, paper and agri. Cigarettes earn most of the profit.",
-"eidparry": "Consolidated figures include Coromandel International (fertilisers), which dominates revenue.",
-"tcpl": "Diversified: tea, coffee, salt, foods and Starbucks India.",
-"nestle": "Diversified global food group. Figures in Swiss francs.",
-"hma": "Net profit is above EBITDA, so it includes non-operating income.",
-"tilaknagar": "Near-zero TTM profit makes the P/E meaningless.",
-"som": "Near-zero TTM profit makes the P/E meaningless.",
-"prataap": "Near-zero TTM profit makes the P/E meaningless.",
-"khc": "Loss reflects large brand impairments.",
-"gis": "Loss reflects one-off items.",
-"cag": "Loss reflects large impairments.",
-"twe": "Loss reflects large impairments.",
-"freshpet": "Net profit includes a tax benefit.",
-"mkc": "Net profit includes a one-off gain.",
-"repro": "Net profit includes a large one-off gain.",
-"kitex": "Near-zero TTM profit makes the P/E meaningless.",
-"raymondlsl": "Near-zero TTM profit makes the P/E meaningless.",
-"vip": "Loss-making in the trailing year.",
-"ip": "Loss reflects restructuring and mill-closure charges.",
-"tapestry": "ROE is inflated by buybacks that shrank equity.",
-"jeld": "Heavy losses; equity is nearly wiped out.",
-"norske": "Net profit despite negative EBITDA comes from one-off gains.",
-"ivl": "Thai polyester and PET giant; loss-making in the trailing year.",
-"reliance": "Diversified: refining and petrochemicals, retail and Jio telecom. Figures are for the whole group.",
-"grasim": "Consolidated figures include UltraTech Cement and Aditya Birla Capital.",
-"kiri": "Net profit includes a very large one-off gain, so the profit margin and P/E are not operating.",
-"hul": "Net profit includes a one-off gain, so the profit margin is not operating.",
-"jswdulux": "Net profit includes a one-off gain; renamed after JSW bought Akzo Nobel India.",
-"tatachem": "Loss reflects impairments in overseas soda ash.",
-"dcmshriram": "Diversified: chlor-alkali, sugar, fertiliser and others.",
-"apd": "Near-zero profit after large impairments.",
-"fmc": "Loss reflects large impairments.",
-"premier": "Net profit is above EBITDA, so it includes other income.",
-"moderna": "Revenue has collapsed after the pandemic; deep losses.",
-"esteelauder": "Near-zero TTM profit makes the P/E meaningless.",
-"sudarshan": "Thin margins after acquiring Heubach.",
-"lindeindia": "Very high P/E for a gases company; check the source page.",
-"hpcl": "Near-zero TTM refining margin.",
-"hindalco": "Consolidated figures include Novelis (US/Europe aluminium rolling).",
-"tatasteel": "Consolidated figures include Tata Steel Europe.",
-"birlanu": "Renamed from HIL; loss-making in the trailing year.",
-"ramcoind": "Net profit includes its share of Ramco Cements' profit.",
-"maithan": "Net profit is above EBITDA because of large treasury income.",
-"mukand": "Net profit includes a large one-off gain.",
-"bdl": "Net profit is above EBITDA because of large interest income on cash.",
-"aiaeng": "Net profit roughly equals EBITDA because of large treasury income.",
-"centuryalu": "Net profit includes a one-off gain.",
-"holcim": "Profit reflects the 2025 spin-off of its North American business (Amrize).",
-"bharatforge": "High P/E on depressed profit.",
-"tmpv": "FY26 net profit includes a large one-time gain from the Tata Motors demerger, so net margin and P/E are not operating results.",
-"wdc": "Net profit includes a large gain from the Sandisk separation, so net margin is not an operating figure.",
-"spel": "Very small company with almost no revenue.",
-"sony": "Net income in the source is negative because of one-off items; EBITDA is positive.",
-"tejasnet": "Tejas had a sharp fall in orders and is loss-making in the latest twelve months.",
-"swatch": "Profit fell almost to zero, so the P/E is not meaningful.",
-"hni": "HNI completed a large acquisition (Steelcase), so its latest profit is depressed.",
-"ideaforge": "Profit is close to zero, so the P/E is not meaningful.",
-"centum": "ROCE and ROE in the source do not match its net loss; treat them with care.",
-"ba": "Boeing's EBITDA is negative, and its equity is negative, so ROE is not shown."
-},
-"notes": [
-[
-"Section C is complete",
-"All divisions 10 to 33 are mapped. Where India has no listed company in a niche, listed companies abroad are used."
-]
-]
+ "name": "Manufacturing",
+ "range": "10–33",
+ "done": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31",
+  "32",
+  "33"
+ ],
+ "biz": {
+  "101002": [
+   "hma",
+   "jbs",
+   "minerva",
+   "mbrf"
+  ],
+  "101003": [
+   "seaboard"
+  ],
+  "101004": [
+   "tsn"
+  ],
+  "101005": [
+   "hrl"
+  ],
+  "102003": [
+   "apex",
+   "coastal",
+   "thaiunion"
+  ],
+  "103004": [
+   "sjm"
+  ],
+  "103007": [
+   "prataap",
+   "lw"
+  ],
+  "103008": [
+   "jbss"
+  ],
+  "104001": [
+   "gokul"
+  ],
+  "104003": [
+   "awl",
+   "patanjali",
+   "wilmar",
+   "bunge",
+   "adm"
+  ],
+  "105001": [
+   "heritage",
+   "dodla",
+   "hatsun"
+  ],
+  "105004": [
+   "parag",
+   "saputo"
+  ],
+  "105005": [
+   "vadilal",
+   "magnum"
+  ],
+  "105006": [
+   "danone"
+  ],
+  "106101": [
+   "krbl",
+   "ltfoods",
+   "clsetia",
+   "grm"
+  ],
+  "106201": [
+   "gael",
+   "sukhjit",
+   "ingr",
+   "tate"
+  ],
+  "106203": [
+   "sanstar"
+  ],
+  "107101": [
+   "flo"
+  ],
+  "107103": [
+   "britannia",
+   "bectors",
+   "mdlz"
+  ],
+  "107201": [
+   "balrampur",
+   "eidparry",
+   "triveni",
+   "renuka",
+   "dhampur"
+  ],
+  "107299": [
+   "szu"
+  ],
+  "107301": [
+   "barry"
+  ],
+  "107302": [
+   "hsy",
+   "lindt"
+  ],
+  "107400": [
+   "nestleind"
+  ],
+  "107501": [
+   "adf",
+   "cag",
+   "nomad"
+  ],
+  "107601": [
+   "tcpl"
+  ],
+  "107602": [
+   "ccl",
+   "jdep"
+  ],
+  "107901": [
+   "nestle"
+  ],
+  "107906": [
+   "avt",
+   "mkc"
+  ],
+  "107907": [
+   "khc"
+  ],
+  "107909": [
+   "oatly"
+  ],
+  "107999": [
+   "bikaji",
+   "gopal",
+   "gis"
+  ],
+  "108001": [
+   "ridley"
+  ],
+  "108003": [
+   "freshpet"
+  ],
+  "110101": [
+   "usl",
+   "abdl",
+   "diageo",
+   "pernod"
+  ],
+  "110102": [
+   "tilaknagar"
+  ],
+  "110104": [
+   "radico"
+  ],
+  "110106": [
+   "globus",
+   "som",
+   "aabl"
+  ],
+  "110199": [
+   "bfb",
+   "campari"
+  ],
+  "110201": [
+   "sula",
+   "twe"
+  ],
+  "110301": [
+   "ubl",
+   "bud",
+   "heineken",
+   "carlsberg"
+  ],
+  "110502": [
+   "vbl",
+   "ko",
+   "pep",
+   "kdp"
+  ],
+  "110503": [
+   "primo"
+  ],
+  "110505": [
+   "monster",
+   "celsius"
+  ],
+  "120004": [
+   "itc",
+   "godfrey",
+   "vst",
+   "pm",
+   "bat"
+  ],
+  "120099": [
+   "mo",
+   "jt"
+  ],
+  "131101": [
+   "vardhman",
+   "kpr",
+   "nitin",
+   "ambika",
+   "nahar"
+  ],
+  "131104": [
+   "cheviot",
+   "gloster"
+  ],
+  "131106": [
+   "filatex",
+   "indorama",
+   "sutlej",
+   "ivl"
+  ],
+  "131201": [
+   "arvind",
+   "siyaram",
+   "jindalww"
+  ],
+  "131205": [
+   "raymondlsl"
+  ],
+  "131209": [
+   "banswara"
+  ],
+  "139201": [
+   "welspun",
+   "trident",
+   "indocount",
+   "himatsingka"
+  ],
+  "139303": [
+   "mohawk",
+   "interface"
+  ],
+  "139401": [
+   "garware"
+  ],
+  "139902": [
+   "magnera"
+  ],
+  "141001": [
+   "vedant"
+  ],
+  "141002": [
+   "gokaldas",
+   "pearl",
+   "shenzhou",
+   "crystal"
+  ],
+  "141003": [
+   "page",
+   "lux",
+   "dollar",
+   "rupa",
+   "hbi"
+  ],
+  "141099": [
+   "pvh",
+   "rl",
+   "levi",
+   "vfc"
+  ],
+  "143001": [
+   "spapparels",
+   "kitex",
+   "gildan"
+  ],
+  "151102": [
+   "superhouse"
+  ],
+  "151201": [
+   "safari",
+   "vip",
+   "samsonite",
+   "tapestry",
+   "capri"
+  ],
+  "151299": [
+   "hermes"
+  ],
+  "152001": [
+   "bata",
+   "redtape",
+   "libertyshoes",
+   "mirza",
+   "khadim"
+  ],
+  "152002": [
+   "relaxo",
+   "campus",
+   "nike",
+   "adidas",
+   "puma"
+  ],
+  "152099": [
+   "crocs",
+   "deckers",
+   "onon"
+  ],
+  "161001": [
+   "wfg",
+   "interfor",
+   "canfor"
+  ],
+  "162101": [
+   "centuryply",
+   "greenply",
+   "archidply"
+  ],
+  "162102": [
+   "greenpanel",
+   "rushil"
+  ],
+  "162202": [
+   "jeld"
+  ],
+  "170101": [
+   "jkpaper",
+   "westcoast",
+   "seshasayee",
+   "andhrapaper",
+   "satia"
+  ],
+  "170102": [
+   "norske"
+  ],
+  "170103": [
+   "tnpl",
+   "emamipaper",
+   "kuantum",
+   "storaenso",
+   "mondi"
+  ],
+  "170104": [
+   "orientpaper",
+   "pudumjee"
+  ],
+  "170199": [
+   "suzano",
+   "upm"
+  ],
+  "170202": [
+   "ip",
+   "sw",
+   "pkg"
+  ],
+  "170203": [
+   "tcplpack",
+   "gpk"
+  ],
+  "170901": [
+   "camlin"
+  ],
+  "170903": [
+   "kmb",
+   "essity"
+  ],
+  "170905": [
+   "huhtamaki"
+  ],
+  "181102": [
+   "repro",
+   "quad"
+  ],
+  "181199": [
+   "cimpress"
+  ],
+  "191001": [
+   "suncoke"
+  ],
+  "192001": [
+   "reliance",
+   "ioc",
+   "bpcl",
+   "hpcl",
+   "mrpl"
+  ],
+  "192002": [
+   "gandhar",
+   "panama"
+  ],
+  "192003": [
+   "confidence"
+  ],
+  "192099": [
+   "castrol",
+   "gulfoil",
+   "savita",
+   "cpcl"
+  ],
+  "201101": [
+   "lindeindia",
+   "ellenbarrie",
+   "linde",
+   "airliquide",
+   "apd"
+  ],
+  "201102": [
+   "gacl",
+   "dcmshriram",
+   "dcw"
+  ],
+  "201103": [
+   "atul",
+   "bodal",
+   "kiri",
+   "meghmani"
+  ],
+  "201104": [
+   "alkyl",
+   "balaji",
+   "ingrevia",
+   "laxmi"
+  ],
+  "201105": [
+   "tatachem",
+   "ghcl"
+  ],
+  "201106": [
+   "aarti",
+   "deepaknitrite",
+   "navin",
+   "srf",
+   "clean"
+  ],
+  "201108": [
+   "camlinfine",
+   "oriental",
+   "privi"
+  ],
+  "201199": [
+   "vinati",
+   "gfl",
+   "fineorg",
+   "pcbl",
+   "himadri"
+  ],
+  "201201": [
+   "chambal",
+   "rcf",
+   "nfl",
+   "cfind"
+  ],
+  "201203": [
+   "coromandel",
+   "paradeep",
+   "gsfc",
+   "fact",
+   "mcfl"
+  ],
+  "201204": [
+   "deepakfert",
+   "gnfc",
+   "yara"
+  ],
+  "201301": [
+   "supremepet",
+   "chemplast",
+   "dow",
+   "lyb",
+   "basf"
+  ],
+  "201302": [
+   "apcotex"
+  ],
+  "202101": [
+   "upl",
+   "piind",
+   "bayercrop",
+   "dhanuka",
+   "sumichem"
+  ],
+  "202199": [
+   "rallis",
+   "insecticides",
+   "fmc"
+  ],
+  "202201": [
+   "asianpaint",
+   "berger",
+   "kansai",
+   "indigo",
+   "jswdulux"
+  ],
+  "202202": [
+   "sudarshan"
+  ],
+  "202301": [
+   "hul",
+   "gcpl",
+   "unilever"
+  ],
+  "202302": [
+   "jyothy",
+   "pg"
+  ],
+  "202303": [
+   "reckitt",
+   "clorox"
+  ],
+  "202304": [
+   "ipar",
+   "coty"
+  ],
+  "202305": [
+   "colpal",
+   "cl",
+   "haleon"
+  ],
+  "202306": [
+   "marico",
+   "dabur",
+   "emami",
+   "bajajcon"
+  ],
+  "202307": [
+   "honasa",
+   "loreal",
+   "esteelauder",
+   "elf"
+  ],
+  "202308": [
+   "gillette",
+   "pghh",
+   "edgewell"
+  ],
+  "202902": [
+   "solarinds",
+   "premier",
+   "orica"
+  ],
+  "202903": [
+   "givaudan",
+   "symrise"
+  ],
+  "202906": [
+   "pidilite",
+   "henkel",
+   "fuller"
+  ],
+  "202999": [
+   "galaxy",
+   "rossari"
+  ],
+  "203002": [
+   "grasim",
+   "lenzing"
+  ],
+  "203003": [
+   "centuryenka"
+  ],
+  "210001": [
+   "divis",
+   "laurus",
+   "granules",
+   "neuland",
+   "solara"
+  ],
+  "210002": [
+   "sunpharma",
+   "drreddy",
+   "cipla",
+   "lupin",
+   "zydus"
+  ],
+  "210004": [
+   "viyash",
+   "zoetis",
+   "elanco"
+  ],
+  "210007": [
+   "panacea",
+   "moderna",
+   "novavax"
+  ],
+  "210008": [
+   "biocon",
+   "concord",
+   "amgen",
+   "regeneron"
+  ],
+  "210099": [
+   "mankind",
+   "torrent",
+   "alkem",
+   "aurobindo",
+   "glenmark"
+  ],
+  "221101": [
+   "mrf",
+   "apollotyre",
+   "ceat",
+   "jktyre",
+   "bridgestone"
+  ],
+  "221102": [
+   "tvssrichak"
+  ],
+  "221199": [
+   "bkt",
+   "goodyearin"
+  ],
+  "221902": [
+   "pix"
+  ],
+  "221903": [
+   "ansell"
+  ],
+  "222001": [
+   "cosmo",
+   "polyplex",
+   "jindalpoly"
+  ],
+  "222002": [
+   "cello",
+   "nwl"
+  ],
+  "222003": [
+   "uflex",
+   "huhtamakiin",
+   "moldtek",
+   "epl",
+   "amcor"
+  ],
+  "222004": [
+   "supreme",
+   "astral",
+   "finolexind",
+   "prince",
+   "apollopipe"
+  ],
+  "222099": [
+   "timetech",
+   "nilkamal"
+  ],
+  "231001": [
+   "asahiglass",
+   "saintgobain",
+   "agc"
+  ],
+  "231002": [
+   "owenscorning"
+  ],
+  "231003": [
+   "agi",
+   "oi",
+   "verallia"
+  ],
+  "231004": [
+   "borosci",
+   "gerresheimer"
+  ],
+  "231005": [
+   "borosil",
+   "laopala"
+  ],
+  "231099": [
+   "bororenew",
+   "corning"
+  ],
+  "239102": [
+   "rhim",
+   "ifgl",
+   "vesuvius"
+  ],
+  "239306": [
+   "cera"
+  ],
+  "239399": [
+   "kajaria",
+   "somany",
+   "orientbell",
+   "asiangranito"
+  ],
+  "239401": [
+   "ultratech",
+   "ambuja",
+   "shreecem",
+   "acc",
+   "dalmia"
+  ],
+  "239499": [
+   "jkcement",
+   "ramcocem",
+   "birlacorp",
+   "nuvoco",
+   "jklakshmi"
+  ],
+  "239402": [
+   "birlanu",
+   "visaka",
+   "everest"
+  ],
+  "239505": [
+   "ramcoind"
+  ],
+  "239501": [
+   "holcim",
+   "heidelberg",
+   "crh"
+  ],
+  "239902": [
+   "rockwool"
+  ],
+  "239901": [
+   "cumi",
+   "grindwell"
+  ],
+  "239904": [
+   "ranebrake"
+  ],
+  "241001": [
+   "kirlferrous"
+  ],
+  "241002": [
+   "godawari",
+   "sarda",
+   "shyam"
+  ],
+  "241003": [
+   "tatasteel",
+   "jswsteel",
+   "sail",
+   "jindalsteel",
+   "arcelor"
+  ],
+  "241004": [
+   "maithan",
+   "nava",
+   "eramet"
+  ],
+  "241005": [
+   "nucor",
+   "stld"
+  ],
+  "241006": [
+   "clf"
+  ],
+  "241007": [
+   "aplapollo",
+   "welspuncorp",
+   "jindalsaw"
+  ],
+  "241008": [
+   "bansalwire"
+  ],
+  "241099": [
+   "jsl",
+   "mukand",
+   "sunflag"
+  ],
+  "242001": [
+   "aurubis"
+  ],
+  "242002": [
+   "precwire"
+  ],
+  "242004": [
+   "hindalco",
+   "centuryalu",
+   "norskhydro"
+  ],
+  "242005": [
+   "constellium"
+  ],
+  "242006": [
+   "gravita",
+   "pondy"
+  ],
+  "243104": [
+   "mahseamless",
+   "ratnamani",
+   "tenaris"
+  ],
+  "243105": [
+   "electrosteel",
+   "nelcast"
+  ],
+  "243199": [
+   "aiaeng"
+  ],
+  "251102": [
+   "skipper"
+  ],
+  "251103": [
+   "pennar",
+   "interarch"
+  ],
+  "251301": [
+   "bhel",
+   "thermax",
+   "isgec",
+   "babcock"
+  ],
+  "251302": [
+   "bwxt"
+  ],
+  "252000": [
+   "bdl",
+   "rheinmetall"
+  ],
+  "259101": [
+   "bharatforge",
+   "rkforge",
+   "happyforge",
+   "mmforge"
+  ],
+  "259302": [
+   "swk"
+  ],
+  "259304": [
+   "allegion",
+   "assaabloy"
+  ],
+  "259301": [
+   "hawkins",
+   "ttkprestige",
+   "stovekraft"
+  ],
+  "259901": [
+   "sterlingtools",
+   "sundram"
+  ],
+  "259902": [
+   "ball",
+   "crown"
+  ],
+  "259903": [
+   "ushamartin"
+  ],
+  "261101": [
+   "waareeener",
+   "premierene",
+   "vikramsolr",
+   "webelsolar",
+   "fslr"
+  ],
+  "261102": [
+   "saatvikgl",
+   "jks",
+   "csiq"
+  ],
+  "261103": [
+   "sungrow",
+   "enph",
+   "sedg",
+   "sma"
+  ],
+  "261901": [
+   "murata",
+   "tdk",
+   "vsh"
+  ],
+  "261902": [
+   "spel",
+   "onsemi",
+   "diod"
+  ],
+  "261903": [
+   "txn",
+   "adi",
+   "nxpi",
+   "ifx",
+   "mchp"
+  ],
+  "261904": [
+   "kaynes",
+   "syrma",
+   "avalon",
+   "cyientdlm",
+   "centum"
+  ],
+  "261905": [
+   "boe",
+   "sharp",
+   "oled"
+  ],
+  "261906": [
+   "tsm",
+   "nvda",
+   "mu",
+   "intc",
+   "amd"
+  ],
+  "261907": [
+   "datapattns",
+   "apollomicro",
+   "astramicro"
+  ],
+  "261908": [
+   "aph",
+   "tel"
+  ],
+  "261999": [
+   "elin",
+   "lfus"
+  ],
+  "262001": [
+   "lenovo",
+   "dell",
+   "hpq"
+  ],
+  "262002": [
+   "sndk",
+   "wdc",
+   "stx",
+   "ntap",
+   "pstg"
+  ],
+  "262003": [
+   "logi"
+  ],
+  "262004": [
+   "canon",
+   "zbra"
+  ],
+  "262005": [
+   "natl",
+   "dbd"
+  ],
+  "262099": [
+   "netweb",
+   "smci",
+   "hpe"
+  ],
+  "263001": [
+   "dixon",
+   "aapl",
+   "xiaomi"
+  ],
+  "263003": [
+   "csco",
+   "anet",
+   "ftnt"
+  ],
+  "263006": [
+   "msi"
+  ],
+  "263007": [
+   "hfcl",
+   "tejasnet",
+   "cien"
+  ],
+  "263008": [
+   "ericsson",
+   "nokia"
+  ],
+  "263009": [
+   "ui"
+  ],
+  "264001": [
+   "sony",
+   "tclelec"
+  ],
+  "264002": [
+   "nintendo"
+  ],
+  "264005": [
+   "sono"
+  ],
+  "265101": [
+   "keys"
+  ],
+  "265102": [
+   "horiba"
+  ],
+  "265103": [
+   "genuspower",
+   "hpl",
+   "itri",
+   "landis",
+   "bmi"
+  ],
+  "265104": [
+   "vaisala"
+  ],
+  "265105": [
+   "bel",
+   "grmn",
+   "trmb"
+  ],
+  "265106": [
+   "tmo",
+   "agilent",
+   "wat",
+   "mtd"
+  ],
+  "265107": [
+   "honaut",
+   "emr",
+   "rok"
+  ],
+  "265199": [
+   "ftv"
+  ],
+  "265201": [
+   "citizen",
+   "seiko",
+   "swatch"
+  ],
+  "266001": [
+   "gehc",
+   "healthineers",
+   "philips"
+  ],
+  "266002": [
+   "mdt",
+   "bsx"
+  ],
+  "267001": [
+   "hoya"
+  ],
+  "267002": [
+   "fujifilm",
+   "nikon"
+  ],
+  "271001": [
+   "cumminsind",
+   "gnrc"
+  ],
+  "271002": [
+   "taril",
+   "voltamp",
+   "powerindia",
+   "gvtd"
+  ],
+  "271003": [
+   "cgpower",
+   "abbindia",
+   "weg",
+   "nidec"
+  ],
+  "271004": [
+   "nucera",
+   "nel",
+   "plug"
+  ],
+  "271099": [
+   "siemensind",
+   "schneiderind",
+   "etn"
+  ],
+  "272001": [
+   "eveready",
+   "nippobatry",
+   "enr"
+  ],
+  "272002": [
+   "exideind",
+   "arem",
+   "hblengine",
+   "catl",
+   "ens"
+  ],
+  "273100": [
+   "stltech",
+   "birlacable",
+   "akshoptfbr"
+  ],
+  "273201": [
+   "polycab",
+   "kei",
+   "fincables",
+   "rrkabel",
+   "univcables"
+  ],
+  "273299": [
+   "paracables",
+   "prysmian",
+   "nexans"
+  ],
+  "273301": [
+   "havells",
+   "legrand",
+   "hubb"
+  ],
+  "274001": [
+   "suryarosni",
+   "signify",
+   "ayi"
+  ],
+  "275001": [
+   "whirlpoolind",
+   "ifbind",
+   "bajajelec",
+   "electrolux"
+  ],
+  "275002": [
+   "crompton",
+   "vguard",
+   "aos"
+  ],
+  "275003": [
+   "voltas",
+   "bluestarco",
+   "amber",
+   "symphony",
+   "daikin"
+  ],
+  "279001": [
+   "servotech"
+  ],
+  "279002": [
+   "vrt"
+  ],
+  "281101": [
+   "wartsila"
+  ],
+  "281103": [
+   "shripiston",
+   "fmgoetze"
+  ],
+  "281104": [
+   "triturbine",
+   "gev",
+   "siemensenergy",
+   "mhi"
+  ],
+  "281105": [
+   "suzlon",
+   "inoxwind",
+   "vestas",
+   "nordex"
+  ],
+  "281107": [
+   "kirloseng",
+   "greavescot",
+   "cmi"
+  ],
+  "281201": [
+   "yuken",
+   "dynamatech",
+   "ph"
+  ],
+  "281202": [
+   "smc"
+  ],
+  "281204": [
+   "rotork"
+  ],
+  "281301": [
+   "elgiequip",
+   "ingerrand",
+   "atlascopco"
+  ],
+  "281302": [
+   "kirlosbros",
+   "shaktipump",
+   "wpil",
+   "roto",
+   "xyl"
+  ],
+  "281304": [
+   "ksb",
+   "fls"
+  ],
+  "281401": [
+   "schaeffler",
+   "timken",
+   "skfindia",
+   "nrbbearing"
+  ],
+  "281402": [
+   "shantigear",
+   "elecon"
+  ],
+  "281601": [
+   "otis",
+   "kone",
+   "schindler"
+  ],
+  "281603": [
+   "daifuku",
+   "sym"
+  ],
+  "281604": [
+   "ace",
+   "konecranes"
+  ],
+  "281700": [
+   "ricoh",
+   "xrx"
+  ],
+  "281800": [
+   "tti",
+   "makita"
+  ],
+  "281901": [
+   "carr"
+  ],
+  "281902": [
+   "tt"
+  ],
+  "281905": [
+   "ionexchang",
+   "dci"
+  ],
+  "282101": [
+   "mm",
+   "escorts",
+   "vsttillers",
+   "de",
+   "cnh"
+  ],
+  "282104": [
+   "agco"
+  ],
+  "282201": [
+   "dmgmori"
+  ],
+  "282402": [
+   "epiroc",
+   "sandvik"
+  ],
+  "282403": [
+   "beml",
+   "cat",
+   "komatsu"
+  ],
+  "282599": [
+   "gea",
+   "krones",
+   "jbtm"
+  ],
+  "282601": [
+   "laxmimach",
+   "rieter"
+  ],
+  "282904": [
+   "ssys",
+   "ddd"
+  ],
+  "282906": [
+   "fanuc",
+   "yaskawa"
+  ],
+  "282999": [
+   "asml",
+   "amat",
+   "lrcx",
+   "klac",
+   "tel8035"
+  ],
+  "291001": [
+   "maruti",
+   "tmpv",
+   "hyundai",
+   "tm",
+   "tsla"
+  ],
+  "291002": [
+   "olectra",
+   "jbma"
+  ],
+  "291003": [
+   "ashokley",
+   "tmcv",
+   "volvo",
+   "dtg",
+   "pcar"
+  ],
+  "291005": [
+   "sonacoms"
+  ],
+  "292002": [
+   "wnc"
+  ],
+  "293001": [
+   "motherson",
+   "boschltd",
+   "unominda",
+   "endurance",
+   "zfcvindia"
+  ],
+  "293002": [
+   "alv"
+  ],
+  "293003": [
+   "lea",
+   "adnt"
+  ],
+  "293005": [
+   "lumaxind",
+   "mindacorp",
+   "varroc",
+   "aptv"
+  ],
+  "293099": [
+   "gabriel",
+   "suprajit",
+   "jamnaauto",
+   "subros",
+   "craftsman"
+  ],
+  "301101": [
+   "cochinship"
+  ],
+  "301102": [
+   "mazdock",
+   "grse",
+   "hii"
+  ],
+  "301200": [
+   "bc",
+   "mcft"
+  ],
+  "302001": [
+   "wab"
+  ],
+  "302002": [
+   "alstom"
+  ],
+  "302003": [
+   "titagarh",
+   "jwl",
+   "texrail",
+   "gbx"
+  ],
+  "302005": [
+   "kernex"
+  ],
+  "303001": [
+   "halaero",
+   "airbus",
+   "ba",
+   "erj"
+  ],
+  "303004": [
+   "rklb"
+  ],
+  "303006": [
+   "azad",
+   "unimech",
+   "safran",
+   "ge",
+   "rollsroyce"
+  ],
+  "303007": [
+   "mtartech",
+   "paras"
+  ],
+  "303009": [
+   "ideaforge",
+   "avav",
+   "ktos"
+  ],
+  "304001": [
+   "gd"
+  ],
+  "309101": [
+   "bajajauto",
+   "tvsmotor",
+   "heromotoco",
+   "eichermot",
+   "olaelec"
+  ],
+  "309102": [
+   "atulauto"
+  ],
+  "309104": [
+   "pricol"
+  ],
+  "309201": [
+   "tiindia"
+  ],
+  "309203": [
+   "shimano"
+  ],
+  "310101": [
+   "stanley",
+   "lzb",
+   "etd"
+  ],
+  "310201": [
+   "hni",
+   "mlkn"
+  ],
+  "310203": [
+   "sfl",
+   "sgi"
+  ],
+  "321101": [
+   "titan",
+   "kalyankjil",
+   "skygold",
+   "senco",
+   "pcjeweller"
+  ],
+  "321102": [
+   "goldiam"
+  ],
+  "321199": [
+   "rgl",
+   "pandora"
+  ],
+  "322099": [
+   "yamaha"
+  ],
+  "323000": [
+   "amersports",
+   "golf"
+  ],
+  "324001": [
+   "mat",
+   "has"
+  ],
+  "325001": [
+   "laxmidentl",
+   "xray"
+  ],
+  "325004": [
+   "polymed",
+   "bdx"
+  ],
+  "325005": [
+   "omron"
+  ],
+  "325006": [
+   "syk",
+   "zbh"
+  ],
+  "325007": [
+   "essilux",
+   "alc"
+  ],
+  "325009": [
+   "straumann"
+  ],
+  "325099": [
+   "isrg"
+  ],
+  "329001": [
+   "doms",
+   "flair",
+   "linc",
+   "bic"
+  ],
+  "329002": [
+   "mmm"
+  ],
+  "331500": [
+   "stengg",
+   "aar"
+  ],
+  "104005": [
+   "bp"
+  ],
+  "105099": [
+   "thehersheycompany"
+  ],
+  "106199": [
+   "archerdanielsmidland"
+  ],
+  "106202": [
+   "spinmaster"
+  ],
+  "107199": [
+   "nec"
+  ],
+  "107202": [
+   "celanesecorp"
+  ],
+  "108002": [
+   "hesterbiosciences"
+  ],
+  "110399": [
+   "kirincompany",
+   "asahibreweries"
+  ],
+  "110400": [
+   "bostonbeercompany"
+  ],
+  "131107": [
+   "arvindcompany"
+  ],
+  "141006": [
+   "costco"
+  ],
+  "201202": [
+   "hindustanorganicchem"
+  ]
+ },
+ "bnote": {
+  "101002": "HMA Agro is India's largest listed buffalo-meat exporter. The others are the world's largest listed beef processors.",
+  "104003": "India's two largest listed edible-oil companies, then global oilseed processors.",
+  "106101": "Listed Indian basmati and rice millers.",
+  "107201": "Five listed Indian cane-sugar makers. Most also make ethanol and power.",
+  "107302": "No chocolate maker is listed in India; Cadbury India is a subsidiary of Mondelez.",
+  "107901": "No listed Indian infant-formula pure-play; Nestlé is the global leader.",
+  "110101": "Indian whisky leaders first, then global spirits majors.",
+  "110106": "Indian distillers whose volume is largely country liquor and extra-neutral alcohol.",
+  "120099": "Altria sells oral nicotine pouches and smokeless tobacco. Japan Tobacco is mainly cigarettes and is placed here because the cigarette slot is full.",
+  "131101": "Five listed Indian cotton spinners.",
+  "131104": "Listed Indian jute mills. Ludlow Jute could not be read from the data source.",
+  "141001": "Vedant Fashions (Manyavar) designs and sells ethnic wear; most making is outsourced. Closest listed match.",
+  "141099": "Global apparel brand owners. Most outsource manufacturing.",
+  "151201": "Indian luggage leaders first, then global luggage and handbag makers.",
+  "152001": "Listed Indian leather-footwear makers.",
+  "152002": "Indian non-leather footwear leaders, then global sportswear brands.",
+  "170101": "Five listed Indian writing and printing paper makers.",
+  "170102": "No listed newsprint pure-play in India; Norske Skog is one of the last large listed newsprint makers.",
+  "192001": "India's five largest listed refiners.",
+  "201106": "Five listed Indian specialty and fluorine chemical makers.",
+  "202101": "Five listed Indian crop-protection makers.",
+  "202201": "Five listed Indian paint makers.",
+  "210002": "India's five largest listed formulation makers by revenue.",
+  "210099": "More large Indian formulation makers, placed here because the formulations slot is full.",
+  "210003": "No sizeable listed Ayush pure-play found; the big Ayurveda brands sit inside Dabur, Emami and Patanjali.",
+  "222004": "Five listed Indian PVC pipe makers.",
+  "239401": "India's five largest listed cement makers.",
+  "239499": "More Indian cement makers, placed here because the main cement slot is full.",
+  "239501": "Global building-materials majors with large ready-mix and precast concrete businesses.",
+  "241003": "India's four largest listed steelmakers, then ArcelorMittal.",
+  "251301": "BHEL and Thermax build boilers and steam generators in India.",
+  "252000": "Bharat Dynamics makes missiles and munitions; Rheinmetall is Europe's largest listed ammunition maker.",
+  "261101": "India's listed solar cell and module makers, then First Solar, the largest US maker.",
+  "261102": "Saatvik assembles modules in India. JinkoSolar and Canadian Solar are among the largest module makers globally.",
+  "261103": "No listed Indian inverter maker found. Sungrow, Enphase, SolarEdge and SMA are the main listed players abroad.",
+  "261901": "Murata and TDK are the world's largest passive-component makers. Vishay makes resistors, capacitors and discrete devices.",
+  "261902": "SPEL is India's only listed semiconductor assembly and test unit, and it is tiny. onsemi and Diodes are discrete and power-chip makers.",
+  "261903": "No listed Indian chip maker. These five are the largest analog and microcontroller makers.",
+  "261904": "India's listed electronics manufacturing services (EMS) and PCB-assembly companies.",
+  "261905": "No listed Indian display maker. BOE and Sharp make display panels; Universal Display licenses OLED materials.",
+  "261906": "No listed Indian chip fab. TSMC, Intel and Micron run fabs; NVIDIA and AMD design processors and outsource manufacturing.",
+  "261907": "Indian defence and space electronics makers.",
+  "261908": "No Indian pure-play. Amphenol and TE Connectivity are the largest connector and cable-assembly makers.",
+  "262001": "No listed Indian PC maker. Lenovo, Dell and HP are the three largest PC makers.",
+  "262002": "No listed Indian storage maker.",
+  "262099": "Netweb builds servers and supercomputers in India. Super Micro and HPE are large server makers.",
+  "263001": "Dixon assembles phones for brands in India. Apple and Xiaomi are the main listed phone makers.",
+  "263003": "No listed Indian router or switch maker. Cisco, Arista and Fortinet lead networking and firewalls.",
+  "263007": "HFCL and Tejas make optical and transmission equipment in India.",
+  "263008": "No listed Indian RAN maker. Ericsson and Nokia are the two main 4G/5G network vendors outside China.",
+  "265103": "Genus and HPL make electricity meters in India, including smart meters.",
+  "265105": "Bharat Electronics makes radars and defence electronics. Garmin and Trimble lead satellite navigation.",
+  "265106": "No listed Indian lab-instrument maker. These are the four largest abroad.",
+  "265107": "Honeywell Automation India is the main listed Indian process-control company.",
+  "265201": "No listed Indian watchmaker with clean data (Titan's watches are inside a jewellery business, listed under jewellery).",
+  "266001": "No listed Indian imaging-equipment maker.",
+  "271002": "Listed Indian transformer and grid-equipment makers.",
+  "271003": "CG Power and ABB India make motors in India. WEG and Nidec are large motor makers abroad.",
+  "271004": "No listed Indian electrolyser maker. These are listed electrolyser makers in Europe and the US; all are loss-making.",
+  "272002": "India's lead-acid and lithium battery makers, then CATL, the world's largest EV battery maker.",
+  "273201": "India's five largest listed wire and cable makers.",
+  "275003": "India's listed air-conditioner and cooler makers, plus Daikin.",
+  "281105": "Suzlon and Inox Wind make wind turbines in India. Vestas and Nordex are the largest listed makers in Europe.",
+  "281302": "Listed Indian pump makers, plus Xylem.",
+  "281401": "India's listed bearing makers. Their foreign parents are left out to avoid counting a company twice.",
+  "282101": "Mahindra & Mahindra is India's largest tractor maker (it also makes cars). Deere and CNH are the largest abroad.",
+  "282999": "No listed Indian semiconductor-equipment maker. These five supply most of the world's chip-making machines.",
+  "291001": "India's three largest listed car makers, then Toyota and Tesla.",
+  "291003": "Ashok Leyland and Tata Motors (commercial vehicles) lead Indian trucks. Volvo, Daimler Truck and PACCAR lead abroad.",
+  "293001": "India's largest listed auto-component makers.",
+  "301102": "India's listed defence shipyards, plus Huntington Ingalls, the largest US naval shipbuilder.",
+  "302003": "India's listed wagon and coach makers, plus Greenbrier from the US.",
+  "303001": "HAL is India's only listed aircraft maker.",
+  "303006": "Azad and Unimech make precision aerospace parts in India. Safran, GE Aerospace and Rolls-Royce lead jet engines.",
+  "309101": "India's five listed two-wheeler makers.",
+  "321101": "India's largest listed jewellery makers and retailers.",
+  "329001": "India's listed pen and stationery makers, plus BIC.",
+  "331500": "No listed Indian MRO pure-play. AAR and ST Engineering run large aircraft and ship repair businesses.",
+  "104005": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "105099": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "106199": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "106202": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "107199": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "107202": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "108002": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "110399": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "110400": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "131107": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "141006": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "201202": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+ },
+ "flags": {
+  "itc": "Diversified: cigarettes, FMCG, paper and agri. Cigarettes earn most of the profit.",
+  "eidparry": "Consolidated figures include Coromandel International (fertilisers), which dominates revenue.",
+  "tcpl": "Diversified: tea, coffee, salt, foods and Starbucks India.",
+  "nestle": "Diversified global food group. Figures in Swiss francs.",
+  "hma": "Net profit is above EBITDA, so it includes non-operating income.",
+  "tilaknagar": "Near-zero TTM profit makes the P/E meaningless.",
+  "som": "Near-zero TTM profit makes the P/E meaningless.",
+  "prataap": "Near-zero TTM profit makes the P/E meaningless.",
+  "khc": "Loss reflects large brand impairments.",
+  "gis": "Loss reflects one-off items.",
+  "cag": "Loss reflects large impairments.",
+  "twe": "Loss reflects large impairments.",
+  "freshpet": "Net profit includes a tax benefit.",
+  "mkc": "Net profit includes a one-off gain.",
+  "repro": "Net profit includes a large one-off gain.",
+  "kitex": "Near-zero TTM profit makes the P/E meaningless.",
+  "raymondlsl": "Near-zero TTM profit makes the P/E meaningless.",
+  "vip": "Loss-making in the trailing year.",
+  "ip": "Loss reflects restructuring and mill-closure charges.",
+  "tapestry": "ROE is inflated by buybacks that shrank equity.",
+  "jeld": "Heavy losses; equity is nearly wiped out.",
+  "norske": "Net profit despite negative EBITDA comes from one-off gains.",
+  "ivl": "Thai polyester and PET giant; loss-making in the trailing year.",
+  "reliance": "Diversified: refining and petrochemicals, retail and Jio telecom. Figures are for the whole group.",
+  "grasim": "Consolidated figures include UltraTech Cement and Aditya Birla Capital.",
+  "kiri": "Net profit includes a very large one-off gain, so the profit margin and P/E are not operating.",
+  "hul": "Net profit includes a one-off gain, so the profit margin is not operating.",
+  "jswdulux": "Net profit includes a one-off gain; renamed after JSW bought Akzo Nobel India.",
+  "tatachem": "Loss reflects impairments in overseas soda ash.",
+  "dcmshriram": "Diversified: chlor-alkali, sugar, fertiliser and others.",
+  "apd": "Near-zero profit after large impairments.",
+  "fmc": "Loss reflects large impairments.",
+  "premier": "Net profit is above EBITDA, so it includes other income.",
+  "moderna": "Revenue has collapsed after the pandemic; deep losses.",
+  "esteelauder": "Near-zero TTM profit makes the P/E meaningless.",
+  "sudarshan": "Thin margins after acquiring Heubach.",
+  "lindeindia": "Very high P/E for a gases company; check the source page.",
+  "hpcl": "Near-zero TTM refining margin.",
+  "hindalco": "Consolidated figures include Novelis (US/Europe aluminium rolling).",
+  "tatasteel": "Consolidated figures include Tata Steel Europe.",
+  "birlanu": "Renamed from HIL; loss-making in the trailing year.",
+  "ramcoind": "Net profit includes its share of Ramco Cements' profit.",
+  "maithan": "Net profit is above EBITDA because of large treasury income.",
+  "mukand": "Net profit includes a large one-off gain.",
+  "bdl": "Net profit is above EBITDA because of large interest income on cash.",
+  "aiaeng": "Net profit roughly equals EBITDA because of large treasury income.",
+  "centuryalu": "Net profit includes a one-off gain.",
+  "holcim": "Profit reflects the 2025 spin-off of its North American business (Amrize).",
+  "bharatforge": "High P/E on depressed profit.",
+  "tmpv": "FY26 net profit includes a large one-time gain from the Tata Motors demerger, so net margin and P/E are not operating results.",
+  "wdc": "Net profit includes a large gain from the Sandisk separation, so net margin is not an operating figure.",
+  "spel": "Very small company with almost no revenue.",
+  "sony": "Net income in the source is negative because of one-off items; EBITDA is positive.",
+  "tejasnet": "Tejas had a sharp fall in orders and is loss-making in the latest twelve months.",
+  "swatch": "Profit fell almost to zero, so the P/E is not meaningful.",
+  "hni": "HNI completed a large acquisition (Steelcase), so its latest profit is depressed.",
+  "ideaforge": "Profit is close to zero, so the P/E is not meaningful.",
+  "centum": "ROCE and ROE in the source do not match its net loss; treat them with care.",
+  "ba": "Boeing's EBITDA is negative, and its equity is negative, so ROE is not shown."
+ },
+ "notes": [
+  [
+   "Section C is complete",
+   "All divisions 10 to 33 are mapped. Where India has no listed company in a niche, listed companies abroad are used."
+  ]
+ ]
 }

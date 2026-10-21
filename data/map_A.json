@@ -1,65 +1,177 @@
-{"name":"Agriculture, forestry and fishing","range":"01–03",
-"biz":{
-"011101":["cresud","astarta","duxton"],
-"011108":["brasilagro"],
-"011202":["adecoagro"],
-"011303":["vff"],
-"011305":["locl","edbl"],
-"011307":["hokuto"],
-"011400":["saomartinho","raizen","jalles"],
-"011601":["slc"],
-"012202":["dole"],
-"012203":["fdp"],
-"012299":["avo"],
-"012300":["lmnr","alco"],
-"012502":["shv"],
-"012699":["godrejagro","gar"],
-"012701":["mcleod","goodricke","jayshree","dhunseri","rossell"],
-"012702":["bbtc"],
-"012802":["tilray","canopy","aurora"],
-"012901":["harrisons"],
-"014101":["aac"],
-"014102":["genus"],
-"014500":["cpf","whgroup","sfd","muyuan"],
-"014601":["skmegg","calm","ppc","vitl"],
-"014602":["venkys"],
-"016101":["elders"],
-"016102":["jain"],
-"016303":["uvv"],
-"016400":["kaveri","ctva","kws"],
-"021001":["wy","ryn","pch"],
-"031101":["nissui","umios"],
-"031104":["austevoll"],
-"032101":["mowi","salmar","leroy","bakkafrost","grieg"],
-"032102":["avanti"],
-"032105":["waterbase"]
-},
-"bnote":{
-"011101":"No wheat grower is listed in India. These are listed farmland operators abroad that grow wheat among other grains.",
-"011202":"Adecoagro is one of South America's largest rice growers.",
-"011201":"No basmati grower is listed. Listed basmati companies (KRBL, LT Foods) are millers, which belong under food manufacturing.",
-"011400":"Indian sugar mills are manufacturers. These Brazilian companies grow most of their own cane.",
-"011500":"No listed tobacco grower found. Leaf buyers and processors are under preparation of tobacco leaves.",
-"012100":"Indian and global wine companies own vineyards but are classed as beverage manufacturers.",
-"012699":"Malaysian plantation groups (SD Guthrie, IOI, KLK) also fit but could not be read from the data source.",
-"012701":"Five listed Indian tea estate companies. Tea is a low-margin, labour-heavy business in India.",
-"012702":"Bombay Burmah owns coffee and tea estates. Its consolidated figures are dominated by Britannia.",
-"012802":"Licensed cannabis growers in North America.",
-"016102":"Closest listed match: Jain Irrigation makes and installs micro-irrigation systems.",
-"032102":"Closest Indian match: Avanti Feeds supplies shrimp feed and processes shrimp.",
-"032105":"Closest Indian match: Waterbase runs shrimp hatcheries and sells shrimp feed."
-},
-"flags":{
-"bbtc":"Consolidated figures include Britannia Industries, so plantations are a small part of these numbers.",
-"godrejagro":"Diversified group: animal feed, crop protection, dairy and oil palm. Figures are for the whole group.",
-"cresud":"Also owns a large real estate business, so figures are not farming alone.",
-"raizen":"Mostly fuel distribution and sugar-ethanol. Cane growing is one part.",
-"genus":"Net profit is above EBITDA because of a one-off gain, so the profit margin is not operating.",
-"grieg":"Net profit includes a large one-off gain, so the profit margin is not operating.",
-"aac":"Net profit despite negative EBITDA comes from livestock revaluation.",
-"alco":"TTM revenue is unusually small for this company. Check the source page.",
-"vitl":"Near-zero TTM profit makes the P/E meaningless.",
-"avo":"Near-zero TTM profit makes the P/E meaningless."
-},
-"notes":[["Section A: most farming is not listed anywhere","Grains, pulses, vegetables, spices and livestock are mostly grown by individual farmers or private estates, in India and abroad. Where a listed company exists only abroad, it is shown with its country and currency."]]
+{
+ "name": "Agriculture, forestry and fishing",
+ "range": "01–03",
+ "biz": {
+  "011101": [
+   "cresud",
+   "astarta",
+   "duxton"
+  ],
+  "011108": [
+   "brasilagro"
+  ],
+  "011202": [
+   "adecoagro"
+  ],
+  "011303": [
+   "vff"
+  ],
+  "011305": [
+   "locl",
+   "edbl"
+  ],
+  "011307": [
+   "hokuto"
+  ],
+  "011400": [
+   "saomartinho",
+   "raizen",
+   "jalles"
+  ],
+  "011601": [
+   "slc"
+  ],
+  "012202": [
+   "dole"
+  ],
+  "012203": [
+   "fdp"
+  ],
+  "012299": [
+   "avo"
+  ],
+  "012300": [
+   "lmnr",
+   "alco"
+  ],
+  "012502": [
+   "shv"
+  ],
+  "012699": [
+   "godrejagro",
+   "gar"
+  ],
+  "012701": [
+   "mcleod",
+   "goodricke",
+   "jayshree",
+   "dhunseri",
+   "rossell"
+  ],
+  "012702": [
+   "bbtc"
+  ],
+  "012802": [
+   "tilray",
+   "canopy",
+   "aurora"
+  ],
+  "012901": [
+   "harrisons"
+  ],
+  "014101": [
+   "aac"
+  ],
+  "014102": [
+   "genus"
+  ],
+  "014500": [
+   "cpf",
+   "whgroup",
+   "sfd",
+   "muyuan"
+  ],
+  "014601": [
+   "skmegg",
+   "calm",
+   "ppc",
+   "vitl"
+  ],
+  "014602": [
+   "venkys"
+  ],
+  "016101": [
+   "elders"
+  ],
+  "016102": [
+   "jain"
+  ],
+  "016303": [
+   "uvv"
+  ],
+  "016400": [
+   "kaveri",
+   "ctva",
+   "kws"
+  ],
+  "021001": [
+   "wy",
+   "ryn",
+   "pch"
+  ],
+  "031101": [
+   "nissui",
+   "umios"
+  ],
+  "031104": [
+   "austevoll"
+  ],
+  "032101": [
+   "mowi",
+   "salmar",
+   "leroy",
+   "bakkafrost",
+   "grieg"
+  ],
+  "032102": [
+   "avanti"
+  ],
+  "032105": [
+   "waterbase"
+  ],
+  "011500": [
+   "imperialbrands"
+  ],
+  "011901": [
+   "1800flowerscominc"
+  ],
+  "012401": [
+   "amazoncompany"
+  ]
+ },
+ "bnote": {
+  "011101": "No wheat grower is listed in India. These are listed farmland operators abroad that grow wheat among other grains.",
+  "011202": "Adecoagro is one of South America's largest rice growers.",
+  "011201": "No basmati grower is listed. Listed basmati companies (KRBL, LT Foods) are millers, which belong under food manufacturing.",
+  "011400": "Indian sugar mills are manufacturers. These Brazilian companies grow most of their own cane.",
+  "011500": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "012100": "Indian and global wine companies own vineyards but are classed as beverage manufacturers.",
+  "012699": "Malaysian plantation groups (SD Guthrie, IOI, KLK) also fit but could not be read from the data source.",
+  "012701": "Five listed Indian tea estate companies. Tea is a low-margin, labour-heavy business in India.",
+  "012702": "Bombay Burmah owns coffee and tea estates. Its consolidated figures are dominated by Britannia.",
+  "012802": "Licensed cannabis growers in North America.",
+  "016102": "Closest listed match: Jain Irrigation makes and installs micro-irrigation systems.",
+  "032102": "Closest Indian match: Avanti Feeds supplies shrimp feed and processes shrimp.",
+  "032105": "Closest Indian match: Waterbase runs shrimp hatcheries and sells shrimp feed.",
+  "011901": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "012401": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+ },
+ "flags": {
+  "bbtc": "Consolidated figures include Britannia Industries, so plantations are a small part of these numbers.",
+  "godrejagro": "Diversified group: animal feed, crop protection, dairy and oil palm. Figures are for the whole group.",
+  "cresud": "Also owns a large real estate business, so figures are not farming alone.",
+  "raizen": "Mostly fuel distribution and sugar-ethanol. Cane growing is one part.",
+  "genus": "Net profit is above EBITDA because of a one-off gain, so the profit margin is not operating.",
+  "grieg": "Net profit includes a large one-off gain, so the profit margin is not operating.",
+  "aac": "Net profit despite negative EBITDA comes from livestock revaluation.",
+  "alco": "TTM revenue is unusually small for this company. Check the source page.",
+  "vitl": "Near-zero TTM profit makes the P/E meaningless.",
+  "avo": "Near-zero TTM profit makes the P/E meaningless."
+ },
+ "notes": [
+  [
+   "Section A: most farming is not listed anywhere",
+   "Grains, pulses, vegetables, spices and livestock are mostly grown by individual farmers or private estates, in India and abroad. Where a listed company exists only abroad, it is shown with its country and currency."
+  ]
+ ]
 }
