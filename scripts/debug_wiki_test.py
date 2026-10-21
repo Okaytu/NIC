@@ -38,6 +38,27 @@ for label, query in [
     for t in titles:
         out[label]["infobox"][t] = wiki_infobox_ticker(session, t)
 
+# Replay the exact rapid-fire loop wiki_candidates() does (one parse call
+# per search hit, no delay between them) and capture raw status/JSON shape
+# for each, to see whether back-to-back requests start failing partway
+# through (rate limiting) even though an isolated call succeeds.
+rapidfire = []
+for t in ["Tata Consultancy Services", "Tata Group", "JRD Tata", "List of Indian IT companies"]:
+    rr = session.get("https://en.wikipedia.org/w/api.php", headers=HEADERS, timeout=15, params={
+        "action": "parse", "page": t, "prop": "wikitext", "section": 0, "format": "json",
+    })
+    try:
+        body = rr.json()
+    except ValueError:
+        body = {"_unparseable": rr.text[:300]}
+    rapidfire.append({
+        "title": t, "status": rr.status_code,
+        "has_parse_key": "parse" in body, "has_error_key": "error" in body,
+        "error": body.get("error"),
+        "wikitext_len": len(body.get("parse", {}).get("wikitext", {}).get("*", "")),
+    })
+out["rapidfire_parse_calls"] = rapidfire
+
 out["wiki_candidates_tcs"] = wiki_candidates(session, "Tata Consultancy Services")
 out["wiki_candidates_millets"] = wiki_candidates(session, "Growing of Bajra and Jowar and other millets")
 out["edgar_candidates_apple"] = edgar_candidates(session, "Apple Inc")
