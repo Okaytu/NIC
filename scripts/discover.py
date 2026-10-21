@@ -4,6 +4,9 @@ have zero mapped companies, using structured (low-noise) sources only:
 
   1. Wikipedia search + infobox "traded_as" extraction
   2. SEC EDGAR full-text search (10-K filings) + the official ticker list
+  3. Yahoo Finance's global company/ticker search (broad, every exchange)
+  4. screener.in's company search (India-only, but this project is
+     India-first and EDGAR is structurally blind to every non-US company)
 
 A name alone is not enough to trust: every candidate is *verified* by
 actually fetching its stockanalysis.com statistics page (reusing
@@ -21,16 +24,23 @@ So only an EDGAR-sourced candidate -- the activity's own phrase found
 verbatim inside the company's own 10-K filing, a structural match
 rather than a ranked guess -- is eligible to auto-merge into
 data/map_<S>.json and data/companies.json once it verifies (financials
-come free from the same fetch). EVERY Wikipedia-sourced candidate goes
-to data/discovery_queue.json for manual review instead, no matter how
+come free from the same fetch). EVERY candidate from any OTHER source
+(Wikipedia, Yahoo Finance, screener.in) goes to
+data/discovery_queue.json for manual review instead, no matter how
 cleanly it verifies; so does any EDGAR candidate that doesn't verify.
+Yahoo and screener.in exist to widen the net of what gets FOUND and put
+in front of a human on the review page (site/review.html) -- not to
+widen what gets auto-trusted, since a ranked/fuzzy search is exactly
+the thing that produced 10 wrong auto-merges out of 17 before this
+project's precision bar was tightened.
 
-Deliberately NOT included in v1: general web search (DuckDuckGo/etc).
-Structured sources (Wikipedia infoboxes, EDGAR) are precise enough to
-verify automatically; free-text web search is noisy enough that it needs
-a human in the loop, which defeats the point of a confidence-scored
-auto-add. Candidate codes it can't fill stay honestly unfilled, same as
-the existing "no listed company found" notes elsewhere in this project.
+Deliberately NOT included: a general-purpose web search API (Bing/
+Google/DuckDuckGo). Even Yahoo's and screener.in's own search are
+narrower than that -- they only ever return real, named, tradeable
+securities, never an arbitrary ranked web page -- which keeps their
+false-positive shape closer to "right company, wrong activity" (a
+human catches this in five seconds on the review page) rather than
+"not a company at all."
 
 Usage:
   python3 discover.py --limit 20       # process 20 empty codes (default)
@@ -323,6 +333,93 @@ def edgar_candidates(session, query, limit=4):
     return out
 
 
+# --------------------------------------------------------- Yahoo Finance
+
+# Yahoo's exchange codes -> (stockanalysis.com path template, country).
+# Keyed by the short code Yahoo's search API returns in "exchange", not the
+# human-readable "exchDisp". {t} is the symbol with any Yahoo suffix
+# (".NS", ".BO", ".L", ...) already stripped.
+YAHOO_EXCHANGE = {
+    "NMS": ("stocks/{t}", "USA"), "NYQ": ("stocks/{t}", "USA"), "NGM": ("stocks/{t}", "USA"),
+    "NCM": ("stocks/{t}", "USA"), "ASE": ("stocks/{t}", "USA"), "PCX": ("stocks/{t}", "USA"),
+    "BTS": ("stocks/{t}", "USA"), "PNK": ("stocks/{t}", "USA"),
+    "NSI": ("quote/nse/{t}", "India"), "BSE": ("quote/bom/{t}", "India"),
+    "LSE": ("quote/lon/{t}", "UK"), "TYO": ("quote/tyo/{t}", "Japan"), "JPX": ("quote/tyo/{t}", "Japan"),
+    "HKG": ("quote/hkg/{t}", "Hong Kong"), "ASX": ("quote/asx/{t}", "Australia"),
+    "TOR": ("quote/tsx/{t}", "Canada"), "VAN": ("quote/tsx/{t}", "Canada"),
+    "SHH": ("quote/sse/{t}", "China"), "SHZ": ("quote/sze/{t}", "China"),
+    "FRA": ("quote/fwb/{t}", "Germany"), "GER": ("quote/etr/{t}", "Germany"),
+    "PAR": ("quote/epa/{t}", "France"), "AMS": ("quote/ams/{t}", "Netherlands"),
+    "SWX": ("quote/swx/{t}", "Switzerland"), "VIE": ("quote/vie/{t}", "Austria"),
+    "SES": ("quote/sgx/{t}", "Singapore"), "KSC": ("quote/krx/{t}", "South Korea"),
+}
+
+
+def yahoo_candidates(session, query, limit=4):
+    """Yahoo Finance's own ticker/company search -- globally broad, no API
+    key, and (unlike Wikipedia) only ever returns real tradeable
+    securities. query.finance.yahoo.com/v1/finance/search is the same
+    undocumented-but-stable endpoint the open-source `yfinance` library
+    uses; it's a ranked fuzzy match like Wikipedia's search, so it carries
+    the same relevance risk and is never auto-merge eligible -- see the
+    module docstring."""
+    r = get_with_retry(session, "https://query1.finance.yahoo.com/v1/finance/search", HEADERS, {
+        "q": query, "quotesCount": limit, "newsCount": 0,
+    })
+    if r is None or r.status_code != 200:
+        return []
+    try:
+        quotes = r.json().get("quotes", [])
+    except ValueError:
+        return []
+    out = []
+    for q in quotes:
+        if q.get("quoteType") != "EQUITY":
+            continue
+        symbol = q.get("symbol", "")
+        exch = q.get("exchange", "")
+        tmpl = YAHOO_EXCHANGE.get(exch)
+        if not tmpl:
+            continue
+        path_tmpl, country = tmpl
+        # Strip Yahoo's exchange suffix (TCS.NS -> TCS, RELIANCE.BO -> RELIANCE)
+        ticker = symbol.split(".")[0] if "." in symbol else symbol
+        name = q.get("longname") or q.get("shortname") or symbol
+        out.append({"name": name, "tk": ticker, "ctry": country,
+                     "path": path_tmpl.format(t=ticker), "source": "yahoo"})
+    return out
+
+
+# -------------------------------------------------------------- screener.in
+
+def screener_candidates(session, query, limit=4):
+    """screener.in's own company search -- India only, but this project is
+    India-first and EDGAR (US SEC) structurally can't see any Indian
+    company. screener.in's slug is usually the NSE ticker; stockanalysis.com
+    verification (tried NSE then BSE, same as the stockanalysis.py source
+    module) is what actually confirms it rather than this search itself,
+    so -- like Yahoo -- this is never auto-merge eligible on its own."""
+    r = get_with_retry(session, "https://www.screener.in/api/company/search/", HEADERS, {"q": query})
+    if r is None or r.status_code != 200:
+        return []
+    try:
+        hits = r.json()
+    except ValueError:
+        return []
+    if not isinstance(hits, list):
+        return []
+    out = []
+    for h in hits[:limit]:
+        name = h.get("name")
+        url = h.get("url", "")
+        m = re.match(r"^/company/([A-Za-z0-9&.\-]+)/", url)
+        if not name or not m:
+            continue
+        slug = m.group(1)
+        out.append({"name": name, "tk": slug, "ctry": "India", "path": f"quote/nse/{slug}", "source": "screener.in"})
+    return out
+
+
 # ---------------------------------------------------------------- pipeline
 
 def verify(session, candidate):
@@ -355,7 +452,8 @@ def main():
         if i:
             time.sleep(1.5)  # pace requests across codes, on top of get_with_retry's own backoff
         log(f"\n--- {S}/{code}: {activity}")
-        candidates = wiki_candidates(session, activity) + edgar_candidates(session, activity)
+        candidates = (wiki_candidates(session, activity) + edgar_candidates(session, activity)
+                      + yahoo_candidates(session, activity) + screener_candidates(session, activity))
         # de-dupe by (ctry, tk)
         seen = set()
         uniq = []
@@ -398,13 +496,13 @@ def main():
                 entry["candidates"].append({**cand, "id": cid, "verified": True, "auto_added": True})
                 added_total += 1
             elif data:
-                # Ticker verified fine, but it's a Wikipedia-sourced match
-                # and that source alone isn't trusted to be relevant --
-                # queue it for a quick human look rather than auto-merge.
+                # Ticker verified fine, but it's a ranked/fuzzy-search
+                # match (wikipedia, yahoo, screener.in) and that alone
+                # isn't trusted to be relevant -- queue for a human look.
                 log(f"  verified-but-queued {cand['name']} ({cand['tk']}, {cand['source']}): "
-                    f"wikipedia source needs a human relevance check")
+                    f"{cand['source']} source needs a human relevance check")
                 entry["candidates"].append({**cand, "id": cid, "verified": True, "auto_added": False,
-                                             "error": "wikipedia source: ticker verified, needs human relevance check"})
+                                             "error": f"{cand['source']} source: ticker verified, needs human relevance check"})
                 queued_total += 1
             else:
                 log(f"  unverified {cand['name']} ({cand['tk']}, {cand['source']}): {err}")

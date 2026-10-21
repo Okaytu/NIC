@@ -61,8 +61,11 @@ input::placeholder{color:var(--faint)}
 .cand .name a{text-decoration:none;border-bottom:1px dotted var(--faint)}
 .cand .sub{color:var(--faint);font-size:12px;margin-top:2px}
 .badge{font-size:10.5px;padding:2px 8px;border-radius:99px;margin-right:6px;white-space:nowrap;display:inline-block}
+.badge{background:rgba(255,255,255,.14);color:var(--muted)}
 .badge.src-edgar{background:rgba(168,240,192,.2);color:var(--good)}
 .badge.src-wikipedia{background:rgba(255,216,142,.2);color:var(--warn)}
+.badge.src-yahoo{background:rgba(255,216,142,.2);color:var(--warn)}
+.badge.src-screener-in{background:rgba(255,216,142,.2);color:var(--warn)}
 .badge.ok{background:rgba(168,240,192,.2);color:var(--good)}
 .badge.no{background:rgba(255,184,172,.2);color:var(--bad)}
 .err{color:var(--faint);font-size:11.5px;margin-top:3px;max-width:60ch}
@@ -232,7 +235,8 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
         var cid = c.id || c.name;
         var dec = decisionFor(code, cid);
         var link = c.path ? '<a href="https://stockanalysis.com/' + encodeURI(c.path) + '" target="_blank" rel="noopener">' + escapeHtml(c.name) + '</a>' : escapeHtml(c.name);
-        var srcBadge = '<span class="badge src-' + (c.source||'') + '">' + escapeHtml(c.source||'?') + '</span>';
+        var srcClass = (c.source||'').replace(/[^a-z0-9]+/gi, '-');
+        var srcBadge = '<span class="badge src-' + srcClass + '">' + escapeHtml(c.source||'?') + '</span>';
         var verBadge = c.verified ? '<span class="badge ok">ticker verified</span>' : '<span class="badge no">unverified</span>';
         var err = c.error ? '<div class="err">' + escapeHtml(c.error) + '</div>' : '';
         return '<div class="cand">' +

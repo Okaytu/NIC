@@ -98,26 +98,39 @@ will ever find a public company for it. `discover.py` does not try to force a
 match in that case; it leaves the code unfilled, same as the hand-researched
 sections always have for activities with no real listed match.
 
-What it does do, for a batch of currently-empty NIC codes each run:
-1. Search **Wikipedia** for the activity, batch-fetch the search hits'
-   infobox wikitext in one request, and pull a ticker out of the `traded_as`
-   field — both the `{{NSE|TCS}}` template style and the plain-text
-   `Nasdaq: PLUG` style real infoboxes actually use.
-2. Search **SEC EDGAR's full-text index** (10-K filings mentioning the
-   activity) and resolve a name to a ticker via SEC's own official ticker list.
-3. **Verify** every candidate by actually fetching its stockanalysis.com page
-   — a name mention alone is never enough to trust.
-4. Only an **EDGAR-sourced** candidate that verifies is auto-merged straight
-   into `map_<S>.json` and `companies.json`, up to 5 per code — because the
-   activity's own phrase was found verbatim inside that company's own 10-K
-   filing, a structural match rather than a ranked guess. Every
-   **Wikipedia-sourced** candidate goes to `data/discovery_queue.json` for a
-   human look no matter how cleanly its ticker verifies, and so does any
-   EDGAR candidate that doesn't verify.
+What it does do, for a batch of currently-empty NIC codes each run — four
+sources, searched in parallel for every code:
+1. **Wikipedia**: batch-fetch the search hits' infobox wikitext in one
+   request, pull a ticker out of the `traded_as` field — both the
+   `{{NSE|TCS}}` template style and the plain-text `Nasdaq: PLUG` style real
+   infoboxes actually use.
+2. **SEC EDGAR's full-text index** (10-K filings mentioning the activity),
+   resolved to a ticker via SEC's own official ticker list, kept only above
+   a minimum relevance score.
+3. **Yahoo Finance's** own ticker/company search — globally broad (every
+   major exchange), no API key, and unlike a Wikipedia search it only ever
+   returns real tradeable securities.
+4. **screener.in's** own company search — India-only, but this project is
+   India-first and EDGAR is structurally blind to every non-US company, so
+   this fills a real gap EDGAR can't.
 
-Deliberately left out of v1: general web search (DuckDuckGo/etc.) as a further
-fallback. A bare web search returns enough noise that it would need a human
-reviewing every hit anyway, which defeats the point of automating this.
+Every candidate is then **verified** by actually fetching its
+stockanalysis.com page — a name mention alone is never enough to trust.
+Only an **EDGAR-sourced** candidate that verifies is auto-merged straight
+into `map_<S>.json` and `companies.json`, up to 5 per code — because the
+activity's own phrase was found verbatim inside that company's own 10-K
+filing, a structural match rather than a ranked guess. A verified candidate
+from any of the other three sources goes to `data/discovery_queue.json`
+for a human look on `site/review.html` instead, no matter how cleanly its
+ticker verifies, and so does any EDGAR candidate that doesn't verify or
+doesn't clear the score bar.
+
+Deliberately left out: a general-purpose web search API (Bing/Google/
+DuckDuckGo). Even Yahoo's and screener.in's own search are narrower than
+that — they only ever return real, named, tradeable securities, never an
+arbitrary ranked web page — which keeps their false-positive shape closer
+to "right company, wrong activity" (a human catches this in five seconds
+on the review page) rather than "not a company at all."
 
 Deliberately NOT auto-merging Wikipedia matches, even verified ones: see
 below.
