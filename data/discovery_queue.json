@@ -6658,5 +6658,114 @@
   "activity": "Other business support activities, n.e.c. such as court reporting or stenotype recording services, repossession services, activities of handling visa and work permit, trading and brokerage of crypto without a corresponding liability.",
   "candidates": [],
   "section": "O"
+ },
+ "841101": {
+  "activity": "Activities of public administration bodies relating to executive at national level",
+  "candidates": [],
+  "section": "P"
+ },
+ "841102": {
+  "activity": "Activities of public administration bodies relating to executive at state level",
+  "candidates": [],
+  "section": "P"
+ },
+ "841103": {
+  "activity": "Activities of public administration bodies relating to executive at local level",
+  "candidates": [],
+  "section": "P"
+ },
+ "841104": {
+  "activity": "Activities of public administration bodies relating to legislation at national level",
+  "candidates": [],
+  "section": "P"
+ },
+ "841105": {
+  "activity": "Activities of public administration bodies relating to legislation at state level",
+  "candidates": [],
+  "section": "P"
+ },
+ "841199": {
+  "activity": "Other general public administration activities n.e.c.",
+  "candidates": [],
+  "section": "P"
+ },
+ "841200": {
+  "activity": "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security and environment",
+  "candidates": [],
+  "section": "P"
+ },
+ "841300": {
+  "activity": "Regulation of the activities of providing environmental services",
+  "candidates": [],
+  "section": "P"
+ },
+ "841400": {
+  "activity": "Regulation of and contribution to more efficient operation of businesses",
+  "candidates": [],
+  "section": "P"
+ },
+ "842100": {
+  "activity": "Foreign affairs including visa services, aid to foreign countries and similar services",
+  "candidates": [],
+  "section": "P"
+ },
+ "842200": {
+  "activity": "Administration, supervision and operation of military defence affairs and land, sea, air and space defence forces",
+  "candidates": [],
+  "section": "P"
+ },
+ "842301": {
+  "activity": "Administration and operation of police forces supported by public authorities and of port, border, coastguards and other special police forces, including traffic regulation, alien registration, maintenance of arrest records, protection and patrol services, fishing inspection.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "HTTP 404",
+    "id": "borderssouthernpetro",
+    "name": "Borders & Southern Petroleum plc",
+    "path": "quote/lon/BOR",
+    "source": "yahoo",
+    "tk": "BOR",
+    "verified": false
+   }
+  ],
+  "section": "P"
+ },
+ "842302": {
+  "activity": "Firefighting activities and fire prevention activities including providing assistance during civic disasters, floods, road accidents and similar incidents",
+  "candidates": [],
+  "section": "P"
+ },
+ "842303": {
+  "activity": "Administration and operation of civil and criminal law courts, military tribunals",
+  "candidates": [],
+  "section": "P"
+ },
+ "842304": {
+  "activity": "Activities of prison administration and provision of correctional services, including rehabilitation services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "corecivic",
+    "name": "CoreCivic",
+    "path": "stocks/cxw",
+    "source": "wikipedia",
+    "tk": "CXW",
+    "verified": true
+   }
+  ],
+  "section": "P"
+ },
+ "842399": {
+  "activity": "Other Public order and safety activities n.e.c.",
+  "candidates": [],
+  "section": "P"
+ },
+ "843000": {
+  "activity": "Compulsory social security activities",
+  "candidates": [],
+  "section": "P"
  }
 }
