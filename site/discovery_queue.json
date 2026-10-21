@@ -5154,5 +5154,180 @@
   "activity": "Social network sites and other content distribution (sharing) platforms, including blog and wiki sites online gaming/video game sites provision of e-book for downloads not associated with publishing",
   "candidates": [],
   "section": "J"
+ },
+ "612001": {
+  "activity": "Reselling and intermediation services for wired, wireless and satellite telecommunications and internet services (i.e. purchasing and reselling network capacity), including activities of telecommunications brokers and resellers of pre-paid calling cards and services",
+  "candidates": [],
+  "section": "K"
+ },
+ "612002": {
+  "activity": "Provision of telephone and Internet access in facilities open to the public including activities of cyber cafes",
+  "candidates": [],
+  "section": "K"
+ },
+ "612099": {
+  "activity": "Telecommunication reselling activities and intermediation service activities for telecommunication n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "quote/tyo/6758",
+    "source": "wikipedia",
+    "tk": "6758",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "stocks/sony",
+    "source": "wikipedia",
+    "tk": "SONY",
+    "verified": true
+   }
+  ],
+  "section": "K"
+ },
+ "619001": {
+  "activity": "Provision of specialised telecommunications applications, such as satellite Mission operation (TT&C, Data, Space Situational Awareness) , Ground Station as Service (GaSS) and radar station operations",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "datavaultaiinc",
+    "name": "Datavault AI Inc.",
+    "path": "stocks/DVLT",
+    "source": "yahoo",
+    "tk": "DVLT",
+    "verified": true
+   }
+  ],
+  "section": "K"
+ },
+ "619002": {
+  "activity": "Operation of satellite terminal stations, Gateways and associated facilities operationally connected with one or more terrestrial communications systems and capable of transmitting telecommunications to or receiving telecommunications from satellite systems",
+  "candidates": [],
+  "section": "K"
+ },
+ "619099": {
+  "activity": "Other Telecommunications activities n.e.c. including R&D, Regulation, dispute settlement",
+  "candidates": [],
+  "section": "K"
+ },
+ "621904": {
+  "activity": "Web-page designing",
+  "candidates": [],
+  "section": "K"
+ },
+ "621999": {
+  "activity": "Other computer programming activities n.e.c.",
+  "candidates": [],
+  "section": "K"
+ },
+ "622004": {
+  "activity": "Cybersecurity consultancy activities provision of advice on software and hardware requirements and provision or procurement of the hardware and software components of a computer system including cybersecurity network and system monitoring, testing and analysis",
+  "candidates": [],
+  "section": "K"
+ },
+ "622099": {
+  "activity": "Other computer consultancy and computer facilities management activities n.e.c.",
+  "candidates": [],
+  "section": "K"
+ },
+ "629001": {
+  "activity": "Installation (setting-up) of computers and software installation services",
+  "candidates": [],
+  "section": "K"
+ },
+ "629002": {
+  "activity": "Computer disaster recovery services and Cloud-based disaster recovery as a service (DRaaS)",
+  "candidates": [],
+  "section": "K"
+ },
+ "629099": {
+  "activity": "Other information technology and computer service activities n.e.c",
+  "candidates": [],
+  "section": "K"
+ },
+ "631002": {
+  "activity": "Provision of technical infrastructure related to streaming services",
+  "candidates": [],
+  "section": "K"
+ },
+ "631003": {
+  "activity": "Data processing services and related activities such as complete processing of data supplied by clients, generation of specialized reports, blockchain/DLT data processing activities",
+  "candidates": [],
+  "section": "K"
+ },
+ "631005": {
+  "activity": "Providing data entry services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "adpcompany",
+    "name": "ADP (company)",
+    "path": "stocks/adp",
+    "source": "wikipedia",
+    "tk": "ADP",
+    "verified": true
+   }
+  ],
+  "section": "K"
+ },
+ "631007": {
+  "activity": "Issuing of crypto assets without a corresponding liability (not by a monetary authority)",
+  "candidates": [],
+  "section": "K"
+ },
+ "631099": {
+  "activity": "Other computing infrastructure, data processing, hosting and related activities n.e.c. including analysis of satellite data",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "palantir",
+    "name": "Palantir",
+    "path": "stocks/pltr",
+    "source": "wikipedia",
+    "tk": "PLTR",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "automaticdataprocess",
+    "name": "Automatic Data Processing, Inc.",
+    "path": "stocks/ADP",
+    "source": "yahoo",
+    "tk": "ADP",
+    "verified": true
+   }
+  ],
+  "section": "K"
+ },
+ "639003": {
+  "activity": "Telephone-based information services such as directory assistance, customer support helplines, telebanking and similar services",
+  "candidates": [],
+  "section": "K"
+ },
+ "639004": {
+  "activity": "News/Press clipping services",
+  "candidates": [],
+  "section": "K"
+ },
+ "639099": {
+  "activity": "Other web search portal activities and other information service activities n.e.c.",
+  "candidates": [],
+  "section": "K"
  }
 }
