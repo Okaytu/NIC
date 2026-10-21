@@ -99,8 +99,10 @@ match in that case; it leaves the code unfilled, same as the hand-researched
 sections always have for activities with no real listed match.
 
 What it does do, for a batch of currently-empty NIC codes each run:
-1. Search **Wikipedia** for the activity and pull a ticker out of the page's
-   infobox (`{{NYSE|XOM}}`-style templates).
+1. Search **Wikipedia** for the activity, batch-fetch the search hits'
+   infobox wikitext in one request, and pull a ticker out of the `traded_as`
+   field — both the `{{NSE|TCS}}` template style and the plain-text
+   `Nasdaq: PLUG` style real infoboxes actually use.
 2. Search **SEC EDGAR's full-text index** (10-K filings mentioning the
    activity) and resolve a name to a ticker via SEC's own official ticker list.
 3. **Verify** every candidate by actually fetching its stockanalysis.com page
@@ -117,10 +119,28 @@ hit anyway, which defeats the point of automating this. If the two structured
 sources keep coming up empty for codes that plausibly *do* have a listed
 company, that's the natural next thing to add.
 
-**Not yet verified live** — same caveat as everything else in this repo that
-talks to the outside world: written from documented API shapes, first real
-test is the first Actions run. Check `data/discovery_queue.json` and a run's
-log after triggering it by hand.
+**Verified live** (2026-10-21): the first live runs came back with zero
+candidates everywhere, which turned out to be two real bugs rather than
+"no company exists" for every code tested — both confirmed and fixed by
+checking actual Wikipedia/EDGAR responses:
+- Every Wikipedia API call was getting HTTP 429'd, immediately, from
+  GitHub's shared runner IP range; a spoofed browser User-Agent plus
+  several delay-free per-title requests is exactly the pattern anonymous-
+  abuse throttling targets. Fixed with a plain tool/contact User-Agent,
+  retry-with-backoff (honors `Retry-After`) on every outbound call, and
+  batching a search's hit titles into one request instead of one per title.
+- EDGAR's `display_names` come back as `"Apple Inc.  (AAPL)  (CIK
+  0000320193)"` — two trailing parenthetical annotations, not one — and the
+  ticker-matching regex only stripped the `(CIK ...)` part, so the name
+  never matched SEC's own ticker list and every real EDGAR hit got silently
+  dropped. Fixed to strip all trailing `(...)` groups.
+
+Re-tested after the fix directly against real pages: Wikipedia resolves
+Tata Consultancy Services to NSE:TCS/BSE:532540 and Apple Inc. to
+NASDAQ:AAPL; EDGAR resolves Apple Inc. to AAPL. Genuinely niche activities
+(growing millets, growing grapes, cotton ginning) correctly come back with
+*zero* candidates on both sources — which is the honest, correct result for
+activities no listed company specializes in this narrowly, not a bug.
 
 ## Running things by hand
 
