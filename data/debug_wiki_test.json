@@ -28,6 +28,40 @@
     "titles": [],
     "infobox": {}
   },
+  "rapidfire_parse_calls": [
+    {
+      "title": "Tata Consultancy Services",
+      "status": 429,
+      "has_parse_key": false,
+      "has_error_key": false,
+      "error": null,
+      "wikitext_len": 0
+    },
+    {
+      "title": "Tata Group",
+      "status": 429,
+      "has_parse_key": false,
+      "has_error_key": false,
+      "error": null,
+      "wikitext_len": 0
+    },
+    {
+      "title": "JRD Tata",
+      "status": 429,
+      "has_parse_key": false,
+      "has_error_key": false,
+      "error": null,
+      "wikitext_len": 0
+    },
+    {
+      "title": "List of Indian IT companies",
+      "status": 429,
+      "has_parse_key": false,
+      "has_error_key": false,
+      "error": null,
+      "wikitext_len": 0
+    }
+  ],
   "wiki_candidates_tcs": [],
   "wiki_candidates_millets": [],
   "edgar_candidates_apple": [],
