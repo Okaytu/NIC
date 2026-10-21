@@ -7608,5 +7608,346 @@
   "activity": "Other amusement and recreation activities",
   "candidates": [],
   "section": "S"
+ },
+ "941101": {
+  "activity": "Activities of organizations focused on promoting enterprise development in specific industries or fostering economic growth in a particular region or political area (E.g. State Industrial Development Corporation)",
+  "candidates": [],
+  "section": "T"
+ },
+ "941102": {
+  "activity": "Activities of federations of associations focused on promoting enterprise development in specific industries or fostering economic growth in a particular region or political area (FICCI, CII)",
+  "candidates": [],
+  "section": "T"
+ },
+ "941103": {
+  "activity": "Activities of chambers of commerce, and similar organisations",
+  "candidates": [],
+  "section": "T"
+ },
+ "941199": {
+  "activity": "Activities of other business and employers membership organisations n.e.c.",
+  "candidates": [],
+  "section": "T"
+ },
+ "941201": {
+  "activity": "Activities of organisations whose members' interests centre chiefly on a particular scholarly discipline or professional practice or technical field, e.g., medical associations, legal associations, accounting associations, engineering associations, architects",
+  "candidates": [],
+  "section": "T"
+ },
+ "941202": {
+  "activity": "Activities of cultural, creative, and media professionals",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "creativemedicaltechn",
+    "name": "Creative Medical Technology Holdings, Inc.",
+    "path": "stocks/CELZ",
+    "source": "yahoo",
+    "tk": "CELZ",
+    "verified": true
+   }
+  ],
+  "section": "T"
+ },
+ "941299": {
+  "activity": "Activities of other organisations that chiefly focus on a particular scholarly discipline or professional or technical field, n.e.c.",
+  "candidates": [],
+  "section": "T"
+ },
+ "942000": {
+  "activity": "Activities of trade unions",
+  "candidates": [],
+  "section": "T"
+ },
+ "949101": {
+  "activity": "Activities organised to provide devotees or followers with temporary spiritual retreats or meditation experiences",
+  "candidates": [],
+  "section": "T"
+ },
+ "949199": {
+  "activity": "Other activities of religious organisations, n.e.c.",
+  "candidates": [],
+  "section": "T"
+ },
+ "949200": {
+  "activity": "Activities of political organisations",
+  "candidates": [],
+  "section": "T"
+ },
+ "949901": {
+  "activity": "Activities of civic, protest, and advocacy-based membership organizations (including war veterans' associations, ethnic and minority groups, consumer protection)",
+  "candidates": [],
+  "section": "T"
+ },
+ "949902": {
+  "activity": "Activities of environmental, health, animal welfare, and consumer interest associations (excluding charitable activities)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "himshershealthinc",
+    "name": "Hims & Hers Health, Inc.",
+    "path": "stocks/HIMS",
+    "source": "yahoo",
+    "tk": "HIMS",
+    "verified": true
+   }
+  ],
+  "section": "T"
+ },
+ "949903": {
+  "activity": "Activities of social, cultural, recreational, and fraternity associations such as Rotary, youth clubs, hobby groups, veterans",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Hong Kong",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "newgonowrecreational",
+    "name": "New Gonow Recreational Vehicles Inc.",
+    "path": "quote/hkg/0805",
+    "source": "yahoo",
+    "tk": "0805",
+    "verified": true
+   }
+  ],
+  "section": "T"
+ },
+ "949904": {
+  "activity": "Activities of resident welfare associations (RWAs) and housing societies",
+  "candidates": [],
+  "section": "T"
+ },
+ "949905": {
+  "activity": "Activities of technology user groups and open- source or digital communities",
+  "candidates": [],
+  "section": "T"
+ },
+ "949999": {
+  "activity": "Activities of other membership organizations n.e.c.",
+  "candidates": [],
+  "section": "T"
+ },
+ "951001": {
+  "activity": "Repair and maintenance of smartphones, tablets, cordless phones.",
+  "candidates": [],
+  "section": "T"
+ },
+ "951002": {
+  "activity": "Repair and maintenance of desktop computers, laptops, servers, and terminals (including ATMs and POS devices)",
+  "candidates": [],
+  "section": "T"
+ },
+ "951003": {
+  "activity": "Repair and maintenance of data storage and input/output devices such as disk drives, flash drives, printers, ink and toner cartridges, scanners, bar code readers",
+  "candidates": [],
+  "section": "T"
+ },
+ "951004": {
+  "activity": "Repair and maintenance of telecommunication equipment such as routers, modems, two-way radios, transmission equipment",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "chinahighspeedtransm",
+    "name": "China High Speed Transmission Equipment Group Co., Ltd.",
+    "path": "stocks/CHSTY",
+    "source": "yahoo",
+    "tk": "CHSTY",
+    "verified": false
+   }
+  ],
+  "section": "T"
+ },
+ "951099": {
+  "activity": "Repair and maintenance of other computers and communication equipment n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "johndeere",
+    "name": "John Deere",
+    "path": "stocks/de",
+    "source": "wikipedia",
+    "tk": "DE",
+    "verified": true
+   }
+  ],
+  "section": "T"
+ },
+ "952100": {
+  "activity": "Repair and maintenance of consumer electronics such as of television, radio receivers",
+  "candidates": [],
+  "section": "T"
+ },
+ "952201": {
+  "activity": "Repair and maintenance of household appliances (refrigerators, stoves, washing machines, room air conditioners and similar items)",
+  "candidates": [],
+  "section": "T"
+ },
+ "952202": {
+  "activity": "Repair and maintenance of home and garden equipment such lawn mowers, edgers, trimmers and similar items",
+  "candidates": [],
+  "section": "T"
+ },
+ "952300": {
+  "activity": "Repair of footwear and leather goods",
+  "candidates": [],
+  "section": "T"
+ },
+ "952400": {
+  "activity": "Repair of furniture and home furnishings",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "homedepot",
+    "name": "Home Depot",
+    "path": "stocks/hd",
+    "source": "wikipedia",
+    "tk": "HD",
+    "verified": true
+   }
+  ],
+  "section": "T"
+ },
+ "952901": {
+  "activity": "Repair of bicycles",
+  "candidates": [],
+  "section": "T"
+ },
+ "952902": {
+  "activity": "Repair and alteration of clothing",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "marksspencer",
+    "name": "Marks & Spencer",
+    "path": "quote/lon/MKS",
+    "source": "wikipedia",
+    "tk": "MKS",
+    "verified": true
+   }
+  ],
+  "section": "T"
+ },
+ "952903": {
+  "activity": "Repair and alteration of jewellery",
+  "candidates": [],
+  "section": "T"
+ },
+ "952904": {
+  "activity": "Repair of watches, clocks, and their parts",
+  "candidates": [],
+  "section": "T"
+ },
+ "952905": {
+  "activity": "Repair of musical instruments",
+  "candidates": [],
+  "section": "T"
+ },
+ "952999": {
+  "activity": "Repair of other personal and household goods n.e.c.",
+  "candidates": [],
+  "section": "T"
+ },
+ "953200": {
+  "activity": "Repair and maintenance of motor cycles, mopeds, scooters and three wheelers",
+  "candidates": [],
+  "section": "T"
+ },
+ "954001": {
+  "activity": "Intermediation in repair and maintenance of personal and household goods, including computers",
+  "candidates": [],
+  "section": "T"
+ },
+ "954002": {
+  "activity": "Intermediation in repair and maintenance of motorcycles and motor vehicles",
+  "candidates": [],
+  "section": "T"
+ },
+ "961002": {
+  "activity": "Carpet and rug shampooing and drapery and curtain cleaning, whether on clients' premises or not",
+  "candidates": [],
+  "section": "T"
+ },
+ "961099": {
+  "activity": "Washing and cleaning of other textile and fur products, n.e.c.",
+  "candidates": [],
+  "section": "T"
+ },
+ "962100": {
+  "activity": "Hairdressing and barber activities",
+  "candidates": [],
+  "section": "T"
+ },
+ "962201": {
+  "activity": "Beauty treatment activities (Excluding services provided by medical specialists)",
+  "candidates": [],
+  "section": "T"
+ },
+ "962202": {
+  "activity": "Activities of Nail Salons",
+  "candidates": [],
+  "section": "T"
+ },
+ "962300": {
+  "activity": "Activities of sauna and steam baths, day spas, reducing and slendering salons and similar facilities",
+  "candidates": [],
+  "section": "T"
+ },
+ "969001": {
+  "activity": "Astrologer, priests and spiritualists' activities",
+  "candidates": [],
+  "section": "T"
+ },
+ "969003": {
+  "activity": "Activities of cooks and maids",
+  "candidates": [],
+  "section": "T"
+ },
+ "969004": {
+  "activity": "Activities of aaya, dhai, governess and babysitter",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "dihholdingusinc",
+    "name": "DIH Holding US, Inc.",
+    "path": "stocks/DHAI",
+    "source": "yahoo",
+    "tk": "DHAI",
+    "verified": false
+   }
+  ],
+  "section": "T"
+ },
+ "969005": {
+  "activity": "Activities of drivers",
+  "candidates": [],
+  "section": "T"
+ },
+ "969006": {
+  "activity": "Pet care services such as boarding, grooming, and training pets",
+  "candidates": [],
+  "section": "T"
+ },
+ "969007": {
+  "activity": "Activities of organisers for private events (except funerals), such as wedding planners, organisers of birthday parties, bachelor parties and bachelorette parties, anniversary celebrations",
+  "candidates": [],
+  "section": "T"
+ },
+ "969099": {
+  "activity": "Other personal service activities n.e.c.",
+  "candidates": [],
+  "section": "T"
  }
 }
