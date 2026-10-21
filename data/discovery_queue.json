@@ -4916,5 +4916,243 @@
   "activity": "Other beverage serving activities n.e.c. including operation of beverage concessions (serving alcoholic and non-alcoholic beverages) at sports and similar facilities",
   "candidates": [],
   "section": "I"
+ },
+ "581103": {
+  "activity": "Publishing of audio books",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bloomsburypublishing",
+    "name": "Bloomsbury Publishing",
+    "path": "quote/lon/BMY",
+    "source": "wikipedia",
+    "tk": "BMY",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "581300": {
+  "activity": "Publishing of periodicals and other journals, publishing of radio and television schedules in all forms of publishing",
+  "candidates": [],
+  "section": "J"
+ },
+ "581999": {
+  "activity": "Other publishing activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "582901": {
+  "activity": "Publishing of operating systems and drivers",
+  "candidates": [],
+  "section": "J"
+ },
+ "582903": {
+  "activity": "Publishing of modelling software",
+  "candidates": [],
+  "section": "J"
+ },
+ "582905": {
+  "activity": "Intermediation service activities for software publishing",
+  "candidates": [],
+  "section": "J"
+ },
+ "591101": {
+  "activity": "Production of animated audio-visual works",
+  "candidates": [],
+  "section": "J"
+ },
+ "591102": {
+  "activity": "Production of vlogs and video podcasts including production of short-video contents",
+  "candidates": [],
+  "section": "J"
+ },
+ "591103": {
+  "activity": "Production of audio-visual commercials",
+  "candidates": [],
+  "section": "J"
+ },
+ "591201": {
+  "activity": "Editing, titling, subtitling, closed captioning and credits activities",
+  "candidates": [],
+  "section": "J"
+ },
+ "591203": {
+  "activity": "Conversion to video streaming formats activities",
+  "candidates": [],
+  "section": "J"
+ },
+ "591204": {
+  "activity": "Reproduction of motion picture film by creating master copies, for theatrical distribution",
+  "candidates": [],
+  "section": "J"
+ },
+ "591299": {
+  "activity": "Other Motion picture, video and television programme post-production activities n.e.c. including Film/tape transfer activities; Processing films related to the motion picture and television industries, Activities of stock footage film libraries",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "quote/tyo/6758",
+    "source": "wikipedia",
+    "tk": "6758",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "stocks/sony",
+    "source": "wikipedia",
+    "tk": "SONY",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "591302": {
+  "activity": "OTT platform streaming services for films, TV shows, and other audio-visual content including online digital distribution of films and TV programs.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "webtoonplatform",
+    "name": "Webtoon (platform)",
+    "path": "stocks/wbtn",
+    "source": "wikipedia",
+    "tk": "WBTN",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "591399": {
+  "activity": "Other motion picture, video and television programme distribution activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "quote/tyo/6758",
+    "source": "wikipedia",
+    "tk": "6758",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "stocks/sony",
+    "source": "wikipedia",
+    "tk": "SONY",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "592002": {
+  "activity": "Conversion of sound recordings to audio streaming formats",
+  "candidates": [],
+  "section": "J"
+ },
+ "592003": {
+  "activity": "Publishing of music sheet and activities of acquiring and registering copyrights for musical compositions (music publishing)",
+  "candidates": [],
+  "section": "J"
+ },
+ "592099": {
+  "activity": "Other sound recording and music publishing activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "601002": {
+  "activity": "Radio broadcasting activities over the internet (Internet radio stations)",
+  "candidates": [],
+  "section": "J"
+ },
+ "601003": {
+  "activity": "Third-party on-demand audio streaming distribution services and downloads live or recorded podcast broadcasting and third-party on-demand podcast streaming services and downloads",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "601004": {
+  "activity": "Audio book third-party on-demand streaming distribution services and downloads",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "J"
+ },
+ "601099": {
+  "activity": "Other radio broadcasting and audio distribution activities n.e.c.",
+  "candidates": [],
+  "section": "J"
+ },
+ "603100": {
+  "activity": "News syndicate and news agency activities furnishing news, pictures and features to the media, publishers and broadcasters",
+  "candidates": [],
+  "section": "J"
+ },
+ "603900": {
+  "activity": "Social network sites and other content distribution (sharing) platforms, including blog and wiki sites online gaming/video game sites provision of e-book for downloads not associated with publishing",
+  "candidates": [],
+  "section": "J"
  }
 }
