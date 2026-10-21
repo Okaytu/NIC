@@ -1,24 +1,30 @@
-"""Manually add ONE company to ONE NIC business code, from a
-stockanalysis.com page you found yourself -- for codes the automated
-discovery pipeline (discover.py) genuinely can't find a listed company
-for (e.g. "Growing of Bajra and Jowar and other millets": no listed
-company specializes narrowly enough in that one crop for any search,
-however broad, to ever surface it).
+"""Manually add ONE company to ONE NIC business code, found yourself --
+for codes the automated discovery pipeline (discover.py) genuinely can't
+find a listed company for (e.g. "Growing of Bajra and Jowar and other
+millets": no listed company specializes narrowly enough in that one crop
+for any search, however broad, to ever surface it).
 
-Reuses exactly the same scraper (sources/stockanalysis.py) and the same
-hard rule (a company id/name is never used under more than one NIC code)
-as the rest of the pipeline does, so a manually-added company is
-indistinguishable in companies.json/financials.json from an
+Verifies and fetches financials through the SAME 3-source chain
+scripts/scrape.py's weekly refresh uses, in the same priority order:
+  1. Finnhub API        -- only if a FINNHUB_API_KEY is configured
+  2. stockanalysis.com   -- global coverage, the one source always live
+  3. screener.in         -- India-only fallback
+
+Also enforces the same hard rule as the rest of the pipeline (a company
+id/name is never used under more than one NIC code), so a manually-added
+company is indistinguishable in companies.json/financials.json from an
 auto-discovered one -- it "looks like the others" on the site.
 
 Usage:
   python3 scripts/add_company.py --code 011101 --path quote/nse/RALLIS \
       --name "Rallis India Ltd" [--ticker RALLIS] [--country India] [--dry-run]
 
---path is the same stockanalysis.com URL segment the rest of the project
-uses everywhere else: whatever comes right after stockanalysis.com/ and
-right before /statistics/ on that company's page. Find a company's real
-page on stockanalysis.com first, copy that segment.
+--path is the stockanalysis.com URL segment used everywhere else in this
+project: whatever comes right after stockanalysis.com/ and right before
+/statistics/ on that company's page. Find a company's real page on
+stockanalysis.com first, copy that segment -- it's also what identifies
+the company to screener.in (its last segment) and Finnhub (mapped to a
+ticker suffix), so one path drives all three sources.
 """
 import argparse
 import json
@@ -32,7 +38,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from discover import (  # noqa: E402
     COMPANIES_PATH, FINANCIALS_PATH, H, HEADERS, clean_activity, load_all_used_ids, slugify,
 )
-from sources import stockanalysis  # noqa: E402
+from scrape import fetch_one  # noqa: E402  -- same 3-source merge (Finnhub -> stockanalysis.com -> screener.in) scrape.py's weekly refresh uses
 
 
 def main():
@@ -92,13 +98,14 @@ def main():
 
     cand = {"name": name, "tk": ticker, "ctry": country, "path": path}
     session = requests.Session()
-    print(f"fetching https://stockanalysis.com/{path}/statistics/ ...")
-    data, err = stockanalysis.fetch(session, cand, HEADERS, max_retries=3, sleep_fn=__import__("time").sleep)
+    print(f"fetching {name} ({path}) -- trying Finnhub, stockanalysis.com and screener.in...")
+    data, err, used_sources = fetch_one(session, cand)
     if not data:
-        print(f"ERROR: could not verify this company -- {err}\n"
-              f"Check the --path is exactly right (copy it from the company's real stockanalysis.com URL).", file=sys.stderr)
+        print(f"ERROR: could not verify this company on any source -- {err}\n"
+              f"Check the --path is exactly right (copy it from the company's real stockanalysis.com URL:\n"
+              f"the part between stockanalysis.com/ and /statistics/).", file=sys.stderr)
         sys.exit(1)
-    print(f"OK: fetched financials for {name} ({ticker})")
+    print(f"OK: fetched financials for {name} ({ticker}) from: {', '.join(used_sources)}")
 
     if args.dry_run:
         print("--dry-run: nothing written. Would add:", cid, "->", code)
@@ -106,7 +113,7 @@ def main():
 
     companies[cid] = {"n": name, "tk": ticker, "ctry": country, "path": path}
     financials[cid] = dict(data, fetched_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                            error=None, sources=["manual+stockanalysis"])
+                            error=None, sources=[f"manual+{s}" for s in used_sources])
     m.setdefault("biz", {})[code] = existing + [cid]
     existing_note = m.setdefault("bnote", {}).get(code, "")
     added_note = f"'{name}' added manually via scripts/add_company.py on {datetime.now(timezone.utc):%Y-%m-%d}."

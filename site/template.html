@@ -295,7 +295,7 @@ function renderList(){
           <ol>
             <li>Find the company's page on <a href="https://stockanalysis.com" target="_blank" rel="noopener">stockanalysis.com</a>, and copy the part of its URL between <code>stockanalysis.com/</code> and <code>/statistics/</code> (e.g. <code>quote/nse/TCS</code>).</li>
             <li>Open the <b>Add company</b> action below and fill in: NIC code <span class="addco-code">${b[0]}<button type="button" class="addco-copy" data-copy="${b[0]}">copy</button></span>, that path, and the company's name.</li>
-            <li>Run it — it verifies and scrapes the page itself, same as every other company on this site, and the site rebuilds automatically once it commits.</li>
+            <li>Run it — it tries Finnhub, stockanalysis.com and screener.in itself (same chain the rest of the site's numbers come from) and verifies the company is real before adding it. The site rebuilds automatically once it commits.</li>
           </ol>
           <a class="pill small" href="https://github.com/Okaytu/NIC/actions/workflows/add_company.yml" target="_blank" rel="noopener">Open the Add company action &rarr;</a>
         </div>` : "";

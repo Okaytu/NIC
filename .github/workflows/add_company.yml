@@ -44,6 +44,8 @@ jobs:
       - run: pip install requests beautifulsoup4
 
       - name: Add the company
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
           ARGS="--code ${{ github.event.inputs.code }} --path ${{ github.event.inputs.path }} --name '${{ github.event.inputs.name }}'"
           if [ -n "${{ github.event.inputs.ticker }}" ]; then ARGS="$ARGS --ticker ${{ github.event.inputs.ticker }}"; fi
