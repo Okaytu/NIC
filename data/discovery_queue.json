@@ -5329,5 +5329,564 @@
   "activity": "Other web search portal activities and other information service activities n.e.c.",
   "candidates": [],
   "section": "K"
+ },
+ "641100": {
+  "activity": "Activities of Central Bank",
+  "candidates": [],
+  "section": "L"
+ },
+ "641903": {
+  "activity": "Activities of co-operative banks including Urban Co-op Banks, Primary Agricultural Credit Societies (PACS), Central Cooperative Banks (CCBs), State Cooperative Banks (SCBs) and other credit co-operatives and unions",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Germany",
+    "error": "HTTP 404",
+    "id": "centralcooperativeba",
+    "name": "Central Cooperative Bank AD",
+    "path": "quote/fwb/4CF",
+    "source": "yahoo",
+    "tk": "4CF",
+    "verified": false
+   }
+  ],
+  "section": "L"
+ },
+ "641904": {
+  "activity": "Activities of Postal giro and postal saving banks activities and money order activities and other similar activities",
+  "candidates": [],
+  "section": "L"
+ },
+ "641999": {
+  "activity": "Other monetary intermediation activities n.e.c.",
+  "candidates": [],
+  "section": "L"
+ },
+ "642201": {
+  "activity": "Activities of captive financial institutions involved in intragroup lending. Companies wholly owned subsidiary of the manufacturer that provides B2B and/or B2C financing to purchasing the parent companies' products and services",
+  "candidates": [],
+  "section": "L"
+ },
+ "642202": {
+  "activity": "Activities of Brass Plate Companies i.e., units that are owned (directly or indirectly) by a non-resident unit, of which large part of the balance sheet consists of claims and liabilities towards non-resident units, and that have Group Class Sub-Class Description few or no employees and little or no physical presence in the jurisdiction of incorporation",
+  "candidates": [],
+  "section": "L"
+ },
+ "642299": {
+  "activity": "Activities of other financing conduits n.e.c.",
+  "candidates": [],
+  "section": "L"
+ },
+ "643100": {
+  "activity": "Issuing of certificates of deposit, money market mutual funds, commercial paper and other activities of money market funds",
+  "candidates": [],
+  "section": "L"
+ },
+ "643200": {
+  "activity": "Issuing of non-money market funds for investment in financial and non-financial assets",
+  "candidates": [],
+  "section": "L"
+ },
+ "643301": {
+  "activity": "Trusts (other than family Trusts), estates or agency accounts, administered on behalf of the beneficiaries under the terms of a trust agreement, will or agency agreement",
+  "candidates": [],
+  "section": "L"
+ },
+ "643302": {
+  "activity": "Activities of companies holding financial assets for individuals and families (family trusts), home office",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "barclays",
+    "name": "Barclays",
+    "path": "quote/lon/BARC",
+    "source": "wikipedia",
+    "tk": "BARC",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "barclays",
+    "name": "Barclays",
+    "path": "stocks/bcs",
+    "source": "wikipedia",
+    "tk": "BCS",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sunlifefinancial",
+    "name": "Sun Life Financial",
+    "path": "quote/tsx/SLF",
+    "source": "wikipedia",
+    "tk": "SLF",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sunlifefinancial",
+    "name": "Sun Life Financial",
+    "path": "stocks/slf",
+    "source": "wikipedia",
+    "tk": "SLF",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "643303": {
+  "activity": "Activities of shareholding companies, not owning controlling levels of equity",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "idbibank",
+    "name": "IDBI Bank",
+    "path": "quote/bom/500116",
+    "source": "wikipedia",
+    "tk": "500116",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "idbibank",
+    "name": "IDBI Bank",
+    "path": "quote/nse/IDBI",
+    "source": "wikipedia",
+    "tk": "IDBI",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "643304": {
+  "activity": "Venture companies where the only financing is by shares and no fee is received",
+  "candidates": [],
+  "section": "L"
+ },
+ "643399": {
+  "activity": "Activities of other trust, estate and agency accounts n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "palantir",
+    "name": "Palantir",
+    "path": "stocks/pltr",
+    "source": "wikipedia",
+    "tk": "PLTR",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "649200": {
+  "activity": "Activities of entities engaged in providing letters of credit, standby letters of credit, guarantees, collections and supply chain financing for international trade.",
+  "candidates": [],
+  "section": "L"
+ },
+ "649300": {
+  "activity": "Activities of specialised factoring company or other financial organization engaged in recourse or non- recourse factoring i.e. the activity of purchasing accounts receivable (invoices) from third parties at a discount (factoring).",
+  "candidates": [],
+  "section": "L"
+ },
+ "649401": {
+  "activity": "Activities of Asset Reconstruction Companies",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "jpmorganchase",
+    "name": "JPMorgan Chase",
+    "path": "stocks/jpm",
+    "source": "wikipedia",
+    "tk": "JPM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "edelweissgroup",
+    "name": "Edelweiss Group",
+    "path": "quote/bom/532922",
+    "source": "wikipedia",
+    "tk": "532922",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "edelweissgroup",
+    "name": "Edelweiss Group",
+    "path": "quote/nse/EDELWEISS",
+    "source": "wikipedia",
+    "tk": "EDELWEISS",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "649402": {
+  "activity": "Activities to issue debt securities whose coupon and principal payments are backed by payments on specified assets or future income streams on assets that have not been originated by the issuing unit.",
+  "candidates": [],
+  "section": "L"
+ },
+ "649505": {
+  "activity": "Activities of Chit funds",
+  "candidates": [],
+  "section": "L"
+ },
+ "649599": {
+  "activity": "Other credit granting activities n.e.c. including Short- term financing for corporate mergers and takeovers",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "honda",
+    "name": "Honda",
+    "path": "quote/tyo/7267",
+    "source": "wikipedia",
+    "tk": "7267",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "honda",
+    "name": "Honda",
+    "path": "stocks/hmc",
+    "source": "wikipedia",
+    "tk": "HMC",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "649901": {
+  "activity": "Activities of investment and trading activities on Own- account, e.g., venture capital companies or investment clubs",
+  "candidates": [],
+  "section": "L"
+ },
+ "649902": {
+  "activity": "Activities of acting as a counterparty for clearing and settlement of transactions",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "galaxydigitalcompany",
+    "name": "Galaxy Digital (company)",
+    "path": "stocks/glxy",
+    "source": "wikipedia",
+    "tk": "GLXY",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "649903": {
+  "activity": "Activities of dealing in financial markets by individuals",
+  "candidates": [],
+  "section": "L"
+ },
+ "649904": {
+  "activity": "Activities of trade of receivables by individuals",
+  "candidates": [],
+  "section": "L"
+ },
+ "649905": {
+  "activity": "Activities of Securities and derivatives operated by individuals",
+  "candidates": [],
+  "section": "L"
+ },
+ "649906": {
+  "activity": "Activities of securitization transactions of assets other than loans by issuing financial instruments",
+  "candidates": [],
+  "section": "L"
+ },
+ "649907": {
+  "activity": "Activities of Issuing of crypto assets with a corresponding liability (not by a monetary authority)",
+  "candidates": [],
+  "section": "L"
+ },
+ "649908": {
+  "activity": "Activities of trading of crypto assets with a corresponding liability by individuals",
+  "candidates": [],
+  "section": "L"
+ },
+ "649999": {
+  "activity": "Other financial service activities n.e.c., except insurance and pension funding activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "inggroup",
+    "name": "ING Group",
+    "path": "stocks/ing",
+    "source": "wikipedia",
+    "tk": "ING",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "651202": {
+  "activity": "Activities of providing disaster and catastrophe insurance, accident insurance, fire and natural forces damage to property insurance, parametric insurance, travel insurance, agriculture/ crop insurance property and theft insurance.",
+  "candidates": [],
+  "section": "L"
+ },
+ "651204": {
+  "activity": "Activities of providing insurance for railway rolling stock, ships, aircraft, and other modes of transport",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "topshipsinc",
+    "name": "Top Ships Inc.",
+    "path": "stocks/TOPS",
+    "source": "yahoo",
+    "tk": "TOPS",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "newhorizonaircraftlt",
+    "name": "New Horizon Aircraft Ltd.",
+    "path": "stocks/HOVR",
+    "source": "yahoo",
+    "tk": "HOVR",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "651205": {
+  "activity": "Activities of providing freight insurance, financial loss and liability insurance, including credit insurance, legal expenses insurance, income protection insurance, and workers' compensation insurance.",
+  "candidates": [],
+  "section": "L"
+ },
+ "651206": {
+  "activity": "Activities of providing deposit insurance",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "inggroup",
+    "name": "ING Group",
+    "path": "stocks/ing",
+    "source": "wikipedia",
+    "tk": "ING",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "651207": {
+  "activity": "Activities of providing agricultural insurance",
+  "candidates": [],
+  "section": "L"
+ },
+ "653000": {
+  "activity": "Activities of provision of employee benefit plans, pension funds and plans, and retirement plans.",
+  "candidates": [],
+  "section": "L"
+ },
+ "661102": {
+  "activity": "Financial supervisory authority for financial markets and service activities including that by regulatory organizations (excluding insurance and pension funding, and not by the central bank) e.g. SEBI, IFSCA",
+  "candidates": [],
+  "section": "L"
+ },
+ "661199": {
+  "activity": "Activities of administration of other financial markets (except insurance and pension funding) n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "inggroup",
+    "name": "ING Group",
+    "path": "stocks/ing",
+    "source": "wikipedia",
+    "tk": "ING",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "661202": {
+  "activity": "Standardized commodity contracts brokerage",
+  "candidates": [],
+  "section": "L"
+ },
+ "661203": {
+  "activity": "Currency trading on behalf of others",
+  "candidates": [],
+  "section": "L"
+ },
+ "661204": {
+  "activity": "Equity-based crowdfunding, and debt-based crowdfunding offering securities",
+  "candidates": [],
+  "section": "L"
+ },
+ "661205": {
+  "activity": "Activities of currency exchanges",
+  "candidates": [],
+  "section": "L"
+ },
+ "661902": {
+  "activity": "Investment advisors/ consultant (including robo- advisory services and analysing financial markets as an advisory service), mortgage and loan advisors, financial advisors in relation to mergers and acquisition services",
+  "candidates": [],
+  "section": "L"
+ },
+ "661903": {
+  "activity": "Activities of digital currency wallet providers",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "diemdigitalcurrency",
+    "name": "Diem (digital currency)",
+    "path": "stocks/si",
+    "source": "wikipedia",
+    "tk": "SI",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "circleinternetgroup",
+    "name": "Circle Internet Group",
+    "path": "stocks/crcl",
+    "source": "wikipedia",
+    "tk": "CRCL",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "661904": {
+  "activity": "Validation and mining for crypto assets deemed financial assets",
+  "candidates": [],
+  "section": "L"
+ },
+ "661905": {
+  "activity": "Tokenization of digital assets, including security token offerings and initial coin offerings",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "galaxydigitalcompany",
+    "name": "Galaxy Digital (company)",
+    "path": "stocks/glxy",
+    "source": "wikipedia",
+    "tk": "GLXY",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "661906": {
+  "activity": "Consumer credit intermediation",
+  "candidates": [],
+  "section": "L"
+ },
+ "661908": {
+  "activity": "Activities of Account Aggregators",
+  "candidates": [],
+  "section": "L"
+ },
+ "661909": {
+  "activity": "RegTech services that provide technology-driven solutions to streamline regulatory compliance, including anti-money laundering (AML) checks, fraud detection, automated reporting, real-time monitoring, and risk management tools for financial institutions.",
+  "candidates": [],
+  "section": "L"
+ },
+ "661910": {
+  "activity": "Other Fintech activities including Suptech, cross-border payment platforms, GreenTech/green finance",
+  "candidates": [],
+  "section": "L"
+ },
+ "661911": {
+  "activity": "Post office/ bank agents providing investment services",
+  "candidates": [],
+  "section": "L"
+ },
+ "662100": {
+  "activity": "Providing administrative services related to insurance, such as assessing and settling insurance claims like, assessing insurance claims, claims adjusting, risk assessing, risk and damage evaluation, average and loss adjusting, and settling insurance claims (Third Party Agents)",
+  "candidates": [],
+  "section": "L"
+ },
+ "662901": {
+  "activity": "Pension and insurance advisory activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "willistowerswatson",
+    "name": "Willis Towers Watson",
+    "path": "stocks/wtw",
+    "source": "wikipedia",
+    "tk": "WTW",
+    "verified": true
+   }
+  ],
+  "section": "L"
+ },
+ "662902": {
+  "activity": "Administration of financial markets for insurance and pension funding services e.g. IRDA, PFRDA",
+  "candidates": [],
+  "section": "L"
+ },
+ "662999": {
+  "activity": "Other activities auxiliary to insurance and pension funding n.e.c. including salvage administration and actuarial services",
+  "candidates": [],
+  "section": "L"
+ },
+ "663002": {
+  "activity": "Management of pension funds",
+  "candidates": [],
+  "section": "L"
+ },
+ "663099": {
+  "activity": "Other fund management activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "apolloglobalmanageme",
+    "name": "Apollo Global Management",
+    "path": "stocks/apo",
+    "source": "wikipedia",
+    "tk": "APO",
+    "verified": true
+   }
+  ],
+  "section": "L"
  }
 }
