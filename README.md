@@ -174,6 +174,43 @@ grapes, cotton ginning) correctly come back with *zero* candidates on both
 sources — the honest, correct result for activities no listed company
 specializes in this narrowly, not a bug.
 
+**Yahoo Finance and screener.in, verified live** (2026-10-21): both resolve
+real companies correctly against known names (Yahoo: "Tata Consultancy
+Services" → NSE:TCS and BSE:TCS; "Apple Inc" → NASDAQ:AAPL; screener.in:
+"Tata Consultancy Services" → `/company/TCS/`, exactly the slug format
+assumed). One real bug found and fixed: **Yahoo returns the same company
+twice** whenever it's cross-listed — Apple Inc came back as both
+NASDAQ:AAPL *and* a Toronto-listed CAD-hedged CDR of the same stock; TCS
+came back as both its NSE and BSE listing. Left alone, that's two review-
+queue cards for one real company. Fixed by deduplicating on
+`(name, stripped ticker)`, keeping only the first (highest-ranked) listing.
+
+More important finding from the same test, honestly reported rather than
+glossed over: **both Yahoo and screener.in search by company name, not by
+business description** — unlike EDGAR (full-text search over actual filing
+content) or Wikipedia (full-text search over article content), a Yahoo or
+screener.in query only ever matches when the activity phrase happens to
+resemble a company's registered name. Live-tested against real NIC
+activity text ("Other grain milling and processing", "Underground mining
+of iron ore", "Growing of Bajra and Jowar and other millets") — all three
+came back with *zero* candidates from both sources, correctly, because no
+company is literally named after those activities. So these two sources
+mainly help the minority of codes whose business activity *is* close to a
+known company's name or sector term (which Wikipedia and EDGAR often also
+already catch); they do not meaningfully widen coverage of the many
+genuinely narrow/generic NIC activities that have no single matching
+public company. That ceiling is structural, not something a better scraper
+fixes — see the next section.
+
+A general-purpose web search engine (DuckDuckGo, Bing) was considered as a
+fifth source and deliberately left out, for a different reason than the
+original Wikipedia-style false-positive risk: those return arbitrary web
+pages, not structured company/ticker data, so turning a result into a
+clean "this is company X, ticker Y" candidate needs real entity extraction
+that a plain scraper can't do reliably — it would add noise to the review
+queue rather than real candidates, for activities that structurally may
+have no listed company anyway.
+
 ## Running things by hand
 
 ```

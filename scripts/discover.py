@@ -373,6 +373,7 @@ def yahoo_candidates(session, query, limit=4):
     except ValueError:
         return []
     out = []
+    seen = set()
     for q in quotes:
         if q.get("quoteType") != "EQUITY":
             continue
@@ -385,6 +386,17 @@ def yahoo_candidates(session, query, limit=4):
         # Strip Yahoo's exchange suffix (TCS.NS -> TCS, RELIANCE.BO -> RELIANCE)
         ticker = symbol.split(".")[0] if "." in symbol else symbol
         name = q.get("longname") or q.get("shortname") or symbol
+        # Yahoo often returns the SAME company multiple times -- a
+        # secondary listing (a cross-exchange CDR, a dual NSE+BSE listing)
+        # shares the stripped ticker with the primary one. Verified live:
+        # "Apple Inc" -> AAPL/NASDAQ *and* AAPL/Toronto (a CAD-hedged CDR,
+        # not an independent company); "TCS" -> TCS/NSE *and* TCS/BSE.
+        # Keep only the first (highest-ranked) listing per ticker so the
+        # review queue doesn't get two cards for one real company.
+        dedup_key = (name.strip().lower(), ticker.upper())
+        if dedup_key in seen:
+            continue
+        seen.add(dedup_key)
         out.append({"name": name, "tk": ticker, "ctry": country,
                      "path": path_tmpl.format(t=ticker), "source": "yahoo"})
     return out
