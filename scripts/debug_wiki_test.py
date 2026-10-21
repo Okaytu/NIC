@@ -5,11 +5,26 @@ since GitHub Actions run logs aren't readable from this session. Delete this
 script (and its workflow) once the discovery pipeline is confirmed working.
 """
 import json
+import re
 import requests
 from discover import wiki_search, wiki_infobox_ticker, wiki_candidates, edgar_candidates, HEADERS
 
 session = requests.Session()
 out = {}
+
+# Raw wikitext dump for a known case, to see exactly what traded_as looks
+# like on a real page (TCS infobox parsing came back empty despite the
+# search itself finding the right title).
+r = session.get("https://en.wikipedia.org/w/api.php", headers=HEADERS, timeout=15, params={
+    "action": "parse", "page": "Tata Consultancy Services", "prop": "wikitext", "section": 0, "format": "json",
+})
+wikitext = r.json().get("parse", {}).get("wikitext", {}).get("*", "") if r.status_code == 200 else f"<http {r.status_code}>"
+out["tcs_raw_status"] = r.status_code
+out["tcs_raw_wikitext_first_2000"] = wikitext[:2000]
+m = re.search(r"traded_as", wikitext, re.I)
+out["tcs_has_traded_as_literal"] = bool(m)
+if m:
+    out["tcs_traded_as_snippet"] = wikitext[m.start(): m.start() + 300]
 
 for label, query in [
     ("easy_company_search", "Tata Consultancy Services"),
