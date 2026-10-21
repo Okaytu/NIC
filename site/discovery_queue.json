@@ -7321,5 +7321,292 @@
   "activity": "Other social work activities without accommodation n.e.c.",
   "candidates": [],
   "section": "R"
+ },
+ "901100": {
+  "activity": "Literary creation and musical composition activities",
+  "candidates": [],
+  "section": "S"
+ },
+ "901200": {
+  "activity": "Visual arts creation activities",
+  "candidates": [],
+  "section": "S"
+ },
+ "901300": {
+  "activity": "Other arts creation activities",
+  "candidates": [],
+  "section": "S"
+ },
+ "901399": {
+  "activity": "Other arts creation activities n.e.c. including conceptual art activities",
+  "candidates": [],
+  "section": "S"
+ },
+ "902001": {
+  "activity": "Activities of influencers appearing in digital/social media including vlogs",
+  "candidates": [],
+  "section": "S"
+ },
+ "902099": {
+  "activity": "Other activities of performing arts n.e.c.",
+  "candidates": [],
+  "section": "S"
+ },
+ "903100": {
+  "activity": "Operation of arts facilities and infrastructure such as concert and theatre halls, cultural centres, music venues, music clubs and similar facilities in which artists perform",
+  "candidates": [],
+  "section": "S"
+ },
+ "903900": {
+  "activity": "Other support activities to arts creation and performing arts",
+  "candidates": [],
+  "section": "S"
+ },
+ "911101": {
+  "activity": "Documentation and organisation of a collection of books, maps, periodicals, whether specialised or not, (including in digital forms) with reading/ listening/ viewing rooms with or without lending facilities",
+  "candidates": [],
+  "section": "S"
+ },
+ "911102": {
+  "activity": "Documentation and organisation of a collection of films, records, tapes, works of art, whether specialised or not, (including in digital forms) with reading/ listening/ viewing rooms with or without lending facilities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "nashvillerecordsinc",
+    "name": "Nashville Records, Inc.",
+    "path": "stocks/NRCD",
+    "source": "yahoo",
+    "tk": "NRCD",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "tapestryinc",
+    "name": "Tapestry, Inc.",
+    "path": "stocks/TPR",
+    "source": "yahoo",
+    "tk": "TPR",
+    "verified": true
+   }
+  ],
+  "section": "S"
+ },
+ "911199": {
+  "activity": "Other library activities n.e.c.",
+  "candidates": [],
+  "section": "S"
+ },
+ "911200": {
+  "activity": "Archive activities",
+  "candidates": [],
+  "section": "S"
+ },
+ "912100": {
+  "activity": "Operation, management, care, preservation, appraisal and exhibition of collections of museums of all kinds such as art, military and other specialized museums",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Germany",
+    "error": "HTTP 404",
+    "id": "bendingspoonsspa",
+    "name": "Bending Spoons S.p.A.",
+    "path": "quote/fwb/9B60",
+    "source": "yahoo",
+    "tk": "9B60",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "annalycapitalmanagem",
+    "name": "Annaly Capital Management, Inc.",
+    "path": "stocks/NLY",
+    "source": "yahoo",
+    "tk": "NLY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "carterbanksharesinc",
+    "name": "Carter Bankshares, Inc.",
+    "path": "stocks/CARE",
+    "source": "yahoo",
+    "tk": "CARE",
+    "verified": true
+   }
+  ],
+  "section": "S"
+ },
+ "912201": {
+  "activity": "Operation and preservation of historical sites and buildings",
+  "candidates": [],
+  "section": "S"
+ },
+ "912202": {
+  "activity": "Operation and preservation of archaeological sites",
+  "candidates": [],
+  "section": "S"
+ },
+ "912299": {
+  "activity": "Other historical site and monument activities n.e.c.",
+  "candidates": [],
+  "section": "S"
+ },
+ "913000": {
+  "activity": "Conservation, restoration and other support activities for cultural heritage",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "guangzhougoalandener",
+    "name": "Guangzhou Goaland Energy Conservation Tech. Co., Ltd.",
+    "path": "quote/sze/300499",
+    "source": "yahoo",
+    "tk": "300499",
+    "verified": false
+   }
+  ],
+  "section": "S"
+ },
+ "914101": {
+  "activity": "Operation of botanical gardens",
+  "candidates": [],
+  "section": "S"
+ },
+ "914102": {
+  "activity": "Operation of zoological gardens (Zoos) including aquariums",
+  "candidates": [],
+  "section": "S"
+ },
+ "914200": {
+  "activity": "Operation, conservation and maintenance of nature reserves, including wildlife preservation, safari parks and similar reserve parks",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Germany",
+    "error": "HTTP 404",
+    "id": "bendingspoonsspa",
+    "name": "Bending Spoons S.p.A.",
+    "path": "quote/fwb/9B60",
+    "source": "yahoo",
+    "tk": "9B60",
+    "verified": false
+   }
+  ],
+  "section": "S"
+ },
+ "920001": {
+  "activity": "Sale of lottery tickets (Wholesale and Retail)",
+  "candidates": [],
+  "section": "S"
+ },
+ "931101": {
+  "activity": "Operation and maintenance of facilities (stadiums) for outdoor games and sports",
+  "candidates": [],
+  "section": "S"
+ },
+ "931102": {
+  "activity": "Operation and maintenance of facilities (stadiums) for indoor games and sports",
+  "candidates": [],
+  "section": "S"
+ },
+ "931104": {
+  "activity": "Operation of facilities for horse races and other animal races",
+  "candidates": [],
+  "section": "S"
+ },
+ "931105": {
+  "activity": "Operation and organization of motorcycle rally",
+  "candidates": [],
+  "section": "S"
+ },
+ "931106": {
+  "activity": "Activity of golf courses",
+  "candidates": [],
+  "section": "S"
+ },
+ "931199": {
+  "activity": "Other activities related to operation of sports facilities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "S"
+ },
+ "931901": {
+  "activity": "Activities of individual own-account sportsmen and athletes, referees, judges, timekeepers, mountain guides etc.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "judgesscientificplc",
+    "name": "Judges Scientific plc",
+    "path": "quote/lon/JDG",
+    "source": "yahoo",
+    "tk": "JDG",
+    "verified": true
+   }
+  ],
+  "section": "S"
+ },
+ "931902": {
+  "activity": "Activities of sports leagues and sport governing bodies",
+  "candidates": [],
+  "section": "S"
+ },
+ "931903": {
+  "activity": "Activities related to promotion of sports events",
+  "candidates": [],
+  "section": "S"
+ },
+ "931904": {
+  "activity": "Activities related to training of sporting and entertainment animals",
+  "candidates": [],
+  "section": "S"
+ },
+ "931905": {
+  "activity": "Activities related to organising hiking, paragliding, skiing, camping, rafting and similar activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "campingworldholdings",
+    "name": "Camping World Holdings, Inc.",
+    "path": "stocks/CWH",
+    "source": "yahoo",
+    "tk": "CWH",
+    "verified": true
+   }
+  ],
+  "section": "S"
+ },
+ "931999": {
+  "activity": "Other sports activities n.e.c.",
+  "candidates": [],
+  "section": "S"
+ },
+ "932900": {
+  "activity": "Other amusement and recreation activities",
+  "candidates": [],
+  "section": "S"
  }
 }
