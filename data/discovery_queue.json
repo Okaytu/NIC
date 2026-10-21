@@ -959,7 +959,19 @@
  },
  "107102": {
   "activity": "Manufacture of pastry, cakes, pies, tarts, rolls and similar products",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "piesatinformationtec",
+    "name": "Piesat Information Technology Co., Ltd.",
+    "path": "quote/sse/688066",
+    "source": "yahoo",
+    "tk": "688066",
+    "verified": false
+   }
+  ],
   "section": "C"
  },
  "107199": {
@@ -1054,6 +1066,17 @@
     "path": "stocks/hsy",
     "source": "wikipedia",
     "tk": "HSY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "rockymountainchocola",
+    "name": "Rocky Mountain Chocolate Factory, Inc.",
+    "path": "stocks/RMCF",
+    "source": "yahoo",
+    "tk": "RMCF",
     "verified": true
    }
   ],
@@ -1234,7 +1257,19 @@
  },
  "110506": {
   "activity": "Manufacture of traditional fermented probiotic beverages (kombucha, kanji, etc.)",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "HTTP 404",
+    "id": "isharesphysicalgolde",
+    "name": "iShares Physical Gold ETC",
+    "path": "quote/lon/IGLN",
+    "source": "yahoo",
+    "tk": "IGLN",
+    "verified": false
+   }
+  ],
   "section": "C"
  },
  "110599": {
@@ -1392,7 +1427,19 @@
  },
  "131308": {
   "activity": "Waterproofing, coating, rubberising, or impregnating purchased garments",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "axaltacoatingsystems",
+    "name": "Axalta Coating Systems Ltd.",
+    "path": "stocks/AXTA",
+    "source": "yahoo",
+    "tk": "AXTA",
+    "verified": true
+   }
+  ],
   "section": "C"
  },
  "131399": {
@@ -1457,7 +1504,19 @@
  },
  "139207": {
   "activity": "Manufacture of flags, banners, pennants and other similar articles",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "bannerscoltd",
+    "name": "Banners Co., Ltd.",
+    "path": "quote/tyo/3011",
+    "source": "yahoo",
+    "tk": "3011",
+    "verified": true
+   }
+  ],
   "section": "C"
  },
  "139299": {
@@ -1537,7 +1596,19 @@
  },
  "139906": {
   "activity": "Manufacture of textile-covered elastic materials and fabrics (excluding non-woven) impregnated, coated, or laminated",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "manaksiacoatedmetals",
+    "name": "Manaksia Coated Metals & Industries Limited",
+    "path": "quote/nse/MANAKCOAT",
+    "source": "yahoo",
+    "tk": "MANAKCOAT",
+    "verified": true
+   }
+  ],
   "section": "C"
  },
  "139907": {
@@ -1557,7 +1628,19 @@
  },
  "141004": {
   "activity": "Manufacture of clothing accessories made primarily of fabrics like, handkerchiefs, caps, hats and similar articles",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "capstoneholdingcorp",
+    "name": "Capstone Holding Corp.",
+    "path": "stocks/CAPS",
+    "source": "yahoo",
+    "tk": "CAPS",
+    "verified": true
+   }
+  ],
   "section": "C"
  },
  "141005": {
@@ -1589,7 +1672,19 @@
  },
  "141008": {
   "activity": "Manufacture of parts of clothing and clothing accessories such as zippers, buckles, straps, parts of footwear made of textiles and similar articles",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "gabrielpetstrapslimi",
+    "name": "Gabriel PET Straps Limited",
+    "path": "quote/bom/GPSL",
+    "source": "yahoo",
+    "tk": "GPSL",
+    "verified": false
+   }
+  ],
   "section": "C"
  },
  "142001": {
