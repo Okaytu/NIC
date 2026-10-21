@@ -82,6 +82,16 @@ details.biz[open]>summary{border-bottom:1px solid var(--line)}
 .n.has{background:var(--lime);color:#1b3322}
 .body{padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
 .note{color:var(--muted);font-size:13px;margin:0;max-width:75ch}
+.addco-toggle{font:inherit;font-size:12.5px;font-weight:600;color:var(--lime);background:transparent;border:0;cursor:pointer;padding:0;margin-top:8px}
+.addco-toggle:hover{text-decoration:underline}
+.addco-box{margin-top:10px;background:rgba(0,0,0,.18);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:12.5px;color:var(--muted);max-width:60ch}
+.addco-box p{margin:0 0 8px}
+.addco-box ol{margin:0 0 10px;padding-left:1.1em}
+.addco-box ol li{margin-bottom:4px}
+.addco-code{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);border:1px solid var(--line);border-radius:8px;padding:3px 10px;font-weight:700;color:var(--ink)}
+.addco-copy{font:inherit;font-size:11px;font-weight:600;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:7px;padding:2px 8px;cursor:pointer}
+.addco-copy:hover{color:var(--ink);border-color:var(--ink)}
+.addco-box a.pill.small{display:inline-block;margin-top:2px;padding:9px 18px;font-size:13px;font-weight:600}
 .note.empty{color:var(--faint)}
 .tw{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--deep);max-width:100%}
 table{border-collapse:collapse;width:100%;font-size:13px}
@@ -255,6 +265,12 @@ function renderView(scroll){
   $("#q").addEventListener("input",e=>{q=e.target.value;renderList()});
   $("#covbar").addEventListener("click",e=>{const a=e.target.closest("a");if(!a)return;e.preventDefault();mode="f-all";q="";renderView(false);
     const el=document.querySelector(a.getAttribute("href"));if(el){el.open=true;el.scrollIntoView({block:"center"})}});
+  $("#view").addEventListener("click",e=>{
+    const t=e.target.closest(".addco-toggle");
+    if(t){const box=t.nextElementSibling;box.hidden=!box.hidden;t.textContent=box.hidden?"+ Add a company yourself":"– Hide";return}
+    const c=e.target.closest(".addco-copy");
+    if(c){navigator.clipboard?.writeText(c.dataset.copy).then(()=>{const o=c.textContent;c.textContent="copied!";setTimeout(()=>c.textContent=o,1200)}).catch(()=>{});}
+  });
   renderList();
   if(scroll)$("#view").scrollIntoView({block:"start"});
 }
@@ -273,8 +289,18 @@ function renderList(){
       const n=b[5].length;
       const flag=b[4]?`<span class="tag flag">${b[4]}</span>`:`<span class="tag">${b[3]}</span>`;
       const tbl=n?`<div class="tw"><table><thead>${head(false)}</thead><tbody>${b[5].map(i=>row(i)).join("")}</tbody></table></div>`:"";
+      const addco = n<5 ? `<button type="button" class="addco-toggle" data-code="${b[0]}">+ Add a company yourself</button>
+        <div class="addco-box" hidden>
+          <p>Found a real listed company for this business that the automated search missed? Scrape it in the same way the rest of the site was built, no AI needed:</p>
+          <ol>
+            <li>Find the company's page on <a href="https://stockanalysis.com" target="_blank" rel="noopener">stockanalysis.com</a>, and copy the part of its URL between <code>stockanalysis.com/</code> and <code>/statistics/</code> (e.g. <code>quote/nse/TCS</code>).</li>
+            <li>Open the <b>Add company</b> action below and fill in: NIC code <span class="addco-code">${b[0]}<button type="button" class="addco-copy" data-copy="${b[0]}">copy</button></span>, that path, and the company's name.</li>
+            <li>Run it — it verifies and scrapes the page itself, same as every other company on this site, and the site rebuilds automatically once it commits.</li>
+          </ol>
+          <a class="pill small" href="https://github.com/Okaytu/NIC/actions/workflows/add_company.yml" target="_blank" rel="noopener">Open the Add company action &rarr;</a>
+        </div>` : "";
       return `<details class="biz" id="b${b[0]}" ${n&&mode!=="f-none"?"open":""}><summary><span title="${esc(b[7]||b[1])}">${b[1]}</span>${flag}<span class="n ${n?'has':''}">${n}/5</span></summary>
-      <div class="body">${tbl}<p class="note ${n?'':'empty'}">${b[6]}</p></div></details>`}).join("")+`</div>`;
+      <div class="body">${tbl}<p class="note ${n?'':'empty'}">${b[6]}</p>${addco}</div></details>`}).join("")+`</div>`;
   });
   if(mode!=="f-none"&&S.bench&&S.bench.length&&!ql){
     html+=`<div class="grp"><h3>Listed names not placed <small>no slot left under the no-repeat rule</small></h3><div class="tw"><table><thead><tr><th>Company</th><th>Revenue</th><th>Growth</th><th>EBITDA %</th><th>Net %</th></tr></thead><tbody>${S.bench.map(r=>`<tr><td class="co"><b><a class="sl" href="${src({tk:r[1]})}" target="_blank" rel="noopener">${r[0]}</a></b><small>${r[1]}</small></td><td>${r[2].toFixed(1)}</td><td>${gcell(r[3])}</td><td>${num(r[4])}</td><td>${num(r[5])}</td></tr>`).join("")}</tbody></table></div>${S.benchNote?`<p class="note">${S.benchNote}</p>`:""}</div>`;

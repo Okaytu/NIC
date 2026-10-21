@@ -1,0 +1,74 @@
+name: Add one company to one NIC code (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "NIC code, e.g. 011101"
+        required: true
+      path:
+        description: "stockanalysis.com path segment, e.g. quote/nse/TCS (copy it from that company's own stockanalysis.com page, the part between stockanalysis.com/ and /statistics/)"
+        required: true
+      name:
+        description: "Company name"
+        required: true
+      ticker:
+        description: "Ticker (optional -- defaults to the last segment of the path)"
+        required: false
+        default: ""
+      country:
+        description: "Country (optional -- defaults to India for quote/nse or quote/bom paths)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Verify only, write nothing"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: add-company-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+
+      - name: Add the company
+        run: |
+          ARGS="--code ${{ github.event.inputs.code }} --path ${{ github.event.inputs.path }} --name '${{ github.event.inputs.name }}'"
+          if [ -n "${{ github.event.inputs.ticker }}" ]; then ARGS="$ARGS --ticker ${{ github.event.inputs.ticker }}"; fi
+          if [ -n "${{ github.event.inputs.country }}" ]; then ARGS="$ARGS --country '${{ github.event.inputs.country }}'"; fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          eval python3 scripts/add_company.py $ARGS
+
+      - name: Regenerate section data files
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: python3 scripts/gen_all.py
+
+      - name: Rebuild static site
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: python3 scripts/build_site.py
+
+      - name: Commit if changed
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/companies.json data/financials.json data/map_*.json site/
+          git diff --cached --quiet || git commit -m "Manually added: ${{ github.event.inputs.name }} -> ${{ github.event.inputs.code }}"
+          for i in 1 2 3 4 5; do
+            git push && break
+            git fetch origin main
+            git rebase origin/main
+            sleep 3
+          done
