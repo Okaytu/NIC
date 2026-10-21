@@ -1,18 +1,12 @@
 {
+  "tcs_raw_status": 200,
+  "tcs_raw_wikitext_first_2000": "{{Short description|Indian multinational technology company}}\n \n{{Use Indian English|date=August 2021}}\n{{Use dmy dates|date=September 2021}}\n{{Infobox company\n| name = Tata Consultancy Services Limited\n| logo = File:Tata Consultancy Services.svg\n| logo_size = \n| logo_alt = TCS Logo\n| image_size = \n| image_alt = TCS SIPCOT Office\n| image_caption = A TCS campus at [[SIPCOT IT Park|SIPCOT]], [[Chennai]]\n| type = [[Public company|Public]]\n| traded_as = {{Unbulleted list|{{BSE|532540}}|{{NSE|TCS}}|[[BSE SENSEX]] constituent|[[NIFTY 50|NSE NIFTY 50]] constituent}}\n| ISIN = {{ISIN|sl=n|pl=y|INE467B01029}}\n| industry = [[Information technology]]<br>[[Consulting]]<br>[[Outsourcing]]\n| founder = [[J. R. D. Tata]]\n| area_served = Worldwide\n| key_people = [[Natarajan Chandrasekaran]]<br>{{small|(Chairman)}}<br/>K. Krithivasan<br>{{small|([[Managing director|MD]] & [[CEO]])}}\n| services = \n| revenue          = {{Increase}} {{INRConvert|267021|c}} (2026)<ref name=\"TCS_FY26\"/> \n| operating_income = {{Increase}} {{INRConvert|65611|c}} (2026)<ref name=\"TCS_FY26\"/>\n| net_income       = {{Increase}} {{INRConvert|49454|c}} (2026)<ref name=\"TCS_FY26\"/>\n| assets           = {{Increase}} {{INRConvert|182372|c}} (2026)<ref name=\"TCS_FY26\"/>\n| equity           = {{Increase}} {{INRConvert|108478|c}} (2026)<ref name=\"TCS_FY26\"/>\n| num_employees    = {{Decrease}} 584,519 (March 2026)<ref name=\"TCS_AR26\"/> \n| parent = [[Tata Group]]\n| owner = [[Tata Sons]] (71.74%)<ref>{{cite news |last1=Agarwal |first1=Nikhil |title=Tata Sons confirms selling 2.34 crore shares of TCS in block deal |url=https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-confirms-selling-2-34-crore-shares-of-tcs-in-block-deal/articleshow/108670045.cms |access-date=13 September 2024 |work=The Economic Times |date=21 March 2024 |archive-date=13 September 2024 |archive-url=https://web.archive.org/web/20240913141012/https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-confirms-selling-2-34-crore-shares",
+  "tcs_has_traded_as_literal": true,
+  "tcs_traded_as_snippet": "traded_as = {{Unbulleted list|{{BSE|532540}}|{{NSE|TCS}}|[[BSE SENSEX]] constituent|[[NIFTY 50|NSE NIFTY 50]] constituent}}\n| ISIN = {{ISIN|sl=n|pl=y|INE467B01029}}\n| industry = [[Information technology]]<br>[[Consulting]]<br>[[Outsourcing]]\n| founder = [[J. R. D. Tata]]\n| area_served = Worldwide\n| ",
   "easy_company_search": {
     "query": "Tata Consultancy Services",
-    "titles": [
-      "Tata Consultancy Services",
-      "Tata Group",
-      "JRD Tata",
-      "List of Indian IT companies"
-    ],
-    "infobox": {
-      "Tata Consultancy Services": [],
-      "Tata Group": [],
-      "JRD Tata": [],
-      "List of Indian IT companies": []
-    }
+    "titles": [],
+    "infobox": {}
   },
   "easy_company_search2": {
     "query": "Apple Inc company",
