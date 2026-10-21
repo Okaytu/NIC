@@ -2528,12 +2528,58 @@
  },
  "351102": {
   "activity": "Electric power generation using petroleum products",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "americanelectricpowe",
+    "name": "American Electric Power",
+    "path": "stocks/aep",
+    "source": "wikipedia",
+    "tk": "AEP",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "williamscompanies",
+    "name": "Williams Companies",
+    "path": "stocks/wmb",
+    "source": "wikipedia",
+    "tk": "WMB",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "pplcorporation",
+    "name": "PPL Corporation",
+    "path": "stocks/ppl",
+    "source": "wikipedia",
+    "tk": "PPL",
+    "verified": true
+   }
+  ],
   "section": "D"
  },
  "351199": {
   "activity": "Electric power generation using other non-renewable sources n.e.c.",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "americanelectricpowe",
+    "name": "American Electric Power",
+    "path": "stocks/aep",
+    "source": "wikipedia",
+    "tk": "AEP",
+    "verified": true
+   }
+  ],
   "section": "D"
  },
  "351204": {
@@ -2543,7 +2589,30 @@
  },
  "351299": {
   "activity": "Electric power generation activities using other renewable sources n.e.c.",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "tokyoelectricpowerco",
+    "name": "Tokyo Electric Power Company",
+    "path": "quote/tyo/9501",
+    "source": "wikipedia",
+    "tk": "9501",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "pacificgasandelectri",
+    "name": "Pacific Gas and Electric Company",
+    "path": "stocks/pcg",
+    "source": "wikipedia",
+    "tk": "PCG",
+    "verified": true
+   }
+  ],
   "section": "D"
  },
  "352001": {
@@ -2553,7 +2622,18 @@
  },
  "352002": {
   "activity": "Production of Green Hydrogen",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": true,
+    "ctry": "USA",
+    "id": "newhydrogeninc",
+    "name": "NewHydrogen, Inc.",
+    "path": "stocks/newh",
+    "source": "edgar",
+    "tk": "NEWH",
+    "verified": true
+   }
+  ],
   "section": "D"
  },
  "352003": {
@@ -2568,7 +2648,19 @@
  },
  "353002": {
   "activity": "Production of non-edible ice for food preservation, cooling, or other non-food uses",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "vegasharesaithermalc",
+    "name": "VegaShares AI Thermal, Cooling & Power Management ETF",
+    "path": "stocks/COOL",
+    "source": "yahoo",
+    "tk": "COOL",
+    "verified": false
+   }
+  ],
   "section": "D"
  },
  "353099": {

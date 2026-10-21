@@ -15055,6 +15055,18 @@
   "roce": 42.89,
   "roe": null
  },
+ "newhydrogeninc": {
+  "ebitda": -0.0034900000000000005,
+  "error": null,
+  "fetched_at": "2026-10-21T08:16:55+00:00",
+  "mc": 0.016890000000000002,
+  "netcash": 739528.0,
+  "ni": -0.0034900000000000005,
+  "roce": -434.51,
+  "sources": [
+   "edgar+stockanalysis"
+  ]
+ },
  "nexans": {
   "cur": "EUR",
   "ebitda": 0.745,

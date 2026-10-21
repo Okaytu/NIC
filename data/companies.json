@@ -5645,6 +5645,12 @@
   "path": "quote/nse/NEWGEN",
   "tk": "NEWGEN"
  },
+ "newhydrogeninc": {
+  "ctry": "USA",
+  "n": "NewHydrogen, Inc.",
+  "path": "stocks/newh",
+  "tk": "NEWH"
+ },
  "nexans": {
   "ctry": "France",
   "n": "Nexans",

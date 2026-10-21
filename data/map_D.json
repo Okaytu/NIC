@@ -1,44 +1,107 @@
-{"name":"Electricity and gas supply","range":"35",
-"biz":{
-"351101":["ntpc","adanipower","jswenergy","jppower","rpower"],
-"351103":["gipcl","vistra","nrg"],
-"351104":["ceg"],
-"351201":["nhpc","sjvn","bep"],
-"351202":["adanigreen","ntpcgreen","acme","kpigreen","waareertl"],
-"351203":["inoxgreen","orsted","nee"],
-"351205":["drax"],
-"351301":["powergrid","adaniensol","nationalgrid"],
-"351302":["tatapower","torrentpower","cesc","duke"],
-"351303":["chpt","evgo"],
-"351399":["fluence"],
-"352004":["gail","igl","mgl","gujgas","gspl"],
-"352099":["petronet"],
-"354000":["iex","ptc"]
-},
-"bnote":{
-"351101":"India's five largest listed coal-based power generators.",
-"351103":"GIPCL runs gas and lignite plants in Gujarat. Vistra and NRG are large US gas-fired generators.",
-"351104":"India's nuclear plants are run by NPCIL, which is not listed. Constellation is the largest listed nuclear operator in the US.",
-"351201":"India's two listed hydro PSUs, then Brookfield Renewable, a global hydro leader.",
-"351202":"Five listed Indian solar developers.",
-"351203":"Inox Green runs wind-farm operations in India. Ørsted and NextEra are the largest listed wind operators abroad.",
-"351205":"Drax runs the UK's largest biomass power station.",
-"351303":"No listed Indian EV-charging pure-play. These are the largest listed US charging networks.",
-"352004":"Listed Indian city-gas and gas-transmission companies.",
-"352099":"Petronet LNG imports and regasifies LNG. Closest listed match.",
-"354000":"India's power exchange and largest listed power trader.",
-"352002":"No listed green-hydrogen producer yet with meaningful revenue.",
-"351204":"No listed company generates power from green hydrogen at scale yet."
-},
-"flags":{
-"ntpc":"Very large net debt, typical of a regulated utility.",
-"adanigreen":"Very high P/E; heavy debt-funded growth.",
-"ntpcgreen":"Very high P/E for a recently listed company.",
-"inoxgreen":"Net profit is above EBITDA, so it includes one-off or other income.",
-"rpower":"Loss-making in the trailing year.",
-"gujgas":"The page under the GUJGASLTD ticker shows the name Gujarat Energy. Check the source page.",
-"drax":"Near-zero TTM profit makes the P/E meaningless.",
-"bep":"Loss in the trailing year; usual for a growth-focused renewable company."
-},
-"notes":[["Section D: utilities are well covered","India has listed companies for coal, hydro, solar, transmission, distribution, city gas and power trading. Nuclear, EV charging and storage use listed companies abroad."]]
+{
+ "name": "Electricity and gas supply",
+ "range": "35",
+ "biz": {
+  "351101": [
+   "ntpc",
+   "adanipower",
+   "jswenergy",
+   "jppower",
+   "rpower"
+  ],
+  "351103": [
+   "gipcl",
+   "vistra",
+   "nrg"
+  ],
+  "351104": [
+   "ceg"
+  ],
+  "351201": [
+   "nhpc",
+   "sjvn",
+   "bep"
+  ],
+  "351202": [
+   "adanigreen",
+   "ntpcgreen",
+   "acme",
+   "kpigreen",
+   "waareertl"
+  ],
+  "351203": [
+   "inoxgreen",
+   "orsted",
+   "nee"
+  ],
+  "351205": [
+   "drax"
+  ],
+  "351301": [
+   "powergrid",
+   "adaniensol",
+   "nationalgrid"
+  ],
+  "351302": [
+   "tatapower",
+   "torrentpower",
+   "cesc",
+   "duke"
+  ],
+  "351303": [
+   "chpt",
+   "evgo"
+  ],
+  "351399": [
+   "fluence"
+  ],
+  "352004": [
+   "gail",
+   "igl",
+   "mgl",
+   "gujgas",
+   "gspl"
+  ],
+  "352099": [
+   "petronet"
+  ],
+  "354000": [
+   "iex",
+   "ptc"
+  ],
+  "352002": [
+   "newhydrogeninc"
+  ]
+ },
+ "bnote": {
+  "351101": "India's five largest listed coal-based power generators.",
+  "351103": "GIPCL runs gas and lignite plants in Gujarat. Vistra and NRG are large US gas-fired generators.",
+  "351104": "India's nuclear plants are run by NPCIL, which is not listed. Constellation is the largest listed nuclear operator in the US.",
+  "351201": "India's two listed hydro PSUs, then Brookfield Renewable, a global hydro leader.",
+  "351202": "Five listed Indian solar developers.",
+  "351203": "Inox Green runs wind-farm operations in India. Ørsted and NextEra are the largest listed wind operators abroad.",
+  "351205": "Drax runs the UK's largest biomass power station.",
+  "351303": "No listed Indian EV-charging pure-play. These are the largest listed US charging networks.",
+  "352004": "Listed Indian city-gas and gas-transmission companies.",
+  "352099": "Petronet LNG imports and regasifies LNG. Closest listed match.",
+  "354000": "India's power exchange and largest listed power trader.",
+  "352002": "Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "351204": "No listed company generates power from green hydrogen at scale yet."
+ },
+ "flags": {
+  "ntpc": "Very large net debt, typical of a regulated utility.",
+  "adanigreen": "Very high P/E; heavy debt-funded growth.",
+  "ntpcgreen": "Very high P/E for a recently listed company.",
+  "inoxgreen": "Net profit is above EBITDA, so it includes one-off or other income.",
+  "rpower": "Loss-making in the trailing year.",
+  "gujgas": "The page under the GUJGASLTD ticker shows the name Gujarat Energy. Check the source page.",
+  "drax": "Near-zero TTM profit makes the P/E meaningless.",
+  "bep": "Loss in the trailing year; usual for a growth-focused renewable company."
+ },
+ "notes": [
+  [
+   "Section D: utilities are well covered",
+   "India has listed companies for coal, hydro, solar, transmission, distribution, city gas and power trading. Nuclear, EV charging and storage use listed companies abroad."
+  ]
+ ]
 }
