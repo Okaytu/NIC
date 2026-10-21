@@ -1,68 +1,139 @@
 {
-  "tcs_raw_status": 200,
-  "tcs_raw_wikitext_first_2000": "{{Short description|Indian multinational technology company}}\n \n{{Use Indian English|date=August 2021}}\n{{Use dmy dates|date=September 2021}}\n{{Infobox company\n| name = Tata Consultancy Services Limited\n| logo = File:Tata Consultancy Services.svg\n| logo_size = \n| logo_alt = TCS Logo\n| image_size = \n| image_alt = TCS SIPCOT Office\n| image_caption = A TCS campus at [[SIPCOT IT Park|SIPCOT]], [[Chennai]]\n| type = [[Public company|Public]]\n| traded_as = {{Unbulleted list|{{BSE|532540}}|{{NSE|TCS}}|[[BSE SENSEX]] constituent|[[NIFTY 50|NSE NIFTY 50]] constituent}}\n| ISIN = {{ISIN|sl=n|pl=y|INE467B01029}}\n| industry = [[Information technology]]<br>[[Consulting]]<br>[[Outsourcing]]\n| founder = [[J. R. D. Tata]]\n| area_served = Worldwide\n| key_people = [[Natarajan Chandrasekaran]]<br>{{small|(Chairman)}}<br/>K. Krithivasan<br>{{small|([[Managing director|MD]] & [[CEO]])}}\n| services = \n| revenue          = {{Increase}} {{INRConvert|267021|c}} (2026)<ref name=\"TCS_FY26\"/> \n| operating_income = {{Increase}} {{INRConvert|65611|c}} (2026)<ref name=\"TCS_FY26\"/>\n| net_income       = {{Increase}} {{INRConvert|49454|c}} (2026)<ref name=\"TCS_FY26\"/>\n| assets           = {{Increase}} {{INRConvert|182372|c}} (2026)<ref name=\"TCS_FY26\"/>\n| equity           = {{Increase}} {{INRConvert|108478|c}} (2026)<ref name=\"TCS_FY26\"/>\n| num_employees    = {{Decrease}} 584,519 (March 2026)<ref name=\"TCS_AR26\"/> \n| parent = [[Tata Group]]\n| owner = [[Tata Sons]] (71.74%)<ref>{{cite news |last1=Agarwal |first1=Nikhil |title=Tata Sons confirms selling 2.34 crore shares of TCS in block deal |url=https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-confirms-selling-2-34-crore-shares-of-tcs-in-block-deal/articleshow/108670045.cms |access-date=13 September 2024 |work=The Economic Times |date=21 March 2024 |archive-date=13 September 2024 |archive-url=https://web.archive.org/web/20240913141012/https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-confirms-selling-2-34-crore-shares",
-  "tcs_has_traded_as_literal": true,
-  "tcs_traded_as_snippet": "traded_as = {{Unbulleted list|{{BSE|532540}}|{{NSE|TCS}}|[[BSE SENSEX]] constituent|[[NIFTY 50|NSE NIFTY 50]] constituent}}\n| ISIN = {{ISIN|sl=n|pl=y|INE467B01029}}\n| industry = [[Information technology]]<br>[[Consulting]]<br>[[Outsourcing]]\n| founder = [[J. R. D. Tata]]\n| area_served = Worldwide\n| ",
-  "easy_company_search": {
+  "easy_company": {
     "query": "Tata Consultancy Services",
-    "titles": [],
-    "infobox": {}
+    "titles": [
+      "Tata Consultancy Services",
+      "Tata Group",
+      "JRD Tata",
+      "List of Indian IT companies"
+    ],
+    "wikitext_lens": {
+      "Tata Consultancy Services": 8064,
+      "Tata Group": 4242,
+      "JRD Tata": 2859,
+      "List of Indian IT companies": 4256
+    },
+    "infobox": {
+      "Tata Consultancy Services": [
+        [
+          "BSE",
+          "532540"
+        ],
+        [
+          "NSE",
+          "TCS"
+        ]
+      ],
+      "Tata Group": [],
+      "JRD Tata": [],
+      "List of Indian IT companies": []
+    }
   },
-  "easy_company_search2": {
-    "query": "Apple Inc company",
-    "titles": [],
-    "infobox": {}
+  "easy_company2": {
+    "query": "Apple Inc",
+    "titles": [
+      "Apple Inc.",
+      "Outline of Apple Inc.",
+      "List of mergers and acquisitions by Apple",
+      "List of Apple products"
+    ],
+    "wikitext_lens": {
+      "Apple Inc.": 7771,
+      "Outline of Apple Inc.": 2414,
+      "List of mergers and acquisitions by Apple": 5830,
+      "List of Apple products": 611
+    },
+    "infobox": {
+      "Apple Inc.": [
+        [
+          "NASDAQ",
+          "AAPL"
+        ]
+      ],
+      "Outline of Apple Inc.": [],
+      "List of mergers and acquisitions by Apple": [],
+      "List of Apple products": []
+    }
   },
   "niche_grapes": {
-    "query": "Growing of grapes company",
-    "titles": [],
-    "infobox": {}
+    "query": "Growing of grapes",
+    "titles": [
+      "Welch's",
+      "The Grapes of Wrath",
+      "Cotton Candy grapes",
+      "Grape juice"
+    ],
+    "wikitext_lens": {
+      "Welch's": 3368,
+      "The Grapes of Wrath": 3235,
+      "Cotton Candy grapes": 2026,
+      "Grape juice": 1371
+    },
+    "infobox": {
+      "Welch's": [],
+      "The Grapes of Wrath": [],
+      "Cotton Candy grapes": [],
+      "Grape juice": []
+    }
   },
   "niche_cotton": {
-    "query": "Cotton ginning, cleaning and baling company",
-    "titles": [],
-    "infobox": {}
+    "query": "Cotton ginning, cleaning and baling",
+    "titles": [
+      "Cotton gin",
+      "Cotton",
+      "Robert S. Munger",
+      "Prattville Gin Factory"
+    ],
+    "wikitext_lens": {
+      "Cotton gin": 3462,
+      "Cotton": 4490,
+      "Robert S. Munger": 890,
+      "Prattville Gin Factory": 3835
+    },
+    "infobox": {
+      "Cotton gin": [],
+      "Cotton": [],
+      "Robert S. Munger": [],
+      "Prattville Gin Factory": []
+    }
   },
   "niche_millets": {
-    "query": "Growing of Bajra and Jowar and other millets company",
-    "titles": [],
-    "infobox": {}
+    "query": "Growing of Bajra and Jowar and other millets",
+    "titles": [
+      "Rewari district",
+      "Farming systems in India",
+      "Maharashtrian cuisine",
+      "Indian regional cuisines"
+    ],
+    "wikitext_lens": {
+      "Rewari district": 4152,
+      "Farming systems in India": 3124,
+      "Maharashtrian cuisine": 1281,
+      "Indian regional cuisines": 275
+    },
+    "infobox": {
+      "Rewari district": [],
+      "Farming systems in India": [],
+      "Maharashtrian cuisine": [],
+      "Indian regional cuisines": []
+    }
   },
-  "rapidfire_parse_calls": [
+  "wiki_candidates_tcs": [
     {
-      "title": "Tata Consultancy Services",
-      "status": 429,
-      "has_parse_key": false,
-      "has_error_key": false,
-      "error": null,
-      "wikitext_len": 0
+      "name": "Tata Consultancy Services",
+      "tk": "532540",
+      "ctry": "India",
+      "path": "quote/bom/532540",
+      "source": "wikipedia"
     },
     {
-      "title": "Tata Group",
-      "status": 429,
-      "has_parse_key": false,
-      "has_error_key": false,
-      "error": null,
-      "wikitext_len": 0
-    },
-    {
-      "title": "JRD Tata",
-      "status": 429,
-      "has_parse_key": false,
-      "has_error_key": false,
-      "error": null,
-      "wikitext_len": 0
-    },
-    {
-      "title": "List of Indian IT companies",
-      "status": 429,
-      "has_parse_key": false,
-      "has_error_key": false,
-      "error": null,
-      "wikitext_len": 0
+      "name": "Tata Consultancy Services",
+      "tk": "TCS",
+      "ctry": "India",
+      "path": "quote/nse/TCS",
+      "source": "wikipedia"
     }
   ],
-  "wiki_candidates_tcs": [],
   "wiki_candidates_millets": [],
   "edgar_candidates_apple": [],
   "edgar_candidates_millets": []
