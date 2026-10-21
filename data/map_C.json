@@ -1465,6 +1465,9 @@
   "331500": [
    "stengg",
    "aar"
+  ],
+  "107202": [
+   "celanesecorp"
   ]
  },
  "bnote": {
@@ -1545,7 +1548,8 @@
   "309101": "India's five listed two-wheeler makers.",
   "321101": "India's largest listed jewellery makers and retailers.",
   "329001": "India's listed pen and stationery makers, plus BIC.",
-  "331500": "No listed Indian MRO pure-play. AAR and ST Engineering run large aircraft and ship repair businesses."
+  "331500": "No listed Indian MRO pure-play. AAR and ST Engineering run large aircraft and ship repair businesses.",
+  "107202": "Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
  },
  "flags": {
   "itc": "Diversified: cigarettes, FMCG, paper and agri. Cigarettes earn most of the profit.",
