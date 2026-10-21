@@ -116,14 +116,14 @@ sources, searched in parallel for every code:
 
 Every candidate is then **verified** by actually fetching its
 stockanalysis.com page — a name mention alone is never enough to trust.
-Only an **EDGAR-sourced** candidate that verifies is auto-merged straight
-into `map_<S>.json` and `companies.json`, up to 5 per code — because the
-activity's own phrase was found verbatim inside that company's own 10-K
-filing, a structural match rather than a ranked guess. A verified candidate
-from any of the other three sources goes to `data/discovery_queue.json`
-for a human look on `site/review.html` instead, no matter how cleanly its
-ticker verifies, and so does any EDGAR candidate that doesn't verify or
-doesn't clear the score bar.
+**Nothing auto-merges, from any source**, including EDGAR — see the
+incident below for why. Every verified candidate goes to
+`data/discovery_queue.json` for a human look on `site/review.html`
+instead, whatever source found it and however cleanly its ticker
+verifies. The only way a company reaches `map_<S>.json` /
+`companies.json` now is through human review (applying an approved
+decision from `site/review.html`) or the manual add-a-company flow
+below — never automatically.
 
 Deliberately left out: a general-purpose web search API (Bing/Google/
 DuckDuckGo). Even Yahoo's and screener.in's own search are narrower than
@@ -166,6 +166,27 @@ the results, not just reading the code:
    trailing "Group Class Sub-Class Description" fragment left over from the
    source file's original layout (e.g. `` Manufacture of `gur `` ), which
    `clean_activity()` now strips before it reaches any search query.
+
+**Second incident** (2026-10-21, same day, after the EDGAR-only policy
+above had already been running cleanly for a while): a full run across
+every remaining section produced 5 more auto-merges, and hand-checking
+them found 4-5 wrong: Axcelis Technologies (semiconductor equipment)
+matched "Auditing services", Akebia Therapeutics (biopharma) matched
+"Packaging activities", Onity Group (mortgage servicing) matched
+"Households", Xenetic Biosciences (biotech) matched "Rainwater
+harvesting" — all boilerplate phrase coincidences (a risk factor, an
+ESG disclosure, a customer description) with nothing to do with the
+company's actual business, every one above `MIN_EDGAR_SCORE`. (Watts
+Water Technologies also matched "Rainwater harvesting" and is
+plausible — they do sell water-conservation products — but wasn't
+confidently verified either, so it was demoted too rather than assumed
+correct.) All 5 were reverted the same way as the first incident.
+**Conclusion: a full-text relevance score, however high the threshold,
+was never actually a business-relevance signal** — a 10-K is long
+enough that almost any phrase scores "relevant" somewhere in it,
+regardless of whether it describes what the company does. EDGAR's
+auto-merge eligibility has been removed entirely; every source is
+queue-only now (see above).
 
 Re-tested after all three fixes: Wikipedia resolves Tata Consultancy
 Services to NSE:TCS/BSE:532540 and Apple Inc. to NASDAQ:AAPL; EDGAR resolves

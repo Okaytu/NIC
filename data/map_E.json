@@ -109,10 +109,6 @@
   ],
   "432203": [
    "fix"
-  ],
-  "360002": [
-   "xeneticbiosciencesin",
-   "wattswatertechnologi"
   ]
  },
  "bnote": {
@@ -126,8 +122,7 @@
   "421004": "India's two listed railway construction PSUs.",
   "422003": "India's listed power-transmission EPC companies, plus Quanta Services (US).",
   "429001": "Engineers India designs refineries and process plants. Fluor is a large US engineering contractor.",
-  "432107": "No listed Indian rooftop-solar installer with clean data. Sunrun is the largest in the US.",
-  "360002": "Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+  "432107": "No listed Indian rooftop-solar installer with clean data. Sunrun is the largest in the US."
  },
  "flags": {
   "dlf": "Net profit is far above EBITDA, which points to large other income or one-off gains; net margin is not an operating figure.",

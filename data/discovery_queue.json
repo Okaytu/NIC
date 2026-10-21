@@ -2802,6 +2802,28 @@
     "source": "edgar",
     "tk": "WTS",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "Reverted: hand-checked and found to be a boilerplate EDGAR filing-text coincidence, not a real business match -- needs human relevance review before being trusted.",
+    "id": "xeneticbiosciencesin",
+    "name": "Xenetic Biosciences, Inc.",
+    "path": "stocks/xbio",
+    "source": "edgar",
+    "tk": "XBIO",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "Reverted: hand-checked and found to be a boilerplate EDGAR filing-text coincidence, not a real business match -- needs human relevance review before being trusted.",
+    "id": "wattswatertechnologi",
+    "name": "WATTS WATER TECHNOLOGIES INC",
+    "path": "stocks/wts",
+    "source": "edgar",
+    "tk": "WTS",
+    "verified": true
    }
   ],
   "section": "E"
@@ -6068,6 +6090,17 @@
     "source": "edgar",
     "tk": "ACLS",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "Reverted: hand-checked and found to be a boilerplate EDGAR filing-text coincidence, not a real business match -- needs human relevance review before being trusted.",
+    "id": "axcelistechnologiesi",
+    "name": "AXCELIS TECHNOLOGIES INC",
+    "path": "stocks/acls",
+    "source": "edgar",
+    "tk": "ACLS",
+    "verified": true
    }
   ],
   "section": "N"
@@ -6751,6 +6784,17 @@
    {
     "auto_added": true,
     "ctry": "USA",
+    "id": "akebiatherapeuticsin",
+    "name": "Akebia Therapeutics, Inc.",
+    "path": "stocks/akba",
+    "source": "edgar",
+    "tk": "AKBA",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "Reverted: hand-checked and found to be a boilerplate EDGAR filing-text coincidence, not a real business match -- needs human relevance review before being trusted.",
     "id": "akebiatherapeuticsin",
     "name": "Akebia Therapeutics, Inc.",
     "path": "stocks/akba",
@@ -8123,6 +8167,17 @@
     "source": "screener.in",
     "tk": "542145",
     "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "Reverted: hand-checked and found to be a boilerplate EDGAR filing-text coincidence, not a real business match -- needs human relevance review before being trusted.",
+    "id": "onitygroupinc",
+    "name": "ONITY GROUP INC.",
+    "path": "stocks/onit",
+    "source": "edgar",
+    "tk": "ONIT",
+    "verified": true
    }
   ],
   "section": "U"

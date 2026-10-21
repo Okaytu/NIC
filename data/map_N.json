@@ -51,9 +51,6 @@
   ],
   "750002": [
    "idxx"
-  ],
-  "692002": [
-   "axcelistechnologiesi"
   ]
  },
  "bnote": {
@@ -62,8 +59,7 @@
   "712099": "Vimta Labs is India's listed testing lab. SGS, Bureau Veritas, Intertek and Eurofins lead testing worldwide.",
   "721003": "Sai Life Sciences is an Indian contract research and manufacturing company. Syngene is left out because its parent Biocon is already counted.",
   "731003": "Affle is India's listed mobile-advertising company.",
-  "750002": "No listed vet-clinic chain found in India. IDEXX makes vet diagnostics and is the closest large listed company.",
-  "692002": "Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+  "750002": "No listed vet-clinic chain found in India. IDEXX makes vet diagnostics and is the closest large listed company."
  },
  "flags": {
   "iclr": "Profit is depressed by impairment charges, so the P/E is not meaningful.",

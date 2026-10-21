@@ -281,12 +281,6 @@
   "path": "quote/epa/AI",
   "tk": "AI"
  },
- "akebiatherapeuticsin": {
-  "ctry": "USA",
-  "n": "Akebia Therapeutics, Inc.",
-  "path": "stocks/akba",
-  "tk": "AKBA"
- },
  "akerbp": {
   "ctry": "Norway",
   "n": "Aker BP",
@@ -802,12 +796,6 @@
   "n": "AWL Agri Business (Adani Wilmar)",
   "path": "quote/nse/AWL",
   "tk": "AWL"
- },
- "axcelistechnologiesi": {
-  "ctry": "USA",
-  "n": "AXCELIS TECHNOLOGIES INC",
-  "path": "stocks/acls",
-  "tk": "ACLS"
  },
  "axisbank": {
   "ctry": "India",
@@ -6011,12 +5999,6 @@
   "path": "quote/nse/ONGC",
   "tk": "ONGC"
  },
- "onitygroupinc": {
-  "ctry": "USA",
-  "n": "ONITY GROUP INC.",
-  "path": "stocks/onit",
-  "tk": "ONIT"
- },
  "onon": {
   "ctry": "Switzerland",
   "n": "On Holding",
@@ -8819,12 +8801,6 @@
   "path": "quote/nse/WATERBASE",
   "tk": "WATERBASE"
  },
- "wattswatertechnologi": {
-  "ctry": "USA",
-  "n": "WATTS WATER TECHNOLOGIES INC",
-  "path": "stocks/wts",
-  "tk": "WTS"
- },
  "wcc": {
   "ctry": "USA",
   "n": "WESCO International",
@@ -9010,12 +8986,6 @@
   "n": "Weyerhaeuser",
   "path": "stocks/wy",
   "tk": "WY"
- },
- "xeneticbiosciencesin": {
-  "ctry": "USA",
-  "n": "Xenetic Biosciences, Inc.",
-  "path": "stocks/xbio",
-  "tk": "XBIO"
  },
  "xiaomi": {
   "ctry": "China",

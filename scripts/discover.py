@@ -20,19 +20,27 @@ activity they got attached to (Amazon for "growing of apples", BP for
 search, which readily surfaces a thematically-adjacent-sounding page
 that is not actually the right company.
 
-So only an EDGAR-sourced candidate -- the activity's own phrase found
-verbatim inside the company's own 10-K filing, a structural match
-rather than a ranked guess -- is eligible to auto-merge into
-data/map_<S>.json and data/companies.json once it verifies (financials
-come free from the same fetch). EVERY candidate from any OTHER source
-(Wikipedia, Yahoo Finance, screener.in) goes to
-data/discovery_queue.json for manual review instead, no matter how
-cleanly it verifies; so does any EDGAR candidate that doesn't verify.
-Yahoo and screener.in exist to widen the net of what gets FOUND and put
-in front of a human on the review page (site/review.html) -- not to
-widen what gets auto-trusted, since a ranked/fuzzy search is exactly
-the thing that produced 10 wrong auto-merges out of 17 before this
-project's precision bar was tightened.
+NOTHING auto-merges, from any source -- every verified candidate goes
+to data/discovery_queue.json for a human look on site/review.html,
+whatever source found it. EDGAR used to be the one exception: the
+activity's own phrase found verbatim inside the company's own 10-K
+felt like a structural signal rather than a ranked guess, so it was
+trusted to auto-merge (with a minimum relevance score added after a
+live incident -- "Manufacture of gur" matching Celanese Corporation at
+score ~2.5). That trust turned out to be wrong too: a later full-
+sections run produced MORE false positives past that raised threshold
+-- Axcelis Technologies (semiconductor equipment) matched "Auditing
+services", Akebia Therapeutics (biopharma) matched "Packaging
+activities", Onity Group (mortgage servicing) matched "Households",
+Xenetic Biosciences (biotech) matched "Rainwater harvesting". Every one
+of these really does contain that exact phrase somewhere in its 10-K
+(a risk factor, an ESG disclosure, a customer description, plain
+boilerplate) with a score above the threshold -- a document being long
+enough that almost any phrase scores "relevant" somewhere in it is not
+the same thing as that phrase describing the company's actual
+business. A full-text relevance score, however high, was never
+actually a business-relevance signal. Nothing has beaten a human
+glance at the review page yet, so nothing skips it anymore.
 
 Deliberately NOT included: a general-purpose web search API (Bing/
 Google/DuckDuckGo). Even Yahoo's and screener.in's own search are
@@ -503,28 +511,32 @@ def main():
                 continue
             data, err = verify(session, cand)
             time.sleep(1.0)
-            # Only an EDGAR match is eligible to auto-merge -- see the
-            # module docstring for why: a live run found Wikipedia's
-            # ranked search surfacing real-but-wrong companies (Amazon
-            # for "growing of apples", BP for fish/marine oils, ...) even
-            # though every one of them verified cleanly on stockanalysis.com.
-            # Ticker verification alone was never a relevance check.
-            if data and cand["source"] == "edgar":
-                log(f"  VERIFIED {cand['name']} ({cand['tk']}, {cand['source']}) -> auto-add")
-                companies[cid] = {"n": cand["name"], "tk": cand["tk"], "ctry": cand["ctry"], "path": cand["path"]}
-                financials[cid] = dict(data, fetched_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                                        error=None, sources=[cand["source"] + "+stockanalysis"])
-                used_ids.add(cid)
-                used_names.add(cand["name"].lower())
-                verified_ids.append(cid)
-                entry["candidates"].append({**cand, "id": cid, "verified": True, "auto_added": True})
-                added_total += 1
-            elif data:
-                # Ticker verified fine, but it's a ranked/fuzzy-search
-                # match (wikipedia, yahoo, screener.in) and that alone
-                # isn't trusted to be relevant -- queue for a human look.
+            # NOTHING auto-merges, from any source -- not even EDGAR.
+            # EDGAR's full-text-match-plus-score-threshold was trusted for
+            # auto-merge earlier in this project (the activity phrase found
+            # verbatim in the company's own 10-K felt like a structural
+            # signal, not a ranked guess). Two separate live incidents
+            # proved that wrong: "Manufacture of gur" matched Celanese
+            # Corporation (score ~2.5, fixed by raising MIN_EDGAR_SCORE to
+            # 5.0), and a later full-sections run STILL produced false
+            # positives past that raised threshold -- Axcelis Technologies
+            # (semiconductor equipment) matched "Auditing services", Akebia
+            # Therapeutics (biopharma) matched "Packaging activities",
+            # Onity Group (mortgage servicing) matched "Households", and
+            # Xenetic Biosciences (biotech) matched "Rainwater harvesting".
+            # Every one of these is a real company whose 10-K genuinely
+            # contains that exact phrase somewhere -- in a risk factor, an
+            # ESG disclosure, a customer description, boilerplate -- with a
+            # score above the threshold, but with zero connection to the
+            # company's actual business. A document-relevance score is not
+            # a business-relevance signal; a 10-K is long enough that
+            # almost any phrase scores "relevant" somewhere in it. So
+            # every source, EDGAR included, is queue-only now -- a human
+            # look is the only thing that's actually caught every false
+            # positive found in this project so far.
+            if data:
                 log(f"  verified-but-queued {cand['name']} ({cand['tk']}, {cand['source']}): "
-                    f"{cand['source']} source needs a human relevance check")
+                    f"ticker verified, needs a human relevance check before it can be trusted")
                 entry["candidates"].append({**cand, "id": cid, "verified": True, "auto_added": False,
                                              "error": f"{cand['source']} source: ticker verified, needs human relevance check"})
                 queued_total += 1

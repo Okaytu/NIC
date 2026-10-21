@@ -751,23 +751,6 @@
   "roce": 11.88,
   "roe": 13.97
  },
- "akebiatherapeuticsin": {
-  "cur": "USD",
-  "ebitda": -0.0043,
-  "ebm": -1.96,
-  "error": null,
-  "fetched_at": "2026-10-21T12:27:46+00:00",
-  "mc": 0.17128000000000002,
-  "netcash": -0.04364,
-  "ni": -0.029670000000000002,
-  "npm": -13.54,
-  "rev": 0.21906,
-  "roce": -3.1,
-  "roe": -109.38,
-  "sources": [
-   "edgar+stockanalysis"
-  ]
- },
  "akerbp": {
   "cur": "NOK",
   "ebitda": 100.88,
@@ -2144,25 +2127,6 @@
   "rev": 777.2,
   "roce": 17.08,
   "roe": null
- },
- "axcelistechnologiesi": {
-  "cur": "USD",
-  "ebitda": 0.09939,
-  "ebm": 11.48,
-  "error": null,
-  "ev": 31.75,
-  "fetched_at": "2026-10-21T12:22:50+00:00",
-  "mc": 3.49,
-  "netcash": 0.33241000000000004,
-  "ni": 0.09279000000000001,
-  "npm": 10.71,
-  "pe": 37.86,
-  "rev": 0.8660700000000001,
-  "roce": 7.54,
-  "roe": 8.89,
-  "sources": [
-   "edgar+stockanalysis"
-  ]
  },
  "axisbank": {
   "cur": "INR",
@@ -16031,25 +15995,6 @@
   "roce": 7.61,
   "roe": null
  },
- "onitygroupinc": {
-  "cur": "USD",
-  "ebitda": 0.6193,
-  "ebm": 53.97,
-  "error": null,
-  "ev": 17.5,
-  "fetched_at": "2026-10-21T12:40:40+00:00",
-  "mc": 0.21588,
-  "netcash": -10.62,
-  "ni": 0.1375,
-  "npm": 12.35,
-  "pe": 1.62,
-  "rev": 1.15,
-  "roce": 5.6,
-  "roe": 23.78,
-  "sources": [
-   "edgar+stockanalysis"
-  ]
- },
  "onon": {
   "cur": "USD",
   "ebitda": 0.60693,
@@ -23524,25 +23469,6 @@
   "roce": -5.59,
   "roe": null
  },
- "wattswatertechnologi": {
-  "cur": "USD",
-  "ebitda": 0.581,
-  "ebm": 21.7,
-  "error": null,
-  "ev": 20.34,
-  "fetched_at": "2026-10-21T08:17:47+00:00",
-  "mc": 11.95,
-  "netcash": 0.1361,
-  "ni": 0.38380000000000003,
-  "npm": 14.34,
-  "pe": 31.28,
-  "rev": 2.68,
-  "roce": 21.36,
-  "roe": 18.81,
-  "sources": [
-   "edgar+stockanalysis"
-  ]
- },
  "wcc": {
   "cur": "USD",
   "ebitda": 1.59,
@@ -24038,21 +23964,6 @@
   "rev": 6.85,
   "roce": 1.14,
   "roe": 4.97
- },
- "xeneticbiosciencesin": {
-  "cur": "USD",
-  "error": null,
-  "fetched_at": "2026-10-21T08:17:45+00:00",
-  "mc": 0.004690000000000001,
-  "netcash": 0.00647,
-  "ni": -0.00248,
-  "npm": -75.91,
-  "rev": 0.00326,
-  "roce": -43.5,
-  "roe": -47.04,
-  "sources": [
-   "edgar+stockanalysis"
-  ]
  },
  "xiaomi": {
   "cur": "HKD",
