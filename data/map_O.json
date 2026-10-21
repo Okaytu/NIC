@@ -1,80 +1,84 @@
 {
-"name": "Rental and business support",
-"range": "77–82",
-"biz": {
-"771001": [
-"car",
-"htz"
-],
-"773003": [
-"sanghvimov",
-"uri",
-"ashtead"
-],
-"773007": [
-"aer"
-],
-"782000": [
-"teamlease",
-"quess",
-"randstad",
-"adecco"
-],
-"791100": [
-"yatra",
-"mmyt",
-"bkng",
-"expe",
-"tcom"
-],
-"801102": [
-"sis",
-"securitas"
-],
-"801901": [
-"adt"
-],
-"811099": [
-"uds",
-"iss",
-"abm"
-],
-"822000": [
-"fsl",
-"eclerx",
-"tep",
-"cnxc"
-],
-"823000": [
-"informa"
-],
-"824001": [
-"lyv"
-],
-"829102": [
-"expn",
-"efx",
-"tru"
-]
-},
-"bnote": {
-"771001": "No listed self-drive car rental company in India. Avis and Hertz are the largest in the US.",
-"773003": "Sanghvi Movers rents cranes in India. United Rentals and Ashtead are the world's largest equipment renters.",
-"782000": "India's two listed staffing companies, plus Randstad and Adecco. Thin margins are normal for staffing.",
-"791100": "Yatra is listed in India. MakeMyTrip is Indian but listed on Nasdaq. Thomas Cook, EaseMyTrip and ixigo appear under Section I.",
-"801102": "SIS is India's largest listed security-services company.",
-"822000": "Firstsource and eClerx are India's listed business-process companies.",
-"829102": "India's credit bureaus (CIBIL and others) are not listed. Experian, Equifax and TransUnion are the three global bureaus."
-},
-"flags": {
-"mmyt": "MakeMyTrip's profit is small after one-off items, so its P/E looks very high.",
-"cnxc": "Concentrix booked a large goodwill write-down, so net profit is negative.",
-"htz": "Hertz is loss-making after fleet write-downs."
-},
-"notes": [
-[
-"Section O: rental and support services",
-"Staffing, travel booking, security guarding and outsourcing have listed Indian companies. Car and equipment rental, leasing and credit bureaus rely on companies abroad."
-]
-]
+ "name": "Rental and business support",
+ "range": "77–82",
+ "biz": {
+  "771001": [
+   "car",
+   "htz"
+  ],
+  "773003": [
+   "sanghvimov",
+   "uri",
+   "ashtead"
+  ],
+  "773007": [
+   "aer"
+  ],
+  "782000": [
+   "teamlease",
+   "quess",
+   "randstad",
+   "adecco"
+  ],
+  "791100": [
+   "yatra",
+   "mmyt",
+   "bkng",
+   "expe",
+   "tcom"
+  ],
+  "801102": [
+   "sis",
+   "securitas"
+  ],
+  "801901": [
+   "adt"
+  ],
+  "811099": [
+   "uds",
+   "iss",
+   "abm"
+  ],
+  "822000": [
+   "fsl",
+   "eclerx",
+   "tep",
+   "cnxc"
+  ],
+  "823000": [
+   "informa"
+  ],
+  "824001": [
+   "lyv"
+  ],
+  "829102": [
+   "expn",
+   "efx",
+   "tru"
+  ],
+  "829200": [
+   "akebiatherapeuticsin"
+  ]
+ },
+ "bnote": {
+  "771001": "No listed self-drive car rental company in India. Avis and Hertz are the largest in the US.",
+  "773003": "Sanghvi Movers rents cranes in India. United Rentals and Ashtead are the world's largest equipment renters.",
+  "782000": "India's two listed staffing companies, plus Randstad and Adecco. Thin margins are normal for staffing.",
+  "791100": "Yatra is listed in India. MakeMyTrip is Indian but listed on Nasdaq. Thomas Cook, EaseMyTrip and ixigo appear under Section I.",
+  "801102": "SIS is India's largest listed security-services company.",
+  "822000": "Firstsource and eClerx are India's listed business-process companies.",
+  "829102": "India's credit bureaus (CIBIL and others) are not listed. Experian, Equifax and TransUnion are the three global bureaus.",
+  "829200": "Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+ },
+ "flags": {
+  "mmyt": "MakeMyTrip's profit is small after one-off items, so its P/E looks very high.",
+  "cnxc": "Concentrix booked a large goodwill write-down, so net profit is negative.",
+  "htz": "Hertz is loss-making after fleet write-downs."
+ },
+ "notes": [
+  [
+   "Section O: rental and support services",
+   "Staffing, travel booking, security guarding and outsourcing have listed Indian companies. Car and equipment rental, leasing and credit bureaus rely on companies abroad."
+  ]
+ ]
 }

@@ -6338,5 +6338,325 @@
   "activity": "Other veterinary activities n.e.c.",
   "candidates": [],
   "section": "N"
+ },
+ "771002": {
+  "activity": "Renting and leasing of two wheelers such as motorcycles and scooters (without drivers), excluding bicycles",
+  "candidates": [],
+  "section": "O"
+ },
+ "771003": {
+  "activity": "Renting and leasing of auto-rickshaws and e-rickshaws (without drivers)",
+  "candidates": [],
+  "section": "O"
+ },
+ "771099": {
+  "activity": "Renting and leasing of other motor vehicles without driver n.e.c.",
+  "candidates": [],
+  "section": "O"
+ },
+ "772101": {
+  "activity": "Renting and leasing of bicycles, including electric bicycles",
+  "candidates": [],
+  "section": "O"
+ },
+ "772102": {
+  "activity": "Renting and leasing of sailboats, yachts and similar recreational and sports equipment (Without Operator)",
+  "candidates": [],
+  "section": "O"
+ },
+ "772103": {
+  "activity": "Renting and leasing of camping gear including tents and other adventure sports equipment",
+  "candidates": [],
+  "section": "O"
+ },
+ "772199": {
+  "activity": "Renting and leasing of other recreational and sports goods n.e.c. such as beach chairs, beach umbrellas and similar goods",
+  "candidates": [],
+  "section": "O"
+ },
+ "772901": {
+  "activity": "Renting and leasing of furniture (excluding office furniture) and electrical appliances for household use such as Refrigerator, ACs, Geyser and similar appliances",
+  "candidates": [],
+  "section": "O"
+ },
+ "772902": {
+  "activity": "Rental and leasing of goods and equipment for events such as lighting equipment, tents, karaoke machines, fans, speakers and similar goods, excluding for household use",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "fansuniteentertainme",
+    "name": "FansUnite Entertainment Inc.",
+    "path": "stocks/FUNFF",
+    "source": "yahoo",
+    "tk": "FUNFF",
+    "verified": false
+   }
+  ],
+  "section": "O"
+ },
+ "772903": {
+  "activity": "Renting and leasing of jewellery, textile goods, wearing apparels and footwear (except for sports and recreational use)",
+  "candidates": [],
+  "section": "O"
+ },
+ "772999": {
+  "activity": "Rental and leasing of other personal and household goods n.e.c.",
+  "candidates": [],
+  "section": "O"
+ },
+ "773001": {
+  "activity": "Renting and operational leasing of power generation machinery/equipment such as engines, turbines, generators and similar equipment without operator",
+  "candidates": [],
+  "section": "O"
+ },
+ "773002": {
+  "activity": "Renting and operational leasing of mining, forestry and agricultural machinery and equipment such as tractors and similar machinery without operator",
+  "candidates": [],
+  "section": "O"
+ },
+ "773004": {
+  "activity": "Renting and operational leasing of office machinery, furniture and equipment without operator including computers and computer peripheral equipment",
+  "candidates": [],
+  "section": "O"
+ },
+ "773005": {
+  "activity": "Renting and operational leasing of land-transport equipment (Excluding motor vehicles and motorcycles) such as railroad vehicles, without drivers",
+  "candidates": [],
+  "section": "O"
+ },
+ "773006": {
+  "activity": "Renting and operational leasing of water-transport equipment such as commercial boats and ships without operator excluding those for sports and recreational purposes",
+  "candidates": [],
+  "section": "O"
+ },
+ "773099": {
+  "activity": "Rental and leasing of other machinery, equipment and tangible goods n.e.c. including Renting and operational leasing of Spacecraft Services and Operations",
+  "candidates": [],
+  "section": "O"
+ },
+ "774000": {
+  "activity": "Leasing of non-financial intangible assets",
+  "candidates": [],
+  "section": "O"
+ },
+ "775100": {
+  "activity": "Intermediation service activities for rental and leasing of cars, motorhomes and trailers",
+  "candidates": [],
+  "section": "O"
+ },
+ "775200": {
+  "activity": "Intermediation service activities for rental and leasing of other tangible goods and non-financial intangible assets other than cars, motorhomes and trailers",
+  "candidates": [],
+  "section": "O"
+ },
+ "781000": {
+  "activity": "Activities of employment placement agencies where the agency is not the employer",
+  "candidates": [],
+  "section": "O"
+ },
+ "791200": {
+  "activity": "Tour operator activities",
+  "candidates": [],
+  "section": "O"
+ },
+ "799000": {
+  "activity": "Other travel related activities such as reservation service and related activities, provision of travel information to visitors, activities of independent tourist guides, tourism promotion activities",
+  "candidates": [],
+  "section": "O"
+ },
+ "801101": {
+  "activity": "Investigation services in the private, commercial, insurance and legal field",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "progressivecorporati",
+    "name": "Progressive Corporation",
+    "path": "stocks/pgr",
+    "source": "wikipedia",
+    "tk": "PGR",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thetravelerscompanie",
+    "name": "The Travelers Companies",
+    "path": "stocks/trv",
+    "source": "wikipedia",
+    "tk": "TRV",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "allstate",
+    "name": "Allstate",
+    "path": "stocks/all",
+    "source": "wikipedia",
+    "tk": "ALL",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "gladstonecommercialc",
+    "name": "Gladstone Commercial Corporation",
+    "path": "stocks/GOOD",
+    "source": "yahoo",
+    "tk": "GOOD",
+    "verified": true
+   }
+  ],
+  "section": "O"
+ },
+ "801199": {
+  "activity": "Other private security services n.e.c. such as celebrity protection, VIP protection and similar services",
+  "candidates": [],
+  "section": "O"
+ },
+ "801999": {
+  "activity": "Other security activities n.e.c.",
+  "candidates": [],
+  "section": "O"
+ },
+ "811001": {
+  "activity": "Combined facilities support activities in industrial parks",
+  "candidates": [],
+  "section": "O"
+ },
+ "812100": {
+  "activity": "General cleaning of all types of buildings",
+  "candidates": [],
+  "section": "O"
+ },
+ "812901": {
+  "activity": "Cleaning of trains, buses, aeroplanes etc.",
+  "candidates": [],
+  "section": "O"
+ },
+ "812902": {
+  "activity": "Cleaning of industrial machinery",
+  "candidates": [],
+  "section": "O"
+ },
+ "812999": {
+  "activity": "Other cleaning activities n.e.c. such as swimming pool cleaning and maintenance, exterior cleaning of buildings of all types, specialised cleaning for buildings (windows, chimneys, exhausts, etc.), disinfecting activities, street sweeping and snow and ice removal, steam cleaning, sand blasting and similar activities for building exteriors",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "spaceexplorationtech",
+    "name": "Space Exploration Technologies Corp.",
+    "path": "stocks/SPCX",
+    "source": "yahoo",
+    "tk": "SPCX",
+    "verified": true
+   }
+  ],
+  "section": "O"
+ },
+ "813000": {
+  "activity": "Landscape care and maintenance service activities",
+  "candidates": [],
+  "section": "O"
+ },
+ "821000": {
+  "activity": "Office administrative and support service activities such as letter or resume writing, document preparation, transcription, photocopying and similar activities including services of e-Seva Kendras",
+  "candidates": [],
+  "section": "O"
+ },
+ "824099": {
+  "activity": "Other Intermediation service activities for business support activities n.e.c., except financial intermediation",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "quote/tyo/6758",
+    "source": "wikipedia",
+    "tk": "6758",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sony2",
+    "name": "Sony",
+    "path": "stocks/sony",
+    "source": "wikipedia",
+    "tk": "SONY",
+    "verified": true
+   }
+  ],
+  "section": "O"
+ },
+ "829101": {
+  "activity": "Activities of collection agencies",
+  "candidates": [],
+  "section": "O"
+ },
+ "829200": {
+  "activity": "Packaging activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "transcontinentalcomp",
+    "name": "Transcontinental (company)",
+    "path": "quote/tsx/TCL.A",
+    "source": "wikipedia",
+    "tk": "TCL.A",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "transcontinentalcomp",
+    "name": "Transcontinental (company)",
+    "path": "quote/tsx/TCL.B",
+    "source": "wikipedia",
+    "tk": "TCL.B",
+    "verified": true
+   },
+   {
+    "auto_added": true,
+    "ctry": "USA",
+    "id": "akebiatherapeuticsin",
+    "name": "Akebia Therapeutics, Inc.",
+    "path": "stocks/akba",
+    "source": "edgar",
+    "tk": "AKBA",
+    "verified": true
+   }
+  ],
+  "section": "O"
+ },
+ "829901": {
+  "activity": "Donation based crowd funding activities/services other than for social work",
+  "candidates": [],
+  "section": "O"
+ },
+ "829902": {
+  "activity": "Bar coding and bar code imprinting services",
+  "candidates": [],
+  "section": "O"
+ },
+ "829999": {
+  "activity": "Other business support activities, n.e.c. such as court reporting or stenotype recording services, repossession services, activities of handling visa and work permit, trading and brokerage of crypto without a corresponding liability.",
+  "candidates": [],
+  "section": "O"
  }
 }

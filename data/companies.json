@@ -281,6 +281,12 @@
   "path": "quote/epa/AI",
   "tk": "AI"
  },
+ "akebiatherapeuticsin": {
+  "ctry": "USA",
+  "n": "Akebia Therapeutics, Inc.",
+  "path": "stocks/akba",
+  "tk": "AKBA"
+ },
  "akerbp": {
   "ctry": "Norway",
   "n": "Aker BP",

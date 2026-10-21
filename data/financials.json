@@ -751,6 +751,23 @@
   "roce": 11.88,
   "roe": 13.97
  },
+ "akebiatherapeuticsin": {
+  "cur": "USD",
+  "ebitda": -0.0043,
+  "ebm": -1.96,
+  "error": null,
+  "fetched_at": "2026-10-21T12:27:46+00:00",
+  "mc": 0.17128000000000002,
+  "netcash": -0.04364,
+  "ni": -0.029670000000000002,
+  "npm": -13.54,
+  "rev": 0.21906,
+  "roce": -3.1,
+  "roe": -109.38,
+  "sources": [
+   "edgar+stockanalysis"
+  ]
+ },
  "akerbp": {
   "cur": "NOK",
   "ebitda": 100.88,
