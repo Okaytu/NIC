@@ -8801,6 +8801,12 @@
   "path": "quote/nse/WATERBASE",
   "tk": "WATERBASE"
  },
+ "wattswatertechnologi": {
+  "ctry": "USA",
+  "n": "WATTS WATER TECHNOLOGIES INC",
+  "path": "stocks/wts",
+  "tk": "WTS"
+ },
  "wcc": {
   "ctry": "USA",
   "n": "WESCO International",
@@ -8986,6 +8992,12 @@
   "n": "Weyerhaeuser",
   "path": "stocks/wy",
   "tk": "WY"
+ },
+ "xeneticbiosciencesin": {
+  "ctry": "USA",
+  "n": "Xenetic Biosciences, Inc.",
+  "path": "stocks/xbio",
+  "tk": "XBIO"
  },
  "xiaomi": {
   "ctry": "China",

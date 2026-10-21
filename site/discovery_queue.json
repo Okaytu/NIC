@@ -2668,6 +2668,600 @@
   "candidates": [],
   "section": "D"
  },
+ "360001": {
+  "activity": "Abstraction of water from rivers, lakes, ponds ground water and other sources",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "lakesideholdinglimit",
+    "name": "Lakeside Holding Limited",
+    "path": "stocks/QNME",
+    "source": "yahoo",
+    "tk": "QNME",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "360002": {
+  "activity": "Rainwater harvesting",
+  "candidates": [
+   {
+    "auto_added": true,
+    "ctry": "USA",
+    "id": "xeneticbiosciencesin",
+    "name": "Xenetic Biosciences, Inc.",
+    "path": "stocks/xbio",
+    "source": "edgar",
+    "tk": "XBIO",
+    "verified": true
+   },
+   {
+    "auto_added": true,
+    "ctry": "USA",
+    "id": "wattswatertechnologi",
+    "name": "WATTS WATER TECHNOLOGIES INC",
+    "path": "stocks/wts",
+    "source": "edgar",
+    "tk": "WTS",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "360006": {
+  "activity": "Distribution of water by trucks/containers/tankers",
+  "candidates": [],
+  "section": "E"
+ },
+ "360007": {
+  "activity": "Distribution of water by rail or ships",
+  "candidates": [],
+  "section": "E"
+ },
+ "360008": {
+  "activity": "Operation of irrigation canals",
+  "candidates": [],
+  "section": "E"
+ },
+ "360009": {
+  "activity": "Rental and leasing of water distribution network",
+  "candidates": [],
+  "section": "E"
+ },
+ "360099": {
+  "activity": "Water collection, treatment and supply n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "France",
+    "error": "HTTP 404",
+    "id": "watersupplyandsanita",
+    "name": "Water supply and sanitation in the United States",
+    "path": "quote/epa/WATER",
+    "source": "wikipedia",
+    "tk": "WATER",
+    "verified": false
+   }
+  ],
+  "section": "E"
+ },
+ "370001": {
+  "activity": "Operation and maintenance of sewer and drains",
+  "candidates": [],
+  "section": "E"
+ },
+ "370002": {
+  "activity": "Operation and maintenance of other sewer systems (including sewer rodding, emptying and cleaning of cesspools, septic tanks, sinks, and pits from sewage, servicing of chemical toilets)",
+  "candidates": [],
+  "section": "E"
+ },
+ "370003": {
+  "activity": "Collecting and transporting of sewage water",
+  "candidates": [],
+  "section": "E"
+ },
+ "370099": {
+  "activity": "Other operation of sewer systems or sewage treatment facilities n.e.c.",
+  "candidates": [],
+  "section": "E"
+ },
+ "381103": {
+  "activity": "Collection of construction and demolition waste",
+  "candidates": [],
+  "section": "E"
+ },
+ "381199": {
+  "activity": "Collection of other non-hazardous waste n.e.c.",
+  "candidates": [],
+  "section": "E"
+ },
+ "381201": {
+  "activity": "Collection of all medical waste including bio-hazardous waste and expired pharmaceuticals",
+  "candidates": [],
+  "section": "E"
+ },
+ "381202": {
+  "activity": "Collection of E-waste",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "wastemanagementinc",
+    "name": "Waste Management, Inc.",
+    "path": "stocks/wm",
+    "source": "wikipedia",
+    "tk": "WM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "wasteconnectionsofca",
+    "name": "Waste Connections of Canada",
+    "path": "stocks/tsx",
+    "source": "wikipedia",
+    "tk": "TSX",
+    "verified": false
+   }
+  ],
+  "section": "E"
+ },
+ "381299": {
+  "activity": "Collection of other hazardous waste n.e.c.",
+  "candidates": [],
+  "section": "E"
+ },
+ "382101": {
+  "activity": "Treatment and disposal of organic non-hazardous waste",
+  "candidates": [],
+  "section": "E"
+ },
+ "382201": {
+  "activity": "Treatment and disposal of toxic live or dead animals and other contaminated waste",
+  "candidates": [],
+  "section": "E"
+ },
+ "382202": {
+  "activity": "Treatment and disposal of E-Waste",
+  "candidates": [],
+  "section": "E"
+ },
+ "382203": {
+  "activity": "Treatment, disposal and storage of radioactive nuclear waste",
+  "candidates": [],
+  "section": "E"
+ },
+ "382204": {
+  "activity": "Treatment and disposal of medical waste",
+  "candidates": [],
+  "section": "E"
+ },
+ "383002": {
+  "activity": "Dismantling of automobiles (except end-of-life vehicles) for materials recovery",
+  "candidates": [],
+  "section": "E"
+ },
+ "383003": {
+  "activity": "Ship-breaking and recovery of metal components from ships.",
+  "candidates": [],
+  "section": "E"
+ },
+ "383004": {
+  "activity": "Recovery and processing of electronic items",
+  "candidates": [],
+  "section": "E"
+ },
+ "383006": {
+  "activity": "Crushing, cleaning, and sorting of glass waste to obtain secondary raw materials (e.g., glass cullet for manufacturing).",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "shanghaiemperorofcle",
+    "name": "Shanghai Emperor of Cleaning Hi-Tech Co., Ltd",
+    "path": "quote/sse/603200",
+    "source": "yahoo",
+    "tk": "603200",
+    "verified": false
+   }
+  ],
+  "section": "E"
+ },
+ "383099": {
+  "activity": "Materials and other waste recovery n.e.c.",
+  "candidates": [],
+  "section": "E"
+ },
+ "390001": {
+  "activity": "Soil & Groundwater Remediation activities",
+  "candidates": [],
+  "section": "E"
+ },
+ "390002": {
+  "activity": "Surface water and coastal cleaning services",
+  "candidates": [],
+  "section": "E"
+ },
+ "390003": {
+  "activity": "Industrial & Nuclear Decontamination activities",
+  "candidates": [],
+  "section": "E"
+ },
+ "390004": {
+  "activity": "Other specialized pollution-control activities excluding carbon capture and storage",
+  "candidates": [],
+  "section": "E"
+ },
+ "390005": {
+  "activity": "CO2 remediation and Carbon Capture and Utilization (CCU) services including Blue carbon restoration and ocean-based carbon sequestration services",
+  "candidates": [],
+  "section": "E"
+ },
+ "390006": {
+  "activity": "Mining site remediation",
+  "candidates": [],
+  "section": "E"
+ },
+ "390099": {
+  "activity": "Remediation and other waste management service activities n.e.c. SECTION F : Construction",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "pacificgasandelectri",
+    "name": "Pacific Gas and Electric Company",
+    "path": "stocks/pcg",
+    "source": "wikipedia",
+    "tk": "PCG",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "410003": {
+  "activity": "Activities relating to alteration, addition, repair, maintenance carried out on own account basis",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Australia",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "tissuerepairltd",
+    "name": "Tissue Repair Ltd",
+    "path": "quote/asx/TRP",
+    "source": "yahoo",
+    "tk": "TRP",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "410004": {
+  "activity": "Activities relating to alteration, addition, repair, maintenance carried out on a fee or contract basis",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Australia",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "tissuerepairltd",
+    "name": "Tissue Repair Ltd",
+    "path": "quote/asx/TRP",
+    "source": "yahoo",
+    "tk": "TRP",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "410005": {
+  "activity": "Assembly and erection of prefabricated constructions on the site",
+  "candidates": [],
+  "section": "E"
+ },
+ "421003": {
+  "activity": "Construction and maintenance of airfield runways",
+  "candidates": [],
+  "section": "E"
+ },
+ "422001": {
+  "activity": "Construction of thermal and nuclear power plants",
+  "candidates": [],
+  "section": "E"
+ },
+ "422002": {
+  "activity": "Construction of hydropower plants and Pumped Storage Projects",
+  "candidates": [],
+  "section": "E"
+ },
+ "422004": {
+  "activity": "Construction, erection, and maintenance of telecommunication infrastructure such as mobile tower",
+  "candidates": [],
+  "section": "E"
+ },
+ "422005": {
+  "activity": "Construction of long-distance pipelines or urban pipelines",
+  "candidates": [],
+  "section": "E"
+ },
+ "422007": {
+  "activity": "Construction and repair of sewer systems including sewage disposal plants and pumping stations",
+  "candidates": [],
+  "section": "E"
+ },
+ "422009": {
+  "activity": "Construction of wind energy plants",
+  "candidates": [],
+  "section": "E"
+ },
+ "422099": {
+  "activity": "Other Construction of utility projects n.e.c. including systems test and Integration Facility for spacecrafts, launch vehicles and orbital stations",
+  "candidates": [],
+  "section": "E"
+ },
+ "429003": {
+  "activity": "Construction of dams and dykes and hydromechanical structures (e.g., locks, lifts, sluices, slipways)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Australia",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "locksleyresourceslim",
+    "name": "Locksley Resources Limited",
+    "path": "quote/asx/LKY",
+    "source": "yahoo",
+    "tk": "LKY",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "429004": {
+  "activity": "Construction of outdoor sports facilities, playgrounds, amusement parks and theme parks",
+  "candidates": [],
+  "section": "E"
+ },
+ "429005": {
+  "activity": "Construction of grain storage systems",
+  "candidates": [],
+  "section": "E"
+ },
+ "429006": {
+  "activity": "Construction of mining facilities (e.g., shafts, towers, tunnels)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "willistowerswatsonpu",
+    "name": "Willis Towers Watson Public Limited Company",
+    "path": "stocks/WTW",
+    "source": "yahoo",
+    "tk": "WTW",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "431100": {
+  "activity": "Demolition, dismantling or wrecking of buildings and other structures",
+  "candidates": [],
+  "section": "E"
+ },
+ "431201": {
+  "activity": "Site preparation for mining including overburden removal and other development and preparation of mineral properties and sites",
+  "candidates": [],
+  "section": "E"
+ },
+ "431202": {
+  "activity": "Site preparation including drilling, boring and core sampling for construction, geophysical, geological or similar purposes",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "dawsongeophysicalcom",
+    "name": "Dawson Geophysical Company",
+    "path": "stocks/DWSN",
+    "source": "yahoo",
+    "tk": "DWSN",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "431203": {
+  "activity": "Clearing of building sites, earth moving: excavation, landfill, levelling and grading of construction sites, trench digging, rock removal, blasting etc.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "rankonecomputingcorp",
+    "name": "Rank One Computing Corporation",
+    "path": "stocks/ROC",
+    "source": "yahoo",
+    "tk": "ROC",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "431204": {
+  "activity": "Drainage of agricultural or forestry land",
+  "candidates": [],
+  "section": "E"
+ },
+ "431299": {
+  "activity": "Other site preparation n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "rumblecompany",
+    "name": "Rumble (company)",
+    "path": "stocks/rum",
+    "source": "wikipedia",
+    "tk": "RUM",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "432101": {
+  "activity": "Installation, repair and maintenance of electrical wiring and fittings",
+  "candidates": [],
+  "section": "E"
+ },
+ "432102": {
+  "activity": "Installation, repair and maintenance of telecommunications wiring including computer network and cable television wiring, including fiber optic",
+  "candidates": [],
+  "section": "E"
+ },
+ "432103": {
+  "activity": "Installation, repair and maintenance of radar infrastructure",
+  "candidates": [],
+  "section": "E"
+ },
+ "432104": {
+  "activity": "Installation, repair and maintenance of lighting systems (including street lighting and airport runway lighting)",
+  "candidates": [],
+  "section": "E"
+ },
+ "432105": {
+  "activity": "Installation, repair and maintenance of fire alarm system and burglar alarm system",
+  "candidates": [],
+  "section": "E"
+ },
+ "432106": {
+  "activity": "Installation, repair and maintenance of power storage systems and electric charging stations for electric vehicles",
+  "candidates": [],
+  "section": "E"
+ },
+ "432201": {
+  "activity": "Installation, repair and maintenance of plumbing for water, gas, and sanitation equipment (excluding hospitals gas fittings)",
+  "candidates": [],
+  "section": "E"
+ },
+ "432202": {
+  "activity": "Installation, repair and maintenance of gas fittings and medical gas distribution systems in hospitals",
+  "candidates": [],
+  "section": "E"
+ },
+ "432204": {
+  "activity": "Installation, repair and maintenance of all sprinkler systems including lawn and fire systems",
+  "candidates": [],
+  "section": "E"
+ },
+ "432299": {
+  "activity": "Other plumbing, heating, and air-conditioning installation, repair and maintenance activities n.e.c.",
+  "candidates": [],
+  "section": "E"
+ },
+ "432901": {
+  "activity": "Installation, repair and maintenance of elevators, escalators",
+  "candidates": [],
+  "section": "E"
+ },
+ "432902": {
+  "activity": "Installation, repair and maintenance of thermal, sound or vibration insulation",
+  "candidates": [],
+  "section": "E"
+ },
+ "432903": {
+  "activity": "Installation, repair and maintenance of automated and revolving doors",
+  "candidates": [],
+  "section": "E"
+ },
+ "432999": {
+  "activity": "Other construction installation, repair and maintenance activities n.e.c.",
+  "candidates": [],
+  "section": "E"
+ },
+ "433001": {
+  "activity": "Installation of doors, windows, door and window frames, fitted kitchens, of wood or other materials",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "harbinsayyaswindowsc",
+    "name": "Harbin Sayyas Windows Co., Ltd.",
+    "path": "quote/sze/301227",
+    "source": "yahoo",
+    "tk": "301227",
+    "verified": false
+   }
+  ],
+  "section": "E"
+ },
+ "433002": {
+  "activity": "Interior finishing including ceiling, flooring, tiling, partition, wall covering and similar activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "armstrongflooringinc",
+    "name": "Armstrong Flooring, Inc.",
+    "path": "stocks/AFIIQ",
+    "source": "yahoo",
+    "tk": "AFIIQ",
+    "verified": true
+   }
+  ],
+  "section": "E"
+ },
+ "433003": {
+  "activity": "Interior and exterior painting, glazing, plastering and decorating of buildings or civil engineering structures",
+  "candidates": [],
+  "section": "E"
+ },
+ "433099": {
+  "activity": "Other building completion and finishing activities n.e.c.",
+  "candidates": [],
+  "section": "E"
+ },
+ "434000": {
+  "activity": "Intermediation of specialised construction services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "cnooclimited",
+    "name": "CNOOC Limited",
+    "path": "quote/hkg/883",
+    "source": "wikipedia",
+    "tk": "883",
+    "verified": false
+   }
+  ],
+  "section": "E"
+ },
+ "439000": {
+  "activity": "Other specialized construction activities including foundation work, masonry, roofing, scaffolding, steel erection, waterproofing, road safety installations, crane rental with operator, heritage restoration.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "solarintegratedroofi",
+    "name": "Solar Integrated Roofing Corporation",
+    "path": "stocks/SIRC",
+    "source": "yahoo",
+    "tk": "SIRC",
+    "verified": false
+   }
+  ],
+  "section": "E"
+ },
  "461001": {
   "activity": "Activities of commission agents, brokers dealing in wholesale trade of agricultural raw material and live animals",
   "candidates": [],

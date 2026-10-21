@@ -23469,6 +23469,25 @@
   "roce": -5.59,
   "roe": null
  },
+ "wattswatertechnologi": {
+  "cur": "USD",
+  "ebitda": 0.581,
+  "ebm": 21.7,
+  "error": null,
+  "ev": 20.34,
+  "fetched_at": "2026-10-21T08:17:47+00:00",
+  "mc": 11.95,
+  "netcash": 0.1361,
+  "ni": 0.38380000000000003,
+  "npm": 14.34,
+  "pe": 31.28,
+  "rev": 2.68,
+  "roce": 21.36,
+  "roe": 18.81,
+  "sources": [
+   "edgar+stockanalysis"
+  ]
+ },
  "wcc": {
   "cur": "USD",
   "ebitda": 1.59,
@@ -23964,6 +23983,21 @@
   "rev": 6.85,
   "roce": 1.14,
   "roe": 4.97
+ },
+ "xeneticbiosciencesin": {
+  "cur": "USD",
+  "error": null,
+  "fetched_at": "2026-10-21T08:17:45+00:00",
+  "mc": 0.004690000000000001,
+  "netcash": 0.00647,
+  "ni": -0.00248,
+  "npm": -75.91,
+  "rev": 0.00326,
+  "roce": -43.5,
+  "roe": -47.04,
+  "sources": [
+   "edgar+stockanalysis"
+  ]
  },
  "xiaomi": {
   "cur": "HKD",
