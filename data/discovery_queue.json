@@ -4712,5 +4712,209 @@
   "activity": "Other intermediation service activities for postal and courier activities n.e.c.",
   "candidates": [],
   "section": "H"
+ },
+ "551002": {
+  "activity": "Provision of short-term lodging facilities to members of a particular organisation such as govt. guest houses, company guest houses, circuit houses and similar establishments with reactive customer services",
+  "candidates": [],
+  "section": "I"
+ },
+ "552001": {
+  "activity": "Accommodation in bed and breakfast units",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "airbnb",
+    "name": "Airbnb",
+    "path": "stocks/abnb",
+    "source": "wikipedia",
+    "tk": "ABNB",
+    "verified": true
+   }
+  ],
+  "section": "I"
+ },
+ "552002": {
+  "activity": "Accommodation in guest rooms provided by private households such as homestays, paying guest accommodation without reactive customer services",
+  "candidates": [],
+  "section": "I"
+ },
+ "552003": {
+  "activity": "Accommodations in hostels other than for students and workers",
+  "candidates": [],
+  "section": "I"
+ },
+ "552004": {
+  "activity": "Accommodation in visitor flats, bungalows, cottages and cabins usually without reactive customer services",
+  "candidates": [],
+  "section": "I"
+ },
+ "552099": {
+  "activity": "Other short-term accommodation activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "airbnb",
+    "name": "Airbnb",
+    "path": "stocks/abnb",
+    "source": "wikipedia",
+    "tk": "ABNB",
+    "verified": true
+   }
+  ],
+  "section": "I"
+ },
+ "553000": {
+  "activity": "Camping grounds, recreational vehicle parks and trailer parks",
+  "candidates": [],
+  "section": "I"
+ },
+ "554099": {
+  "activity": "Other Intermediation service activities for accommodation n.e.c.",
+  "candidates": [],
+  "section": "I"
+ },
+ "559001": {
+  "activity": "Accommodation provided for students in hostels, residences and dormitories excluding operation of paying guest facilities",
+  "candidates": [],
+  "section": "I"
+ },
+ "559002": {
+  "activity": "Worker hostels and dormitories",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "foxconn",
+    "name": "Foxconn",
+    "path": "quote/tyo/2317",
+    "source": "wikipedia",
+    "tk": "2317",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "HTTP 404",
+    "id": "foxconn",
+    "name": "Foxconn",
+    "path": "quote/lon/HHPD",
+    "source": "wikipedia",
+    "tk": "HHPD",
+    "verified": false
+   }
+  ],
+  "section": "I"
+ },
+ "559099": {
+  "activity": "Other accommodation n.e.c.",
+  "candidates": [],
+  "section": "I"
+ },
+ "561002": {
+  "activity": "Activities of take-out eating places and take-away restaurants in a supermarket (Units not part of the supermarket)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sainsburys",
+    "name": "Sainsbury's",
+    "path": "quote/lon/SBRY",
+    "source": "wikipedia",
+    "tk": "SBRY",
+    "verified": true
+   }
+  ],
+  "section": "I"
+ },
+ "561003": {
+  "activity": "Activities of mobile food carts, push cart vendors, mobile food operators including truck vendors and food preparation in market stalls",
+  "candidates": [],
+  "section": "I"
+ },
+ "561004": {
+  "activity": "Activities of ice cream parlours excluding ice cream vendors",
+  "candidates": [],
+  "section": "I"
+ },
+ "561005": {
+  "activity": "Activities of cloud kitchens and home-based kitchens for commercial purpose",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "appleinc",
+    "name": "Apple Inc.",
+    "path": "stocks/aapl",
+    "source": "wikipedia",
+    "tk": "AAPL",
+    "verified": true
+   }
+  ],
+  "section": "I"
+ },
+ "562100": {
+  "activity": "Event catering that includes the food preparation and supply based on contractual agreements, at the location specified by the customer, for a specific event",
+  "candidates": [],
+  "section": "I"
+ },
+ "562902": {
+  "activity": "Operation of canteens or cafeteria in a premises (premises such as factories, offices, hospitals or schools) on a concession basis",
+  "candidates": [],
+  "section": "I"
+ },
+ "562999": {
+  "activity": "Other food service activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Switzerland",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nestl",
+    "name": "Nestlé",
+    "path": "quote/swx/NESN",
+    "source": "wikipedia",
+    "tk": "NESN",
+    "verified": true
+   }
+  ],
+  "section": "I"
+ },
+ "563001": {
+  "activity": "Activities of bars, cocktail lounges, pubs and nightclubs, including bar activities on board of transport (Alcoholic beverages and non-alcoholic beverages)",
+  "candidates": [],
+  "section": "I"
+ },
+ "563003": {
+  "activity": "Activities of fruit juice shops",
+  "candidates": [],
+  "section": "I"
+ },
+ "563004": {
+  "activity": "Activities of other beverage vendors, including mobile beverage vendors on streets, at airports, train station, bus terminals",
+  "candidates": [],
+  "section": "I"
+ },
+ "563099": {
+  "activity": "Other beverage serving activities n.e.c. including operation of beverage concessions (serving alcoholic and non-alcoholic beverages) at sports and similar facilities",
+  "candidates": [],
+  "section": "I"
  }
 }
