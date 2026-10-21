@@ -9,7 +9,7 @@ on:
     # let a token-authored push trigger other workflows (loop protection),
     # so the "push" trigger above never fires for those commits. This one
     # catches it instead, once the refresh run itself finishes.
-    workflows: ["Refresh company financials and rebuild site"]
+    workflows: ["Refresh company financials and rebuild site", "Discover companies for unmapped business codes"]
     types: [completed]
   workflow_dispatch:
 

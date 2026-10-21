@@ -8,79 +8,143 @@ published with GitHub Pages — see **Settings → Pages** for the live URL.
 ## Why this exists
 
 Doing the research by asking an AI assistant to fetch every company's financials
-one page at a time is slow and burns a lot of per-call cost. The fetching itself
-needs no judgment — it is "open this URL, read this table" — so it belongs in a
-plain script running on a schedule, for free, in GitHub Actions. The part that
-genuinely needs judgment — *which* companies are the right fit for *which*
-business activity, and whether a number looks wrong enough to flag — stays a
-one-time research task done by hand (or by an assistant) and recorded in the
-`data/map_*.json` files below.
+one page at a time, or to search the web for which company fits which business,
+is slow and burns a lot of per-call cost. Neither of those tasks actually needs
+judgment once the system knows what to look for — "open this URL, read this
+table" and "search a few structured sources, verify what you find" are both
+things a plain script can do, for free, on a schedule, in GitHub Actions. The
+part that still genuinely needs judgment — curating the research, and reviewing
+the handful of things the scripts couldn't verify on their own — stays recorded
+in plain files for a human (or an assistant, occasionally) to look at.
 
 ## How it fits together
 
 ```
 data/NIC_2025_Business_Master.csv   the business list (never auto-edited)
-data/map_<SECTION>.json             business code -> company ids, notes, flags  (hand-maintained)
-data/companies.json                 company id -> {name, ticker, country, stockanalysis.com path} (hand-maintained)
-data/financials.json                company id -> scraped numbers + fetched_at   (auto-refreshed)
-scripts/scrape.py                   fetches stockanalysis.com/<path>/statistics/ for every company, fills financials.json
+data/map_<SECTION>.json             business code -> company ids, notes, flags  (hand-maintained + auto-discovered)
+data/companies.json                 company id -> {name, ticker, country, stockanalysis.com path} (hand-maintained + auto-discovered)
+data/financials.json                company id -> numbers + fetched_at + which source(s) supplied them  (auto-refreshed)
+data/discovery_queue.json           candidates discover.py found but could NOT verify -- needs a human look
+data/broken_links.json              companies whose source URL is currently returning an error
+
+scripts/sources/finnhub.py          financials source 1 (needs FINNHUB_API_KEY secret): structured JSON API
+scripts/sources/stockanalysis.py    financials source 2: scrapes stockanalysis.com/<path>/statistics/
+scripts/sources/screener.py         financials source 3, India only: scrapes screener.in as a last resort
+scripts/scrape.py                   tries the 3 sources above in order per company, merges field-by-field
+scripts/precheck.py                 fast daily check: is every company's URL still resolving? (no scraping)
+scripts/discover.py                 for NIC codes with 0 companies: Wikipedia + SEC EDGAR candidates,
+                                     verified by an actual stockanalysis.com fetch before being trusted
 scripts/gen_all.py                  CSV + map_*.json + companies.json + financials.json -> site/data_<S>.js
 scripts/build_site.py               site/template.html + site/data_*.js -> site/index.html  (what Pages serves)
-.github/workflows/refresh.yml       runs scrape.py -> gen_all.py -> build_site.py on a schedule, commits if changed
+
+.github/workflows/refresh.yml       weekly: scrape.py -> gen_all.py -> build_site.py, commits if changed
+.github/workflows/precheck.yml      daily: precheck.py, commits data/broken_links.json if changed
+.github/workflows/discover.yml      twice monthly: discover.py -> gen_all.py -> build_site.py, commits if changed
+.github/workflows/pages.yml         deploys site/ to Pages; chained off the other three via workflow_run
+                                     (a push made with the default GITHUB_TOKEN can't trigger other
+                                     workflows directly -- GitHub's own anti-loop rule -- so this listens
+                                     for those workflows' completion instead of a plain push)
 ```
 
-Nothing above needs an AI assistant at run time. The only things that need a
-human (or an assistant, once) are the contents of `data/map_*.json` and
-`data/companies.json` — deciding which companies belong where.
+Nothing above needs an AI assistant at run time.
 
-## Adding or fixing a company
+## The one hard rule
 
-1. **New company for an existing business**: add it to `data/companies.json`
-   (`id`, `n` name, `tk` ticker-as-displayed, `ctry` country, `path` — the part
-   of the stockanalysis.com URL between the domain and `/statistics/`, e.g.
-   `quote/nse/TCS` or `stocks/aapl`), then add its `id` to the right NIC code's
-   list in `data/map_<SECTION>.json` under `"biz"`. Leave `data/financials.json`
-   alone — the next scheduled run fills it in (or trigger the workflow by hand
-   for an immediate fetch, see below).
-2. **A company id must never appear under more than one NIC business code
-   anywhere in the whole repo** — that's the one hard rule this project is
-   built around. `scripts/gen_all.py` raises an error if the same id is used
-   twice inside one section; there's no automatic check *across* sections yet,
-   so when adding a company, grep `data/map_*.json` for its id first.
-3. **A business with no listed company**: leave its code out of `"biz"` and,
-   optionally, add a one-line reason to `"bnote"` in that section's map file.
-4. After any `data/` edit, regenerate locally to check it before pushing:
-   ```
-   python3 scripts/gen_all.py && python3 scripts/build_site.py
-   ```
+**A company id must never be used under more than one NIC business code,
+anywhere in the whole repo.** `gen_all.py` only checks this within one section;
+`discover.py` checks it globally before adding anything new. When hand-editing
+`data/map_*.json`, grep every `map_*.json` for the id first.
 
-## Running the scraper by hand
+## Financials: multi-source, with real numbers behind the fallback order
+
+Source priority per company: **Finnhub → stockanalysis.com → screener.in**
+(screener.in only for India-listed companies). Each source only needs to
+answer with *some* of the needed fields — `scrape.py` merges whatever each
+source found, field by field, and records which source(s) actually
+contributed in `financials.json`'s `"sources"` list. A company only shows up
+as failed if every source came back empty.
+
+**Status as verified by an actual run against the live sites** (2026-10-20):
+stockanalysis.com succeeded for 1,510 of 1,516 companies in one pass; the other
+6 turned out to be a path bug (fixed), a wrong ticker (fixed), one company
+whose primary listing has genuinely moved (fixed), and two whose pages loaded
+fine on re-check (likely transient — the next scheduled run will pick them up).
+**Not yet verified live:** Finnhub (needs the `FINNHUB_API_KEY` secret added
+first — see below) and screener.in (only gets exercised when stockanalysis.com
+fails for an India company, which is rare). Check a run's log for
+`FAIL ... screener.in:` or unusually empty Finnhub fields and fix the matching
+pattern table in that source's file — same process that found and fixed the
+`rev` field bug in stockanalysis.py's first live run.
+
+### Enabling Finnhub
+
+1. Free account: https://finnhub.io/register (no card required)
+2. GitHub → **Settings → Secrets and variables → Actions → New repository secret**
+   → name `FINNHUB_API_KEY`, value your key.
+3. Nothing else to do — `refresh.yml` already passes it through, and
+   `scrape.py` simply skips Finnhub (falls straight to stockanalysis.com) when
+   the secret isn't set.
+
+Honest limitation: Finnhub's free tier is strongest for US-listed tickers;
+treat it as "try first, keep whatever it returns" rather than a full
+replacement for the scrapers.
+
+## Company discovery (filling the 0/5 gaps)
+
+Many NIC codes genuinely have **no listed company anywhere** — a granular
+activity like "growing of bajra and jowar" is done by private, diversified
+agribusinesses virtually everywhere, so no scraper or search, however broad,
+will ever find a public company for it. `discover.py` does not try to force a
+match in that case; it leaves the code unfilled, same as the hand-researched
+sections always have for activities with no real listed match.
+
+What it does do, for a batch of currently-empty NIC codes each run:
+1. Search **Wikipedia** for the activity and pull a ticker out of the page's
+   infobox (`{{NYSE|XOM}}`-style templates).
+2. Search **SEC EDGAR's full-text index** (10-K filings mentioning the
+   activity) and resolve a name to a ticker via SEC's own official ticker list.
+3. **Verify** every candidate by actually fetching its stockanalysis.com page
+   — a name mention alone is never enough to trust.
+4. A candidate that verifies (the page is real and returns numbers) is
+   auto-added straight into `map_<S>.json` and `companies.json`, up to 5 per
+   code. A candidate that's *found* but doesn't verify goes into
+   `data/discovery_queue.json` for a quick manual look instead of being merged.
+
+Deliberately left out of v1: general web search (DuckDuckGo/etc.) as a further
+fallback. Wikipedia and EDGAR are precise enough to auto-verify against; a bare
+web search returns enough noise that it would need a human reviewing every
+hit anyway, which defeats the point of automating this. If the two structured
+sources keep coming up empty for codes that plausibly *do* have a listed
+company, that's the natural next thing to add.
+
+**Not yet verified live** — same caveat as everything else in this repo that
+talks to the outside world: written from documented API shapes, first real
+test is the first Actions run. Check `data/discovery_queue.json` and a run's
+log after triggering it by hand.
+
+## Running things by hand
 
 ```
 pip install requests beautifulsoup4
+
 python3 scripts/scrape.py --limit 20          # small test batch first
 python3 scripts/scrape.py --only tcs,infy     # just these ids
 python3 scripts/scrape.py                     # everything older than 6 days
 python3 scripts/scrape.py --force             # ignore the cache, refresh all ~1,500
+
+python3 scripts/precheck.py                   # check every URL still resolves, no scraping
+
+python3 scripts/discover.py --limit 20        # find & verify candidates for 20 empty codes
+python3 scripts/discover.py --section Q --dry-run   # test without writing anything
+
+python3 scripts/gen_all.py && python3 scripts/build_site.py   # rebuild the site locally
 ```
 
-A failed fetch (page blocked, field not found, network error) never deletes the
-existing number — it's logged in that company's `error` field and the old value
-stays until a later run succeeds.
+A failed fetch never deletes an existing number — it's logged in that
+company's `error` field and the old value stays until a later run succeeds.
 
-## Triggering a refresh without waiting for the schedule
+## Triggering a run without waiting for its schedule
 
-**GitHub → Actions → "Refresh company financials and rebuild site" → Run workflow.**
-Leave the inputs blank for a normal run, or set a `limit` to test with a small
-batch first.
-
-## Known limitation
-
-`scripts/scrape.py` was written from memory of the stockanalysis.com statistics
-page layout and matched against it with flexible label patterns, but it has not
-been run against the live site yet — this container's network can't reach it.
-The **first real test is the first Actions run.** Check the run's log after
-triggering it by hand; if several companies come back `FAIL ... no tables
-found` or similar, the page structure likely differs from what the patterns in
-`FIELD_PATTERNS` (top of `scrape.py`) expect, and those patterns need a quick
-adjustment against the actual HTML.
+**GitHub → Actions →** pick the workflow → **Run workflow.** All three
+data-gathering workflows (`refresh`, `precheck`, `discover`) take an optional
+`limit` input so you can test with a small batch before trusting a full run.
