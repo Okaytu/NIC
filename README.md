@@ -107,40 +107,59 @@ What it does do, for a batch of currently-empty NIC codes each run:
    activity) and resolve a name to a ticker via SEC's own official ticker list.
 3. **Verify** every candidate by actually fetching its stockanalysis.com page
    — a name mention alone is never enough to trust.
-4. A candidate that verifies (the page is real and returns numbers) is
-   auto-added straight into `map_<S>.json` and `companies.json`, up to 5 per
-   code. A candidate that's *found* but doesn't verify goes into
-   `data/discovery_queue.json` for a quick manual look instead of being merged.
+4. Only an **EDGAR-sourced** candidate that verifies is auto-merged straight
+   into `map_<S>.json` and `companies.json`, up to 5 per code — because the
+   activity's own phrase was found verbatim inside that company's own 10-K
+   filing, a structural match rather than a ranked guess. Every
+   **Wikipedia-sourced** candidate goes to `data/discovery_queue.json` for a
+   human look no matter how cleanly its ticker verifies, and so does any
+   EDGAR candidate that doesn't verify.
 
 Deliberately left out of v1: general web search (DuckDuckGo/etc.) as a further
-fallback. Wikipedia and EDGAR are precise enough to auto-verify against; a bare
-web search returns enough noise that it would need a human reviewing every
-hit anyway, which defeats the point of automating this. If the two structured
-sources keep coming up empty for codes that plausibly *do* have a listed
-company, that's the natural next thing to add.
+fallback. A bare web search returns enough noise that it would need a human
+reviewing every hit anyway, which defeats the point of automating this.
 
-**Verified live** (2026-10-21): the first live runs came back with zero
-candidates everywhere, which turned out to be two real bugs rather than
-"no company exists" for every code tested — both confirmed and fixed by
-checking actual Wikipedia/EDGAR responses:
-- Every Wikipedia API call was getting HTTP 429'd, immediately, from
-  GitHub's shared runner IP range; a spoofed browser User-Agent plus
-  several delay-free per-title requests is exactly the pattern anonymous-
-  abuse throttling targets. Fixed with a plain tool/contact User-Agent,
-  retry-with-backoff (honors `Retry-After`) on every outbound call, and
-  batching a search's hit titles into one request instead of one per title.
-- EDGAR's `display_names` come back as `"Apple Inc.  (AAPL)  (CIK
-  0000320193)"` — two trailing parenthetical annotations, not one — and the
-  ticker-matching regex only stripped the `(CIK ...)` part, so the name
-  never matched SEC's own ticker list and every real EDGAR hit got silently
-  dropped. Fixed to strip all trailing `(...)` groups.
+Deliberately NOT auto-merging Wikipedia matches, even verified ones: see
+below.
 
-Re-tested after the fix directly against real pages: Wikipedia resolves
-Tata Consultancy Services to NSE:TCS/BSE:532540 and Apple Inc. to
-NASDAQ:AAPL; EDGAR resolves Apple Inc. to AAPL. Genuinely niche activities
-(growing millets, growing grapes, cotton ginning) correctly come back with
-*zero* candidates on both sources — which is the honest, correct result for
-activities no listed company specializes in this narrowly, not a bug.
+**Verified live** (2026-10-21), three real bugs found and fixed by actually
+running this against live Wikipedia/EDGAR/stockanalysis.com and inspecting
+the results, not just reading the code:
+
+1. **Every Wikipedia API call was getting HTTP 429'd**, immediately, from
+   GitHub's shared runner IP range — a spoofed browser User-Agent plus
+   several delay-free per-title requests is exactly the pattern anonymous-
+   abuse throttling targets, and the 429s were silently read as "nothing
+   found." Fixed with a plain tool/contact User-Agent, retry-with-backoff
+   (honors `Retry-After`) on every outbound call, and batching a search's
+   hit titles into one request instead of one per title.
+2. **EDGAR's `display_names`** come back as `"Apple Inc.  (AAPL)  (CIK
+   0000320193)"` — two trailing parenthetical annotations, not one — and the
+   ticker-matching regex only stripped the `(CIK ...)` part, so the name
+   never matched SEC's own ticker list and every real EDGAR hit got silently
+   dropped. Fixed to strip all trailing `(...)` groups.
+3. **Ticker verification was never a relevance check**, only a check that
+   the company exists and trades — and a real 300-code production run
+   proved it: of 17 candidates that verified, 10 were real companies with
+   nothing to do with the activity they got attached to (Amazon for
+   "growing of apples", BP for "fish and marine mammal oils", Costco for
+   "custom tailoring services", Hershey for "dairy products", and six more),
+   every one of them Wikipedia-sourced. Wikipedia's ranked full-text search
+   readily surfaces a thematically-adjacent page that just isn't the right
+   company. Fixed by restricting auto-merge to EDGAR-sourced candidates only
+   (see above); all 17 were reverted out of the live data and moved into the
+   review queue. A related data-cleanliness bug fed into this: some
+   `Business Activity` CSV cells carry a stray leading backtick or a
+   trailing "Group Class Sub-Class Description" fragment left over from the
+   source file's original layout (e.g. `` Manufacture of `gur `` ), which
+   `clean_activity()` now strips before it reaches any search query.
+
+Re-tested after all three fixes: Wikipedia resolves Tata Consultancy
+Services to NSE:TCS/BSE:532540 and Apple Inc. to NASDAQ:AAPL; EDGAR resolves
+Apple Inc. to AAPL. Genuinely niche activities (growing millets, growing
+grapes, cotton ginning) correctly come back with *zero* candidates on both
+sources — the honest, correct result for activities no listed company
+specializes in this narrowly, not a bug.
 
 ## Running things by hand
 
