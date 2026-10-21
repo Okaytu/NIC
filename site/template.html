@@ -40,7 +40,8 @@ nav a.on,nav a:hover{color:var(--ink);font-weight:700}
 .sec{display:flex;flex-direction:column;gap:18px;min-width:0;scroll-margin-top:16px}
 .sec>p{color:var(--muted);margin:0;max-width:70ch}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:10px}
-.tile{font:inherit;color:inherit;text-align:left;background:var(--glass-hi);border:1px solid var(--line);border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;cursor:default;min-width:0}
+.tile-wrap{position:relative;min-width:0}
+.tile{font:inherit;color:inherit;text-align:left;background:var(--glass-hi);border:1px solid var(--line);border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;cursor:default;min-width:0;width:100%}
 .tile .l{font-family:var(--f-head);font-weight:700;font-size:22px;line-height:1}
 .tile .t{font-weight:600;font-size:12.5px;line-height:1.3;margin-top:6px}
 .tile .s{font-size:11.5px;color:var(--faint)}
@@ -49,6 +50,9 @@ nav a.on,nav a:hover{color:var(--ink);font-weight:700}
 .tile.sel{background:var(--pill);color:var(--pill-ink);border-color:var(--pill)}
 .tile.sel .s{color:#41564a}
 .tile.queued{opacity:.72}
+.tile-note{position:absolute;top:8px;right:8px;width:22px;height:22px;border-radius:99px;display:flex;align-items:center;justify-content:center;
+  background:rgba(13,36,21,.55);border:1px solid var(--line);text-decoration:none;font-size:12px;line-height:1;color:var(--ink)}
+.tile-note:hover{background:var(--lime);color:#163322;border-color:var(--lime)}
 .tile:focus-visible,.pill:focus-visible,.seg button:focus-visible,input:focus-visible,summary:focus-visible,th button:focus-visible,nav a:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
 .covbar{display:grid;gap:3px}
 .covbar a{height:24px;border-radius:5px;background:rgba(255,255,255,.1);border:1px solid var(--line);display:block}
@@ -128,8 +132,9 @@ details.biz.flash{box-shadow:0 0 0 2px var(--lime)}
       <li><a href="#find">Search</a></li>
       <li><a href="#sections" class="on">Sections</a></li>
       <li><a href="#companies">Companies</a></li>
-      <li><a href="#notes">Notes</a></li>
+      <li><a href="#notes">Read first</a></li>
       <li><a href="review.html">Review queue</a></li>
+      <li><a href="mynotes.html">My notes</a></li>
     </ul>
   </nav>
 
@@ -224,8 +229,11 @@ function renderTiles(){
   $("#tiles").innerHTML=CAT.map(([l,n,r,c])=>{
     const L=SECTIONS[l];
     const s=L?`${L.businesses.filter(b=>b[5].length).length} of ${L.businesses.length} covered`:`${c} businesses · queued`;
-    return `<button class="tile ${L?'live':'queued'} ${l===cur&&L?'sel':''}" data-s="${l}" ${L?'':'disabled'} aria-pressed="${l===cur&&!!L}">
-      <span class="l">${l}</span><span class="t">${n}</span><span class="s">NIC ${r} · ${s}</span></button>`}).join("");
+    return `<div class="tile-wrap">
+      <button class="tile ${L?'live':'queued'} ${l===cur&&L?'sel':''}" data-s="${l}" ${L?'':'disabled'} aria-pressed="${l===cur&&!!L}">
+        <span class="l">${l}</span><span class="t">${n}</span><span class="s">NIC ${r} · ${s}</span></button>
+      <a class="tile-note" href="mynotes.html?section=${l}" title="Notes for section ${l}" aria-label="Open your notes for section ${l}">&#9998;</a>
+    </div>`}).join("");
 }
 $("#tiles").addEventListener("click",e=>{const t=e.target.closest(".tile.live");if(!t)return;cur=t.dataset.s;renderTiles();renderView(true)});
 

@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>My Notes — NIC Peer Map</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Montserrat:wght@400;500;600;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+<style>
+:root{
+  --leaf-deep:#0d2415; --ink:#ffffff; --muted:rgba(255,255,255,.8); --faint:rgba(255,255,255,.62);
+  --glass:rgba(58,92,64,.56); --glass-hi:rgba(255,255,255,.1); --line:rgba(255,255,255,.2);
+  --pill:#f6f5fa; --pill-ink:#1c2a21; --lime:#d3f5b0;
+  --good:#a8f0c0; --bad:#ffb8ac; --warn:#ffd88e;
+  --f-head:'Fraunces','Iowan Old Style','Georgia',serif; --f-body:'Montserrat',system-ui,-apple-system,'Segoe UI',sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{background:var(--leaf-deep)}
+body{color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.55;margin:0;height:100vh;overflow:hidden;
+  padding-left:max(0px,env(safe-area-inset-left,0px));padding-right:max(0px,env(safe-area-inset-right,0px));
+  font-variant-numeric:tabular-nums}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f-head);font-weight:700;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.app{display:flex;height:100vh;min-width:0}
+.rail{width:280px;flex:0 0 280px;border-right:1px solid var(--line);display:flex;flex-direction:column;min-width:0;
+  padding:14px;gap:12px;overflow-y:auto}
+.rail header.top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.logo{font-family:var(--f-head);font-weight:700;font-size:17px;text-decoration:none}
+.back{color:var(--faint);text-decoration:none;font-size:12px}
+.back:hover{color:var(--ink)}
+input[type=search]{font:inherit;padding:8px 14px;border:1px solid var(--line);border-radius:99px;background:rgba(255,255,255,.1);color:var(--ink);min-width:0}
+input::placeholder{color:var(--faint)}
+.seg{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font:inherit;font-weight:600;font-size:11px;border:1px solid var(--line);background:transparent;color:var(--faint);
+  border-radius:99px;padding:4px 10px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--lime);color:#163322;border-color:var(--lime)}
+.pill{font:inherit;font-weight:600;font-size:13px;background:var(--pill);color:var(--pill-ink);border:0;border-radius:99px;padding:9px 16px;cursor:pointer;white-space:nowrap}
+.pill:hover{background:#fff}
+.pill.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+.pill.ghost:hover{color:var(--ink);border-color:var(--ink)}
+.pill.small{padding:6px 12px;font-size:12px}
+.notelist{display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex:1 1 auto;min-height:0}
+.notelist .group-label{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);padding:10px 8px 2px}
+.noteitem{display:flex;flex-direction:column;gap:2px;text-align:left;border:0;background:transparent;color:var(--ink);
+  border-radius:10px;padding:8px 10px;cursor:pointer}
+.noteitem:hover{background:rgba(255,255,255,.08)}
+.noteitem.sel{background:var(--glass-hi);border:1px solid var(--line)}
+.noteitem b{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.noteitem span{font-size:11px;color:var(--faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.empty-hint{color:var(--faint);font-size:12.5px;padding:10px 8px}
+.main{flex:1 1 auto;display:flex;flex-direction:column;min-width:0;height:100vh}
+.toolbar{display:flex;align-items:center;gap:10px;padding:12px 18px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.toolbar .fill{flex:1 1 auto}
+.titlebox{display:flex;flex-direction:column;flex:1 1 auto;min-width:0;gap:4px}
+input.title{font:inherit;font-family:var(--f-head);font-weight:700;font-size:20px;background:transparent;border:0;color:var(--ink);padding:2px 0;min-width:0}
+input.title::placeholder{color:var(--faint)}
+.metarow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+select{font:inherit;font-size:12px;background:rgba(255,255,255,.1);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
+select option{color:#000}
+.codeinput{font:inherit;font-size:12px;background:rgba(255,255,255,.1);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 8px;width:110px}
+.ts{font-size:11px;color:var(--faint)}
+.editwrap{flex:1 1 auto;display:flex;min-height:0}
+.editwrap.split .pane{flex:1 1 50%;min-width:0}
+.editwrap.edit .pane.preview,.editwrap.preview .pane.edit{display:none}
+.editwrap.edit .pane.edit,.editwrap.preview .pane.preview{flex:1 1 100%}
+.pane{overflow-y:auto;min-width:0}
+.pane.edit{border-right:1px solid var(--line)}
+textarea.body{width:100%;height:100%;resize:none;border:0;background:transparent;color:var(--ink);font:13.5px/1.6 ui-monospace,'SF Mono',Menlo,monospace;
+  padding:18px 20px;min-height:100%}
+textarea.body:focus{outline:none}
+.preview{padding:18px 24px;min-width:0}
+.preview :first-child{margin-top:0}
+.preview h1,.preview h2,.preview h3{font-family:var(--f-head);margin:1em 0 .4em}
+.preview p{margin:.6em 0;max-width:72ch}
+.preview code{background:rgba(255,255,255,.1);padding:1px 5px;border-radius:5px;font-size:.9em}
+.preview pre{background:rgba(0,0,0,.25);padding:12px 14px;border-radius:10px;overflow-x:auto}
+.preview pre code{background:none;padding:0}
+.preview a{color:var(--lime);text-decoration:underline}
+.preview a.wikilink{text-decoration:none;border-bottom:1px dashed var(--lime);cursor:pointer}
+.preview a.wikilink.missing{color:var(--faint);border-bottom-color:var(--faint)}
+.preview ul,.preview ol{padding-left:1.4em}
+.preview blockquote{border-left:3px solid var(--line);margin:.6em 0;padding:.2em 0 .2em 14px;color:var(--muted)}
+.preview table{border-collapse:collapse;margin:.6em 0}
+.preview th,.preview td{border:1px solid var(--line);padding:4px 10px;font-size:13px}
+.backlinks{border-top:1px solid var(--line);padding:14px 20px;flex:0 0 auto}
+.backlinks h3{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:8px}
+.backlinks ul{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0}
+.backlinks li a{display:inline-block;font-size:12px;background:var(--glass-hi);border:1px solid var(--line);border-radius:99px;padding:5px 12px;text-decoration:none}
+.backlinks li a:hover{border-color:var(--ink)}
+.empty-state{flex:1 1 auto;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;color:var(--faint);padding:40px;text-align:center}
+.empty-state h2{color:var(--muted);font-size:22px}
+dialog{background:var(--leaf-deep);color:var(--ink);border:1px solid var(--line);border-radius:18px;max-width:640px;width:92vw;padding:20px}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+textarea.io{width:100%;font:12px/1.5 ui-monospace,monospace;background:rgba(0,0,0,.3);color:var(--ink);border:1px solid var(--line);
+  border-radius:10px;padding:10px;min-height:140px}
+.lede{color:var(--muted);font-size:12.5px;margin:0 0 4px}
+[hidden]{display:none!important}
+@media (max-width:760px){
+  .app{flex-direction:column}
+  .rail{width:100%;flex:0 0 auto;max-height:40vh;border-right:0;border-bottom:1px solid var(--line)}
+  .main{height:60vh}
+  .editwrap.split{flex-direction:column}
+  .editwrap.split .pane.edit{border-right:0;border-bottom:1px solid var(--line)}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="rail">
+    <header class="top">
+      <a class="logo" href="index.html">NIC Peer Map</a>
+      <a class="back" href="index.html">&larr; Map</a>
+    </header>
+    <p class="lede">Your own notes on this project — saved only in this browser. Export regularly if you want a backup or want them on another device.</p>
+    <input type="search" id="search" placeholder="Search notes…">
+    <div class="seg" id="sectionFilter" role="group" aria-label="Filter by section"></div>
+    <button class="pill" id="new-btn">+ New note</button>
+    <div class="notelist" id="notelist"></div>
+    <div style="display:flex;gap:8px">
+      <button class="pill ghost small" id="export-btn" style="flex:1">Export</button>
+      <button class="pill ghost small" id="import-btn" style="flex:1">Import</button>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <!-- filled by renderMain() -->
+  </main>
+</div>
+
+<dialog id="export-dialog">
+  <h3 style="margin-bottom:10px">Export your notes</h3>
+  <p class="lede">Copy this or download it as a backup, or to bring your notes to another browser/device.</p>
+  <textarea class="io" id="export-text" readonly></textarea>
+  <div style="display:flex;gap:10px;margin-top:12px;justify-content:flex-end">
+    <button class="pill ghost" id="copy-btn">Copy to clipboard</button>
+    <button class="pill ghost" id="download-btn">Download .json</button>
+    <button class="pill" id="close-export">Done</button>
+  </div>
+</dialog>
+
+<dialog id="import-dialog">
+  <h3 style="margin-bottom:10px">Import notes</h3>
+  <p class="lede">Paste a previously exported notes JSON. New notes are added; notes with the same id are updated.</p>
+  <textarea class="io" id="import-text" placeholder="Paste exported JSON here…"></textarea>
+  <div style="display:flex;gap:10px;margin-top:12px;justify-content:flex-end">
+    <button class="pill ghost" id="cancel-import">Cancel</button>
+    <button class="pill" id="do-import">Import</button>
+  </div>
+</dialog>
+
+<script>
+"use strict";
+const $=s=>document.querySelector(s);
+const SECTIONS_ALL="A B C D E G H I J K L M N O P Q R S T U V".split(" ");
+const STORE_KEY="nic-my-notes-v1";
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+
+function loadStore(){
+  try{
+    const raw=localStorage.getItem(STORE_KEY);
+    if(!raw) return {notes:{}};
+    const parsed=JSON.parse(raw);
+    if(!parsed.notes) parsed.notes={};
+    return parsed;
+  }catch(e){ return {notes:{}}; }
+}
+function saveStore(){
+  try{ localStorage.setItem(STORE_KEY, JSON.stringify(store)); }catch(e){ /* private window or full storage -- ignore */ }
+}
+
+let store=loadStore();
+let curId=null;
+let filterSection=null; // null = all, "" = general/untagged, "A".."V" = that section
+let searchQ="";
+let viewMode="split"; // split | edit | preview
+
+// pre-fill from a section tile's note link: mynotes.html?section=A or #new?section=A
+function paramSection(){
+  const usp=new URLSearchParams(location.search);
+  return usp.get("section");
+}
+
+function notesArr(){
+  return Object.values(store.notes).sort((a,b)=>b.updated_at-a.updated_at);
+}
+
+function matchesFilter(n){
+  if(filterSection!==null && (n.section||"")!==filterSection) return false;
+  if(searchQ){
+    const hay=(n.title+" "+n.body+" "+(n.code||"")).toLowerCase();
+    if(!hay.includes(searchQ.toLowerCase())) return false;
+  }
+  return true;
+}
+
+function renderSectionFilter(){
+  const counts={};
+  notesArr().forEach(n=>{const k=n.section||""; counts[k]=(counts[k]||0)+1});
+  const chips=[["All",null]].concat(SECTIONS_ALL.map(s=>[s+(counts[s]?` (${counts[s]})`:""),s]));
+  if(counts[""]) chips.push(["General ("+counts[""]+")", ""]);
+  $("#sectionFilter").innerHTML=chips.map(([label,val])=>
+    `<button class="chip" data-v="${val===null?'':val}" aria-pressed="${filterSection===val}">${label}</button>`
+  ).join("");
+}
+$("#sectionFilter").addEventListener("click",e=>{
+  const b=e.target.closest(".chip"); if(!b) return;
+  const v=b.dataset.v;
+  filterSection = (b.textContent.startsWith("All")) ? null : v;
+  renderAll();
+});
+
+function renderList(){
+  const items=notesArr().filter(matchesFilter);
+  if(!items.length){
+    $("#notelist").innerHTML='<p class="empty-hint">No notes yet' + (filterSection?` tagged ${filterSection||"General"}`:"") + '. Click "+ New note" to start.</p>';
+    return;
+  }
+  $("#notelist").innerHTML=items.map(n=>{
+    const tag=n.section ? `Section ${n.section}${n.code?" · "+esc(n.code):""}` : "General";
+    const preview=(n.body||"").replace(/\n/g," ").slice(0,60);
+    return `<button class="noteitem ${n.id===curId?'sel':''}" data-id="${n.id}">
+      <b>${esc(n.title||"Untitled")}</b>
+      <span>${tag}${preview?" · "+esc(preview):""}</span>
+    </button>`;
+  }).join("");
+}
+$("#notelist").addEventListener("click",e=>{
+  const b=e.target.closest(".noteitem"); if(!b) return;
+  openNote(b.dataset.id);
+});
+
+function esc(s){return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+
+// ---- wikilink-style [[Note Title]] support ----
+function titleToId(title){
+  const t=title.trim().toLowerCase();
+  const hit=Object.values(store.notes).find(n=>(n.title||"").trim().toLowerCase()===t);
+  return hit?hit.id:null;
+}
+function renderMarkdown(body){
+  const withLinks=(body||"").replace(/\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g,(m,title,label)=>{
+    const id=titleToId(title);
+    const text=esc(label||title);
+    if(id) return `<a href="#" class="wikilink" data-goto="${id}">${text}</a>`;
+    return `<a href="#" class="wikilink missing" data-create="${esc(title)}">${text}</a>`;
+  });
+  try{ return marked.parse(withLinks, {breaks:true}); }
+  catch(e){ return "<p>"+esc(body)+"</p>"; }
+}
+function backlinksFor(id){
+  const note=store.notes[id]; if(!note) return [];
+  const t=(note.title||"").trim().toLowerCase();
+  if(!t) return [];
+  return Object.values(store.notes).filter(n=>n.id!==id && /\[\[([^\]|]+)/.exec(n.body||"") &&
+    Array.from((n.body||"").matchAll(/\[\[([^\]|]+?)(?:\|[^\]]+?)?\]\]/g)).some(m=>m[1].trim().toLowerCase()===t));
+}
+
+function newNote(section, code){
+  const id=uid();
+  const now=Date.now();
+  store.notes[id]={id, title:"", body:"", section: section||"", code: code||"", created_at:now, updated_at:now};
+  saveStore();
+  curId=id;
+  renderAll();
+  setTimeout(()=>{ const el=$("#note-title"); if(el){ el.focus(); } },0);
+}
+$("#new-btn").addEventListener("click",()=>newNote(filterSection||paramSection()||"", ""));
+
+function openNote(id){ curId=id; renderAll(); }
+
+function deleteCurrent(){
+  if(!curId) return;
+  const n=store.notes[curId];
+  if(!confirm(`Delete "${n.title||"Untitled"}"? This can't be undone.`)) return;
+  delete store.notes[curId];
+  saveStore();
+  curId=null;
+  renderAll();
+}
+
+function renderMain(){
+  const main=$("#main");
+  if(!curId || !store.notes[curId]){
+    main.innerHTML=`<div class="empty-state">
+      <h2>No note selected</h2>
+      <p>Pick a note on the left, or create one.</p>
+      <button class="pill" id="es-new">+ New note</button>
+    </div>`;
+    $("#es-new")?.addEventListener("click",()=>newNote(filterSection||paramSection()||"",""));
+    return;
+  }
+  const n=store.notes[curId];
+  const secOptions=['<option value="">General (no section)</option>'].concat(
+    SECTIONS_ALL.map(s=>`<option value="${s}" ${n.section===s?'selected':''}>Section ${s}</option>`)
+  ).join("");
+  main.innerHTML=`
+    <div class="toolbar">
+      <div class="titlebox">
+        <input class="title" id="note-title" placeholder="Untitled note" value="${esc(n.title)}">
+        <div class="metarow">
+          <select id="note-section">${secOptions}</select>
+          <input class="codeinput" id="note-code" placeholder="NIC code (optional)" value="${esc(n.code||"")}">
+          <span class="ts" id="note-ts"></span>
+        </div>
+      </div>
+      <div class="fill"></div>
+      <div class="seg" role="group" aria-label="View">
+        <button class="chip" data-mode="edit" aria-pressed="${viewMode==='edit'}">Write</button>
+        <button class="chip" data-mode="split" aria-pressed="${viewMode==='split'}">Split</button>
+        <button class="chip" data-mode="preview" aria-pressed="${viewMode==='preview'}">Preview</button>
+      </div>
+      <button class="pill ghost small" id="delete-btn">Delete</button>
+    </div>
+    <div class="editwrap ${viewMode}" id="editwrap">
+      <div class="pane edit"><textarea class="body" id="note-body" placeholder="Write in Markdown… use [[Another Note]] to link notes together.">${esc(n.body)}</textarea></div>
+      <div class="pane preview" id="note-preview"></div>
+    </div>
+    <div class="backlinks" id="backlinks"></div>
+  `;
+  updatePreview();
+  updateTs();
+  updateBacklinks();
+
+  $("#note-title").addEventListener("input",e=>{ n.title=e.target.value; n.updated_at=Date.now(); saveStore(); renderList(); updateTs(); });
+  $("#note-section").addEventListener("change",e=>{ n.section=e.target.value; n.updated_at=Date.now(); saveStore(); renderSectionFilter(); renderList(); });
+  $("#note-code").addEventListener("input",e=>{ n.code=e.target.value; n.updated_at=Date.now(); saveStore(); renderList(); });
+  $("#note-body").addEventListener("input",e=>{ n.body=e.target.value; n.updated_at=Date.now(); saveStore(); updatePreview(); updateTs(); });
+  $("#delete-btn").addEventListener("click",deleteCurrent);
+  $("#editwrap").parentElement.querySelectorAll('[data-mode]').forEach(b=>{
+    b.addEventListener("click",()=>{ viewMode=b.dataset.mode; renderMain(); });
+  });
+  $("#note-preview").addEventListener("click",e=>{
+    const a=e.target.closest("a.wikilink"); if(!a) return;
+    e.preventDefault();
+    if(a.dataset.goto){ openNote(a.dataset.goto); }
+    else if(a.dataset.create){ newNote(n.section, n.code); const created=store.notes[curId]; created.title=a.dataset.create; saveStore(); renderMain(); renderList(); }
+  });
+}
+function updatePreview(){
+  const n=store.notes[curId]; if(!n) return;
+  $("#note-preview").innerHTML=renderMarkdown(n.body);
+}
+function updateTs(){
+  const n=store.notes[curId]; if(!n) return;
+  const d=new Date(n.updated_at);
+  $("#note-ts").textContent="saved "+d.toLocaleString();
+}
+function updateBacklinks(){
+  const links=backlinksFor(curId);
+  const el=$("#backlinks");
+  if(!links.length){ el.innerHTML=""; return; }
+  el.innerHTML=`<h3>Linked from</h3><ul>${links.map(n=>`<li><a href="#" data-id="${n.id}">${esc(n.title||"Untitled")}</a></li>`).join("")}</ul>`;
+  el.querySelectorAll("a").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();openNote(a.dataset.id)}));
+}
+
+$("#search").addEventListener("input",e=>{ searchQ=e.target.value; renderList(); });
+
+// ---- export / import ----
+$("#export-btn").addEventListener("click",()=>{
+  $("#export-text").value=JSON.stringify({generated_at:new Date().toISOString(), notes:store.notes}, null, 1);
+  $("#export-dialog").showModal();
+});
+$("#close-export").addEventListener("click",()=>$("#export-dialog").close());
+$("#copy-btn").addEventListener("click",async()=>{
+  try{ await navigator.clipboard.writeText($("#export-text").value); $("#copy-btn").textContent="Copied!"; setTimeout(()=>$("#copy-btn").textContent="Copy to clipboard",1500); }
+  catch(e){ $("#export-text").select(); }
+});
+$("#download-btn").addEventListener("click",()=>{
+  const blob=new Blob([$("#export-text").value],{type:"application/json"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a"); a.href=url; a.download="nic-my-notes.json"; document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); },500);
+});
+$("#import-btn").addEventListener("click",()=>{ $("#import-text").value=""; $("#import-dialog").showModal(); });
+$("#cancel-import").addEventListener("click",()=>$("#import-dialog").close());
+$("#do-import").addEventListener("click",()=>{
+  try{
+    const parsed=JSON.parse($("#import-text").value);
+    const incoming=parsed.notes||parsed;
+    let n=0;
+    Object.values(incoming).forEach(note=>{
+      if(!note || !note.id) return;
+      store.notes[note.id]=note; n++;
+    });
+    saveStore();
+    $("#import-dialog").close();
+    renderAll();
+    alert(`Imported ${n} note(s).`);
+  }catch(e){ alert("Couldn't parse that JSON -- check it's an exported notes file."); }
+});
+
+function renderAll(){
+  renderSectionFilter();
+  renderList();
+  renderMain();
+}
+
+// honor ?section=A from a section tile's "note" link on first load
+(function init(){
+  const s=paramSection();
+  if(s){ filterSection=s; }
+  renderAll();
+})();
+</script>
+</body>
+</html>
