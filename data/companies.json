@@ -6011,6 +6011,12 @@
   "path": "quote/nse/ONGC",
   "tk": "ONGC"
  },
+ "onitygroupinc": {
+  "ctry": "USA",
+  "n": "ONITY GROUP INC.",
+  "path": "stocks/onit",
+  "tk": "ONIT"
+ },
  "onon": {
   "ctry": "Switzerland",
   "n": "On Holding",

@@ -1,17 +1,21 @@
 {
-"name": "Households",
-"range": "97–98",
-"biz": {},
-"bnote": {
-"970000": "Household activity. No company does this.",
-"981000": "Household activity. No company does this.",
-"982000": "Household activity. No company does this."
-},
-"flags": {},
-"notes": [
-[
-"Section U",
-"No listed companies exist for this section, so it is intentionally empty."
-]
-]
+ "name": "Households",
+ "range": "97–98",
+ "biz": {
+  "970000": [
+   "onitygroupinc"
+  ]
+ },
+ "bnote": {
+  "970000": "Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
+  "981000": "Household activity. No company does this.",
+  "982000": "Household activity. No company does this."
+ },
+ "flags": {},
+ "notes": [
+  [
+   "Section U",
+   "No listed companies exist for this section, so it is intentionally empty."
+  ]
+ ]
 }

@@ -7949,5 +7949,87 @@
   "activity": "Other personal service activities n.e.c.",
   "candidates": [],
   "section": "T"
+ },
+ "970000": {
+  "activity": "Households",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "wd40company",
+    "name": "WD-40 Company",
+    "path": "stocks/wdfc",
+    "source": "wikipedia",
+    "tk": "WDFC",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "tpginc",
+    "name": "TPG Inc.",
+    "path": "stocks/tpgxl",
+    "source": "edgar",
+    "tk": "TPGXL",
+    "verified": false
+   },
+   {
+    "auto_added": true,
+    "ctry": "USA",
+    "id": "onitygroupinc",
+    "name": "ONITY GROUP INC.",
+    "path": "stocks/onit",
+    "source": "edgar",
+    "tk": "ONIT",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "ronihouseholdslimite",
+    "name": "Roni Households Limited",
+    "path": "quote/bom/RONI",
+    "source": "yahoo",
+    "tk": "RONI",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "ronihouseholdsltd",
+    "name": "Roni Households Ltd",
+    "path": "quote/nse/542145",
+    "source": "screener.in",
+    "tk": "542145",
+    "verified": false
+   }
+  ],
+  "section": "U"
+ },
+ "981000": {
+  "activity": "Subsistence goods-producing activities of private households such as hunting and gathering, farming, free collection and similar activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "leshangiantstarfarmi",
+    "name": "Leshan Giantstar Farming&Husbandry Corporation Limited",
+    "path": "quote/sse/603477",
+    "source": "yahoo",
+    "tk": "603477",
+    "verified": false
+   }
+  ],
+  "section": "U"
+ },
+ "982000": {
+  "activity": "Subsistence Service-Producing Activities of Private Households, like cooking, teaching, caring for household members and other services produced by the household for its own subsistence.",
+  "candidates": [],
+  "section": "U"
  }
 }

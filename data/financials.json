@@ -16031,6 +16031,25 @@
   "roce": 7.61,
   "roe": null
  },
+ "onitygroupinc": {
+  "cur": "USD",
+  "ebitda": 0.6193,
+  "ebm": 53.97,
+  "error": null,
+  "ev": 17.5,
+  "fetched_at": "2026-10-21T12:40:40+00:00",
+  "mc": 0.21588,
+  "netcash": -10.62,
+  "ni": 0.1375,
+  "npm": 12.35,
+  "pe": 1.62,
+  "rev": 1.15,
+  "roce": 5.6,
+  "roe": 23.78,
+  "sources": [
+   "edgar+stockanalysis"
+  ]
+ },
  "onon": {
   "cur": "USD",
   "ebitda": 0.60693,
