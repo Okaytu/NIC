@@ -1,0 +1,113 @@
+{
+  "\"Manufacture of gur\"": {
+    "status": 200,
+    "total": {
+      "value": 4,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "display_names": [
+          "Celanese Holdings LLC  (CIK 0001297288)"
+        ],
+        "score": 2.5371819
+      },
+      {
+        "display_names": [
+          "Celanese CORP  (CE)  (CIK 0001306830)"
+        ],
+        "score": 2.359789
+      },
+      {
+        "display_names": [
+          "Celanese CORP  (CE)  (CIK 0001306830)"
+        ],
+        "score": 1.8614998
+      },
+      {
+        "display_names": [
+          "Celanese Holdings LLC  (CIK 0001297288)"
+        ],
+        "score": 1.8096771
+      }
+    ]
+  },
+  "gur": {
+    "status": 200,
+    "total": {
+      "value": 80,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "display_names": [
+          "Akari Therapeutics Plc  (AKTX)  (CIK 0001541157)"
+        ],
+        "score": 18.269512
+      },
+      {
+        "display_names": [
+          "Celsus Therapeutics Plc.  (AKTX)  (CIK 0001541157)"
+        ],
+        "score": 18.20618
+      },
+      {
+        "display_names": [
+          "PLURISTEM THERAPEUTICS INC  (PLUR)  (CIK 0001158780)"
+        ],
+        "score": 17.797533
+      },
+      {
+        "display_names": [
+          "PLURISTEM THERAPEUTICS INC  (PLUR)  (CIK 0001158780)"
+        ],
+        "score": 17.729906
+      },
+      {
+        "display_names": [
+          "PLURISTEM THERAPEUTICS INC  (PLUR)  (CIK 0001158780)"
+        ],
+        "score": 16.24465
+      }
+    ]
+  },
+  "\"gur\"": {
+    "status": 200,
+    "total": {
+      "value": 80,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "display_names": [
+          "Akari Therapeutics Plc  (AKTX)  (CIK 0001541157)"
+        ],
+        "score": 18.269518
+      },
+      {
+        "display_names": [
+          "Celsus Therapeutics Plc.  (AKTX)  (CIK 0001541157)"
+        ],
+        "score": 18.20618
+      },
+      {
+        "display_names": [
+          "PLURISTEM THERAPEUTICS INC  (PLUR)  (CIK 0001158780)"
+        ],
+        "score": 17.797533
+      },
+      {
+        "display_names": [
+          "PLURISTEM THERAPEUTICS INC  (PLUR)  (CIK 0001158780)"
+        ],
+        "score": 17.729906
+      },
+      {
+        "display_names": [
+          "PLURISTEM THERAPEUTICS INC  (PLUR)  (CIK 0001158780)"
+        ],
+        "score": 16.244661
+      }
+    ]
+  }
+}
