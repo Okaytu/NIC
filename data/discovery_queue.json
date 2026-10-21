@@ -3429,6 +3429,17 @@
     "source": "wikipedia",
     "tk": "ING",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "caterpillarinc",
+    "name": "Caterpillar Inc.",
+    "path": "stocks/cat",
+    "source": "wikipedia",
+    "tk": "CAT",
+    "verified": true
    }
   ],
   "section": "G"
@@ -4327,6 +4338,17 @@
     "path": "quote/tsx/L",
     "source": "wikipedia",
     "tk": "L",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
     "verified": true
    }
   ],
