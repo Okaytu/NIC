@@ -6937,5 +6937,389 @@
   "activity": "Other educational support activities n.e.c.",
   "candidates": [],
   "section": "Q"
+ },
+ "861003": {
+  "activity": "Orthopaedic hospitals with inpatient services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "encompasshealth",
+    "name": "Encompass Health",
+    "path": "stocks/ehc",
+    "source": "wikipedia",
+    "tk": "EHC",
+    "verified": true
+   }
+  ],
+  "section": "R"
+ },
+ "861004": {
+  "activity": "Dental hospitals for inpatients",
+  "candidates": [],
+  "section": "R"
+ },
+ "861005": {
+  "activity": "Cardiac hospitals with inpatient services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "encompasshealth",
+    "name": "Encompass Health",
+    "path": "stocks/ehc",
+    "source": "wikipedia",
+    "tk": "EHC",
+    "verified": true
+   }
+  ],
+  "section": "R"
+ },
+ "861006": {
+  "activity": "Mental Health and Psychiatric hospitals with inpatient services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "universalhealthservi",
+    "name": "Universal Health Services",
+    "path": "stocks/uhs",
+    "source": "wikipedia",
+    "tk": "UHS",
+    "verified": true
+   }
+  ],
+  "section": "R"
+ },
+ "861009": {
+  "activity": "Ayurveda hospital activities",
+  "candidates": [],
+  "section": "R"
+ },
+ "861010": {
+  "activity": "Unani hospital activities",
+  "candidates": [],
+  "section": "R"
+ },
+ "861011": {
+  "activity": "Siddha hospital activities",
+  "candidates": [],
+  "section": "R"
+ },
+ "861012": {
+  "activity": "Homeopathy hospital activities",
+  "candidates": [],
+  "section": "R"
+ },
+ "861013": {
+  "activity": "Activities of Ayush hospitals other than those specialized in Ayurveda, Unani, Siddha, Homeopathy Hospitals",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "siddhaventureslimite",
+    "name": "Siddha Ventures Limited",
+    "path": "quote/bom/SIDDHA",
+    "source": "yahoo",
+    "tk": "SIDDHA",
+    "verified": false
+   }
+  ],
+  "section": "R"
+ },
+ "861014": {
+  "activity": "Gynaecological and obstetrical hospital with inpatient services",
+  "candidates": [],
+  "section": "R"
+ },
+ "862001": {
+  "activity": "Medical consultation and treatment in the field of general and specialized medicine by general practitioners, medical specialists and surgeons in private clinics (other than Ayush practitioners)",
+  "candidates": [],
+  "section": "R"
+ },
+ "862002": {
+  "activity": "Medical consultation and treatment in the field of general and specialized medicine by general practitioners, medical specialists and surgeons in poly clinics (other than Ayush practitioners)",
+  "candidates": [],
+  "section": "R"
+ },
+ "862003": {
+  "activity": "Dental practice activities of a general or specialized nature (e.g. dentistry, orthodontic, endodontic, paediatric dentistry)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "lancerorthodonticsin",
+    "name": "Lancer Orthodontics, Inc.",
+    "path": "stocks/LANZ",
+    "source": "yahoo",
+    "tk": "LANZ",
+    "verified": false
+   }
+  ],
+  "section": "R"
+ },
+ "862004": {
+  "activity": "Family planning centres providing medical treatment (e.g. sterilization, abortion) without inpatient services",
+  "candidates": [],
+  "section": "R"
+ },
+ "862005": {
+  "activity": "Activities of Homeopathy practitioners",
+  "candidates": [],
+  "section": "R"
+ },
+ "862006": {
+  "activity": "Activities of Ayurveda practitioners",
+  "candidates": [],
+  "section": "R"
+ },
+ "862007": {
+  "activity": "Activities of Unani practitioners",
+  "candidates": [],
+  "section": "R"
+ },
+ "862008": {
+  "activity": "Activities of Siddha medical practitioners",
+  "candidates": [],
+  "section": "R"
+ },
+ "862009": {
+  "activity": "Activities of Naturopathy practitioners",
+  "candidates": [],
+  "section": "R"
+ },
+ "862099": {
+  "activity": "Medical and dental practice activities n.e.c.",
+  "candidates": [],
+  "section": "R"
+ },
+ "869100": {
+  "activity": "Intermediation service activities for medical, dental, and other human health services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "parkdentalpartnersin",
+    "name": "Park Dental Partners, Inc.",
+    "path": "stocks/PARK",
+    "source": "yahoo",
+    "tk": "PARK",
+    "verified": true
+   }
+  ],
+  "section": "R"
+ },
+ "869902": {
+  "activity": "Activities of blood banks, sperm banks, transplant organ banks etc.",
+  "candidates": [],
+  "section": "R"
+ },
+ "869903": {
+  "activity": "Ambulance transport of patients by any mode of transport including airplanes",
+  "candidates": [],
+  "section": "R"
+ },
+ "869904": {
+  "activity": "Activities of nurses/compounders, midwives (excluding Ayush nurses)",
+  "candidates": [],
+  "section": "R"
+ },
+ "869905": {
+  "activity": "Activities of physiotherapists, hydrotherapy, medical massage, chiropractic, acupuncture and similar professionals",
+  "candidates": [],
+  "section": "R"
+ },
+ "869906": {
+  "activity": "Activities of Ayush nurses and other paramedical professionals (Allied Health Professionals) like Panchakarma Assistants and similar professionals",
+  "candidates": [],
+  "section": "R"
+ },
+ "869907": {
+  "activity": "Activities of Allopathic nurses or other paramedical practitioners (Allied Health Professionals)",
+  "candidates": [],
+  "section": "R"
+ },
+ "869908": {
+  "activity": "Activities of other paramedical practitioners in the field of optometry",
+  "candidates": [],
+  "section": "R"
+ },
+ "869909": {
+  "activity": "Activities of occupational therapy, speech therapy, podiatry/chiropody",
+  "candidates": [],
+  "section": "R"
+ },
+ "869910": {
+  "activity": "Activities of technicians pertaining to radiology and imaging",
+  "candidates": [],
+  "section": "R"
+ },
+ "869911": {
+  "activity": "Activities of dental paramedical personnel (Allied Health Professionals) such as dental therapists, school dental nurses, and dental hygienists",
+  "candidates": [],
+  "section": "R"
+ },
+ "869912": {
+  "activity": "Health coaching and wellness counselling (except activities of psychologists) including activities of Wellness Centres with medical services",
+  "candidates": [],
+  "section": "R"
+ },
+ "869913": {
+  "activity": "Activities of pharmacists including Ayush pharmacists",
+  "candidates": [],
+  "section": "R"
+ },
+ "869999": {
+  "activity": "Other human health activities n.e.c. (including traditional paramedical activities and independent ambulance activities)",
+  "candidates": [],
+  "section": "R"
+ },
+ "871002": {
+  "activity": "Convalescent homes, other than mental health and substance abuse facilities without the supervision of a medical doctor",
+  "candidates": [],
+  "section": "R"
+ },
+ "871099": {
+  "activity": "Residential nursing care activities n.e.c.",
+  "candidates": [],
+  "section": "R"
+ },
+ "872001": {
+  "activity": "Rehabilitation centre for substance abuse",
+  "candidates": [],
+  "section": "R"
+ },
+ "872002": {
+  "activity": "Rehabilitation centre for mental illness",
+  "candidates": [],
+  "section": "R"
+ },
+ "872099": {
+  "activity": "Other Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse n.e.c.",
+  "candidates": [],
+  "section": "R"
+ },
+ "873002": {
+  "activity": "Assisted-living facilities for persons with physical disabilities",
+  "candidates": [],
+  "section": "R"
+ },
+ "873003": {
+  "activity": "Continuing care retirement communities and homes for older persons with minimal nursing care",
+  "candidates": [],
+  "section": "R"
+ },
+ "873099": {
+  "activity": "Residential care activities for older persons or persons with physical disabilities n.e.c.",
+  "candidates": [],
+  "section": "R"
+ },
+ "879100": {
+  "activity": "Intermediation service activities for residential care activities",
+  "candidates": [],
+  "section": "R"
+ },
+ "879901": {
+  "activity": "Residential and social assistance activities provided on a round-the-clock basis to special categories of persons, but where medical treatment or education are not essential elements - orphanages, children's boarding homes and hostels, provision of residential services for homeless persons, refugees, immigrants etc., juvenile correction homes and similar activities",
+  "candidates": [],
+  "section": "R"
+ },
+ "879999": {
+  "activity": "Other residential care activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bdcompany",
+    "name": "BD (company)",
+    "path": "stocks/bdx",
+    "source": "wikipedia",
+    "tk": "BDX",
+    "verified": true
+   }
+  ],
+  "section": "R"
+ },
+ "881000": {
+  "activity": "Social, counselling, welfare, referral and similar services which are aimed at older persons or persons with disabilities in their homes or elsewhere and carried out by government offices, private organisations and specialists providing counselling services, national or local Self-Help Groups (SHG)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "sproutsocialinc",
+    "name": "Sprout Social, Inc.",
+    "path": "stocks/SPT",
+    "source": "yahoo",
+    "tk": "SPT",
+    "verified": true
+   }
+  ],
+  "section": "R"
+ },
+ "889001": {
+  "activity": "Welfare and guidance activities for children and adolescent",
+  "candidates": [],
+  "section": "R"
+ },
+ "889002": {
+  "activity": "Marriage counselling activity",
+  "candidates": [],
+  "section": "R"
+ },
+ "889003": {
+  "activity": "Financial counselling activities such as credit and debt counselling services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "fairfaxfinancial",
+    "name": "Fairfax Financial",
+    "path": "quote/tsx/FFH",
+    "source": "wikipedia",
+    "tk": "FFH",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "HTTP 404",
+    "id": "fairfaxfinancial",
+    "name": "Fairfax Financial",
+    "path": "quote/tsx/FFH.U",
+    "source": "wikipedia",
+    "tk": "FFH.U",
+    "verified": false
+   }
+  ],
+  "section": "R"
+ },
+ "889004": {
+  "activity": "Activities for disaster victims, refugees, immigrants etc., including temporary or extended shelter for them",
+  "candidates": [],
+  "section": "R"
+ },
+ "889005": {
+  "activity": "Vocational rehabilitation activities for unemployed persons or person with disability with limited education component",
+  "candidates": [],
+  "section": "R"
+ },
+ "889007": {
+  "activity": "Day facilities for the homeless and other socially weak groups",
+  "candidates": [],
+  "section": "R"
+ },
+ "889099": {
+  "activity": "Other social work activities without accommodation n.e.c.",
+  "candidates": [],
+  "section": "R"
  }
 }
