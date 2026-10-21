@@ -1010,8 +1010,9 @@
     "verified": true
    },
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: exact-phrase EDGAR match but low relevance score (~2.5 vs ~9+ for a real match) -- almost certainly incidental/boilerplate text in the filing, not this company's actual business. Needs human review.",
     "id": "celanesecorp",
     "name": "Celanese CORP",
     "path": "stocks/ce",

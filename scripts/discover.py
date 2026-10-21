@@ -281,6 +281,17 @@ def edgar_ticker_lookup(session):
     return _EDGAR_TICKERS
 
 
+# Even an exact quoted-phrase match can be a false positive: a live run
+# auto-merged Celanese Corporation (specialty chemicals) into "Manufacture
+# of gur" (jaggery) because that exact phrase genuinely appears somewhere
+# in one of their filings -- almost certainly incidental/boilerplate text,
+# not their actual business. EDGAR's own relevance _score told the real
+# story: that hit scored ~2.5, versus ~9.2 for a solid match like "Apple
+# Inc" against Apple's own 10-K. A minimum score is a cheap, meaningful
+# extra filter on top of the exact-phrase requirement.
+MIN_EDGAR_SCORE = 5.0
+
+
 def edgar_candidates(session, query, limit=4):
     r = get_with_retry(session, "https://efts.sec.gov/LATEST/search-index", SEC_HEADERS, {
         "q": f'"{query}"', "forms": "10-K",
@@ -294,6 +305,8 @@ def edgar_candidates(session, query, limit=4):
     tickers = edgar_ticker_lookup(session)
     out = []
     for h in hits:
+        if (h.get("_score") or 0) < MIN_EDGAR_SCORE:
+            continue
         names = h.get("_source", {}).get("display_names", [])
         if not names:
             continue

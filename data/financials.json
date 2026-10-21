@@ -3936,24 +3936,6 @@
   "roce": 5.52,
   "roe": 15.05
  },
- "celanesecorp": {
-  "cur": "USD",
-  "ebitda": 1.68,
-  "ebm": 17.27,
-  "error": null,
-  "ev": 9.69,
-  "fetched_at": "2026-10-21T06:32:45+00:00",
-  "mc": 5.22,
-  "netcash": -11.03,
-  "ni": -1.17,
-  "npm": -12.04,
-  "rev": 9.71,
-  "roce": 5.32,
-  "roe": -22.25,
-  "sources": [
-   "edgar+stockanalysis"
-  ]
- },
  "cello": {
   "cur": "INR",
   "ebitda": 4.62,

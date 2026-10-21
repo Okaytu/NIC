@@ -1475,12 +1475,6 @@
   "path": "stocks/ceg",
   "tk": "CEG"
  },
- "celanesecorp": {
-  "ctry": "USA",
-  "n": "Celanese CORP",
-  "path": "stocks/ce",
-  "tk": "CE"
- },
  "cello": {
   "ctry": "India",
   "n": "Cello World",
