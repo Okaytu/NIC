@@ -127,9 +127,20 @@ def wiki_search(session, query, limit=4):
         return []
 
 
+_EXCHANGE_ALT = "NYSE|NASDAQ|LSE|LON|BSE|NSE|TYO|TSE|HKG|SEHK|ASX|TSX|SIX|SWX|FWB|ETR|EPA|AMS"
+# Live-tested finding: most current Wikipedia infoboxes render the
+# "Traded as" field as plain text ("Nasdaq: PLUG"), not the older
+# {{NASDAQ|PLUG}} template style this originally assumed -- confirmed by
+# checking en.wikipedia.org/wiki/Plug_Power directly. Both forms are
+# matched here since older articles may still use the template form.
+_TEMPLATE_RE = re.compile(r"\{\{\s*(" + _EXCHANGE_ALT + r")\s*\|\s*([A-Za-z0-9.]{1,10})\s*\}\}", re.I)
+_PLAINTEXT_RE = re.compile(r"\b(" + _EXCHANGE_ALT + r")\s*:\s*([A-Za-z0-9.]{1,10})\b", re.I)
+
+
 def wiki_infobox_ticker(session, title):
     """Returns a list of (exchange, ticker) pairs found in a 'traded_as'
-    style infobox field, e.g. {{NSE|TCS}} or {{LSE|AHT}}."""
+    style infobox field, matching both {{NSE|TCS}} template style and
+    plain "NSE: TCS" text style."""
     try:
         r = session.get("https://en.wikipedia.org/w/api.php", headers=HEADERS, timeout=15, params={
             "action": "parse", "page": title, "prop": "wikitext", "section": 0, "format": "json",
@@ -137,9 +148,19 @@ def wiki_infobox_ticker(session, title):
         if r.status_code != 200:
             return []
         wikitext = r.json().get("parse", {}).get("wikitext", {}).get("*", "")
-        pairs = re.findall(r"\{\{\s*(" + "|".join(WIKI_EXCHANGE_TO_PATH) + r")\s*\|\s*([A-Za-z0-9.]+)\s*\}\}",
-                            wikitext, re.I)
-        return [(ex.upper(), tk.upper()) for ex, tk in pairs]
+        # Narrow to just the traded_as parameter's value when we can find
+        # it (avoids picking up an unrelated exchange mention elsewhere in
+        # the infobox); fall back to the whole section if that fails.
+        m = re.search(r"\|\s*traded_as\s*=\s*(.*?)\n\s*\|", wikitext, re.S | re.I)
+        scope = m.group(1) if m else wikitext
+        pairs = _TEMPLATE_RE.findall(scope) + _PLAINTEXT_RE.findall(scope)
+        seen, out = set(), []
+        for ex, tk in pairs:
+            key = (ex.upper(), tk.upper())
+            if key not in seen:
+                seen.add(key)
+                out.append(key)
+        return out
     except requests.RequestException:
         return []
 
