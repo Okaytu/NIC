@@ -16,8 +16,7 @@ jobs:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
       - name: Run diagnostic
-        working-directory: scripts
-        run: python3 debug_wiki_test.py
+        run: PYTHONPATH=scripts python3 scripts/debug_wiki_test.py
       - name: Commit result
         run: |
           git config user.name "github-actions[bot]"
