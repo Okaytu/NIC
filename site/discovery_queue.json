@@ -132,6 +132,28 @@
     "source": "edgar",
     "tk": "GPLB",
     "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "imperialbrands",
+    "name": "Imperial Brands",
+    "path": "quote/lon/IMB",
+    "source": "wikipedia",
+    "tk": "IMB",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "greenplanetbioengine",
+    "name": "Green Planet Bio Engineering Co. Ltd.",
+    "path": "stocks/gplb",
+    "source": "edgar",
+    "tk": "GPLB",
+    "verified": false
    }
   ],
   "section": "A"
@@ -153,6 +175,17 @@
     "auto_added": false,
     "ctry": "USA",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "1800flowerscominc",
+    "name": "1-800-Flowers.com, Inc.",
+    "path": "stocks/flws",
+    "source": "wikipedia",
+    "tk": "FLWS",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "1800flowerscominc",
     "name": "1-800-Flowers.com, Inc.",
     "path": "stocks/flws",
@@ -255,6 +288,17 @@
     "source": "wikipedia",
     "tk": "AAPL",
     "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "appleinc",
+    "name": "Apple Inc.",
+    "path": "stocks/aapl",
+    "source": "wikipedia",
+    "tk": "AAPL",
+    "verified": true
    }
   ],
   "section": "A"
@@ -301,7 +345,19 @@
  },
  "012801": {
   "activity": "Growing of perennial and non-perennial spices and aromatic crops (pepper, nutmeg, mace, anise, badian and fennel, cinnamon (canella), cloves, vanilla and other spices and aromatic crops)",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "themacerichcompany",
+    "name": "The Macerich Company",
+    "path": "stocks/MAC",
+    "source": "yahoo",
+    "tk": "MAC",
+    "verified": true
+   }
+  ],
   "section": "A"
  },
  "012803": {
@@ -391,7 +447,19 @@
  },
  "016301": {
   "activity": "Preparation of crops for primary markets by cleaning, trimming, grading, disinfecting and similar activities",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "efundbiologicaltechn",
+    "name": "E Fund Biological Technology Index Grading Securities Fund",
+    "path": "quote/sze/161122",
+    "source": "yahoo",
+    "tk": "161122",
+    "verified": false
+   }
+  ],
   "section": "A"
  },
  "016302": {
@@ -416,7 +484,19 @@
  },
  "017000": {
   "activity": "Hunting, trapping and related service activities",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "huntingtonbancshares",
+    "name": "Huntington Bancshares Incorporated",
+    "path": "stocks/HBAN",
+    "source": "yahoo",
+    "tk": "HBAN",
+    "verified": true
+   }
+  ],
   "section": "A"
  },
  "021002": {
@@ -436,7 +516,19 @@
  },
  "022002": {
   "activity": "Logging camps and loggers primarily engaged in felling timber and producing wood in the rough such as pitprops, split poles, pickets, hewn railway ties",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "picardmedicalinc",
+    "name": "Picard Medical, Inc.",
+    "path": "stocks/PMI",
+    "source": "yahoo",
+    "tk": "PMI",
+    "verified": true
+   }
+  ],
   "section": "A"
  },
  "022003": {
@@ -491,7 +583,19 @@
  },
  "031103": {
   "activity": "Gathering of other marine organisms and materials such as natural pearls, sponges, coral, seaweed, and algae",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Hong Kong",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "cafdecoralholdingsli",
+    "name": "Café de Coral Holdings Limited",
+    "path": "quote/hkg/0341",
+    "source": "yahoo",
+    "tk": "0341",
+    "verified": true
+   }
+  ],
   "section": "A"
  },
  "031201": {
