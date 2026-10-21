@@ -529,7 +529,30 @@
  },
  "051003": {
   "activity": "Cleaning, sizing, grading, pulverising, compressing etc. of hard coal to classify, improve quality or facilitate transport or storage",
-  "candidates": [],
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "shanghaiemperorofcle",
+    "name": "Shanghai Emperor of Cleaning Hi-Tech Co., Ltd",
+    "path": "quote/sse/603200",
+    "source": "yahoo",
+    "tk": "603200",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "China",
+    "error": "HTTP 404",
+    "id": "efundbiologicaltechn",
+    "name": "E Fund Biological Technology Index Grading Securities Fund",
+    "path": "quote/sze/161122",
+    "source": "yahoo",
+    "tk": "161122",
+    "verified": false
+   }
+  ],
   "section": "B"
  },
  "051099": {
