@@ -88,72 +88,6 @@
     "source": "edgar",
     "tk": "GPLB",
     "verified": false
-   },
-   {
-    "auto_added": false,
-    "ctry": "UK",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "imperialbrands",
-    "name": "Imperial Brands",
-    "path": "quote/lon/IMB",
-    "source": "wikipedia",
-    "tk": "IMB",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "HTTP 404",
-    "id": "greenplanetbioengine",
-    "name": "Green Planet Bio Engineering Co. Ltd.",
-    "path": "stocks/gplb",
-    "source": "edgar",
-    "tk": "GPLB",
-    "verified": false
-   },
-   {
-    "auto_added": false,
-    "ctry": "UK",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "imperialbrands",
-    "name": "Imperial Brands",
-    "path": "quote/lon/IMB",
-    "source": "wikipedia",
-    "tk": "IMB",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "HTTP 404",
-    "id": "greenplanetbioengine",
-    "name": "Green Planet Bio Engineering Co. Ltd.",
-    "path": "stocks/gplb",
-    "source": "edgar",
-    "tk": "GPLB",
-    "verified": false
-   },
-   {
-    "auto_added": false,
-    "ctry": "UK",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "imperialbrands",
-    "name": "Imperial Brands",
-    "path": "quote/lon/IMB",
-    "source": "wikipedia",
-    "tk": "IMB",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "HTTP 404",
-    "id": "greenplanetbioengine",
-    "name": "Green Planet Bio Engineering Co. Ltd.",
-    "path": "stocks/gplb",
-    "source": "edgar",
-    "tk": "GPLB",
-    "verified": false
    }
   ],
   "section": "A"
@@ -175,39 +109,6 @@
     "auto_added": false,
     "ctry": "USA",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
-    "id": "1800flowerscominc",
-    "name": "1-800-Flowers.com, Inc.",
-    "path": "stocks/flws",
-    "source": "wikipedia",
-    "tk": "FLWS",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "1800flowerscominc",
-    "name": "1-800-Flowers.com, Inc.",
-    "path": "stocks/flws",
-    "source": "wikipedia",
-    "tk": "FLWS",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "1800flowerscominc",
-    "name": "1-800-Flowers.com, Inc.",
-    "path": "stocks/flws",
-    "source": "wikipedia",
-    "tk": "FLWS",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "1800flowerscominc",
     "name": "1-800-Flowers.com, Inc.",
     "path": "stocks/flws",
@@ -254,7 +155,7 @@
   "section": "A"
  },
  "012401": {
-  "activity": "Growing of apples Group Class Sub-Class Description",
+  "activity": "Growing of apples",
   "candidates": [
    {
     "auto_added": false,
@@ -265,28 +166,6 @@
     "path": "stocks/amzn",
     "source": "wikipedia",
     "tk": "AMZN",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "appleinc",
-    "name": "Apple Inc.",
-    "path": "stocks/aapl",
-    "source": "wikipedia",
-    "tk": "AAPL",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "appleinc",
-    "name": "Apple Inc.",
-    "path": "stocks/aapl",
-    "source": "wikipedia",
-    "tk": "AAPL",
     "verified": true
    },
    {
@@ -361,7 +240,7 @@
   "section": "A"
  },
  "012803": {
-  "activity": "Growing of perennial and non-perennial plants primarily used in perfumery, pharmaceutical or for insecticidal, fungicidal or similar purposes including heena (mehandi) Group Class Sub-Class Description",
+  "activity": "Growing of perennial and non-perennial plants primarily used in perfumery, pharmaceutical or for insecticidal, fungicidal or similar purposes including heena (mehandi)",
   "candidates": [],
   "section": "A"
  },
@@ -426,7 +305,7 @@
   "section": "A"
  },
  "015099": {
-  "activity": "Other mixed farming n.e.c. Group Class Sub-Class Description",
+  "activity": "Other mixed farming n.e.c.",
   "candidates": [],
   "section": "A"
  },
@@ -468,7 +347,7 @@
   "section": "A"
  },
  "016304": {
-  "activity": "Sorting, cleaning and cutting of medicinal plants Group Class Sub-Class Description",
+  "activity": "Sorting, cleaning and cutting of medicinal plants",
   "candidates": [],
   "section": "A"
  },
@@ -742,7 +621,7 @@
   "section": "B"
  },
  "089104": {
-  "activity": "Mining of fluorspar and other minerals valued chiefly as a source of chemicals Group Class Sub-Class Description",
+  "activity": "Mining of fluorspar and other minerals valued chiefly as a source of chemicals",
   "candidates": [],
   "section": "B"
  },
@@ -907,39 +786,6 @@
    },
    {
     "auto_added": false,
-    "ctry": "UK",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "bp",
-    "name": "BP",
-    "path": "quote/lon/BP",
-    "source": "wikipedia",
-    "tk": "BP",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "bp",
-    "name": "BP",
-    "path": "stocks/bp",
-    "source": "wikipedia",
-    "tk": "BP",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "UK",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "bp",
-    "name": "BP",
-    "path": "quote/lon/BP",
-    "source": "wikipedia",
-    "tk": "BP",
-    "verified": true
-   },
-   {
-    "auto_added": false,
     "ctry": "USA",
     "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "bp",
@@ -1000,28 +846,6 @@
     "source": "wikipedia",
     "tk": "HSY",
     "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "thehersheycompany",
-    "name": "The Hershey Company",
-    "path": "stocks/hsy",
-    "source": "wikipedia",
-    "tk": "HSY",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "thehersheycompany",
-    "name": "The Hershey Company",
-    "path": "stocks/hsy",
-    "source": "wikipedia",
-    "tk": "HSY",
-    "verified": true
    }
   ],
   "section": "C"
@@ -1069,28 +893,6 @@
     "source": "wikipedia",
     "tk": "ADM",
     "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "archerdanielsmidland",
-    "name": "Archer Daniels Midland",
-    "path": "stocks/adm",
-    "source": "wikipedia",
-    "tk": "ADM",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "archerdanielsmidland",
-    "name": "Archer Daniels Midland",
-    "path": "stocks/adm",
-    "source": "wikipedia",
-    "tk": "ADM",
-    "verified": true
    }
   ],
   "section": "C"
@@ -1102,28 +904,6 @@
     "auto_added": false,
     "ctry": "Canada",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
-    "id": "spinmaster",
-    "name": "Spin Master",
-    "path": "quote/tsx/TOY",
-    "source": "wikipedia",
-    "tk": "TOY",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "Canada",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "spinmaster",
-    "name": "Spin Master",
-    "path": "quote/tsx/TOY",
-    "source": "wikipedia",
-    "tk": "TOY",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "Canada",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "spinmaster",
     "name": "Spin Master",
     "path": "quote/tsx/TOY",
@@ -1175,39 +955,6 @@
    },
    {
     "auto_added": false,
-    "ctry": "Japan",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "nec",
-    "name": "NEC",
-    "path": "quote/tyo/6701",
-    "source": "wikipedia",
-    "tk": "6701",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "thehersheycompany",
-    "name": "The Hershey Company",
-    "path": "stocks/hsy",
-    "source": "wikipedia",
-    "tk": "HSY",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "Japan",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "nec",
-    "name": "NEC",
-    "path": "quote/tyo/6701",
-    "source": "wikipedia",
-    "tk": "6701",
-    "verified": true
-   },
-   {
-    "auto_added": false,
     "ctry": "USA",
     "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "thehersheycompany",
@@ -1221,7 +968,7 @@
   "section": "C"
  },
  "107202": {
-  "activity": "Manufacture of `gur",
+  "activity": "Manufacture of gur",
   "candidates": [
    {
     "auto_added": false,
@@ -1233,38 +980,27 @@
     "source": "edgar",
     "tk": "CE",
     "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "reverted: exact-phrase EDGAR match but low relevance score (~2.5 vs ~9+ for a real match) -- almost certainly incidental/boilerplate text in the filing, not this company's actual business. Needs human review.",
-    "id": "celanesecorp",
-    "name": "Celanese CORP",
-    "path": "stocks/ce",
-    "source": "edgar",
-    "tk": "CE",
-    "verified": true
    }
   ],
   "section": "C"
  },
  "107203": {
-  "activity": "Manufacture of `gur",
+  "activity": "Manufacture of gur",
   "candidates": [],
   "section": "C"
  },
  "107204": {
-  "activity": "Manufacture of `khandsari",
+  "activity": "Manufacture of khandsari",
   "candidates": [],
   "section": "C"
  },
  "107205": {
-  "activity": "Manufacture of `boora",
+  "activity": "Manufacture of boora",
   "candidates": [],
   "section": "C"
  },
  "107206": {
-  "activity": "Manufacture of `boora",
+  "activity": "Manufacture of boora",
   "candidates": [],
   "section": "C"
  },
@@ -1284,19 +1020,8 @@
   "section": "C"
  },
  "107399": {
-  "activity": "Manufacture of other cocoa, chocolate, sugar confectionery products n.e.c. Group Class Sub-Class Description",
+  "activity": "Manufacture of other cocoa, chocolate, sugar confectionery products n.e.c.",
   "candidates": [
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "thehersheycompany",
-    "name": "The Hershey Company",
-    "path": "stocks/hsy",
-    "source": "wikipedia",
-    "tk": "HSY",
-    "verified": true
-   },
    {
     "auto_added": false,
     "ctry": "USA",
@@ -1363,39 +1088,6 @@
     "auto_added": false,
     "ctry": "India",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
-    "id": "hesterbiosciences",
-    "name": "Hester Biosciences",
-    "path": "quote/nse/HESTERBIO",
-    "source": "wikipedia",
-    "tk": "HESTERBIO",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "hesterbiosciences",
-    "name": "Hester Biosciences",
-    "path": "quote/nse/HESTERBIO",
-    "source": "wikipedia",
-    "tk": "HESTERBIO",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "hesterbiosciences",
-    "name": "Hester Biosciences",
-    "path": "quote/bom/524669",
-    "source": "wikipedia",
-    "tk": "524669",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "hesterbiosciences",
     "name": "Hester Biosciences",
     "path": "quote/nse/HESTERBIO",
@@ -1486,56 +1178,12 @@
     "source": "wikipedia",
     "tk": "2502",
     "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "Japan",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "kirincompany",
-    "name": "Kirin Company",
-    "path": "quote/tyo/2503",
-    "source": "wikipedia",
-    "tk": "2503",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "Japan",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "asahibreweries",
-    "name": "Asahi Breweries",
-    "path": "quote/tyo/2502",
-    "source": "wikipedia",
-    "tk": "2502",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "Japan",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "kirincompany",
-    "name": "Kirin Company",
-    "path": "quote/tyo/2503",
-    "source": "wikipedia",
-    "tk": "2503",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "Japan",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "asahibreweries",
-    "name": "Asahi Breweries",
-    "path": "quote/tyo/2502",
-    "source": "wikipedia",
-    "tk": "2502",
-    "verified": true
    }
   ],
   "section": "C"
  },
  "110400": {
-  "activity": "Manufacture of malt Group Class Sub-Class Description",
+  "activity": "Manufacture of malt",
   "candidates": [
    {
     "auto_added": false,
@@ -1618,39 +1266,6 @@
     "auto_added": false,
     "ctry": "India",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
-    "id": "arvindcompany",
-    "name": "Arvind (company)",
-    "path": "quote/nse/ARVIND",
-    "source": "wikipedia",
-    "tk": "ARVIND",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "arvindcompany",
-    "name": "Arvind (company)",
-    "path": "quote/nse/ARVIND",
-    "source": "wikipedia",
-    "tk": "ARVIND",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "arvindcompany",
-    "name": "Arvind (company)",
-    "path": "quote/bom/500101",
-    "source": "wikipedia",
-    "tk": "500101",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "arvindcompany",
     "name": "Arvind (company)",
     "path": "quote/nse/ARVIND",
@@ -1853,7 +1468,7 @@
   "section": "C"
  },
  "139402": {
-  "activity": "Manufacture of twine, cordage, rope and cables made of synthetic material whether or not treated Group Class Sub-Class Description",
+  "activity": "Manufacture of twine, cordage, rope and cables made of synthetic material whether or not treated",
   "candidates": [],
   "section": "C"
  },
@@ -1940,28 +1555,6 @@
     "source": "wikipedia",
     "tk": "COST",
     "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "costco",
-    "name": "Costco",
-    "path": "stocks/cost",
-    "source": "wikipedia",
-    "tk": "COST",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "USA",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "costco",
-    "name": "Costco",
-    "path": "stocks/cost",
-    "source": "wikipedia",
-    "tk": "COST",
-    "verified": true
    }
   ],
   "section": "C"
@@ -1992,7 +1585,7 @@
   "section": "C"
  },
  "143002": {
-  "activity": "Manufacture of knitted or crocheted inner wear directly into shape Group Class Sub-Class Description",
+  "activity": "Manufacture of knitted or crocheted inner wear directly into shape",
   "candidates": [],
   "section": "C"
  },
@@ -2047,7 +1640,7 @@
   "section": "C"
  },
  "162201": {
-  "activity": "Manufacture of wooden beams, trusses, rafters and roof struts Group Class Sub-Class Description",
+  "activity": "Manufacture of wooden beams, trusses, rafters and roof struts",
   "candidates": [],
   "section": "C"
  },
@@ -2102,7 +1695,7 @@
   "section": "C"
  },
  "162906": {
-  "activity": "Manufacture of cow dung cakes Group Class Sub-Class Description",
+  "activity": "Manufacture of cow dung cakes",
   "candidates": [],
   "section": "C"
  },
@@ -2213,39 +1806,6 @@
     "auto_added": false,
     "ctry": "India",
     "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
-    "id": "hindustanorganicchem",
-    "name": "Hindustan Organic Chemicals Limited",
-    "path": "quote/bom/500449",
-    "source": "wikipedia",
-    "tk": "500449",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
-    "id": "hindustanorganicchem",
-    "name": "Hindustan Organic Chemicals Limited",
-    "path": "quote/bom/500449",
-    "source": "wikipedia",
-    "tk": "500449",
-    "verified": true
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "HTTP 404",
-    "id": "hindustanorganicchem",
-    "name": "Hindustan Organic Chemicals Limited",
-    "path": "quote/nse/HOCL",
-    "source": "wikipedia",
-    "tk": "HOCL",
-    "verified": false
-   },
-   {
-    "auto_added": false,
-    "ctry": "India",
-    "error": "wikipedia source: ticker verified, needs human relevance check",
     "id": "hindustanorganicchem",
     "name": "Hindustan Organic Chemicals Limited",
     "path": "quote/bom/500449",
@@ -2959,7 +2519,7 @@
   "section": "D"
  },
  "351299": {
-  "activity": "Electric power generation activities using other renewable sources n.e.c. Group Class Sub-Class Description",
+  "activity": "Electric power generation activities using other renewable sources n.e.c.",
   "candidates": [],
   "section": "D"
  },

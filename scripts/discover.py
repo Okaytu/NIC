@@ -477,7 +477,19 @@ def main():
 
         verified_ids = []
         entry = queue.setdefault(code, {"activity": activity, "section": S, "candidates": []})
+        # A code can legitimately get re-processed in a later run (new
+        # sources added, or it just never cleared the empty-code list
+        # because nothing auto-merged) -- refresh the stored activity text
+        # so an old run's dirty text (pre clean_activity() fix) doesn't
+        # survive forever via setdefault, and track existing candidates so
+        # we don't re-append the exact same (source, ticker, country) hit
+        # a second time.
+        entry["activity"] = activity
+        existing_keys = {(c.get("source"), c.get("tk"), c.get("ctry")) for c in entry["candidates"]}
         for cand in uniq:
+            if (cand["source"], cand["tk"], cand["ctry"]) in existing_keys:
+                log(f"  skip {cand['name']} ({cand['source']}): already in the review queue for this code")
+                continue
             cid = slugify(cand["name"])
             base_cid = cid
             n = 2
