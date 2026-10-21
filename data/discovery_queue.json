@@ -5918,5 +5918,425 @@
   "activity": "Other real estate activities on a fee or contract basis n.e.c. including rent collecting",
   "candidates": [],
   "section": "M"
+ },
+ "691001": {
+  "activity": "General legal counselling, advice, consultancy and representation in legal matters in civil, criminal and labour law disputes including representation before courts and other judicial bodies",
+  "candidates": [],
+  "section": "N"
+ },
+ "691002": {
+  "activity": "Activities of rent collection agencies",
+  "candidates": [],
+  "section": "N"
+ },
+ "691099": {
+  "activity": "Other legal activities n.e.c. including notary services, arbitration and mediation by legal professionals",
+  "candidates": [],
+  "section": "N"
+ },
+ "692001": {
+  "activity": "Accounting and bookkeeping services",
+  "candidates": [],
+  "section": "N"
+ },
+ "692002": {
+  "activity": "Auditing services",
+  "candidates": [
+   {
+    "auto_added": true,
+    "ctry": "USA",
+    "id": "axcelistechnologiesi",
+    "name": "AXCELIS TECHNOLOGIES INC",
+    "path": "stocks/acls",
+    "source": "edgar",
+    "tk": "ACLS",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "701000": {
+  "activity": "Activities of overseeing, managing, exercising operational control and decision-making role of the enterprise or enterprise group acting as head office",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "yunikmanagingadvisor",
+    "name": "Yunik Managing Advisors Limited",
+    "path": "quote/bom/YUNIKM",
+    "source": "yahoo",
+    "tk": "YUNIKM",
+    "verified": false
+   }
+  ],
+  "section": "N"
+ },
+ "702002": {
+  "activity": "Design of accounting methods or procedures, cost accounting programmes, budgetary control procedures",
+  "candidates": [],
+  "section": "N"
+ },
+ "702003": {
+  "activity": "Policy advocacy services (non-profit)",
+  "candidates": [],
+  "section": "N"
+ },
+ "702099": {
+  "activity": "Other Business and management consultancy services activities n.e.c. including activities of cost accountants",
+  "candidates": [],
+  "section": "N"
+ },
+ "711001": {
+  "activity": "Building design and drafting",
+  "candidates": [],
+  "section": "N"
+ },
+ "711002": {
+  "activity": "Town and city planning and landscape architecture",
+  "candidates": [],
+  "section": "N"
+ },
+ "711005": {
+  "activity": "Naval architecture and offshore engineering",
+  "candidates": [],
+  "section": "N"
+ },
+ "711099": {
+  "activity": "Other architectural and engineering, and related technical consultancy activities n.e.c.",
+  "candidates": [],
+  "section": "N"
+ },
+ "712001": {
+  "activity": "Food hygiene and safety testing services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "neogen",
+    "name": "Neogen",
+    "path": "stocks/neog",
+    "source": "wikipedia",
+    "tk": "NEOG",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "712002": {
+  "activity": "Performance Testing of Mechanical and Electronic Equipment",
+  "candidates": [],
+  "section": "N"
+ },
+ "712003": {
+  "activity": "Environmental Quality Testing and Monitoring Services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "montroseenvironmenta",
+    "name": "Montrose Environmental Group",
+    "path": "stocks/meg",
+    "source": "wikipedia",
+    "tk": "MEG",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "712004": {
+  "activity": "Certification of products, including consumer goods, motor vehicles, aircraft, pressurized containers etc.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "newhorizonaircraftlt",
+    "name": "New Horizon Aircraft Ltd.",
+    "path": "stocks/HOVR",
+    "source": "yahoo",
+    "tk": "HOVR",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "712005": {
+  "activity": "Road-safety testing of motor vehicles",
+  "candidates": [],
+  "section": "N"
+ },
+ "712006": {
+  "activity": "Forensic and Criminal Investigation Laboratory Services",
+  "candidates": [],
+  "section": "N"
+ },
+ "712007": {
+  "activity": "Quality assessment and certification services like, hallmark and similar services",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "appleinc",
+    "name": "Apple Inc.",
+    "path": "stocks/aapl",
+    "source": "wikipedia",
+    "tk": "AAPL",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "721001": {
+  "activity": "Research and development on natural sciences",
+  "candidates": [],
+  "section": "N"
+ },
+ "721004": {
+  "activity": "Research and development on biotechnology including DNA sequencing for general research on biological processes",
+  "candidates": [],
+  "section": "N"
+ },
+ "721005": {
+  "activity": "Research and development on agricultural, forestry and fisheries sciences",
+  "candidates": [],
+  "section": "N"
+ },
+ "721006": {
+  "activity": "Interdisciplinary research and development, predominantly on natural sciences and engineering",
+  "candidates": [],
+  "section": "N"
+ },
+ "721007": {
+  "activity": "Research and development on Space Science",
+  "candidates": [],
+  "section": "N"
+ },
+ "721099": {
+  "activity": "Research and experimental development on natural sciences and engineering n.e.c.",
+  "candidates": [],
+  "section": "N"
+ },
+ "722001": {
+  "activity": "Research & Development on Economics and Business Administration",
+  "candidates": [],
+  "section": "N"
+ },
+ "722002": {
+  "activity": "Research & Development on Arts, Languages and Culture",
+  "candidates": [],
+  "section": "N"
+ },
+ "722003": {
+  "activity": "Interdisciplinary Research & Development",
+  "candidates": [],
+  "section": "N"
+ },
+ "722099": {
+  "activity": "Research & Development on other social sciences and Humanities n.e.c.",
+  "candidates": [],
+  "section": "N"
+ },
+ "731002": {
+  "activity": "Advertising and Marketing Services through newspaper, pamphlets and similar modes",
+  "candidates": [],
+  "section": "N"
+ },
+ "732002": {
+  "activity": "Public opinion polling activities",
+  "candidates": [],
+  "section": "N"
+ },
+ "733000": {
+  "activity": "Public relations activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "prtimes",
+    "name": "PR Times",
+    "path": "quote/tyo/3922",
+    "source": "wikipedia",
+    "tk": "3922",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "741001": {
+  "activity": "Fashion design related to textiles, wearing apparel, shoes, jewellery",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "goodvibrationsshoesi",
+    "name": "Good Vibrations Shoes Inc.",
+    "path": "stocks/GVSI",
+    "source": "yahoo",
+    "tk": "GVSI",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "Hong Kong",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "chowtaifookjewellery",
+    "name": "Chow Tai Fook Jewellery Group Limited",
+    "path": "quote/hkg/1929",
+    "source": "yahoo",
+    "tk": "1929",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "741002": {
+  "activity": "Interior Designing including Furniture",
+  "candidates": [],
+  "section": "N"
+ },
+ "741003": {
+  "activity": "Services of graphic designers",
+  "candidates": [],
+  "section": "N"
+ },
+ "741004": {
+  "activity": "Industrial Design",
+  "candidates": [],
+  "section": "N"
+ },
+ "741005": {
+  "activity": "Household Product Design, excluding Furniture",
+  "candidates": [],
+  "section": "N"
+ },
+ "741099": {
+  "activity": "Other specialized design activities n.e.c.",
+  "candidates": [],
+  "section": "N"
+ },
+ "742001": {
+  "activity": "Photography (Commercial and consumer)",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "gettyimages",
+    "name": "Getty Images",
+    "path": "stocks/gety",
+    "source": "wikipedia",
+    "tk": "GETY",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "742002": {
+  "activity": "Videography (Events)",
+  "candidates": [],
+  "section": "N"
+ },
+ "742003": {
+  "activity": "Photography and videography (Journalists)",
+  "candidates": [],
+  "section": "N"
+ },
+ "742099": {
+  "activity": "Other photographic and videography activities n.e.c.",
+  "candidates": [],
+  "section": "N"
+ },
+ "743000": {
+  "activity": "Translation and interpretation of languages, including sign language, whether spoken or written",
+  "candidates": [],
+  "section": "N"
+ },
+ "749101": {
+  "activity": "Copyright Brokering",
+  "candidates": [],
+  "section": "N"
+ },
+ "749102": {
+  "activity": "Intellectual property brokering excluding copyright brokering",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thewaltdisneycompany",
+    "name": "The Walt Disney Company",
+    "path": "stocks/dis",
+    "source": "wikipedia",
+    "tk": "DIS",
+    "verified": true
+   }
+  ],
+  "section": "N"
+ },
+ "749103": {
+  "activity": "Marketing Services for rights to Intellectual Property",
+  "candidates": [],
+  "section": "N"
+ },
+ "749104": {
+  "activity": "Collective rights management organizations",
+  "candidates": [],
+  "section": "N"
+ },
+ "749199": {
+  "activity": "Other patent brokering and marketing service activities n.e.c.",
+  "candidates": [],
+  "section": "N"
+ },
+ "749901": {
+  "activity": "Business brokerage activities excluding copyright and intellectual property brokerage",
+  "candidates": [],
+  "section": "N"
+ },
+ "749902": {
+  "activity": "Weather forecasting activities",
+  "candidates": [],
+  "section": "N"
+ },
+ "749903": {
+  "activity": "Security consulting activities",
+  "candidates": [],
+  "section": "N"
+ },
+ "749904": {
+  "activity": "Environmental consulting activities",
+  "candidates": [],
+  "section": "N"
+ },
+ "749905": {
+  "activity": "Activities carried out by agents and agencies on behalf of individuals usually involving the obtaining of engagements in motion picture, theatrical production or other entertainment or sports attractions and the placement of books, plays, artworks, photographs etc., with publishers, producers etc.",
+  "candidates": [],
+  "section": "N"
+ },
+ "749999": {
+  "activity": "Other professional, scientific and technical activities n.e.c.",
+  "candidates": [],
+  "section": "N"
+ },
+ "750001": {
+  "activity": "Animal health care and control activities for farm animals",
+  "candidates": [],
+  "section": "N"
+ },
+ "750003": {
+  "activity": "Animal rehabilitation and physiotherapy activities",
+  "candidates": [],
+  "section": "N"
+ },
+ "750099": {
+  "activity": "Other veterinary activities n.e.c.",
+  "candidates": [],
+  "section": "N"
  }
 }

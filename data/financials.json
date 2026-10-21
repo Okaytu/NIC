@@ -2128,6 +2128,25 @@
   "roce": 17.08,
   "roe": null
  },
+ "axcelistechnologiesi": {
+  "cur": "USD",
+  "ebitda": 0.09939,
+  "ebm": 11.48,
+  "error": null,
+  "ev": 31.75,
+  "fetched_at": "2026-10-21T12:22:50+00:00",
+  "mc": 3.49,
+  "netcash": 0.33241000000000004,
+  "ni": 0.09279000000000001,
+  "npm": 10.71,
+  "pe": 37.86,
+  "rev": 0.8660700000000001,
+  "roce": 7.54,
+  "roe": 8.89,
+  "sources": [
+   "edgar+stockanalysis"
+  ]
+ },
  "axisbank": {
   "cur": "INR",
   "ebitda": null,

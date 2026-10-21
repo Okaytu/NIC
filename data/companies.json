@@ -797,6 +797,12 @@
   "path": "quote/nse/AWL",
   "tk": "AWL"
  },
+ "axcelistechnologiesi": {
+  "ctry": "USA",
+  "n": "AXCELIS TECHNOLOGIES INC",
+  "path": "stocks/acls",
+  "tk": "ACLS"
+ },
  "axisbank": {
   "ctry": "India",
   "n": "Axis Bank",

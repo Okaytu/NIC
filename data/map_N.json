@@ -1,75 +1,79 @@
 {
-"name": "Professional and technical services",
-"range": "69–75",
-"biz": {
-"692003": [
-"hrb"
-],
-"702001": [
-"bah",
-"fcn",
-"hurn"
-],
-"711003": [
-"rites",
-"jacobs",
-"acm",
-"wsp"
-],
-"711004": [
-"fugro"
-],
-"712099": [
-"vimtalabs",
-"sgs",
-"bvi",
-"itrk",
-"eurofins"
-],
-"721002": [
-"tataelxsi"
-],
-"721003": [
-"sailife",
-"iqv",
-"iclr",
-"crl"
-],
-"731001": [
-"publicis",
-"omc",
-"wpp"
-],
-"731003": [
-"affle",
-"app",
-"ttd"
-],
-"732001": [
-"gartner",
-"ipsos"
-],
-"750002": [
-"idxx"
-]
-},
-"bnote": {
-"702001": "No listed Indian management-consulting firm. These are listed US consultancies.",
-"711003": "RITES is India's listed engineering consultancy. The rest are the largest abroad.",
-"712099": "Vimta Labs is India's listed testing lab. SGS, Bureau Veritas, Intertek and Eurofins lead testing worldwide.",
-"721003": "Sai Life Sciences is an Indian contract research and manufacturing company. Syngene is left out because its parent Biocon is already counted.",
-"731003": "Affle is India's listed mobile-advertising company.",
-"750002": "No listed vet-clinic chain found in India. IDEXX makes vet diagnostics and is the closest large listed company."
-},
-"flags": {
-"iclr": "Profit is depressed by impairment charges, so the P/E is not meaningful.",
-"omc": "Profit fell because of costs from the Interpublic merger.",
-"app": "AppLovin sold its apps business, so margins now reflect only its ad platform."
-},
-"notes": [
-[
-"Section N: professional services",
-"Law, audit and accounting firms are partnerships and not listed in India or abroad. Engineering, testing, research and advertising are covered."
-]
-]
+ "name": "Professional and technical services",
+ "range": "69–75",
+ "biz": {
+  "692003": [
+   "hrb"
+  ],
+  "702001": [
+   "bah",
+   "fcn",
+   "hurn"
+  ],
+  "711003": [
+   "rites",
+   "jacobs",
+   "acm",
+   "wsp"
+  ],
+  "711004": [
+   "fugro"
+  ],
+  "712099": [
+   "vimtalabs",
+   "sgs",
+   "bvi",
+   "itrk",
+   "eurofins"
+  ],
+  "721002": [
+   "tataelxsi"
+  ],
+  "721003": [
+   "sailife",
+   "iqv",
+   "iclr",
+   "crl"
+  ],
+  "731001": [
+   "publicis",
+   "omc",
+   "wpp"
+  ],
+  "731003": [
+   "affle",
+   "app",
+   "ttd"
+  ],
+  "732001": [
+   "gartner",
+   "ipsos"
+  ],
+  "750002": [
+   "idxx"
+  ],
+  "692002": [
+   "axcelistechnologiesi"
+  ]
+ },
+ "bnote": {
+  "702001": "No listed Indian management-consulting firm. These are listed US consultancies.",
+  "711003": "RITES is India's listed engineering consultancy. The rest are the largest abroad.",
+  "712099": "Vimta Labs is India's listed testing lab. SGS, Bureau Veritas, Intertek and Eurofins lead testing worldwide.",
+  "721003": "Sai Life Sciences is an Indian contract research and manufacturing company. Syngene is left out because its parent Biocon is already counted.",
+  "731003": "Affle is India's listed mobile-advertising company.",
+  "750002": "No listed vet-clinic chain found in India. IDEXX makes vet diagnostics and is the closest large listed company.",
+  "692002": "Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+ },
+ "flags": {
+  "iclr": "Profit is depressed by impairment charges, so the P/E is not meaningful.",
+  "omc": "Profit fell because of costs from the Interpublic merger.",
+  "app": "AppLovin sold its apps business, so margins now reflect only its ad platform."
+ },
+ "notes": [
+  [
+   "Section N: professional services",
+   "Law, audit and accounting firms are partnerships and not listed in India or abroad. Engineering, testing, research and advertising are covered."
+  ]
+ ]
 }
