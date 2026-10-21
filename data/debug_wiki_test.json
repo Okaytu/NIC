@@ -1,0 +1,41 @@
+{
+  "easy_company_search": {
+    "query": "Tata Consultancy Services",
+    "titles": [
+      "Tata Consultancy Services",
+      "Tata Group",
+      "JRD Tata",
+      "List of Indian IT companies"
+    ],
+    "infobox": {
+      "Tata Consultancy Services": [],
+      "Tata Group": [],
+      "JRD Tata": [],
+      "List of Indian IT companies": []
+    }
+  },
+  "easy_company_search2": {
+    "query": "Apple Inc company",
+    "titles": [],
+    "infobox": {}
+  },
+  "niche_grapes": {
+    "query": "Growing of grapes company",
+    "titles": [],
+    "infobox": {}
+  },
+  "niche_cotton": {
+    "query": "Cotton ginning, cleaning and baling company",
+    "titles": [],
+    "infobox": {}
+  },
+  "niche_millets": {
+    "query": "Growing of Bajra and Jowar and other millets company",
+    "titles": [],
+    "infobox": {}
+  },
+  "wiki_candidates_tcs": [],
+  "wiki_candidates_millets": [],
+  "edgar_candidates_apple": [],
+  "edgar_candidates_millets": []
+}
