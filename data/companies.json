@@ -612,10 +612,10 @@
   "tk": "ASHOKLEY"
  },
  "ashtead": {
-  "ctry": "UK",
-  "n": "Ashtead Group",
-  "path": "quote/lon/AHT",
-  "tk": "AHT"
+  "ctry": "USA",
+  "n": "Ashtead Group (now Sunbelt Rentals Holdings)",
+  "path": "stocks/sunb",
+  "tk": "SUNB"
  },
  "asianene": {
   "ctry": "India",
@@ -3872,7 +3872,7 @@
  "ihcl": {
   "ctry": "India",
   "n": "Indian Hotels (IHCL)",
-  "path": "bom/500850",
+  "path": "quote/bom/500850",
   "tk": "INDHOTEL"
  },
  "imagicaa": {
@@ -4724,7 +4724,7 @@
  "leela": {
   "ctry": "India",
   "n": "Leela Palaces Hotels & Resorts",
-  "path": "bom/544408",
+  "path": "quote/bom/544408",
   "tk": "THELEELA"
  },
  "legrand": {
@@ -7130,8 +7130,8 @@
  "schindler": {
   "ctry": "Switzerland",
   "n": "Schindler Holding",
-  "path": "quote/swx/SCHP",
-  "tk": "SCHP"
+  "path": "quote/swx/SCHN",
+  "tk": "SCHN"
  },
  "schneiderind": {
   "ctry": "India",
