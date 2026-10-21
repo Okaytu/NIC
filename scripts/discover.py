@@ -7,12 +7,23 @@ have zero mapped companies, using structured (low-noise) sources only:
 
 A name alone is not enough to trust: every candidate is *verified* by
 actually fetching its stockanalysis.com statistics page (reusing
-scripts/sources/stockanalysis.py). A candidate that verifies -- the page
-exists and returns real numbers -- is high-confidence and gets merged
-straight into data/map_<S>.json and data/companies.json (financials come
-free from the same fetch). A candidate that's found but doesn't verify
-(no resolvable ticker, or the page 404s) is recorded in
-data/discovery_queue.json for manual review instead of being merged.
+scripts/sources/stockanalysis.py) -- but a resolvable ticker only proves
+the COMPANY is real, not that it's the RIGHT company for this activity.
+A live production run demonstrated that the hard way: of 17 candidates
+that verified, 10 were real companies with nothing to do with the
+activity they got attached to (Amazon for "growing of apples", BP for
+"fish and marine mammal oils", Costco for "custom tailoring services",
+...) -- all of them sourced from Wikipedia's fuzzy, ranked full-text
+search, which readily surfaces a thematically-adjacent-sounding page
+that is not actually the right company.
+
+So only an EDGAR-sourced candidate -- the activity's own phrase found
+verbatim inside the company's own 10-K filing, a structural match
+rather than a ranked guess -- is eligible to auto-merge into
+data/map_<S>.json and data/companies.json once it verifies (financials
+come free from the same fetch). EVERY Wikipedia-sourced candidate goes
+to data/discovery_queue.json for manual review instead, no matter how
+cleanly it verifies; so does any EDGAR candidate that doesn't verify.
 
 Deliberately NOT included in v1: general web search (DuckDuckGo/etc).
 Structured sources (Wikipedia infoboxes, EDGAR) are precise enough to
@@ -125,6 +136,20 @@ def load_all_used_ids():
     return used
 
 
+def clean_activity(text):
+    """The source CSV has two recurring artifacts from its original
+    multi-line-cell layout: a stray leading backtick on some entries
+    (e.g. "Manufacture of `gur") and a trailing "Group Class Sub-Class
+    Description" header fragment that leaked into the data row on others
+    (e.g. "Growing of apples Group Class Sub-Class Description"). Fed
+    straight into a Wikipedia/EDGAR search, that junk corrupts the query
+    -- it's exactly how "Manufacture of `gur" (jaggery) ended up matching
+    Celanese Corporation, a chemicals company with no connection to it."""
+    text = text.replace("`", "").strip()
+    text = re.sub(r"\s*Group\s+Class\s+Sub-?Class\s+Description\s*$", "", text, flags=re.I).strip()
+    return text
+
+
 def find_empty_codes(section_filter=None):
     rows = list(csv.DictReader(open(CSV_PATH, encoding="utf-8-sig")))
     out = []
@@ -139,7 +164,7 @@ def find_empty_codes(section_filter=None):
                 continue
             code = r["NIC Code"]
             if not m.get("biz", {}).get(code):
-                out.append((S, code, r["Business Activity"]))
+                out.append((S, code, clean_activity(r["Business Activity"])))
     return out
 
 
@@ -332,9 +357,9 @@ def main():
         for cand in uniq:
             cid = slugify(cand["name"])
             base_cid = cid
-            i = 2
+            n = 2
             while cid in companies and companies[cid]["n"].lower() != cand["name"].lower():
-                cid = f"{base_cid}{i}"; i += 1
+                cid = f"{base_cid}{n}"; n += 1
             if cid in used_ids:
                 log(f"  skip {cand['name']} ({cand['source']}): company id already used elsewhere")
                 continue
@@ -343,7 +368,13 @@ def main():
                 continue
             data, err = verify(session, cand)
             time.sleep(1.0)
-            if data:
+            # Only an EDGAR match is eligible to auto-merge -- see the
+            # module docstring for why: a live run found Wikipedia's
+            # ranked search surfacing real-but-wrong companies (Amazon
+            # for "growing of apples", BP for fish/marine oils, ...) even
+            # though every one of them verified cleanly on stockanalysis.com.
+            # Ticker verification alone was never a relevance check.
+            if data and cand["source"] == "edgar":
                 log(f"  VERIFIED {cand['name']} ({cand['tk']}, {cand['source']}) -> auto-add")
                 companies[cid] = {"n": cand["name"], "tk": cand["tk"], "ctry": cand["ctry"], "path": cand["path"]}
                 financials[cid] = dict(data, fetched_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -353,6 +384,15 @@ def main():
                 verified_ids.append(cid)
                 entry["candidates"].append({**cand, "id": cid, "verified": True, "auto_added": True})
                 added_total += 1
+            elif data:
+                # Ticker verified fine, but it's a Wikipedia-sourced match
+                # and that source alone isn't trusted to be relevant --
+                # queue it for a quick human look rather than auto-merge.
+                log(f"  verified-but-queued {cand['name']} ({cand['tk']}, {cand['source']}): "
+                    f"wikipedia source needs a human relevance check")
+                entry["candidates"].append({**cand, "id": cid, "verified": True, "auto_added": False,
+                                             "error": "wikipedia source: ticker verified, needs human relevance check"})
+                queued_total += 1
             else:
                 log(f"  unverified {cand['name']} ({cand['tk']}, {cand['source']}): {err}")
                 entry["candidates"].append({**cand, "id": cid, "verified": False, "auto_added": False, "error": err})
@@ -365,8 +405,9 @@ def main():
                 map_cache[S] = json.load(open(os.path.join(H, "data", f"map_{S}.json"), encoding="utf-8"))
             map_cache[S].setdefault("biz", {})[code] = verified_ids
             map_cache[S].setdefault("bnote", {})[code] = (
-                f"Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com "
-                f"on {datetime.now(timezone.utc):%Y-%m-%d}. Worth a human sanity check."
+                f"Auto-discovered via SEC EDGAR (activity phrase found in the company's own 10-K) "
+                f"and verified against stockanalysis.com on {datetime.now(timezone.utc):%Y-%m-%d}. "
+                f"Worth a human sanity check."
             )
 
     log(f"\ndone: {added_total} auto-added, {queued_total} queued for review "

@@ -68,8 +68,9 @@
   "activity": "Growing of tobacco",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "UK",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "imperialbrands",
     "name": "Imperial Brands",
     "path": "quote/lon/IMB",
@@ -105,8 +106,9 @@
   "activity": "Growing of flowers",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "1800flowerscominc",
     "name": "1-800-Flowers.com, Inc.",
     "path": "stocks/flws",
@@ -156,8 +158,9 @@
   "activity": "Growing of apples Group Class Sub-Class Description",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "amazoncompany",
     "name": "Amazon (company)",
     "path": "stocks/amzn",
@@ -493,8 +496,9 @@
     "verified": false
    },
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "UK",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "riotintocorporation",
     "name": "Rio Tinto (corporation)",
     "path": "quote/lon/RIO",
@@ -699,8 +703,9 @@
   "activity": "Manufacture of (including extraction) of fish and marine mammal oils",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "UK",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "bp",
     "name": "BP",
     "path": "quote/lon/BP",
@@ -750,8 +755,9 @@
   "activity": "Manufacture of other dairy products n.e.c.",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "thehersheycompany",
     "name": "The Hershey Company",
     "path": "stocks/hsy",
@@ -796,8 +802,9 @@
   "activity": "Other grain milling and processing n.e.c.",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "archerdanielsmidland",
     "name": "Archer Daniels Midland",
     "path": "stocks/adm",
@@ -812,8 +819,9 @@
   "activity": "Manufacture of sago and sago products",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "Canada",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "spinmaster",
     "name": "Spin Master",
     "path": "quote/tsx/TOY",
@@ -853,8 +861,9 @@
   "activity": "Manufacture of other bakery products n.e.c.",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "Japan",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "nec",
     "name": "NEC",
     "path": "quote/tyo/6701",
@@ -869,8 +878,9 @@
   "activity": "Manufacture of `gur",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "celanesecorp",
     "name": "Celanese CORP",
     "path": "stocks/ce",
@@ -970,8 +980,9 @@
   "activity": "Manufacture of poultry feed",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "India",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "hesterbiosciences",
     "name": "Hester Biosciences",
     "path": "quote/nse/HESTERBIO",
@@ -1031,8 +1042,9 @@
   "activity": "Manufacture of other types of beer n.e.c.",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "Japan",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "kirincompany",
     "name": "Kirin Company",
     "path": "quote/tyo/2503",
@@ -1041,8 +1053,9 @@
     "verified": true
    },
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "Japan",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "asahibreweries",
     "name": "Asahi Breweries",
     "path": "quote/tyo/2502",
@@ -1057,8 +1070,9 @@
   "activity": "Manufacture of malt Group Class Sub-Class Description",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "bostonbeercompany",
     "name": "Boston Beer Company",
     "path": "stocks/sam",
@@ -1133,8 +1147,9 @@
   "activity": "Manufacture of paper yarn",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "India",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "arvindcompany",
     "name": "Arvind (company)",
     "path": "quote/nse/ARVIND",
@@ -1404,8 +1419,9 @@
   "activity": "Custom tailoring services catering to individuals/households",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "costco",
     "name": "Costco",
     "path": "stocks/cost",
@@ -1660,8 +1676,9 @@
   "activity": "Manufacture of other organic fertilizers",
   "candidates": [
    {
-    "auto_added": true,
+    "auto_added": false,
     "ctry": "India",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
     "id": "hindustanorganicchem",
     "name": "Hindustan Organic Chemicals Limited",
     "path": "quote/bom/500449",

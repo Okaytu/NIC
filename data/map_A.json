@@ -128,15 +128,6 @@
   ],
   "032105": [
    "waterbase"
-  ],
-  "011500": [
-   "imperialbrands"
-  ],
-  "011901": [
-   "1800flowerscominc"
-  ],
-  "012401": [
-   "amazoncompany"
   ]
  },
  "bnote": {
@@ -144,7 +135,6 @@
   "011202": "Adecoagro is one of South America's largest rice growers.",
   "011201": "No basmati grower is listed. Listed basmati companies (KRBL, LT Foods) are millers, which belong under food manufacturing.",
   "011400": "Indian sugar mills are manufacturers. These Brazilian companies grow most of their own cane.",
-  "011500": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
   "012100": "Indian and global wine companies own vineyards but are classed as beverage manufacturers.",
   "012699": "Malaysian plantation groups (SD Guthrie, IOI, KLK) also fit but could not be read from the data source.",
   "012701": "Five listed Indian tea estate companies. Tea is a low-margin, labour-heavy business in India.",
@@ -152,9 +142,7 @@
   "012802": "Licensed cannabis growers in North America.",
   "016102": "Closest listed match: Jain Irrigation makes and installs micro-irrigation systems.",
   "032102": "Closest Indian match: Avanti Feeds supplies shrimp feed and processes shrimp.",
-  "032105": "Closest Indian match: Waterbase runs shrimp hatcheries and sells shrimp feed.",
-  "011901": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "012401": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+  "032105": "Closest Indian match: Waterbase runs shrimp hatcheries and sells shrimp feed."
  },
  "flags": {
   "bbtc": "Consolidated figures include Britannia Industries, so plantations are a small part of these numbers.",

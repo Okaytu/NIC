@@ -1,10 +1,4 @@
 {
- "1800flowerscominc": {
-  "ctry": "USA",
-  "n": "1-800-Flowers.com, Inc.",
-  "path": "stocks/flws",
-  "tk": "FLWS"
- },
  "aabl": {
   "ctry": "India",
   "n": "Associated Alcohols & Breweries",
@@ -359,12 +353,6 @@
   "path": "stocks/amat",
   "tk": "AMAT"
  },
- "amazoncompany": {
-  "ctry": "USA",
-  "n": "Amazon (company)",
-  "path": "stocks/amzn",
-  "tk": "AMZN"
- },
  "amber": {
   "ctry": "India",
   "n": "Amber Enterprises India",
@@ -575,12 +563,6 @@
   "path": "stocks/mt",
   "tk": "MT"
  },
- "archerdanielsmidland": {
-  "ctry": "USA",
-  "n": "Archer Daniels Midland",
-  "path": "stocks/adm",
-  "tk": "ADM"
- },
  "archidply": {
   "ctry": "India",
   "n": "Archidply Industries",
@@ -605,23 +587,11 @@
   "path": "quote/nse/ARVIND",
   "tk": "ARVIND"
  },
- "arvindcompany": {
-  "ctry": "India",
-  "n": "Arvind (company)",
-  "path": "quote/nse/ARVIND",
-  "tk": "ARVIND"
- },
  "arw": {
   "ctry": "USA",
   "n": "Arrow Electronics",
   "path": "stocks/arw",
   "tk": "ARW"
- },
- "asahibreweries": {
-  "ctry": "Japan",
-  "n": "Asahi Breweries",
-  "path": "quote/tyo/2502",
-  "tk": "2502"
  },
  "asahiglass": {
   "ctry": "India",
@@ -1223,18 +1193,6 @@
   "path": "quote/nse/BOSCHLTD",
   "tk": "BOSCHLTD"
  },
- "bostonbeercompany": {
-  "ctry": "USA",
-  "n": "Boston Beer Company",
-  "path": "stocks/sam",
-  "tk": "SAM"
- },
- "bp": {
-  "ctry": "UK",
-  "n": "BP",
-  "path": "quote/lon/BP",
-  "tk": "BP"
- },
  "bpcl": {
   "ctry": "India",
   "n": "Bharat Petroleum Corporation",
@@ -1516,12 +1474,6 @@
   "n": "Constellation Energy",
   "path": "stocks/ceg",
   "tk": "CEG"
- },
- "celanesecorp": {
-  "ctry": "USA",
-  "n": "Celanese CORP",
-  "path": "stocks/ce",
-  "tk": "CE"
  },
  "cello": {
   "ctry": "India",
@@ -1874,12 +1826,6 @@
  "cost": {
   "ctry": "USA",
   "n": "Costco Wholesale",
-  "path": "stocks/cost",
-  "tk": "COST"
- },
- "costco": {
-  "ctry": "USA",
-  "n": "Costco",
   "path": "stocks/cost",
   "tk": "COST"
  },
@@ -3629,12 +3575,6 @@
   "path": "quote/nse/HEROMOTOCO",
   "tk": "HEROMOTOCO"
  },
- "hesterbiosciences": {
-  "ctry": "India",
-  "n": "Hester Biosciences",
-  "path": "quote/nse/HESTERBIO",
-  "tk": "HESTERBIO"
- },
  "hfcl": {
   "ctry": "India",
   "n": "HFCL",
@@ -3676,12 +3616,6 @@
   "n": "Hindustan Copper",
   "path": "quote/nse/HINDCOPPER",
   "tk": "HINDCOPPER"
- },
- "hindustanorganicchem": {
-  "ctry": "India",
-  "n": "Hindustan Organic Chemicals Limited",
-  "path": "quote/bom/500449",
-  "tk": "500449"
  },
  "hindzinc": {
   "ctry": "India",
@@ -3958,12 +3892,6 @@
   "n": "Indian Metals and Ferro Alloys",
   "path": "quote/nse/IMFA",
   "tk": "IMFA"
- },
- "imperialbrands": {
-  "ctry": "UK",
-  "n": "Imperial Brands",
-  "path": "quote/lon/IMB",
-  "tk": "IMB"
  },
  "indiamart": {
   "ctry": "India",
@@ -4552,12 +4480,6 @@
   "n": "Kiri Industries",
   "path": "quote/nse/KIRIINDUS",
   "tk": "KIRIINDUS"
- },
- "kirincompany": {
-  "ctry": "Japan",
-  "n": "Kirin Company",
-  "path": "quote/tyo/2503",
-  "tk": "2503"
  },
  "kirlferrous": {
   "ctry": "India",
@@ -5662,12 +5584,6 @@
   "n": "New Delhi Television (NDTV)",
   "path": "quote/nse/NDTV",
   "tk": "NDTV"
- },
- "nec": {
-  "ctry": "Japan",
-  "n": "NEC",
-  "path": "quote/tyo/6701",
-  "tk": "6701"
  },
  "nee": {
   "ctry": "USA",
@@ -6887,12 +6803,6 @@
   "path": "stocks/rio",
   "tk": "RIO"
  },
- "riotintocorporation": {
-  "ctry": "UK",
-  "n": "Rio Tinto (corporation)",
-  "path": "quote/lon/RIO",
-  "tk": "RIO"
- },
  "rites": {
   "ctry": "India",
   "n": "RITES",
@@ -7613,12 +7523,6 @@
   "path": "quote/bom/500285",
   "tk": "SPICEJET"
  },
- "spinmaster": {
-  "ctry": "Canada",
-  "n": "Spin Master",
-  "path": "quote/tsx/TOY",
-  "tk": "TOY"
- },
  "srf": {
   "ctry": "India",
   "n": "SRF",
@@ -8140,12 +8044,6 @@
   "n": "Thangamayil Jewellery",
   "path": "quote/nse/THANGAMAYL",
   "tk": "THANGAMAYL"
- },
- "thehersheycompany": {
-  "ctry": "USA",
-  "n": "The Hershey Company",
-  "path": "stocks/hsy",
-  "tk": "HSY"
  },
  "thermax": {
   "ctry": "India",

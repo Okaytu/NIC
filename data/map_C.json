@@ -1465,43 +1465,6 @@
   "331500": [
    "stengg",
    "aar"
-  ],
-  "104005": [
-   "bp"
-  ],
-  "105099": [
-   "thehersheycompany"
-  ],
-  "106199": [
-   "archerdanielsmidland"
-  ],
-  "106202": [
-   "spinmaster"
-  ],
-  "107199": [
-   "nec"
-  ],
-  "107202": [
-   "celanesecorp"
-  ],
-  "108002": [
-   "hesterbiosciences"
-  ],
-  "110399": [
-   "kirincompany",
-   "asahibreweries"
-  ],
-  "110400": [
-   "bostonbeercompany"
-  ],
-  "131107": [
-   "arvindcompany"
-  ],
-  "141006": [
-   "costco"
-  ],
-  "201202": [
-   "hindustanorganicchem"
   ]
  },
  "bnote": {
@@ -1582,19 +1545,7 @@
   "309101": "India's five listed two-wheeler makers.",
   "321101": "India's largest listed jewellery makers and retailers.",
   "329001": "India's listed pen and stationery makers, plus BIC.",
-  "331500": "No listed Indian MRO pure-play. AAR and ST Engineering run large aircraft and ship repair businesses.",
-  "104005": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "105099": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "106199": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "106202": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "107199": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "107202": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "108002": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "110399": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "110400": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "131107": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "141006": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check.",
-  "201202": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+  "331500": "No listed Indian MRO pure-play. AAR and ST Engineering run large aircraft and ship repair businesses."
  },
  "flags": {
   "itc": "Diversified: cigarettes, FMCG, paper and agri. Cigarettes earn most of the profit.",

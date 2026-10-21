@@ -1,21 +1,4 @@
 {
- "1800flowerscominc": {
-  "cur": "USD",
-  "ebitda": -0.00833,
-  "ebm": -0.55,
-  "error": null,
-  "fetched_at": "2026-10-21T05:48:57+00:00",
-  "mc": 0.17266,
-  "netcash": -0.23757,
-  "ni": -0.13477,
-  "npm": -8.96,
-  "rev": 1.5,
-  "roce": -15.19,
-  "roe": -65.43,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "aabl": {
   "cur": "INR",
   "ebitda": 1.36,
@@ -960,25 +943,6 @@
   "roce": 29.03,
   "roe": 41.07
  },
- "amazoncompany": {
-  "cur": "USD",
-  "ebitda": 168.91,
-  "ebm": 21.78,
-  "error": null,
-  "ev": 17.53,
-  "fetched_at": "2026-10-21T05:49:15+00:00",
-  "mc": 2830.0,
-  "netcash": -128.65,
-  "ni": 135.28,
-  "npm": 17.44,
-  "pe": 21.12,
-  "rev": 775.68,
-  "roce": 10.97,
-  "roe": 30.56,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "amber": {
   "cur": "INR",
   "ebitda": 9.99,
@@ -1539,25 +1503,6 @@
   "roce": 3.36,
   "roe": 3.28
  },
- "archerdanielsmidland": {
-  "cur": "USD",
-  "ebitda": 3.0,
-  "ebm": 3.65,
-  "error": null,
-  "ev": 15.7,
-  "fetched_at": "2026-10-21T05:53:42+00:00",
-  "mc": 38.78,
-  "netcash": -8.25,
-  "ni": 1.77,
-  "npm": 2.16,
-  "pe": 22.05,
-  "rev": 82.1,
-  "roce": 5.68,
-  "roe": 7.64,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "archidply": {
   "cur": "INR",
   "ebitda": 0.48299000000000003,
@@ -1622,23 +1567,6 @@
   "roce": 9.95,
   "roe": null
  },
- "arvindcompany": {
-  "ebitda": 10.27,
-  "ebm": 10.48,
-  "error": null,
-  "ev": 13.79,
-  "fetched_at": "2026-10-21T05:55:37+00:00",
-  "mc": 128.81,
-  "netcash": -13.46,
-  "ni": 4.14,
-  "npm": 4.23,
-  "pe": 32.24,
-  "rev": 97.98,
-  "roce": 9.95,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "arw": {
   "cur": "USD",
   "ebitda": 1.47,
@@ -1654,24 +1582,6 @@
   "rev": 35.92,
   "roce": 13.83,
   "roe": 12.04
- },
- "asahibreweries": {
-  "ebitda": 440.87,
-  "ebm": 14.7,
-  "error": null,
-  "ev": 8.83,
-  "fetched_at": "2026-10-21T05:55:06+00:00",
-  "mc": 2440.0,
-  "netcash": -1445.38,
-  "ni": 162.0,
-  "npm": 5.4,
-  "pe": 15.28,
-  "rev": 3000.0,
-  "roce": 5.98,
-  "roe": 5.57,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
  },
  "asahiglass": {
   "cur": "INR",
@@ -3274,42 +3184,6 @@
   "roce": 20.76,
   "roe": null
  },
- "bostonbeercompany": {
-  "cur": "USD",
-  "ebitda": 0.19741999999999998,
-  "ebm": 10.25,
-  "error": null,
-  "ev": 8.22,
-  "fetched_at": "2026-10-21T05:55:09+00:00",
-  "mc": 1.86,
-  "netcash": 0.234,
-  "ni": -0.07042,
-  "npm": -3.64,
-  "rev": 1.93,
-  "roce": 14.39,
-  "roe": -8.61,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
- "bp": {
-  "ebitda": 29.54,
-  "ebm": 18.19,
-  "error": null,
-  "ev": 4.12,
-  "fetched_at": "2026-10-21T05:53:07+00:00",
-  "mc": 93.62,
-  "netcash": -26.73,
-  "ni": 4.09,
-  "npm": 2.55,
-  "pe": 23.32,
-  "rev": 162.4,
-  "roce": 11.72,
-  "roe": 8.87,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "bpcl": {
   "cur": "INR",
   "ebitda": 293.98,
@@ -4061,24 +3935,6 @@
   "rev": 31.27,
   "roce": 5.52,
   "roe": 15.05
- },
- "celanesecorp": {
-  "cur": "USD",
-  "ebitda": 1.68,
-  "ebm": 17.27,
-  "error": null,
-  "ev": 9.69,
-  "fetched_at": "2026-10-21T05:54:02+00:00",
-  "mc": 5.22,
-  "netcash": -11.03,
-  "ni": -1.17,
-  "npm": -12.04,
-  "rev": 9.71,
-  "roce": 5.32,
-  "roe": -22.25,
-  "sources": [
-   "edgar+stockanalysis"
-  ]
  },
  "cello": {
   "cur": "INR",
@@ -5023,25 +4879,6 @@
   "rev": 303.15,
   "roce": 25.53,
   "roe": 28.4
- },
- "costco": {
-  "cur": "USD",
-  "ebitda": 14.19,
-  "ebm": 4.68,
-  "error": null,
-  "ev": 30.29,
-  "fetched_at": "2026-10-21T05:57:30+00:00",
-  "mc": 440.74,
-  "netcash": 11.12,
-  "ni": 9.23,
-  "npm": 3.04,
-  "pe": 47.91,
-  "rev": 303.15,
-  "roce": 25.53,
-  "roe": 28.4,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
  },
  "coty": {
   "cur": "USD",
@@ -9699,23 +9536,6 @@
   "roce": 51.32,
   "roe": null
  },
- "hesterbiosciences": {
-  "ebitda": 0.79208,
-  "ebm": 24.2,
-  "error": null,
-  "ev": 22.86,
-  "fetched_at": "2026-10-21T05:54:43+00:00",
-  "mc": 18.66,
-  "netcash": -1.88,
-  "ni": 1.36,
-  "npm": 41.61,
-  "pe": 14.15,
-  "rev": 3.27,
-  "roce": 10.39,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "hfcl": {
   "cur": "INR",
   "ebitda": 15.31,
@@ -9827,21 +9647,6 @@
   "rev": 34.98,
   "roce": 43.72,
   "roe": null
- },
- "hindustanorganicchem": {
-  "ebitda": 0.00781,
-  "ebm": 0.15,
-  "error": null,
-  "fetched_at": "2026-10-21T05:59:18+00:00",
-  "mc": 3.62,
-  "netcash": -0.35133,
-  "ni": -0.02593,
-  "npm": -0.51,
-  "rev": 5.06,
-  "roce": -0.12,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
  },
  "hindzinc": {
   "cur": "INR",
@@ -10577,24 +10382,6 @@
   "rev": 31.45,
   "roce": 15.72,
   "roe": null
- },
- "imperialbrands": {
-  "ebitda": 4.02,
-  "ebm": 20.69,
-  "error": null,
-  "ev": 7.97,
-  "fetched_at": "2026-10-21T05:48:42+00:00",
-  "mc": 21.6,
-  "netcash": -10.74,
-  "ni": 1.74,
-  "npm": 8.96,
-  "pe": 13.26,
-  "rev": 19.41,
-  "roce": 21.48,
-  "roe": 37.15,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
  },
  "indiamart": {
   "cur": "INR",
@@ -12163,24 +11950,6 @@
   "rev": 9.5,
   "roce": -9.55,
   "roe": null
- },
- "kirincompany": {
-  "ebitda": 402.0,
-  "ebm": 15.98,
-  "error": null,
-  "ev": 7.6,
-  "fetched_at": "2026-10-21T05:55:04+00:00",
-  "mc": 2330.0,
-  "netcash": -675.53,
-  "ni": 196.43,
-  "npm": 7.81,
-  "pe": 12.08,
-  "rev": 2510.0,
-  "roce": 10.76,
-  "roe": 15.14,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
  },
  "kirlferrous": {
   "cur": "INR",
@@ -15125,24 +14894,6 @@
   "rev": 5.38,
   "roce": -82.77,
   "roe": null
- },
- "nec": {
-  "ebitda": 539.76,
-  "ebm": 14.64,
-  "error": null,
-  "ev": 13.53,
-  "fetched_at": "2026-10-21T05:53:59+00:00",
-  "mc": 7170.0,
-  "netcash": -156.67,
-  "ni": 300.62,
-  "npm": 8.15,
-  "pe": 23.66,
-  "rev": 3690.0,
-  "roce": 12.74,
-  "roe": 14.16,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
  },
  "nee": {
   "cur": "USD",
@@ -18393,24 +18144,6 @@
   "roce": 13.98,
   "roe": 19.31
  },
- "riotintocorporation": {
-  "ebitda": 17.27,
-  "ebm": 37.08,
-  "error": null,
-  "ev": 6.66,
-  "fetched_at": "2026-10-21T05:51:43+00:00",
-  "mc": 112.22,
-  "netcash": -10.06,
-  "ni": 9.12,
-  "npm": 19.58,
-  "pe": 11.76,
-  "rev": 46.57,
-  "roce": 13.98,
-  "roe": 19.31,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "rites": {
   "cur": "INR",
   "ebitda": 5.56,
@@ -20332,23 +20065,6 @@
   "roce": null,
   "roe": null
  },
- "spinmaster": {
-  "ebitda": 0.40373000000000003,
-  "ebm": 13.42,
-  "error": null,
-  "ev": 5.59,
-  "fetched_at": "2026-10-21T05:53:45+00:00",
-  "mc": 2.12,
-  "netcash": -0.4435,
-  "ni": -0.11331999999999999,
-  "npm": -3.77,
-  "rev": 3.01,
-  "roce": 15.08,
-  "roe": -6.34,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
- },
  "srf": {
   "cur": "INR",
   "ebitda": 40.98,
@@ -21740,25 +21456,6 @@
   "rev": 96.06,
   "roce": 19.77,
   "roe": null
- },
- "thehersheycompany": {
-  "cur": "USD",
-  "ebitda": 2.72,
-  "ebm": 22.37,
-  "error": null,
-  "ev": 14.41,
-  "fetched_at": "2026-10-21T05:53:26+00:00",
-  "mc": 34.07,
-  "netcash": -5.13,
-  "ni": 1.49,
-  "npm": 12.24,
-  "pe": 23.18,
-  "rev": 12.16,
-  "roce": 20.64,
-  "roe": 32.81,
-  "sources": [
-   "wikipedia+stockanalysis"
-  ]
  },
  "thermax": {
   "cur": "INR",

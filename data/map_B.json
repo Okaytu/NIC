@@ -167,9 +167,6 @@
    "perenti",
    "macmahon",
    "nrw"
-  ],
-  "071002": [
-   "riotintocorporation"
   ]
  },
  "bnote": {
@@ -185,8 +182,7 @@
   "089102": "India's phosphate mining is state-run and not listed.",
   "089199": "Potash miners, the main listed fertilizer-mineral producers.",
   "089301": "India's large salt brands belong to food manufacturers. Compass Minerals mines rock salt.",
-  "099000": "Australian contract-mining service companies.",
-  "071002": "Auto-discovered via Wikipedia/SEC EDGAR and verified against stockanalysis.com on 2026-10-21. Worth a human sanity check."
+  "099000": "Australian contract-mining service companies."
  },
  "flags": {
   "vedl": "Diversified: zinc, aluminium, oil and gas, iron ore and power. Figures are for the whole group.",
