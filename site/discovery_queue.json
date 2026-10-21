@@ -5888,5 +5888,35 @@
    }
   ],
   "section": "L"
+ },
+ "681003": {
+  "activity": "Renting and operating of exhibition halls, banquet halls and similar spaces",
+  "candidates": [],
+  "section": "M"
+ },
+ "681006": {
+  "activity": "Renting of space for solar energy, wind energy and other renewable energy installations",
+  "candidates": [],
+  "section": "M"
+ },
+ "681007": {
+  "activity": "Renting and operating land, including agricultural and forestry land",
+  "candidates": [],
+  "section": "M"
+ },
+ "681099": {
+  "activity": "Other real estate rental and leasing n.e.c. including renting of plant and factory buildings and letting of roofs for mobile towers",
+  "candidates": [],
+  "section": "M"
+ },
+ "682901": {
+  "activity": "Activities of valuation of real estate, appraisal services",
+  "candidates": [],
+  "section": "M"
+ },
+ "682999": {
+  "activity": "Other real estate activities on a fee or contract basis n.e.c. including rent collecting",
+  "candidates": [],
+  "section": "M"
  }
 }
