@@ -4275,5 +4275,442 @@
    }
   ],
   "section": "G"
+ },
+ "491202": {
+  "activity": "Freight transport by cable cars",
+  "candidates": [],
+  "section": "H"
+ },
+ "492101": {
+  "activity": "Transportation of urban and sub-urban passengers via scheduled routes using buses (excluding chartered bus)",
+  "candidates": [],
+  "section": "H"
+ },
+ "492102": {
+  "activity": "Transportation of urban and sub-urban passengers via scheduled routes using trains excluding metro trains",
+  "candidates": [],
+  "section": "H"
+ },
+ "492103": {
+  "activity": "Transportation of urban and sub-urban passengers via scheduled routes using underground railways or elevated railways (including Town-to-Airport or Town- to-Station Passenger Transport Rail lines) such as metro trains",
+  "candidates": [],
+  "section": "H"
+ },
+ "492199": {
+  "activity": "Other urban or suburban passenger transport n.e.c. including passenger transport by cable cars",
+  "candidates": [],
+  "section": "H"
+ },
+ "492201": {
+  "activity": "Long-Distance Bus Services",
+  "candidates": [],
+  "section": "H"
+ },
+ "492202": {
+  "activity": "Charters, excursions and other occasional coach services",
+  "candidates": [],
+  "section": "H"
+ },
+ "492204": {
+  "activity": "Operation of transportations to schools (for students) and to workplaces (for employees)",
+  "candidates": [],
+  "section": "H"
+ },
+ "492299": {
+  "activity": "Other passenger land transport n.e.c. including by non- motorised vehicles (Man- or Animal-Drawn Vehicles)",
+  "candidates": [],
+  "section": "H"
+ },
+ "492302": {
+  "activity": "Non-motorised road freight transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "492399": {
+  "activity": "Other freight transport activities by road n.e.c. including renting of freight road transport vehicles with operator",
+  "candidates": [],
+  "section": "H"
+ },
+ "501101": {
+  "activity": "Sea and coastal ferry service",
+  "candidates": [],
+  "section": "H"
+ },
+ "501103": {
+  "activity": "Sea and coastal long-distance water transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "501199": {
+  "activity": "Other sea and coastal water transport n.e.c. including renting of pleasure boats with crew for passenger transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "502101": {
+  "activity": "Transport of passenger via rivers, canals, lakes and other inland waterways, including inside harbours and ports",
+  "candidates": [],
+  "section": "H"
+ },
+ "502102": {
+  "activity": "Sightseeing and Excursion inland water transport such as river cruise, water taxi, boat services",
+  "candidates": [],
+  "section": "H"
+ },
+ "502103": {
+  "activity": "Long distance river water transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "502199": {
+  "activity": "Other inland passenger water transport n.e.c.",
+  "candidates": [],
+  "section": "H"
+ },
+ "502200": {
+  "activity": "Inland freight water transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "511002": {
+  "activity": "Operation of charter flights for passengers",
+  "candidates": [],
+  "section": "H"
+ },
+ "511004": {
+  "activity": "Rental of air transport equipment with operator for the purpose of passenger transportation",
+  "candidates": [],
+  "section": "H"
+ },
+ "511099": {
+  "activity": "Operation of Passenger air transport n.e.c. including space tourism",
+  "candidates": [],
+  "section": "H"
+ },
+ "512001": {
+  "activity": "Freight air transport services",
+  "candidates": [],
+  "section": "H"
+ },
+ "512002": {
+  "activity": "Launching of space craft, satellites and space vehicles and space transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "521002": {
+  "activity": "Warehousing and storage, non-refrigerated excluding liquids and gas",
+  "candidates": [],
+  "section": "H"
+ },
+ "521099": {
+  "activity": "Warehousing and storage n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "ironmountaincompany",
+    "name": "Iron Mountain (company)",
+    "path": "stocks/irm",
+    "source": "wikipedia",
+    "tk": "IRM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nec",
+    "name": "NEC",
+    "path": "quote/tyo/6701",
+    "source": "wikipedia",
+    "tk": "6701",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "522101": {
+  "activity": "Car parking including motorcycle and bicycle parking",
+  "candidates": [],
+  "section": "H"
+ },
+ "522103": {
+  "activity": "Towing services and roadside assistance for vehicles on road networks.",
+  "candidates": [],
+  "section": "H"
+ },
+ "522104": {
+  "activity": "Operation of terminal facilities such as railway stations, bus stations",
+  "candidates": [],
+  "section": "H"
+ },
+ "522199": {
+  "activity": "Other service activities incidental to land transportation n.e.c.",
+  "candidates": [],
+  "section": "H"
+ },
+ "522202": {
+  "activity": "Navigation, pilotage, tug and berthing activities",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "tsakosenergynavigati",
+    "name": "Tsakos Energy Navigation Limited",
+    "path": "stocks/TEN",
+    "source": "yahoo",
+    "tk": "TEN",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "522203": {
+  "activity": "Hydrographic surveys, vessel traffic services (VTS), and lighthouse operations",
+  "candidates": [],
+  "section": "H"
+ },
+ "522299": {
+  "activity": "Other service activities incidental to water transportation n.e.c.",
+  "candidates": [],
+  "section": "H"
+ },
+ "522302": {
+  "activity": "Airport and air-traffic-control activities",
+  "candidates": [],
+  "section": "H"
+ },
+ "522303": {
+  "activity": "Ground services provided at airports, such as aircraft refuelling, towing, parking, and boarding assistance of passengers, animals or freight",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "huachenaiparkingmana",
+    "name": "Huachen AI Parking Management Technology Holding Co., Ltd",
+    "path": "stocks/HCAI",
+    "source": "yahoo",
+    "tk": "HCAI",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "elancoanimalhealthin",
+    "name": "Elanco Animal Health Incorporated",
+    "path": "stocks/ELAN",
+    "source": "yahoo",
+    "tk": "ELAN",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "522304": {
+  "activity": "Maintenance work on airfield infrastructure such as runways, taxiways, and airport buildings.",
+  "candidates": [],
+  "section": "H"
+ },
+ "522305": {
+  "activity": "Storage of aircraft in hangars or designated parking areas.",
+  "candidates": [],
+  "section": "H"
+ },
+ "522306": {
+  "activity": "Firefighting and fire prevention services at airport",
+  "candidates": [],
+  "section": "H"
+ },
+ "522307": {
+  "activity": "Maintenance work on Spacecraft Launch Pad and associated infrastructure",
+  "candidates": [],
+  "section": "H"
+ },
+ "522399": {
+  "activity": "Other service activities incidental to air transportation n.e.c.",
+  "candidates": [],
+  "section": "H"
+ },
+ "522401": {
+  "activity": "Cargo handling incidental to land transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "522402": {
+  "activity": "Cargo handling incidental to water transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "522403": {
+  "activity": "Cargo handling incidental to air transport",
+  "candidates": [],
+  "section": "H"
+ },
+ "522901": {
+  "activity": "Arranging or organizing of transport operations by rail excluding activities of travel agents and tour operators",
+  "candidates": [],
+  "section": "H"
+ },
+ "522902": {
+  "activity": "Arranging or organizing of transport operations by road excluding activities of travel agents and tour operators",
+  "candidates": [],
+  "section": "H"
+ },
+ "522903": {
+  "activity": "Arranging or organizing of transport operations by sea excluding activities of travel agents and tour operators",
+  "candidates": [],
+  "section": "H"
+ },
+ "522904": {
+  "activity": "Arranging or organizing of transport operations by air excluding activities of travel agents and tour operators",
+  "candidates": [],
+  "section": "H"
+ },
+ "522905": {
+  "activity": "Activities of movers and packers",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "522906": {
+  "activity": "Weighing of goods",
+  "candidates": [],
+  "section": "H"
+ },
+ "522999": {
+  "activity": "Other support activities for transportation n.e.c. including issue and procurement of transport documents and waybills (Custom House Brokerage), goods handling operations",
+  "candidates": [],
+  "section": "H"
+ },
+ "523299": {
+  "activity": "Other intermediation services for passenger transportation n.e.c. such as by buses, airways, railways, waterways",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "jetblueairwayscorpor",
+    "name": "JetBlue Airways Corporation",
+    "path": "stocks/JBLU",
+    "source": "yahoo",
+    "tk": "JBLU",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "growwniftyindiarailw",
+    "name": "Groww Nifty India Railways PSU ETF",
+    "path": "quote/nse/GROWWRAIL",
+    "source": "yahoo",
+    "tk": "GROWWRAIL",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "yahoo source: ticker verified, needs human relevance check",
+    "id": "waterwaysleisuretour",
+    "name": "Waterways Leisure Tourism Limited",
+    "path": "quote/nse/CORDELIA",
+    "source": "yahoo",
+    "tk": "CORDELIA",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "532002": {
+  "activity": "Home delivery services, including parcels and food, conducted via private or public transport.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "uber2",
+    "name": "Uber",
+    "path": "stocks/uber",
+    "source": "wikipedia",
+    "tk": "UBER",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "532099": {
+  "activity": "Other courier activities n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "533001": {
+  "activity": "Operation of on-line platforms to allow booking of delivery including food delivery",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "uber2",
+    "name": "Uber",
+    "path": "stocks/uber",
+    "source": "wikipedia",
+    "tk": "UBER",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "doordash",
+    "name": "DoorDash",
+    "path": "stocks/dash",
+    "source": "wikipedia",
+    "tk": "DASH",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "H"
+ },
+ "533099": {
+  "activity": "Other intermediation service activities for postal and courier activities n.e.c.",
+  "candidates": [],
+  "section": "H"
  }
 }
