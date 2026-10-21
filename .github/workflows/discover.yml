@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/companies.json data/financials.json data/discovery_queue.json data/map_*.json site/data_*.js site/index.html
+          git add data/companies.json data/financials.json data/discovery_queue.json data/map_*.json site/data_*.js site/index.html site/discovery_queue.json
           if git diff --cached --quiet; then
             echo "no changes"
             exit 0

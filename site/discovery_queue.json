@@ -1,0 +1,2892 @@
+{
+ "011102": {
+  "activity": "Growing of Bajra and Jowar and other millets",
+  "candidates": [],
+  "section": "A"
+ },
+ "011103": {
+  "activity": "Growing of other cereals (except rice) including pseudo- cereals",
+  "candidates": [],
+  "section": "A"
+ },
+ "011104": {
+  "activity": "Growing of gram",
+  "candidates": [],
+  "section": "A"
+ },
+ "011105": {
+  "activity": "Growing of pulses (dal) and other leguminous crops such as peas and beans, not used as oilseeds",
+  "candidates": [],
+  "section": "A"
+ },
+ "011106": {
+  "activity": "Growing of Rapeseed and Mustard",
+  "candidates": [],
+  "section": "A"
+ },
+ "011107": {
+  "activity": "Growing of Groundnut",
+  "candidates": [],
+  "section": "A"
+ },
+ "011199": {
+  "activity": "Growing of other oil seeds",
+  "candidates": [],
+  "section": "A"
+ },
+ "011201": {
+  "activity": "Growing of basmati paddy",
+  "candidates": [],
+  "section": "A"
+ },
+ "011301": {
+  "activity": "Growing of potatoes, sweet potatoes, yams, cassava and other tubers",
+  "candidates": [],
+  "section": "A"
+ },
+ "011302": {
+  "activity": "Growing of onion, garlic and other bulb vegetables",
+  "candidates": [],
+  "section": "A"
+ },
+ "011304": {
+  "activity": "Growing of asparagus, cauliflower, broccoli and other stem vegetables",
+  "candidates": [],
+  "section": "A"
+ },
+ "011306": {
+  "activity": "Growing of carrot, beets, radish, turnip and other root vegetables",
+  "candidates": [],
+  "section": "A"
+ },
+ "011399": {
+  "activity": "Growing of vegetables, n.e.c. including sweet corn",
+  "candidates": [],
+  "section": "A"
+ },
+ "011500": {
+  "activity": "Growing of tobacco",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "imperialbrands",
+    "name": "Imperial Brands",
+    "path": "quote/lon/IMB",
+    "source": "wikipedia",
+    "tk": "IMB",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "greenplanetbioengine",
+    "name": "Green Planet Bio Engineering Co. Ltd.",
+    "path": "stocks/gplb",
+    "source": "edgar",
+    "tk": "GPLB",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "imperialbrands",
+    "name": "Imperial Brands",
+    "path": "quote/lon/IMB",
+    "source": "wikipedia",
+    "tk": "IMB",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "greenplanetbioengine",
+    "name": "Green Planet Bio Engineering Co. Ltd.",
+    "path": "stocks/gplb",
+    "source": "edgar",
+    "tk": "GPLB",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "imperialbrands",
+    "name": "Imperial Brands",
+    "path": "quote/lon/IMB",
+    "source": "wikipedia",
+    "tk": "IMB",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "HTTP 404",
+    "id": "greenplanetbioengine",
+    "name": "Green Planet Bio Engineering Co. Ltd.",
+    "path": "stocks/gplb",
+    "source": "edgar",
+    "tk": "GPLB",
+    "verified": false
+   }
+  ],
+  "section": "A"
+ },
+ "011602": {
+  "activity": "Growing of jute",
+  "candidates": [],
+  "section": "A"
+ },
+ "011699": {
+  "activity": "Growing of other fibre crops n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "011901": {
+  "activity": "Growing of flowers",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "1800flowerscominc",
+    "name": "1-800-Flowers.com, Inc.",
+    "path": "stocks/flws",
+    "source": "wikipedia",
+    "tk": "FLWS",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "1800flowerscominc",
+    "name": "1-800-Flowers.com, Inc.",
+    "path": "stocks/flws",
+    "source": "wikipedia",
+    "tk": "FLWS",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "1800flowerscominc",
+    "name": "1-800-Flowers.com, Inc.",
+    "path": "stocks/flws",
+    "source": "wikipedia",
+    "tk": "FLWS",
+    "verified": true
+   }
+  ],
+  "section": "A"
+ },
+ "011902": {
+  "activity": "Growing of fodder crops",
+  "candidates": [],
+  "section": "A"
+ },
+ "011999": {
+  "activity": "Growing of other non-perennial crops n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "012100": {
+  "activity": "Growing of grapes",
+  "candidates": [],
+  "section": "A"
+ },
+ "012201": {
+  "activity": "Growing of mangoes",
+  "candidates": [],
+  "section": "A"
+ },
+ "012204": {
+  "activity": "Growing of litchis",
+  "candidates": [],
+  "section": "A"
+ },
+ "012205": {
+  "activity": "Growing of guavas",
+  "candidates": [],
+  "section": "A"
+ },
+ "012206": {
+  "activity": "Growing of jackfruits",
+  "candidates": [],
+  "section": "A"
+ },
+ "012401": {
+  "activity": "Growing of apples Group Class Sub-Class Description",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "appleinc",
+    "name": "Apple Inc.",
+    "path": "stocks/aapl",
+    "source": "wikipedia",
+    "tk": "AAPL",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "appleinc",
+    "name": "Apple Inc.",
+    "path": "stocks/aapl",
+    "source": "wikipedia",
+    "tk": "AAPL",
+    "verified": true
+   }
+  ],
+  "section": "A"
+ },
+ "012402": {
+  "activity": "Growing of apricots, peaches and nectarines",
+  "candidates": [],
+  "section": "A"
+ },
+ "012403": {
+  "activity": "Growing of cherries and sour cherries",
+  "candidates": [],
+  "section": "A"
+ },
+ "012499": {
+  "activity": "Growing of other pome fruits and stone fruits n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "012501": {
+  "activity": "Growing of strawberries and other berries",
+  "candidates": [],
+  "section": "A"
+ },
+ "012599": {
+  "activity": "Growing of other tree and bush fruits n.e.c",
+  "candidates": [],
+  "section": "A"
+ },
+ "012601": {
+  "activity": "Growing of coconuts",
+  "candidates": [],
+  "section": "A"
+ },
+ "012703": {
+  "activity": "Growing of cocoa",
+  "candidates": [],
+  "section": "A"
+ },
+ "012799": {
+  "activity": "Growing of other beverage crops n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "012801": {
+  "activity": "Growing of perennial and non-perennial spices and aromatic crops (pepper, nutmeg, mace, anise, badian and fennel, cinnamon (canella), cloves, vanilla and other spices and aromatic crops)",
+  "candidates": [],
+  "section": "A"
+ },
+ "012803": {
+  "activity": "Growing of perennial and non-perennial plants primarily used in perfumery, pharmaceutical or for insecticidal, fungicidal or similar purposes including heena (mehandi) Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "A"
+ },
+ "012902": {
+  "activity": "Growing of bamboo and cane",
+  "candidates": [],
+  "section": "A"
+ },
+ "012903": {
+  "activity": "Growing of Areca nut/ betel nut",
+  "candidates": [],
+  "section": "A"
+ },
+ "012999": {
+  "activity": "Growing of other perennial crops n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "013000": {
+  "activity": "Growing of plants for propagation like the activities of nurseries",
+  "candidates": [],
+  "section": "A"
+ },
+ "014200": {
+  "activity": "Raising and breeding of horses and other equines",
+  "candidates": [],
+  "section": "A"
+ },
+ "014300": {
+  "activity": "Raising and breeding of camels and camelids",
+  "candidates": [],
+  "section": "A"
+ },
+ "014400": {
+  "activity": "Raising and breeding of sheep and goat for milk, wool and meat",
+  "candidates": [],
+  "section": "A"
+ },
+ "014901": {
+  "activity": "Raising and breeding of pet animals (cats, dogs, birds, hamsters etc.)",
+  "candidates": [],
+  "section": "A"
+ },
+ "014902": {
+  "activity": "Bee-keeping and production of honey and beeswax",
+  "candidates": [],
+  "section": "A"
+ },
+ "014903": {
+  "activity": "Raising of silk worms, production of silk worm cocoons",
+  "candidates": [],
+  "section": "A"
+ },
+ "014999": {
+  "activity": "Raising of other animals n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "015001": {
+  "activity": "Integrated fish farming - paddy cum fish cultivation if neither of the activities contribute to more than 66% of the total output",
+  "candidates": [],
+  "section": "A"
+ },
+ "015099": {
+  "activity": "Other mixed farming n.e.c. Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "A"
+ },
+ "016103": {
+  "activity": "Renting of agricultural machinery with operators and crew",
+  "candidates": [],
+  "section": "A"
+ },
+ "016199": {
+  "activity": "Support activities for crop production n.e.c",
+  "candidates": [],
+  "section": "A"
+ },
+ "016200": {
+  "activity": "Support activities for animal production",
+  "candidates": [],
+  "section": "A"
+ },
+ "016301": {
+  "activity": "Preparation of crops for primary markets by cleaning, trimming, grading, disinfecting and similar activities",
+  "candidates": [],
+  "section": "A"
+ },
+ "016302": {
+  "activity": "Cotton ginning, cleaning and baling",
+  "candidates": [],
+  "section": "A"
+ },
+ "016304": {
+  "activity": "Sorting, cleaning and cutting of medicinal plants Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "A"
+ },
+ "016305": {
+  "activity": "Retting of jute, flax, coir and similar vegetable textile fibres not associated with their growing",
+  "candidates": [],
+  "section": "A"
+ },
+ "016399": {
+  "activity": "Post-harvest crop activities n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "017000": {
+  "activity": "Hunting, trapping and related service activities",
+  "candidates": [],
+  "section": "A"
+ },
+ "021002": {
+  "activity": "Operation of forest tree nurseries",
+  "candidates": [],
+  "section": "A"
+ },
+ "021099": {
+  "activity": "Silviculture and other forest activities n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "022001": {
+  "activity": "Gathering and preparation of fire wood",
+  "candidates": [],
+  "section": "A"
+ },
+ "022002": {
+  "activity": "Logging camps and loggers primarily engaged in felling timber and producing wood in the rough such as pitprops, split poles, pickets, hewn railway ties",
+  "candidates": [],
+  "section": "A"
+ },
+ "022003": {
+  "activity": "Production of charcoal in the forest using traditional methods",
+  "candidates": [],
+  "section": "A"
+ },
+ "022099": {
+  "activity": "Other logging activities, n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "023001": {
+  "activity": "Gathering of tendu leaves",
+  "candidates": [],
+  "section": "A"
+ },
+ "023002": {
+  "activity": "Gathering of lac, resins and rubber-like gums",
+  "candidates": [],
+  "section": "A"
+ },
+ "023003": {
+  "activity": "Gathering of wild honey",
+  "candidates": [],
+  "section": "A"
+ },
+ "023004": {
+  "activity": "Gathering of mushrooms, truffles, berries, nuts, cork, balsams, vegetable hair, eelgrass, mosses, lichens and similar items including medicinal plants",
+  "candidates": [],
+  "section": "A"
+ },
+ "023099": {
+  "activity": "Gathering of non-wood forest products n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "024001": {
+  "activity": "Forestry service activities (forest management consulting services, forestry inventories, timber evaluation, forest pest control and other similar activities)",
+  "candidates": [],
+  "section": "A"
+ },
+ "024099": {
+  "activity": "Other Support services for forestry n.e.c. such as transport of logs within forests",
+  "candidates": [],
+  "section": "A"
+ },
+ "031102": {
+  "activity": "Fishing on a commercial basis in estuaries",
+  "candidates": [],
+  "section": "A"
+ },
+ "031103": {
+  "activity": "Gathering of other marine organisms and materials such as natural pearls, sponges, coral, seaweed, and algae",
+  "candidates": [],
+  "section": "A"
+ },
+ "031201": {
+  "activity": "Fishing and taking of freshwater crustaceans and molluscs on a commercial basis in inland waters",
+  "candidates": [],
+  "section": "A"
+ },
+ "031202": {
+  "activity": "Taking and gathering of freshwater aquatic animals",
+  "candidates": [],
+  "section": "A"
+ },
+ "032103": {
+  "activity": "Growing of edible seaweed and microalgae",
+  "candidates": [],
+  "section": "A"
+ },
+ "032104": {
+  "activity": "Land-based aquaculture activities in salt water filled tanks and reservoirs",
+  "candidates": [],
+  "section": "A"
+ },
+ "032199": {
+  "activity": "Other marine aquaculture n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "032201": {
+  "activity": "Fish farming in freshwater including farming of freshwater ornamental fish",
+  "candidates": [],
+  "section": "A"
+ },
+ "032202": {
+  "activity": "Culture of freshwater crustaceans, bivalves, other mollusks and other aquatic animals",
+  "candidates": [],
+  "section": "A"
+ },
+ "032203": {
+  "activity": "Operation of fish hatcheries (fresh-water)",
+  "candidates": [],
+  "section": "A"
+ },
+ "032299": {
+  "activity": "Other freshwater aquaculture activities, n.e.c.",
+  "candidates": [],
+  "section": "A"
+ },
+ "033000": {
+  "activity": "Service activities incidental to marine or freshwater fishery or aquaculture",
+  "candidates": [],
+  "section": "A"
+ },
+ "051003": {
+  "activity": "Cleaning, sizing, grading, pulverising, compressing etc. of hard coal to classify, improve quality or facilitate transport or storage",
+  "candidates": [],
+  "section": "B"
+ },
+ "051099": {
+  "activity": "Other operations relating to mining and agglomeration of hard coal n.e.c.",
+  "candidates": [],
+  "section": "B"
+ },
+ "052002": {
+  "activity": "Underground mining of lignite (brown coal) including liquification",
+  "candidates": [],
+  "section": "B"
+ },
+ "052003": {
+  "activity": "Washing, dehydrating, pulverizing, compressing of lignite (brown coal) to improve quality or facilitate transport or storage",
+  "candidates": [],
+  "section": "B"
+ },
+ "052099": {
+  "activity": "Other operations relating to mining and agglomeration of lignite (brown coal) n.e.c.",
+  "candidates": [],
+  "section": "B"
+ },
+ "071002": {
+  "activity": "Underground mining of iron ore",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Australia",
+    "error": "HTTP 404",
+    "id": "riotintocorporation",
+    "name": "Rio Tinto (corporation)",
+    "path": "quote/asx/RIO",
+    "source": "wikipedia",
+    "tk": "RIO",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "riotintocorporation",
+    "name": "Rio Tinto (corporation)",
+    "path": "quote/lon/RIO",
+    "source": "wikipedia",
+    "tk": "RIO",
+    "verified": true
+   }
+  ],
+  "section": "B"
+ },
+ "072903": {
+  "activity": "Mining of lead ore (lead sulphide/ galena/ lead glance)",
+  "candidates": [],
+  "section": "B"
+ },
+ "081001": {
+  "activity": "Quarrying, rough trimming and sawing of marble",
+  "candidates": [],
+  "section": "B"
+ },
+ "081003": {
+  "activity": "Quarrying, rough trimming and sawing of slate and building & monumental stone other than marble and granite",
+  "candidates": [],
+  "section": "B"
+ },
+ "081004": {
+  "activity": "Mining of dolomite",
+  "candidates": [],
+  "section": "B"
+ },
+ "081005": {
+  "activity": "Mining of gypsum including selenite",
+  "candidates": [],
+  "section": "B"
+ },
+ "081007": {
+  "activity": "Mining and quarrying of limestone, limeshell, \"Kankar\" and other calcareous minerals excluding chalk and shale and other uncalcined dolomite",
+  "candidates": [],
+  "section": "B"
+ },
+ "089101": {
+  "activity": "Mining of native sulphur or pyrites and pyrrhotites valued chiefly for sulphur",
+  "candidates": [],
+  "section": "B"
+ },
+ "089103": {
+  "activity": "Mining of earth colours (ochre including red oxide)",
+  "candidates": [],
+  "section": "B"
+ },
+ "089104": {
+  "activity": "Mining of fluorspar and other minerals valued chiefly as a source of chemicals Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "B"
+ },
+ "089105": {
+  "activity": "Mining of natural barium sulphate and carbonate (barytes and witherite), natural borates, natural magnesium sulphates (kieserite)",
+  "candidates": [],
+  "section": "B"
+ },
+ "089201": {
+  "activity": "Extraction and Agglomeration of peat",
+  "candidates": [],
+  "section": "B"
+ },
+ "089302": {
+  "activity": "Salt production by evaporation of sea water or other saline waters",
+  "candidates": [],
+  "section": "B"
+ },
+ "089902": {
+  "activity": "Mining and quarrying of abrasive materials (pumice stone, emery, corundum, garnet and other natural abrasives)",
+  "candidates": [],
+  "section": "B"
+ },
+ "089903": {
+  "activity": "Mining of mica",
+  "candidates": [],
+  "section": "B"
+ },
+ "089905": {
+  "activity": "Mining of asbestos",
+  "candidates": [],
+  "section": "B"
+ },
+ "089906": {
+  "activity": "Mining of vermiculite, perlite and chlorites",
+  "candidates": [],
+  "section": "B"
+ },
+ "089907": {
+  "activity": "Mining of felspar and silica minerals including quartz, quartzite and fuch. Quartzite",
+  "candidates": [],
+  "section": "B"
+ },
+ "089908": {
+  "activity": "Mining of talc/ steatite",
+  "candidates": [],
+  "section": "B"
+ },
+ "089999": {
+  "activity": "Mining of laterite, diatomite and silicious fossil meals (e.g. diatomite); and other natural fluxes; natural asphalt or bitumen and other mining n.e.c.",
+  "candidates": [],
+  "section": "B"
+ },
+ "101001": {
+  "activity": "Mutton-slaughtering, preparation",
+  "candidates": [],
+  "section": "C"
+ },
+ "101006": {
+  "activity": "Production of hides and skins originating from slaughterhouses",
+  "candidates": [],
+  "section": "C"
+ },
+ "101007": {
+  "activity": "Rendering of lard and other edible fats of animal origin",
+  "candidates": [],
+  "section": "C"
+ },
+ "101008": {
+  "activity": "Production and processing of animal offal",
+  "candidates": [],
+  "section": "C"
+ },
+ "101099": {
+  "activity": "Production, Processing and preserving of other meat and meat products n.e.c. including Manufacture of sausages, bacon, and similar processed meat products",
+  "candidates": [],
+  "section": "C"
+ },
+ "102001": {
+  "activity": "Sun-drying of fish",
+  "candidates": [],
+  "section": "C"
+ },
+ "102002": {
+  "activity": "Artificial dehydration of fish and sea food",
+  "candidates": [],
+  "section": "C"
+ },
+ "102004": {
+  "activity": "Canning of fish",
+  "candidates": [],
+  "section": "C"
+ },
+ "102005": {
+  "activity": "Production of fishmeal for human consumption or animal feed",
+  "candidates": [],
+  "section": "C"
+ },
+ "102006": {
+  "activity": "Processing of seaweed",
+  "candidates": [],
+  "section": "C"
+ },
+ "102099": {
+  "activity": "Production, processing and preservation (including radiation preservation) of other fish products n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "103001": {
+  "activity": "Artificial dehydration of fruit and vegetables",
+  "candidates": [],
+  "section": "C"
+ },
+ "103002": {
+  "activity": "Radiation preservation of fruit and vegetables",
+  "candidates": [],
+  "section": "C"
+ },
+ "103003": {
+  "activity": "Manufacture of fruit or vegetable juices and their concentrates, squashes and powders",
+  "candidates": [],
+  "section": "C"
+ },
+ "103005": {
+  "activity": "Manufacture of pickles, chutney etc.",
+  "candidates": [],
+  "section": "C"
+ },
+ "103006": {
+  "activity": "Canning of fruits and vegetables",
+  "candidates": [],
+  "section": "C"
+ },
+ "103099": {
+  "activity": "Preservation of fruit and vegetables n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "104002": {
+  "activity": "Manufacture of cold-pressed vegetable oils (kachhi ghaani)",
+  "candidates": [],
+  "section": "C"
+ },
+ "104004": {
+  "activity": "Manufacture of edible animal oils and fats",
+  "candidates": [],
+  "section": "C"
+ },
+ "104005": {
+  "activity": "Manufacture of (including extraction) of fish and marine mammal oils",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "bp",
+    "name": "BP",
+    "path": "quote/lon/BP",
+    "source": "wikipedia",
+    "tk": "BP",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bp",
+    "name": "BP",
+    "path": "quote/lon/BP",
+    "source": "wikipedia",
+    "tk": "BP",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bp",
+    "name": "BP",
+    "path": "stocks/bp",
+    "source": "wikipedia",
+    "tk": "BP",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "UK",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bp",
+    "name": "BP",
+    "path": "quote/lon/BP",
+    "source": "wikipedia",
+    "tk": "BP",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "bp",
+    "name": "BP",
+    "path": "stocks/bp",
+    "source": "wikipedia",
+    "tk": "BP",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "104006": {
+  "activity": "Manufacture of non-edible animal oils and fats",
+  "candidates": [],
+  "section": "C"
+ },
+ "104007": {
+  "activity": "Manufacture of oil cakes & meals incl. residual products (such as Oleostearin, Palmstearin) and non-defatted flour or meal of oilseeds, oil nuts or oil kernels and similar Products",
+  "candidates": [],
+  "section": "C"
+ },
+ "104008": {
+  "activity": "Manufacture of compound cooking fats such as bakery shortening, blends/ melanges, lard compounds and similar spreads",
+  "candidates": [],
+  "section": "C"
+ },
+ "104099": {
+  "activity": "Manufacture of other vegetable oil, animal oil and fats n.e.c",
+  "candidates": [],
+  "section": "C"
+ },
+ "105002": {
+  "activity": "Manufacture of milk-powder, cream in solid form, ice- cream powder and condensed milk except baby milk food",
+  "candidates": [],
+  "section": "C"
+ },
+ "105003": {
+  "activity": "Manufacture of butter and ghee (excluding vanaspati ghee) of all kinds including salted and unsalted",
+  "candidates": [],
+  "section": "C"
+ },
+ "105007": {
+  "activity": "Manufacture of edible ice, sorbet and other frozen dessert ices",
+  "candidates": [],
+  "section": "C"
+ },
+ "105099": {
+  "activity": "Manufacture of other dairy products n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "106102": {
+  "activity": "Wheat milling",
+  "candidates": [],
+  "section": "C"
+ },
+ "106103": {
+  "activity": "Dal (pulses) milling",
+  "candidates": [],
+  "section": "C"
+ },
+ "106104": {
+  "activity": "Grain (including millets) milling other than wheat, rice and dal",
+  "candidates": [],
+  "section": "C"
+ },
+ "106105": {
+  "activity": "Vegetable milling excluding manufacture of potato flour",
+  "candidates": [],
+  "section": "C"
+ },
+ "106106": {
+  "activity": "Manufacture of cereal products like puffed rice, popcorn, flattened rice, corn flakes and other similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "106107": {
+  "activity": "Manufacture of flour mixes and prepared blended flour/ dough/ batters for bread, cakes, biscuits, pancakes, idli, gulab jamun and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "106199": {
+  "activity": "Other grain milling and processing n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "archerdanielsmidland",
+    "name": "Archer Daniels Midland",
+    "path": "stocks/adm",
+    "source": "wikipedia",
+    "tk": "ADM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "archerdanielsmidland",
+    "name": "Archer Daniels Midland",
+    "path": "stocks/adm",
+    "source": "wikipedia",
+    "tk": "ADM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "archerdanielsmidland",
+    "name": "Archer Daniels Midland",
+    "path": "stocks/adm",
+    "source": "wikipedia",
+    "tk": "ADM",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "106202": {
+  "activity": "Manufacture of sago and sago products",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "spinmaster",
+    "name": "Spin Master",
+    "path": "quote/tsx/TOY",
+    "source": "wikipedia",
+    "tk": "TOY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "spinmaster",
+    "name": "Spin Master",
+    "path": "quote/tsx/TOY",
+    "source": "wikipedia",
+    "tk": "TOY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Canada",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "spinmaster",
+    "name": "Spin Master",
+    "path": "quote/tsx/TOY",
+    "source": "wikipedia",
+    "tk": "TOY",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "106204": {
+  "activity": "Manufacture of gluten",
+  "candidates": [],
+  "section": "C"
+ },
+ "106205": {
+  "activity": "Manufacture of tapioca and tapioca substitutes prepared from starch",
+  "candidates": [],
+  "section": "C"
+ },
+ "106206": {
+  "activity": "Manufacture of corn oil",
+  "candidates": [],
+  "section": "C"
+ },
+ "106299": {
+  "activity": "Manufacture of other starch products n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "107102": {
+  "activity": "Manufacture of pastry, cakes, pies, tarts, rolls and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "107199": {
+  "activity": "Manufacture of other bakery products n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "nec",
+    "name": "NEC",
+    "path": "quote/tyo/6701",
+    "source": "wikipedia",
+    "tk": "6701",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nec",
+    "name": "NEC",
+    "path": "quote/tyo/6701",
+    "source": "wikipedia",
+    "tk": "6701",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nec",
+    "name": "NEC",
+    "path": "quote/tyo/6701",
+    "source": "wikipedia",
+    "tk": "6701",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "107202": {
+  "activity": "Manufacture of `gur",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "celanesecorp",
+    "name": "Celanese CORP",
+    "path": "stocks/ce",
+    "source": "edgar",
+    "tk": "CE",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: exact-phrase EDGAR match but low relevance score (~2.5 vs ~9+ for a real match) -- almost certainly incidental/boilerplate text in the filing, not this company's actual business. Needs human review.",
+    "id": "celanesecorp",
+    "name": "Celanese CORP",
+    "path": "stocks/ce",
+    "source": "edgar",
+    "tk": "CE",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "107203": {
+  "activity": "Manufacture of `gur",
+  "candidates": [],
+  "section": "C"
+ },
+ "107204": {
+  "activity": "Manufacture of `khandsari",
+  "candidates": [],
+  "section": "C"
+ },
+ "107205": {
+  "activity": "Manufacture of `boora",
+  "candidates": [],
+  "section": "C"
+ },
+ "107206": {
+  "activity": "Manufacture of `boora",
+  "candidates": [],
+  "section": "C"
+ },
+ "107303": {
+  "activity": "Manufacture of sugar confectionery (except sweetmeats)",
+  "candidates": [],
+  "section": "C"
+ },
+ "107304": {
+  "activity": "Manufacture of sweetmeats including dairy based sweetmeats",
+  "candidates": [],
+  "section": "C"
+ },
+ "107305": {
+  "activity": "Preserving of fruit, nuts, fruit peels and other parts of plants in sugar",
+  "candidates": [],
+  "section": "C"
+ },
+ "107399": {
+  "activity": "Manufacture of other cocoa, chocolate, sugar confectionery products n.e.c. Group Class Sub-Class Description",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "thehersheycompany",
+    "name": "The Hershey Company",
+    "path": "stocks/hsy",
+    "source": "wikipedia",
+    "tk": "HSY",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "107502": {
+  "activity": "Manufacture of readymade (i.e. prepared, seasoned and cooked) fish & other marine dishes",
+  "candidates": [],
+  "section": "C"
+ },
+ "107503": {
+  "activity": "Manufacture of readymade (i.e. prepared, seasoned and cooked) vegetarian dishes",
+  "candidates": [],
+  "section": "C"
+ },
+ "107599": {
+  "activity": "Manufacture of other prepared meals and dishes n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "107902": {
+  "activity": "Manufacture of other special food such as foods containing homogenized ingredients, low- energy/energy-reduced foods, foods for medical purposes",
+  "candidates": [],
+  "section": "C"
+ },
+ "107903": {
+  "activity": "Manufacture of papads, appalam and similar food products",
+  "candidates": [],
+  "section": "C"
+ },
+ "107904": {
+  "activity": "Processing of salt into food-grade salt",
+  "candidates": [],
+  "section": "C"
+ },
+ "107905": {
+  "activity": "Manufacture of soups and broths (powder)",
+  "candidates": [],
+  "section": "C"
+ },
+ "107908": {
+  "activity": "Manufacture of perishable prepared foods, such as sandwiches and fresh (uncooked) pizza",
+  "candidates": [],
+  "section": "C"
+ },
+ "107910": {
+  "activity": "Manufacture of honey products like royal jelly and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "108002": {
+  "activity": "Manufacture of poultry feed",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "hesterbiosciences",
+    "name": "Hester Biosciences",
+    "path": "quote/nse/HESTERBIO",
+    "source": "wikipedia",
+    "tk": "HESTERBIO",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hesterbiosciences",
+    "name": "Hester Biosciences",
+    "path": "quote/nse/HESTERBIO",
+    "source": "wikipedia",
+    "tk": "HESTERBIO",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hesterbiosciences",
+    "name": "Hester Biosciences",
+    "path": "quote/bom/524669",
+    "source": "wikipedia",
+    "tk": "524669",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hesterbiosciences",
+    "name": "Hester Biosciences",
+    "path": "quote/nse/HESTERBIO",
+    "source": "wikipedia",
+    "tk": "HESTERBIO",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hesterbiosciences",
+    "name": "Hester Biosciences",
+    "path": "quote/bom/524669",
+    "source": "wikipedia",
+    "tk": "524669",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "108099": {
+  "activity": "Manufacture of other animal feeds n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "110103": {
+  "activity": "Manufacture of rum",
+  "candidates": [],
+  "section": "C"
+ },
+ "110105": {
+  "activity": "Manufacture of gin",
+  "candidates": [],
+  "section": "C"
+ },
+ "110107": {
+  "activity": "Blending of distilled spirits",
+  "candidates": [],
+  "section": "C"
+ },
+ "110202": {
+  "activity": "Manufacture of sparkling wine",
+  "candidates": [],
+  "section": "C"
+ },
+ "110203": {
+  "activity": "Manufacture of low-alcoholic and non-alcoholic wine",
+  "candidates": [],
+  "section": "C"
+ },
+ "110299": {
+  "activity": "Manufacture of other types of wine, n.e.c",
+  "candidates": [],
+  "section": "C"
+ },
+ "110302": {
+  "activity": "Manufacture of ale",
+  "candidates": [],
+  "section": "C"
+ },
+ "110303": {
+  "activity": "Manufacture of non-alcoholic or low alcholic beer",
+  "candidates": [],
+  "section": "C"
+ },
+ "110399": {
+  "activity": "Manufacture of other types of beer n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "kirincompany",
+    "name": "Kirin Company",
+    "path": "quote/tyo/2503",
+    "source": "wikipedia",
+    "tk": "2503",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "asahibreweries",
+    "name": "Asahi Breweries",
+    "path": "quote/tyo/2502",
+    "source": "wikipedia",
+    "tk": "2502",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "kirincompany",
+    "name": "Kirin Company",
+    "path": "quote/tyo/2503",
+    "source": "wikipedia",
+    "tk": "2503",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "asahibreweries",
+    "name": "Asahi Breweries",
+    "path": "quote/tyo/2502",
+    "source": "wikipedia",
+    "tk": "2502",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "kirincompany",
+    "name": "Kirin Company",
+    "path": "quote/tyo/2503",
+    "source": "wikipedia",
+    "tk": "2503",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "asahibreweries",
+    "name": "Asahi Breweries",
+    "path": "quote/tyo/2502",
+    "source": "wikipedia",
+    "tk": "2502",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "110400": {
+  "activity": "Manufacture of malt Group Class Sub-Class Description",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "bostonbeercompany",
+    "name": "Boston Beer Company",
+    "path": "stocks/sam",
+    "source": "wikipedia",
+    "tk": "SAM",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "110501": {
+  "activity": "Manufacture of aerated waters such as tonic water, soda",
+  "candidates": [],
+  "section": "C"
+ },
+ "110504": {
+  "activity": "Manufacture of beverages produced with fruit nectars",
+  "candidates": [],
+  "section": "C"
+ },
+ "110506": {
+  "activity": "Manufacture of traditional fermented probiotic beverages (kombucha, kanji, etc.)",
+  "candidates": [],
+  "section": "C"
+ },
+ "110599": {
+  "activity": "Manufacture of other non-alcoholic beverages, n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "120001": {
+  "activity": "Stemming and redrying of tobacco",
+  "candidates": [],
+  "section": "C"
+ },
+ "120002": {
+  "activity": "Binding of Bidi",
+  "candidates": [],
+  "section": "C"
+ },
+ "120003": {
+  "activity": "Support activities for manufacturing of bidi",
+  "candidates": [],
+  "section": "C"
+ },
+ "120005": {
+  "activity": "Manufacture of cigars and cheroots",
+  "candidates": [],
+  "section": "C"
+ },
+ "120006": {
+  "activity": "Manufacture of zarda",
+  "candidates": [],
+  "section": "C"
+ },
+ "131102": {
+  "activity": "Preparation and spinning of silk fibre including blended* silk like reeling and washing of silk, carding and combing to produce silk yarn/thread",
+  "candidates": [],
+  "section": "C"
+ },
+ "131103": {
+  "activity": "Preparation and spinning of wool including blended* wool like degreasing and carbonising of wool and dyeing of wool fleece, carding and combing to produce wool yarn/thread",
+  "candidates": [],
+  "section": "C"
+ },
+ "131105": {
+  "activity": "Preparation and spinning of coir",
+  "candidates": [],
+  "section": "C"
+ },
+ "131107": {
+  "activity": "Manufacture of paper yarn",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/nse/ARVIND",
+    "source": "wikipedia",
+    "tk": "ARVIND",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/nse/ARVIND",
+    "source": "wikipedia",
+    "tk": "ARVIND",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/bom/500101",
+    "source": "wikipedia",
+    "tk": "500101",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/nse/ARVIND",
+    "source": "wikipedia",
+    "tk": "ARVIND",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "arvindcompany",
+    "name": "Arvind (company)",
+    "path": "quote/bom/500101",
+    "source": "wikipedia",
+    "tk": "500101",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "131199": {
+  "activity": "Preparation and spinning of other animal and vegetable fibres including blended* fibres including coir n.e.c. *Blended yarn / fabrics means, yarn/ fabrics containing more than 50% of one fibre",
+  "candidates": [],
+  "section": "C"
+ },
+ "131202": {
+  "activity": "Manufacture of woven cotton and cotton mixture fabrics (including pile fabrics like terry fabrics, sateen fabrics, velvet and similar fabrics) using other than handlooms",
+  "candidates": [],
+  "section": "C"
+ },
+ "131203": {
+  "activity": "Manufacture of woven silk and silk mixture fabrics (including silk pile fabrics like terry fabrics, velvet and similar fabrics) using handlooms",
+  "candidates": [],
+  "section": "C"
+ },
+ "131204": {
+  "activity": "Manufacture of woven silk and silk mixture fabrics (including silk pile fabrics like terry fabrics, velvet and similar fabrics) using other than handlooms",
+  "candidates": [],
+  "section": "C"
+ },
+ "131206": {
+  "activity": "Manufacture of woven wool broad and wool mixture fabrics (including pile fabrics like terry fabrics, velvet and similar fabrics) using other than handlooms",
+  "candidates": [],
+  "section": "C"
+ },
+ "131207": {
+  "activity": "Manufacturing of Bamboo woven fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "131208": {
+  "activity": "Manufacturing of woven jute, mesta, coir broad fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "131210": {
+  "activity": "Manufacture of technical fabrics of natural fibre",
+  "candidates": [],
+  "section": "C"
+ },
+ "131299": {
+  "activity": "Weaving of other textiles n.e.c. including artificial fur",
+  "candidates": [],
+  "section": "C"
+ },
+ "131301": {
+  "activity": "Finishing, dyeing (excluding customised embroidery & printing) of cotton fibres, cotton and blended cotton yarn and textile articles including wearing apparels of cotton (excluding jeans)",
+  "candidates": [],
+  "section": "C"
+ },
+ "131302": {
+  "activity": "Finishing, dyeing (excluding customised embroidery & printing) of silk fibres, silk and blended silk yarn and textile articles including wearing apparels of silk",
+  "candidates": [],
+  "section": "C"
+ },
+ "131303": {
+  "activity": "Finishing, dyeing (excluding customised embroidery & printing) of wool fibres, wool and blended wool yarn and textile articles including wearing apparels of wool",
+  "candidates": [],
+  "section": "C"
+ },
+ "131304": {
+  "activity": "Finishing, dyeing (excluding customised embroidery & printing) of man-made fibres, man-made and blended man-made yarn and textile articles including wearing apparels of man-made fabrics (including technical fibres, yarns and textiles)",
+  "candidates": [],
+  "section": "C"
+ },
+ "131305": {
+  "activity": "Finishing, dyeing of jute, mesta and other vegetable textiles fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "131306": {
+  "activity": "Finishing, dyeing (excluding customised embroidery & printing) of jeans",
+  "candidates": [],
+  "section": "C"
+ },
+ "131307": {
+  "activity": "Customised embroidery of textile fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "131308": {
+  "activity": "Waterproofing, coating, rubberising, or impregnating purchased garments",
+  "candidates": [],
+  "section": "C"
+ },
+ "131399": {
+  "activity": "Other finishing of textiles activities n.e.c",
+  "candidates": [],
+  "section": "C"
+ },
+ "139101": {
+  "activity": "Manufacture and processing of knitted or crocheted cotton and blended cotton fabrics including pile and terry fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "139102": {
+  "activity": "Manufacture and processing of knitted or crocheted woollen and blended wool fabrics including pile and terry fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "139103": {
+  "activity": "Manufacture and processing of knitted or crocheted synthetic (including blended synthetic) fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "139104": {
+  "activity": "Manufacture of imitation fur by knitting",
+  "candidates": [],
+  "section": "C"
+ },
+ "139105": {
+  "activity": "Manufacture of knitted and crocheted net and window furnishing type fabrics",
+  "candidates": [],
+  "section": "C"
+ },
+ "139199": {
+  "activity": "Manufacture of other knitted and crocheted fabrics n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "139202": {
+  "activity": "Manufacture of mosquito net",
+  "candidates": [],
+  "section": "C"
+ },
+ "139203": {
+  "activity": "Manufacture of quilts, eiderdowns, cushions (excluding of fur), pillows, sleeping bags and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "139204": {
+  "activity": "Manufacture of blankets including travelling rugs and textile part of electric blankets",
+  "candidates": [],
+  "section": "C"
+ },
+ "139205": {
+  "activity": "Manufacture of linen for table, toilet and kitchen like tablecloths, towels, dishcloth and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "139206": {
+  "activity": "Manufacture of home furnishings and other made up textile articles of fabric cut wastes interlaced with cotton or other yarns",
+  "candidates": [],
+  "section": "C"
+ },
+ "139207": {
+  "activity": "Manufacture of flags, banners, pennants and other similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "139299": {
+  "activity": "Manufacture of other made-up textile articles, except apparel n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "139301": {
+  "activity": "Manufacture of carpet of natural fibres including coir",
+  "candidates": [],
+  "section": "C"
+ },
+ "139302": {
+  "activity": "Manufacture of other floor coverings of natural fibres including coir other than carpets like rugs, mats and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "139304": {
+  "activity": "Manufacture of other floor coverings of man-made fibres other than carpets like rugs, mats and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "139305": {
+  "activity": "Manufacture of artificial grass (synthetic turf)",
+  "candidates": [],
+  "section": "C"
+ },
+ "139399": {
+  "activity": "Manufacture of other floor coverings n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "139402": {
+  "activity": "Manufacture of twine, cordage, rope and cables made of synthetic material whether or not treated Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "C"
+ },
+ "139403": {
+  "activity": "Manufacture of knotted netting (nets) of twine, cordage or rope made of jute/mesta /coir/ natural fibre (excluding fishing nets)",
+  "candidates": [],
+  "section": "C"
+ },
+ "139404": {
+  "activity": "Manufacture of knotted netting (nets) of twine, cordage or rope made of synthetic fibre",
+  "candidates": [],
+  "section": "C"
+ },
+ "139405": {
+  "activity": "Manufacture of fishing nets",
+  "candidates": [],
+  "section": "C"
+ },
+ "139499": {
+  "activity": "Manufacture of products of rope or netting n.e.c. such as hammocks, swings, ship fenders, unloading cushions, loading slings and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "139901": {
+  "activity": "Manufacture of net and window furnishing type fabrics of lace",
+  "candidates": [],
+  "section": "C"
+ },
+ "139903": {
+  "activity": "Manufacture of labels, badges and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "139904": {
+  "activity": "Manufacture of tapes, niwar and wicks",
+  "candidates": [],
+  "section": "C"
+ },
+ "139905": {
+  "activity": "Manufacture of tarpaulins, tents, sails, parachutes, loose covers for cars, machines or furniture and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "139906": {
+  "activity": "Manufacture of textile-covered elastic materials and fabrics (excluding non-woven) impregnated, coated, or laminated",
+  "candidates": [],
+  "section": "C"
+ },
+ "139907": {
+  "activity": "Manufacture of metallized yarn (zari) or gimped yarn",
+  "candidates": [],
+  "section": "C"
+ },
+ "139908": {
+  "activity": "Manufacture of lace and embroidery, in the piece, in strips or in motifs, ornamental trimmings like braids, tassels, pompons and other similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "139999": {
+  "activity": "Manufacture of other textiles n.e.c., including felt, automotive trimmings, pressure sensitive cloth-tape, textiles for blinds and sun blinds, fabrics coated with gum or amylaceous substances (Buckram, etc.), tulles Group Class Sub-Class Description and other net fabrics, tyre cord fabric of high-tenacity man-made yarn and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "141004": {
+  "activity": "Manufacture of clothing accessories made primarily of fabrics like, handkerchiefs, caps, hats and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "141005": {
+  "activity": "Manufacture of wearing apparel and accessories made primarily of leather or composition leather including caps and hats (caps and hats of fur also included here)",
+  "candidates": [],
+  "section": "C"
+ },
+ "141006": {
+  "activity": "Custom tailoring services catering to individuals/households",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "costco",
+    "name": "Costco",
+    "path": "stocks/cost",
+    "source": "wikipedia",
+    "tk": "COST",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "141007": {
+  "activity": "Tailoring services for manufacturers of ready-made garments",
+  "candidates": [],
+  "section": "C"
+ },
+ "141008": {
+  "activity": "Manufacture of parts of clothing and clothing accessories such as zippers, buckles, straps, parts of footwear made of textiles and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "142001": {
+  "activity": "Manufacture of wearing apparel and clothing accessories made of fur/ artificial fur",
+  "candidates": [],
+  "section": "C"
+ },
+ "142002": {
+  "activity": "Manufacture of fur/artificial fur and skin rugs and other similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "142099": {
+  "activity": "Manufacture of other fur products n.e.c",
+  "candidates": [],
+  "section": "C"
+ },
+ "143002": {
+  "activity": "Manufacture of knitted or crocheted inner wear directly into shape Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "C"
+ },
+ "143003": {
+  "activity": "Manufacture of Knitted or crocheted clothing accessories (directly into shape) such as Socks, tights, stockings, pantyhose and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "143099": {
+  "activity": "Manufacture of other knitted and crocheted apparel n.e.c. DIVISION 15 : Manufacture of leather and related products",
+  "candidates": [],
+  "section": "C"
+ },
+ "151101": {
+  "activity": "Flaying and curing of raw hides and skins",
+  "candidates": [],
+  "section": "C"
+ },
+ "151103": {
+  "activity": "Scraping, currying, tanning, bleaching, shearing and plucking and dyeing of fur skins and hides with the hair on",
+  "candidates": [],
+  "section": "C"
+ },
+ "151104": {
+  "activity": "Manufacture of composition leather",
+  "candidates": [],
+  "section": "C"
+ },
+ "151105": {
+  "activity": "Embroidering and embossing of leather articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "151199": {
+  "activity": "Other tanning, dressing and dyeing activities of leather and fur n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "152003": {
+  "activity": "Manufacture of parts of footwear such as uppers, outer and inner soles, heels, in any material (leather, wood, plastic, rubber), excluding textile material",
+  "candidates": [],
+  "section": "C"
+ },
+ "161002": {
+  "activity": "Manufacture of unassembled wooden flooring",
+  "candidates": [],
+  "section": "C"
+ },
+ "161099": {
+  "activity": "Activities related to sawmilling and planing of wood n.e.c., including manufacture of wooden railway sleepers and impregnation or chemical treatment of wood with preservatives or other materials",
+  "candidates": [],
+  "section": "C"
+ },
+ "162201": {
+  "activity": "Manufacture of wooden beams, trusses, rafters and roof struts Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "C"
+ },
+ "162203": {
+  "activity": "Manufacture of wooden beading, mouldings, shingles and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "162299": {
+  "activity": "Manufacture of other builders",
+  "candidates": [],
+  "section": "C"
+ },
+ "162301": {
+  "activity": "Manufacture of packing cases, boxes, crates, drums and similar items of wood",
+  "candidates": [],
+  "section": "C"
+ },
+ "162302": {
+  "activity": "Manufacture of wooden/plywood storage containers such as barrels, tubs, vats, chests and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "162399": {
+  "activity": "Manufacture of other wooden containers n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "162901": {
+  "activity": "Manufacture of household utensils and kitchenware made of wood/plywood and articles made of leaf",
+  "candidates": [],
+  "section": "C"
+ },
+ "162902": {
+  "activity": "Manufacture of cork and cork-based products",
+  "candidates": [],
+  "section": "C"
+ },
+ "162903": {
+  "activity": "Manufacture of wooden decorative articles (Eg. statuettes, ornaments, candle holders, lamp bases, Wooden frames for artists' canvases and other similar items)",
+  "candidates": [],
+  "section": "C"
+ },
+ "162904": {
+  "activity": "Manufacture of basket-ware and wickerwork products of straw, plaiting, willow, rattan, reed and bamboo and similar products (excluding furniture)",
+  "candidates": [],
+  "section": "C"
+ },
+ "162905": {
+  "activity": "Manufacture of solid fuels from vegetable biomass (charcoal briquettes and pellets)",
+  "candidates": [],
+  "section": "C"
+ },
+ "162906": {
+  "activity": "Manufacture of cow dung cakes Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "C"
+ },
+ "162999": {
+  "activity": "Manufacture of other products of wood; Manufacture of other articles of cork, straw and plaiting materials n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "170201": {
+  "activity": "Manufacture of corrugated paper and paperboard",
+  "candidates": [],
+  "section": "C"
+ },
+ "170204": {
+  "activity": "Manufacture of sacks and bags of paper",
+  "candidates": [],
+  "section": "C"
+ },
+ "170299": {
+  "activity": "Manufacture of other containers of paper and paperboard, n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "170902": {
+  "activity": "Manufacture of paper cups, saucers, plates, hoops, cones, straws and other similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "170904": {
+  "activity": "Manufacture of wallpaper and similar wall coverings",
+  "candidates": [],
+  "section": "C"
+ },
+ "170999": {
+  "activity": "Manufacture of other articles of paper and paperboard n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "181101": {
+  "activity": "Printing of newspapers",
+  "candidates": [],
+  "section": "C"
+ },
+ "181103": {
+  "activity": "Printing of postage stams, taxation stamps, cheques and other security papers",
+  "candidates": [],
+  "section": "C"
+ },
+ "181104": {
+  "activity": "Printing of bank notes, currency notes",
+  "candidates": [],
+  "section": "C"
+ },
+ "181105": {
+  "activity": "Printing banners, posters and similar articles using flexographic printing",
+  "candidates": [],
+  "section": "C"
+ },
+ "181106": {
+  "activity": "Printing on textiles and apparels other than leather, including laser engraving, embellishing and embossing",
+  "candidates": [],
+  "section": "C"
+ },
+ "181107": {
+  "activity": "Printing on plastic, glass, metal, wood, ceramics, excluding engravings",
+  "candidates": [],
+  "section": "C"
+ },
+ "181108": {
+  "activity": "Printing of photographs",
+  "candidates": [],
+  "section": "C"
+ },
+ "181201": {
+  "activity": "Pre-press activities like composing, file conversion, proofing, colour correction, plate/block making and other similar activities (such as typesetting and phototypesetting)",
+  "candidates": [],
+  "section": "C"
+ },
+ "181202": {
+  "activity": "Post-press activities like cutting, folding, binding and other similar activities.",
+  "candidates": [],
+  "section": "C"
+ },
+ "182000": {
+  "activity": "Reproduction of recorded media",
+  "candidates": [],
+  "section": "C"
+ },
+ "191099": {
+  "activity": "Manufacture of other coke oven products n.e.c. such as gas, crude coal and lignite tars and other similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "192004": {
+  "activity": "Manufacture of fuel briquettes of hard-coal, peat and lignite",
+  "candidates": [],
+  "section": "C"
+ },
+ "201107": {
+  "activity": "Manufacture of distilled water",
+  "candidates": [],
+  "section": "C"
+ },
+ "201202": {
+  "activity": "Manufacture of other organic fertilizers",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "reverted: ticker verified but this was a Wikipedia-sourced match merged before the EDGAR-only auto-merge policy existed -- needs a human relevance check, not auto-trust",
+    "id": "hindustanorganicchem",
+    "name": "Hindustan Organic Chemicals Limited",
+    "path": "quote/bom/500449",
+    "source": "wikipedia",
+    "tk": "500449",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hindustanorganicchem",
+    "name": "Hindustan Organic Chemicals Limited",
+    "path": "quote/bom/500449",
+    "source": "wikipedia",
+    "tk": "500449",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "hindustanorganicchem",
+    "name": "Hindustan Organic Chemicals Limited",
+    "path": "quote/nse/HOCL",
+    "source": "wikipedia",
+    "tk": "HOCL",
+    "verified": false
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "hindustanorganicchem",
+    "name": "Hindustan Organic Chemicals Limited",
+    "path": "quote/bom/500449",
+    "source": "wikipedia",
+    "tk": "500449",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "HTTP 404",
+    "id": "hindustanorganicchem",
+    "name": "Hindustan Organic Chemicals Limited",
+    "path": "quote/nse/HOCL",
+    "source": "wikipedia",
+    "tk": "HOCL",
+    "verified": false
+   }
+  ],
+  "section": "C"
+ },
+ "201205": {
+  "activity": "Manufacture of potting soil and soil improvers (including peat-based and mineral-mix soils)",
+  "candidates": [],
+  "section": "C"
+ },
+ "201206": {
+  "activity": "Manufacture of plant bio-stimulants, growth promoters, and micronutrient fertilizers",
+  "candidates": [],
+  "section": "C"
+ },
+ "201207": {
+  "activity": "Manufacture of manure/ compost",
+  "candidates": [],
+  "section": "C"
+ },
+ "201299": {
+  "activity": "Manufacture of other fertilizers and nitrogenous compounds n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "201303": {
+  "activity": "Manufacture of mixture of synthetic rubber and natural or rubber-like gums",
+  "candidates": [],
+  "section": "C"
+ },
+ "201399": {
+  "activity": "Manufacture of other plastics and synthetic rubber in primary forms n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "202102": {
+  "activity": "Manufacture of agricultural disinfectants excluding biological and bio-based agrochemical products",
+  "candidates": [],
+  "section": "C"
+ },
+ "202103": {
+  "activity": "Manufacture of mixture of synthetic rubber and natural rubber or rubber-like gums",
+  "candidates": [],
+  "section": "C"
+ },
+ "202104": {
+  "activity": "Manufacture of biological or bio-based agrochemical products such as nematodes, microbial or plant-extract- based bio-pesticides and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "202203": {
+  "activity": "Manufacture of printing ink",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "diccorporation",
+    "name": "DIC Corporation",
+    "path": "quote/tyo/4631",
+    "source": "wikipedia",
+    "tk": "4631",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "202204": {
+  "activity": "Manufacture of pigments and other colouring matter of a kind used in the manufacture of paints or by artists or other painters",
+  "candidates": [],
+  "section": "C"
+ },
+ "202205": {
+  "activity": "Manufacture of paint or varnish removers and organic composite solvents and thinners",
+  "candidates": [],
+  "section": "C"
+ },
+ "202299": {
+  "activity": "Manufacture of other paints, varnishes and similar coatings and mastics n.e.c. including caulking compounds and similar non-refractory filling or surfacing preparations, mastics and other related products",
+  "candidates": [],
+  "section": "C"
+ },
+ "202399": {
+  "activity": "Manufacture of other man-made fibres n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "202901": {
+  "activity": "Manufacture of matches",
+  "candidates": [],
+  "section": "C"
+ },
+ "202904": {
+  "activity": "Manufacture of photographic plates, films, sensitized paper, and other sensitized unexposed materials, chemical preparations for photographic uses",
+  "candidates": [],
+  "section": "C"
+ },
+ "202905": {
+  "activity": "Manufacture of gelatine and its derivatives",
+  "candidates": [],
+  "section": "C"
+ },
+ "202907": {
+  "activity": "Manufacture of chemical products or preparations of a kind used in finishing of textiles, paper, leather, and similar industries",
+  "candidates": [],
+  "section": "C"
+ },
+ "202908": {
+  "activity": "Manufacture of composite diagnostic or laboratory reagents",
+  "candidates": [],
+  "section": "C"
+ },
+ "202909": {
+  "activity": "Manufacturing of lac products including processing of lac",
+  "candidates": [],
+  "section": "C"
+ },
+ "202910": {
+  "activity": "Manufacture of hydrocolloids including marine-derived hydrocolloids (agar, carrageenan, alginates)",
+  "candidates": [],
+  "section": "C"
+ },
+ "203001": {
+  "activity": "Manufacture of synthetic or artificial filament tow",
+  "candidates": [],
+  "section": "C"
+ },
+ "203004": {
+  "activity": "Manufacture of synthetic or artificial monofilament or strip",
+  "candidates": [],
+  "section": "C"
+ },
+ "203099": {
+  "activity": "Manufacture of other man-made fibres n.e.c. including recycled fibres",
+  "candidates": [],
+  "section": "C"
+ },
+ "210003": {
+  "activity": "Manufacture of Ayush pharmaceutical/ nutraceutical preparation",
+  "candidates": [],
+  "section": "C"
+ },
+ "210005": {
+  "activity": "Manufacture of medical impregnated wadding, gauze, bandages, dressings, surgical gut string and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "210006": {
+  "activity": "Manufacture of medical diagnostic preparations (e.g. pregnancy tests, COVID-19 Testing Kits, Rapid Diagnostic Tests (RDTs), In-Vitro Diagnostics (IVDs) etc.)",
+  "candidates": [],
+  "section": "C"
+ },
+ "221103": {
+  "activity": "Retreading of tyres; replacing or rebuilding of tread on used pneumatic tyres",
+  "candidates": [],
+  "section": "C"
+ },
+ "221901": {
+  "activity": "Manufacture of rubber plates, sheets, strips, rods, tubes, pipes, hoses and profile -shapes and similar articles including latex sheets (Raw rubber sheets)",
+  "candidates": [],
+  "section": "C"
+ },
+ "221904": {
+  "activity": "Manufacture of rubber Seals, Gaskets, Rings & Fittings",
+  "candidates": [],
+  "section": "C"
+ },
+ "221905": {
+  "activity": "Manufacture of rubber based inflatable articles like mattresses, waterbed, balloons",
+  "candidates": [],
+  "section": "C"
+ },
+ "221906": {
+  "activity": "Manufacture of rubber-based bathing caps, aprons, wetsuits, latex apparel made using sealing, glue techniques (excluding products made using stitching techniques)",
+  "candidates": [],
+  "section": "C"
+ },
+ "221907": {
+  "activity": "Manufacture of rubberized textiles & threads, where rubber is primary constituent",
+  "candidates": [],
+  "section": "C"
+ },
+ "221999": {
+  "activity": "Manufacture of other rubber products n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "yokohamarubbercompan",
+    "name": "Yokohama Rubber Company",
+    "path": "quote/tyo/5101",
+    "source": "wikipedia",
+    "tk": "5101",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "sumitomorubberindust",
+    "name": "Sumitomo Rubber Industries",
+    "path": "quote/tyo/5110",
+    "source": "wikipedia",
+    "tk": "5110",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nec",
+    "name": "NEC",
+    "path": "quote/tyo/6701",
+    "source": "wikipedia",
+    "tk": "6701",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "222005": {
+  "activity": "Manufacture of plastic healthcare, personal care and medical articles like gloves and similar products",
+  "candidates": [],
+  "section": "C"
+ },
+ "231006": {
+  "activity": "Manufacture of glass bangles",
+  "candidates": [],
+  "section": "C"
+ },
+ "231007": {
+  "activity": "Manufacture of decorative items of glass",
+  "candidates": [],
+  "section": "C"
+ },
+ "239101": {
+  "activity": "Manufacture of refractory mortars, concretes and similar materials",
+  "candidates": [],
+  "section": "C"
+ },
+ "239103": {
+  "activity": "Manufacture of refractory ceramic goods such as heat- insulating ceramic goods of siliceous fossil meals, retorts, crucibles, muffles, nozzles, tubes, pipes and similar items",
+  "candidates": [],
+  "section": "C"
+ },
+ "239199": {
+  "activity": "Manufacture of other refractory articles n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239201": {
+  "activity": "Manufacture of bricks",
+  "candidates": [],
+  "section": "C"
+ },
+ "239202": {
+  "activity": "Manufacture of ceramic pipes, conduits, guttering and pipe fittings",
+  "candidates": [],
+  "section": "C"
+ },
+ "239299": {
+  "activity": "Manufacture of other clay building materials n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239301": {
+  "activity": "Manufacture of articles of porcelain or china, earthenware, imitation porcelain or common pottery, including earthen statues",
+  "candidates": [],
+  "section": "C"
+ },
+ "239302": {
+  "activity": "Manufacture of ceramic tableware, kitchenware and other domestic articles excluding ceramic toilet sanitary wares",
+  "candidates": [],
+  "section": "C"
+ },
+ "239303": {
+  "activity": "Manufacture of statuettes and other ornamental ceramic articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "239304": {
+  "activity": "Manufacture of electrical insulators and insulating fittings of ceramics",
+  "candidates": [],
+  "section": "C"
+ },
+ "239305": {
+  "activity": "Manufacture of ceramic laboratory, chemical and industrial products",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "tokaicarbon",
+    "name": "Tokai Carbon",
+    "path": "quote/tyo/5301",
+    "source": "wikipedia",
+    "tk": "5301",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "239403": {
+  "activity": "Manufacture of quicklime, slaked lime and hydraulic lime (excluding chewing lime)",
+  "candidates": [],
+  "section": "C"
+ },
+ "239404": {
+  "activity": "Manufacture of plasters of calcined gypsum or calcined sulphate",
+  "candidates": [],
+  "section": "C"
+ },
+ "239502": {
+  "activity": "Manufacture of prefabricated structural components for buildings or civil engineering of cement, concrete or artificial stone excluding RCC bricks and blocks.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239503": {
+  "activity": "Manufacture of plaster articles for use in construction such as boards, sheets, panels and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "239504": {
+  "activity": "Manufacture of building materials of vegetable substances (wood wool, straw, reeds, rushes) agglomerated with cement, plaster or other mineral binder including insulation boards.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239506": {
+  "activity": "Manufacture of R.C.C. bricks and blocks",
+  "candidates": [],
+  "section": "C"
+ },
+ "239507": {
+  "activity": "Manufacture of Coir-Reinforced Concrete (CFRC), Light weight cement boards Coco coir Bricks/Blocks",
+  "candidates": [],
+  "section": "C"
+ },
+ "239508": {
+  "activity": "Manufacture of bricks, blocks, tiles and similar products of fly ash",
+  "candidates": [],
+  "section": "C"
+ },
+ "239599": {
+  "activity": "Manufacture of other cement and asbestos cement products n.e.c. including Ready-Mix Concrete (RMC)",
+  "candidates": [],
+  "section": "C"
+ },
+ "239601": {
+  "activity": "Crushing and breaking of stone for use as a flux or raw material in lime or cement manufacture or as building material, road metal or ballast and other materials not at quarry head",
+  "candidates": [],
+  "section": "C"
+ },
+ "239699": {
+  "activity": "Other Cutting, shaping and finishing of stone n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "239903": {
+  "activity": "Manufacture of articles of diverse mineral substances such as worked mica and articles of mica, of peat, of graphite (other than electrical articles) and similar substances",
+  "candidates": [],
+  "section": "C"
+ },
+ "239905": {
+  "activity": "Manufacture of clay, synthetic clay",
+  "candidates": [],
+  "section": "C"
+ },
+ "239999": {
+  "activity": "Manufacture of other non-metallic mineral products n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "242003": {
+  "activity": "Manufacture of Alumina from Bauxite",
+  "candidates": [],
+  "section": "C"
+ },
+ "242007": {
+  "activity": "Manufacturing of chrome, manganese and nickel products and alloys",
+  "candidates": [],
+  "section": "C"
+ },
+ "242008": {
+  "activity": "Production and refining of precious metals (such as gold, silver platinum etc.) and alloys",
+  "candidates": [],
+  "section": "C"
+ },
+ "242099": {
+  "activity": "Other manufacture of basic precious and other non- ferrous metals n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "243101": {
+  "activity": "Manufacture of tubes, pipes, and hollow profiles and their fittings of cast-iron",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Switzerland",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "georgfischercompany",
+    "name": "Georg Fischer (company)",
+    "path": "quote/swx/GF",
+    "source": "wikipedia",
+    "tk": "GF",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "243102": {
+  "activity": "Manufacture of tubes, pipes, and hollow profiles and their fittings of cast-steel",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Switzerland",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "georgfischercompany",
+    "name": "Georg Fischer (company)",
+    "path": "quote/swx/GF",
+    "source": "wikipedia",
+    "tk": "GF",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "243103": {
+  "activity": "Casting of semi-finished and finished steel castings excluding hollow profiles",
+  "candidates": [],
+  "section": "C"
+ },
+ "243201": {
+  "activity": "Casting of copper",
+  "candidates": [],
+  "section": "C"
+ },
+ "243202": {
+  "activity": "Casting of Aluminium",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nationalaluminiumcom",
+    "name": "National Aluminium Company",
+    "path": "quote/nse/NATIONALUM",
+    "source": "wikipedia",
+    "tk": "NATIONALUM",
+    "verified": true
+   },
+   {
+    "auto_added": false,
+    "ctry": "India",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nationalaluminiumcom",
+    "name": "National Aluminium Company",
+    "path": "quote/bom/532234",
+    "source": "wikipedia",
+    "tk": "532234",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "243299": {
+  "activity": "Casting of other non-ferrous metals n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "251101": {
+  "activity": "Manufacture of metal doors, windows and their frames, shutters and rolling shutters, gates and similar articles used in buildings",
+  "candidates": [],
+  "section": "C"
+ },
+ "251199": {
+  "activity": "Manufacture of tanks, reservoirs and containers of metal n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "251201": {
+  "activity": "Manufacture of metal containers for compressed or liquefied gas",
+  "candidates": [],
+  "section": "C"
+ },
+ "251202": {
+  "activity": "Manufacture of reservoirs, tanks, vats and similar containers of metal, whether or not lined or heat- insulated",
+  "candidates": [],
+  "section": "C"
+ },
+ "251203": {
+  "activity": "Manufacture of central heating boilers and radiators and parts and accessories thereof",
+  "candidates": [],
+  "section": "C"
+ },
+ "251299": {
+  "activity": "Other manufacture of tanks, reservoirs and containers of metal n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "251303": {
+  "activity": "Manufacture of auxiliary plant for use with steam generators (condensers, economizers, superheaters, steam collectors and accumulators)",
+  "candidates": [],
+  "section": "C"
+ },
+ "251399": {
+  "activity": "Manufacture of other steam generators/boilers (except central heating hot water boilers), n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "259102": {
+  "activity": "Powder metallurgy",
+  "candidates": [],
+  "section": "C"
+ },
+ "259201": {
+  "activity": "Plating, anodizing, galvanizing etc. of metals",
+  "candidates": [],
+  "section": "C"
+ },
+ "259202": {
+  "activity": "Treatment of metals like heating, deburring, sandblasting, tumbling, cleaning of metals, hardening, buffing of metals and similar activities",
+  "candidates": [],
+  "section": "C"
+ },
+ "259203": {
+  "activity": "Non-metallic coating of metals: plasticizing, enameling, lacquering, colouring and engraving of metals and similar activities",
+  "candidates": [],
+  "section": "C"
+ },
+ "259299": {
+  "activity": "Treatment and coating of metals; machining n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "259303": {
+  "activity": "Manufacture of hand tools such as pliers, screwdrivers, press tools, blacksmiths",
+  "candidates": [],
+  "section": "C"
+ },
+ "259399": {
+  "activity": "Manufacture of other general hardware n.e.c. (saws and sawblades, including circular sawblades and chainsaw blades, moulding boxes, vices, clamps and similar items)",
+  "candidates": [],
+  "section": "C"
+ },
+ "259904": {
+  "activity": "Manufacture of metal household articles (plates, saucers, pots, kettles, saucepans, frying pans, pressure cooker and other non-electrical utensils, small hand-operated kitchen appliances and accessories)",
+  "candidates": [],
+  "section": "C"
+ },
+ "259905": {
+  "activity": "Manufacture of metal sanitary ware such as baths, sinks, washbasins and similar articles",
+  "candidates": [],
+  "section": "C"
+ },
+ "259906": {
+  "activity": "Manufacture of reinforced safes, vaults, strong room doors, gates and metal goods for office use (other than office furniture) and other purposes",
+  "candidates": [],
+  "section": "C"
+ },
+ "259907": {
+  "activity": "Manufacture of metal sculptures, decorative items, and other artisanal products",
+  "candidates": [],
+  "section": "C"
+ },
+ "259999": {
+  "activity": "Manufacture of other fabricated metal products n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "nipponlightmetal",
+    "name": "Nippon Light Metal",
+    "path": "quote/tyo/5703",
+    "source": "wikipedia",
+    "tk": "5703",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "263002": {
+  "activity": "Manufacture of telephones, including cordless telephones and facsimile equipment, telephone answering machines, PBX equipment, excluding smartphones",
+  "candidates": [],
+  "section": "C"
+ },
+ "263004": {
+  "activity": "Manufacture of cable television equipment, transmitting and receiving antenna including DTH dish",
+  "candidates": [],
+  "section": "C"
+ },
+ "263005": {
+  "activity": "Manufacture of radio and television studio and broadcasting equipment, including television cameras",
+  "candidates": [],
+  "section": "C"
+ },
+ "263099": {
+  "activity": "Manufacture of other communication equipment n.e.c. such as pagers, modems, carrier equipment, devices using infrared signals (like remote controllers and game controllers), User Terminals for Broadband Communication, Inflight and Maritime Communication equipment",
+  "candidates": [],
+  "section": "C"
+ },
+ "264003": {
+  "activity": "Manufacture of audio recording and duplicating systems (including for commercial recordings)",
+  "candidates": [],
+  "section": "C"
+ },
+ "264004": {
+  "activity": "Manufacture of radio receivers",
+  "candidates": [],
+  "section": "C"
+ },
+ "264099": {
+  "activity": "Manufacture of other electronic consumer goods n.e.c. such as CD players, DVD players, home theatre audio and video equipment",
+  "candidates": [],
+  "section": "C"
+ },
+ "265202": {
+  "activity": "Manufacture of components for clocks and watches (springs, jewels, dials, hands, plates, bridges and other parts); watch and clock cases, including cases of precious metals",
+  "candidates": [],
+  "section": "C"
+ },
+ "265203": {
+  "activity": "Manufacture of time-recording equipment such as time- clock, parking meters and similar equipment",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "USA",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "amazoncompany",
+    "name": "Amazon (company)",
+    "path": "stocks/amzn",
+    "source": "wikipedia",
+    "tk": "AMZN",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "265299": {
+  "activity": "Manufacture of other components for clocks and watches n.e.c.",
+  "candidates": [
+   {
+    "auto_added": false,
+    "ctry": "Japan",
+    "error": "wikipedia source: ticker verified, needs human relevance check",
+    "id": "casio",
+    "name": "Casio",
+    "path": "quote/tyo/6952",
+    "source": "wikipedia",
+    "tk": "6952",
+    "verified": true
+   }
+  ],
+  "section": "C"
+ },
+ "267003": {
+  "activity": "Manufacture of optical microscopes, binoculars and telescopes, Optics for Spacecraft payload",
+  "candidates": [],
+  "section": "C"
+ },
+ "267099": {
+  "activity": "Manufacture of optical instruments and photographic equipment n.e.c. such as optical mirrors, unrecorded magnetic audio and video tapes, optical disks.",
+  "candidates": [],
+  "section": "C"
+ },
+ "268000": {
+  "activity": "Manufacture of magnetic and optical media",
+  "candidates": [],
+  "section": "C"
+ },
+ "272003": {
+  "activity": "Manufacture of Battery Energy Storage Systems (BESS)/ Containerised BESS/ Battery pack",
+  "candidates": [],
+  "section": "C"
+ },
+ "272099": {
+  "activity": "Manufacture of other batteries and accumulators n.e.c.",
+  "candidates": [],
+  "section": "C"
+ },
+ "351102": {
+  "activity": "Electric power generation using petroleum products",
+  "candidates": [],
+  "section": "D"
+ },
+ "351199": {
+  "activity": "Electric power generation using other non-renewable sources n.e.c.",
+  "candidates": [],
+  "section": "D"
+ },
+ "351204": {
+  "activity": "Electric power generation using green hydrogen",
+  "candidates": [],
+  "section": "D"
+ },
+ "351299": {
+  "activity": "Electric power generation activities using other renewable sources n.e.c. Group Class Sub-Class Description",
+  "candidates": [],
+  "section": "D"
+ },
+ "352001": {
+  "activity": "Production of natural and synthetic gases including coal gas except green hydrogen and compressed bio gas",
+  "candidates": [],
+  "section": "D"
+ },
+ "352002": {
+  "activity": "Production of Green Hydrogen",
+  "candidates": [],
+  "section": "D"
+ },
+ "352003": {
+  "activity": "Production of compressed Bio Gas",
+  "candidates": [],
+  "section": "D"
+ },
+ "353001": {
+  "activity": "Steam and air conditioning supply",
+  "candidates": [],
+  "section": "D"
+ },
+ "353002": {
+  "activity": "Production of non-edible ice for food preservation, cooling, or other non-food uses",
+  "candidates": [],
+  "section": "D"
+ },
+ "353099": {
+  "activity": "Other Steam and air conditioning supply n.e.c.",
+  "candidates": [],
+  "section": "D"
+ }
+}
